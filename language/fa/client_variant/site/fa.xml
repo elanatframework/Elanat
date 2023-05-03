@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<language_root>
+  <language_list>
+  
+    <connection_error name="ConnectionError">خطای اتصال</connection_error>
+    <okay name="Okay">بله</okay>
+    <no name="No">خیر</no>
+    <friday name="Friday">جمعه</friday>
+    <javascript_is_disable_message name="JavascriptIsDisableMessage">جاوا اسکریپت غیر فعال است</javascript_is_disable_message>
+    <monday name="Monday">دوشنبه</monday>
+    <saturday name="Saturday">شنبه</saturday>
+    <sunday name="Sunday">یکشنبه</sunday>
+    <thursday name="Thursday">پنج شنبه</thursday>
+    <tuesday name="Tuesday">سه شنبه</tuesday>
+    <use_cookie_message name="UseCookieMessage">این سایت از کوکی استفاده می کند</use_cookie_message>
+    <wednesday name="Wednesday">چهارشنبه</wednesday>
+	
+  </language_list>
+</language_root>

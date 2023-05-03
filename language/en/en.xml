@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<language_root>
+  <info>
+    <language_global_name>en</language_global_name>
+    <language_is_right_to_left>false</language_is_right_to_left>
+    <language_name>english</language_name>
+  </info>
+  <lang__>
+    <_about_elanat>elanat-framework is a powerful framework that provides structure beyond portals or content management systems; theme-able (Separate Styles and Templates),multi content (post, page, video ...) , eight varios add-ons support (component, module, plugin, page, patch, fetch, extra helper, editor template) multi language add-ons (c, c++, and all interpreted languages support), lightweight CMS, multi language support, High Security , built with the dot net framework and C# programming in inner mvc structer. According to regular designations, Elanat is the best option for development.</_about_elanat>
+    <_contact>
+    </_contact>
+    <_inactive_site>site is inactive, please contact the site owner</_inactive_site>
+    <_rss_description>site rss</_rss_description>
+    <_license>
+    </_license>
+    <_rss_title>rss</_rss_title>
+  </lang__>
+  <lang_a>
+    <a>a</a>
+    <active>active</active>
+    <add_on_bin_files_has_bin_set_to_bin_directory>add-on bin file has bin set to bin directory</add_on_bin_files_has_bin_set_to_bin_directory>
+    <add_on_file_try_to_add_file_to_bin_directory_but_framework_did_not_allow>add-on file try to add file to bin directory, but framework did not allow</add_on_file_try_to_add_file_to_bin_directory_but_framework_did_not_allow>
+    <admin>admin</admin>
+    <admin_note>admin note</admin_note>
+    <admin_notes>admin notes</admin_notes>
+    <admin_style_is_not_existed>admin style is not existed</admin_style_is_not_existed>
+    <admin_template_is_not_existed>admin template is not existed</admin_template_is_not_existed>
+    <after>after</after>
+    <august>august</august>
+    <author>author</author>
+    <ajax>ajax</ajax>
+    <all_query>all query</all_query>
+    <all_groups_foot_print_was_deleted>all groups foot print was deleted</all_groups_foot_print_was_deleted>
+    <all_users_foot_print_was_deleted>all users foot print was deleted</all_users_foot_print_was_deleted>
+    <april>april</april>
+    <are_you_sure_want_to_active>are you sure want to active</are_you_sure_want_to_active>
+    <are_you_sure_want_to_approval>are you sure want to approval</are_you_sure_want_to_approval>
+    <are_you_sure_want_to_delete>are you sure want to delete</are_you_sure_want_to_delete>
+    <are_you_sure_want_to_delete_directory>are you sure want to delete directory</are_you_sure_want_to_delete_directory>
+    <are_you_sure_want_to_delete_foot_print>are you sure want to delete foot print</are_you_sure_want_to_delete_foot_print>
+    <are_you_sure_want_to_inactive>are you sure want to inactive</are_you_sure_want_to_inactive>
+    <are_you_sure_want_to_restore>are you sure want to restore</are_you_sure_want_to_restore>
+    <attachment>attachment</attachment>
+  </lang_a>
+  <lang_b>
+    <before>before</before>
+    <blank>_blank</blank>
+    <both>both</both>
+  </lang_b>
+  <lang_c>
+    <case_sensitive>case sensitive</case_sensitive>
+    <category>category</category>
+    <category_is_inactive>category is inactive</category_is_inactive>
+    <category_is_not_existed>category is not existed</category_is_not_existed>
+    <change_check_value_does_not_existed>change check $_asp field_name; does not existed</change_check_value_does_not_existed>
+    <component_is_inactive>component is inactive</component_is_inactive>
+    <component_is_not_existed>component is not existed</component_is_not_existed>
+    <confirm_email>confirm email</confirm_email>
+    <content_is_inactive>content is inactive</content_is_inactive>
+    <content_is_not_existed>content is not existed</content_is_not_existed>
+    <content_keywords>content keywords</content_keywords>
+    <content_reply>content reply</content_reply>
+    <copyright>copyright</copyright>
+    <current_site>current site</current_site>
+  </lang_c>
+  <lang_d>
+    <date>date</date>
+    <december>december</december>
+    <delay>delay</delay>
+    <delete>delete</delete>
+    <deleted_add_ons_directory_has_been_delete_successfully>deleted add-ons directory has been delete successfully</deleted_add_ons_directory_has_been_delete_successfully>
+    <directory>directory</directory>
+    <directory_path_was_changed_because_is_already_exist>directory path was changed because is already exist</directory_path_was_changed_because_is_already_exist>
+    <disk>disk</disk>
+    <do_not_find_semicolon_in_asp_variant>do not find semicolon in $_asp variant; variant</do_not_find_semicolon_in_asp_variant>
+    <draft>draft</draft>
+  </lang_d>
+  <lang_e>
+    <editor_template_is_inactive>editor template is inactive</editor_template_is_inactive>
+    <editor_template_is_not_existed>editor template is not existed</editor_template_is_not_existed>
+    <elanat_rss_feed>elanat rss feed</elanat_rss_feed>
+    <elanat_variable_asp_is_not_existed>elanat variable $_asp elanat_variable_name; is not existed</elanat_variable_asp_is_not_existed>
+    <email_content>email content</email_content>
+    <email_has_been_send>email has been send</email_has_been_send>
+    <email_has_been_send_you_can_open_email_and_click_to_link_for_confirm_email>email has been send you can open email and click to link for confirm email</email_has_been_send_you_can_open_email_and_click_to_link_for_confirm_email>
+    <email_has_been_send_you_can_open_email_and_click_to_link_for_show_new_password>email has been send you can open email and click to link for show new password</email_has_been_send_you_can_open_email_and_click_to_link_for_show_new_password>
+    <end_by>end by</end_by>
+    <error_400_text>error 400 Bad request</error_400_text>
+    <error_400_value>Bad request</error_400_value>
+    <error_401_text>error 401 Authorization required</error_401_text>
+    <error_401_value>Authorization required</error_401_value>
+    <error_403_text>error 403 Forbidden</error_403_text>
+    <error_403_value>Forbidden</error_403_value>
+    <error_404_text>error 404 Page Not found</error_404_text>
+    <error_404_value>Page Not found</error_404_value>
+    <error_500_text>error 500 Internal server error</error_500_text>
+    <error_500_value>Internal server error</error_500_value>
+    <error_other>error other</error_other>
+    <exist>exist</exist>
+    <extra_helper_is_inactive>extra helper is inactive</extra_helper_is_inactive>
+    <extra_helper_is_not_existed>extra helper is not existed</extra_helper_is_not_existed>
+  </lang_e>
+  <lang_f>
+    <false>false</false>
+    <february>february</february>
+    <female>female</female>
+    <file_size_must_be_less_than_asp>file size must be less than $_asp max_of_file_size_upload;</file_size_must_be_less_than_asp>
+    <file_was_save>file was save</file_was_save>
+    <find_xss_injection_attack>find xss injection attack</find_xss_injection_attack>
+    <fetch_asp_is_not_existed>fetch $_asp fetch_name; is not existed</fetch_asp_is_not_existed>
+    <file_is_biger_than_as_maximum_file_size_in_asp_field_please_select_file_less_than_asp_size>file is biger than as maximum file size in $_asp field_name; field please select file less than $_asp maximum_file_size; size</file_is_biger_than_as_maximum_file_size_in_asp_field_please_select_file_less_than_asp_size>
+    <for_do_it_you_can_click_in_the_below_link_to_restart_framework>for do it, you can click in the below link to restart framework</for_do_it_you_can_click_in_the_below_link_to_restart_framework>
+    <found_client_injection_attack_in_asp_field>found client injection attack in $_asp field_name; field</found_client_injection_attack_in_asp_field>
+    <friday>friday</friday>
+    <full_match>full match</full_match>
+  </lang_f>
+  <lang_g>
+    <global>global</global>
+    <group_foot_print_was_delete>group foot print was delete</group_foot_print_was_delete>
+    <guest>guest</guest>
+  </lang_g>
+  <lang_h>
+  </lang_h>
+  <lang_i>
+    <if_you_try_to_add_a_file_to_bin_directory_framework_need_to_restart>if you try to add a file to bin directory, framework need to restart</if_you_try_to_add_a_file_to_bin_directory_framework_need_to_restart>
+    <iframe>iframe</iframe>
+    <inactive>inactive</inactive>
+    <item_asp_is_not_existed>item $_asp item_id; is not existed</item_asp_is_not_existed>
+  </lang_i>
+  <lang_j>
+    <january>january</january>
+    <july>july</july>
+    <june>june</june>
+  </lang_j>
+  <lang_k>
+    <keep_login_user_after_delete_add_on>keep login user after delete add-on</keep_login_user_after_delete_add_on>
+  </lang_k>
+  <lang_l>
+    <language_asp_is_not_existed>language $_asp language_global_name; is not existed</language_asp_is_not_existed>
+    <language_is_inactive>language is inactive</language_is_inactive>
+    <language_is_not_existed>language is not existed</language_is_not_existed>
+  </lang_l>
+  <lang_m>
+    <male>male</male>
+    <march>march</march>
+    <may>may</may>
+    <member>member</member>
+    <memory>memory</memory>
+    <module_asp_is_not_existed>module $_asp module_id; is not existed</module_asp_is_not_existed>
+    <module_is_inactive>module is inactive</module_is_inactive>
+    <module_is_not_existed>module is not existed</module_is_not_existed>
+    <monday>monday</monday>
+  </lang_m>
+  <lang_n>
+    <new_page>new page</new_page>
+    <new_password>new password</new_password>
+    <none_query>none query</none_query>
+    <now>now</now>
+    <november>november</november>
+  </lang_n>
+  <lang_o>
+    <october>october</october>
+    <on_server>on server</on_server>
+  </lang_o>
+  <lang_p>
+    <page>page</page>
+    <page_is_inactive>page is inactive</page_is_inactive>
+    <page_is_not_existed>page is not existed</page_is_not_existed>
+    <parent>_parent</parent>
+    <please_fill_asp_field_because_this_is_necessary>please fill $_asp field_name; field because this is necessary</please_fill_asp_field_because_this_is_necessary>
+    <please_fill_asp_field_by_continuous_text>please fill $_asp field_name; field by continuous text</please_fill_asp_field_by_continuous_text>
+    <please_fill_asp_field_by_less_than_asp_count>please fill $_asp field_name; field by less than $_asp maximum_count; count</please_fill_asp_field_by_less_than_asp_count>
+    <please_fill_asp_field_by_less_than_asp_number>please fill $_asp field_name; field by less than $_asp end_range; number</please_fill_asp_field_by_less_than_asp_number>
+    <please_fill_asp_field_by_more_than_asp_count>please fill $_asp field_name; field by more than $_asp minimum_count; count</please_fill_asp_field_by_more_than_asp_count>
+    <please_fill_asp_field_by_more_than_asp_number>please fill $_asp field_name; field by more than $_asp start_range; number</please_fill_asp_field_by_more_than_asp_number>
+    <please_fill_asp_field_by_number>please fill $_asp field_name; field by number</please_fill_asp_field_by_number>
+    <please_set_new_value_to_asp_field_because_this_is_duplicate>please set new value to $_asp field_name; field because this is duplicate</please_set_new_value_to_asp_field_because_this_is_duplicate>
+    <please_set_new_value_to_asp_field_because_this_is_unauthorized>please set new value to $_asp field_name; field because this is unauthorized</please_set_new_value_to_asp_field_because_this_is_unauthorized>
+    <please_set_value_like_asp_format_to_asp_field>please set value like $_asp format; format to $_asp field_name; field</please_set_value_like_asp_format_to_asp_field>
+    <plugin_asp_is_not_existed>plugin $_asp plugin_id; is not existed</plugin_asp_is_not_existed>
+    <plugin_is_inactive>plugin is inactive</plugin_is_inactive>
+    <plugin_is_not_existed>plugin is not existed</plugin_is_not_existed>
+  </lang_p>
+  <lang_q>
+  </lang_q>
+  <lang_r>
+    <refresh>refresh</refresh>
+    <restart_framework>restart framework</restart_framework>
+    <regex>regex</regex>
+    <replace_part_asp_is_not_existed>replace part $_asp replace_part_name; is not existed</replace_part_asp_is_not_existed>
+    <return_to_main_page>return to main page</return_to_main_page>
+    <return_to_page>return to page</return_to_page>
+  </lang_r>
+  <lang_s>
+    <saturday>saturday</saturday>
+    <save>save</save>
+    <self>_self</self>
+    <september>september</september>
+    <server>server</server>
+    <site_is_inactive>site is inactive</site_is_inactive>
+    <site_is_not_existed>site is not existed</site_is_not_existed>
+    <site_style_is_inactive>site style is inactive</site_style_is_inactive>
+    <site_style_is_not_existed>site style is not existed</site_style_is_not_existed>
+    <site_template_is_inactive>site template is inactive</site_template_is_inactive>
+    <site_template_is_not_existed>site template is not existed</site_template_is_not_existed>
+    <some_rights_reserved>some rights reserved</some_rights_reserved>
+    <start_by>start by</start_by>
+    <sunday>sunday</sunday>
+  </lang_s>
+  <lang_t>
+    <text>text</text>
+    <the_captcha_you_entered_is_incorrect>the captcha you entered is incorrect</the_captcha_you_entered_is_incorrect>
+	<there_is_no_content_at_this_time>there is no content at this time</there_is_no_content_at_this_time>
+    <thursday>thursday</thursday>
+    <time>time</time>
+    <today>today</today>
+    <top>_top</top>
+    <total_days_ago>$_asp days; days ago</total_days_ago>
+    <total_hours_ago>$_asp hours; hours ago</total_hours_ago>
+    <total_minutes_ago>$_asp minutes; hours ago</total_minutes_ago>
+    <trash>trash</trash>
+    <true>true</true>
+    <tuesday>tuesday</tuesday>
+  </lang_t>
+  <lang_u>
+    <user_foot_print_was_delete>user foot print was delete</user_foot_print_was_delete>
+    <user_is_inactive>user is inactive</user_is_inactive>
+    <user_is_not_existed>user is not existed</user_is_not_existed>
+  </lang_u>
+  <lang_v>
+    <variant_asp_is_not_existed>variant $_asp variant; is not existed</variant_asp_is_not_existed>
+    <visit>visit</visit>
+  </lang_v>
+  <lang_w>
+    <wednesday>wednesday</wednesday>
+  </lang_w>
+  <lang_x>
+  </lang_x>
+  <lang_y>
+    <you_can_not_write_html>you can not write html</you_can_not_write_html>
+    <you_do_not_access_to_category>you do not access to category</you_do_not_access_to_category>
+    <you_do_not_access_to_content>you do not access to content</you_do_not_access_to_content>
+    <you_do_not_access_to_get_service_from_this_server>you do not access to get service from this server</you_do_not_access_to_get_service_from_this_server>
+    <you_do_not_access_to_site>you do not access to site</you_do_not_access_to_site>
+    <your_file_type_is_not_allowed>your file type is not allowed</your_file_type_is_not_allowed>
+  </lang_y>
+  <lang_z>
+  </lang_z>
+</language_root>
