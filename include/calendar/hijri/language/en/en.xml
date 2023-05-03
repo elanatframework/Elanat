@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <jumada_al_awwal>jumada_al_awwal</jumada_al_awwal>
+    <jumada_ath_thaniyah>jumada_ath_thaniyah</jumada_ath_thaniyah>
+    <muharram>muharram</muharram>
+    <rabi_al_awwal>rabi_al_awwal</rabi_al_awwal>
+    <rabi_ath_thani>rabi_ath_thani</rabi_ath_thani>
+    <rajab>rajab</rajab>
+    <ramadan>ramadan</ramadan>
+    <safar>safar</safar>
+    <shaban>shaban</shaban>
+    <shawwal>shawwal</shawwal>
+    <zu_al_hijjah>zu_al_hijjah</zu_al_hijjah>
+    <zu_al_qadah>zu_al_qadah</zu_al_qadah>
+
+</add_ons_language>
+</add_ons_language_root>
