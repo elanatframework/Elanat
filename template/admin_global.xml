@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<template_root>
+
+<part>
+	<site_address>
+	<![CDATA[
+		<a href="$_asp site_address;" target="_top">$_lang site;</a>
+	]]>
+	</site_address>
+</part>
+
+</template_root>
