@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<validation_root>
+  <validation_list>
+
+    <TextBox id="txt_RecipientsEmail" type="string" label="recipients_email" category="" min_count="1" max_length="10000" important="true" />
+    <TextBox id="txt_YourEmail" type="string" label="your_email" format="^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$" category="" min_count="1" max_length="254" important="true" />
+
+  </validation_list>
+</validation_root>

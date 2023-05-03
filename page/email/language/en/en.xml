@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <email_has_been_send>email has been send</email_has_been_send>
+    <email>email</email>
+    <recipients_email>recipients email</recipients_email>
+    <send_email>send email</send_email>
+    <the_captcha_you_entered_is_incorrect>the captcha you entered is incorrect</the_captcha_you_entered_is_incorrect>
+    <your_email>your email</your_email>
+
+  </add_ons_language>
+</add_ons_language_root>
