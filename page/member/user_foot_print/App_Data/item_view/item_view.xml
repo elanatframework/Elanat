@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<item_view_root>
+  <![CDATA[item_search only char,varchar,nvarchar type]]>
+  <item_search_list> 
+		<column>foot_print_event</column>
+	</item_search_list>
+  <item_view_list>
+    <view_table>
+      <column>foot_print_event</column>
+      <column>foot_print_value</column>
+      <column>foot_print_date_and_time_action</column>
+    </view_table>
+    <view_more>
+      <column>foot_print_action</column>
+      <column>foot_print_date_and_time_action</column>
+      <column>foot_print_event</column>
+      <column>foot_print_id</column>
+      <column>foot_print_ip_address</column>
+      <column>foot_print_path</column>
+      <column>foot_print_value</column>
+      <column>user_site_name</column>
+    </view_more>
+  </item_view_list>
+</item_view_root>

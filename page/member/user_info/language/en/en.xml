@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+  
+    <private>private</private>
+    <profile>profile</profile>
+    <user_about>user about</user_about>
+    <user_address>user address</user_address>
+    <user_birthday>user birthday</user_birthday>
+    <user_city>user city</user_city>
+    <user_comment_count>user comment count</user_comment_count>
+    <user_content_count>user content count</user_content_count>
+    <user_country>user country</user_country>
+    <user_date_create>user date create</user_date_create>
+    <user_email>user email</user_email>
+    <user_gender>user gender</user_gender>
+    <user_group_name>user group name</user_group_name>
+    <user_info>user info</user_info>
+    <user_is_online>user is online</user_is_online>
+    <user_last_login>user last login</user_last_login>
+    <user_mobile_number>user mobile number</user_mobile_number>
+    <user_name>user name</user_name>
+    <user_number_of_upload>user number of upload</user_number_of_upload>
+    <user_other_info>user other info</user_other_info>
+    <user_percent_of_content>user percent of content</user_percent_of_content>
+    <user_phone_number>user phone number</user_phone_number>
+    <user_postal_code>user postal code</user_postal_code>
+    <user_public_email>user public email</user_public_email>
+    <user_real_last_name>user real last name</user_real_last_name>
+    <user_real_name>user real name</user_real_name>
+    <user_role_name>user role name</user_role_name>
+    <user_rss_content>user rss content</user_rss_content>
+    <user_site_name>user site name</user_site_name>
+    <user_size_of_upload>user size of upload</user_size_of_upload>
+    <user_state_or_province>user state or province</user_state_or_province>
+    <user_website>user website</user_website>
+    <user_zip_code>user zip code</user_zip_code>
+	
+</add_ons_language>
+</add_ons_language_root>

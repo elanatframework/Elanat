@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <number_of_attachment>تعداد ضمیمه</number_of_attachment>
+    <number_of_comment>تعداد نظر</number_of_comment>
+    <number_of_comment_reply>تعداد پاسخ به نظر</number_of_comment_reply>
+    <number_of_content>تعداد محتوا</number_of_content>
+    <number_of_content_reply>تعداد پاسخ به محتوا</number_of_content_reply>
+    <percent_of_attachment>درصد ضمیمه</percent_of_attachment>
+    <percent_of_comment>درصد نظر</percent_of_comment>
+    <percent_of_comment_reply>درصد پاسخ نظر</percent_of_comment_reply> 
+    <percent_of_content>درصد محتوا</percent_of_content>
+    <percent_of_content_reply>درصد پاسخ محتوا</percent_of_content_reply>
+    <user_statistics>آمار کاربر</user_statistics>
+
+</add_ons_language>
+</add_ons_language_root>
