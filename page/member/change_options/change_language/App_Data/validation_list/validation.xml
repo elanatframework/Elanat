@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<validation_root>
+  <validation_list>
+
+    <DropDownList id="ddlst_UserAdminLanguage" type="number" label="user_admin_language" category="" start_range="0" end_range="100000" important="false" client_injection_check="true" />
+    <DropDownList id="ddlst_UserSiteLanguage" type="number" label="user_site_language" category="" start_range="0" end_range="100000" important="false" client_injection_check="true" />
+    
+  </validation_list>
+</validation_root>
