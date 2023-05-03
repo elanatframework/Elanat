@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <please_fill_captcha_image_field_and_click_set_captcha_button>please fill captcha image field and click set captcha button</please_fill_captcha_image_field_and_click_set_captcha_button>
+    <request_remaining>request remaining</request_remaining>
+    <robot_detect_captcha>robot detect captcha</robot_detect_captcha>
+    <set_captcha>set captcha</set_captcha>
+    <the_captcha_you_entered_is_incorrect>the captcha you entered is incorrect</the_captcha_you_entered_is_incorrect>
+    <you_have_a_lot_of_requests_to_the_server_in_a_short_time>you have a lot of requests to the server in a short time</you_have_a_lot_of_requests_to_the_server_in_a_short_time>
+    
+  </add_ons_language>
+</add_ons_language_root>

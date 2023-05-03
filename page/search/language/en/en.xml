@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+	  <all>all</all>
+    <both>both</both>
+	  <category>category</category>
+	  <not_fonud>not fonud</not_fonud>
+	  <please_asp_second_wait_for_next_search>please $_asp second; second wait for next search</please_asp_second_wait_for_next_search>
+	  <results>results</results>
+	  <search>search</search>
+	  <search_from>search from</search_from>
+	  <search_term>search term</search_term>
+	  <search_until>search until</search_until>
+	  <text_search>text search</text_search>
+	  <title_search>title search</title_search>
+    <title_search_or_text_search>title search or text search</title_search_or_text_search>
+	  <word>word</word>
+  
+</add_ons_language>
+</add_ons_language_root>
