@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="CutInstallDirectoryAfterInstall.aspx.cs" Inherits="elanat.ActionCutInstallDirectoryAfterInstall" %>
