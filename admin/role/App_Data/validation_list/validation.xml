@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<validation_root>
+  <validation_list>
+    
+    <CheckBoxList id="cbxlst_RoleBitColumnAccess" type="ul_string" label="role_bit_column_access" category="" min_count="0" max_length="50" important="false" client_injection_check="true" />
+    <DropDownList id="ddlst_RoleType" type="ul_string" label="role_type" category="" min_count="1" max_length="6" important="true" client_injection_check="true" />
+    <TextBox id="txt_RoleName" type="ul_string" label="role_name" category="" min_count="1" max_length="50" important="true" unauthorized_check="true" is_unique="true" table_name="el_role" column_name="role_name" />
+
+    <CheckBoxList id="cbxlst_RoleBitColumnAccess" type="ul_string" label="role_bit_column_access" category="edit" min_count="0" max_length="50" important="false" client_injection_check="true" />
+    <DropDownList id="ddlst_RoleType" type="ul_string" label="role_type" category="edit" min_count="1" max_length="6" important="true" client_injection_check="true" />
+    <HiddenField id="hdn_RoleId" type="number" label="role_id" category="edit" start_range="0" end_range="100000" important="true" />
+    <TextBox id="txt_RoleName" type="ul_string" label="role_name" category="edit" min_count="1" max_length="50" important="true" unauthorized_check="true" table_name="el_role" column_name="role_name" />
+    
+  </validation_list>
+</validation_root>
