@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <active>active</active>
+    <add>add</add>
+    <add_attachment>add attachment</add_attachment>
+    <attachment>attachment</attachment>
+    <attachment_about>attachment about</attachment_about>
+    <attachment_access_show>attachment access show</attachment_access_show>
+    <attachment_active>attachment active</attachment_active>
+    <attachment_content>attachment content</attachment_content>
+    <attachment_directory_path>attachment directory path</attachment_directory_path>
+    <attachment_id>attachment id</attachment_id>
+    <attachment_name>attachment name</attachment_name>
+    <attachment_number_of_visit>attachment number of visit</attachment_number_of_visit>
+    <attachment_password>attachment password</attachment_password>
+    <attachment_path>attachment path</attachment_path>
+    <attachment_physical_name>attachment physical name</attachment_physical_name>
+    <attachment_physical_path>attachment physical path</attachment_physical_path>
+    <attachment_public_access_show>attachment public access show</attachment_public_access_show>
+    <attachment_size>attachment size</attachment_size>
+    <attachment_was_add>attachment was add</attachment_was_add>
+    <attachment_was_save_edit>attachment was save edit</attachment_was_save_edit>
+    <content_id>content id</content_id>
+    <content_title>content title</content_title>
+    <delete>delete</delete>
+    <edit>edit</edit>
+    <edit_attachment>edit attachment</edit_attachment>
+    <inactive>inactive</inactive>
+    <please_fill_attachment_path_field_because_this_is_necessary>please fill attachment path field because this is necessary</please_fill_attachment_path_field_because_this_is_necessary>
+    <please_fill_attachment_upload_field_because_this_is_necessary>please fill attachment upload field because this is necessary</please_fill_attachment_upload_field_because_this_is_necessary>
+    <read_more>read more</read_more>
+    <save_attachment>save attachment</save_attachment>
+    <use_attachment_path>use attachment path</use_attachment_path>
+    <user_id>user id</user_id>
+
+  </add_ons_language>
+</add_ons_language_root>

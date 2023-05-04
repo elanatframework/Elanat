@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<item_view_root>
+  <![CDATA[item_search only char,varchar,nvarchar type]]>
+  <item_search_list> 
+ 	 <column>attachment_name</column>
+ 	</item_search_list>
+  <item_view_list>
+    <view_table>
+      <column>attachment_name</column>
+      <column>attachment_physical_name</column>
+      <column>attachment_size</column>
+    </view_table>
+    <view_more>
+      <column>user_id</column>
+      <column>attachment_about</column>
+      <column>attachment_active</column>
+      <column>attachment_directory_path</column>
+      <column>attachment_id</column>
+      <column>attachment_name</column>
+      <column>attachment_number_of_visit</column>
+      <column>attachment_password</column>
+      <column>attachment_physical_name</column>
+      <column>attachment_public_access_show</column>
+      <column>attachment_size</column>
+    </view_more>
+  </item_view_list>
+</item_view_root>
+

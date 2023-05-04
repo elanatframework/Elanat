@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <active>active</active>
+    <add>add</add>
+    <add_category>add category</add_category>
+    <category>category</category>
+    <category_access_show>category access show</category_access_show>
+    <category_active>category active</category_active>
+    <category_id>category id</category_id>
+    <category_name>category name</category_name>
+    <category_public_access_show>category public access show</category_public_access_show>
+    <category_require_approval>category require approval</category_require_approval>
+    <category_site>category site</category_site>
+    <category_was_add>category was add</category_was_add>
+    <category_was_save_edit>category was save edit</category_was_save_edit>
+    <default_style>default style</default_style>
+    <default_template>default template</default_template>
+    <delete>delete</delete>
+    <edit>edit</edit>
+    <edit_category>edit category</edit_category>
+    <inactive>inactive</inactive>
+    <language_global_name>language global name</language_global_name>
+    <parent_category>parent category</parent_category>
+    <parent_category_name>parent category name</parent_category_name>
+    <read_more>read more</read_more>
+    <require_approval>require approval</require_approval>
+    <save_category>save category</save_category>
+    <site_global_name>site global name</site_global_name>
+    <site_id>site id</site_id>
+    <site_name>site name</site_name>
+    <site_style_id>site style id</site_style_id>
+    <site_style_name>site style name</site_style_name>
+    <site_template_id>site template id</site_template_id>
+    <site_template_name>site template name</site_template_name>
+    <style>style</style>
+    <template>template</template>
+
+  </add_ons_language>
+</add_ons_language_root>

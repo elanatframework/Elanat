@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="GetCategoryViewMore.aspx.cs" Inherits="elanat.ActionGetCategoryViewMore" %>
