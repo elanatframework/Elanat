@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<template_root>
+
+  <language_input_for_add>
+    <![CDATA[
+			<div class="el_item">
+				<span>$_asp language_name;</span>
+			</div>
+			<div class="el_item">
+				<input id="txt_Language_Add_$_asp language_global_name;" type="text" class="el_text_input" value="" name="txt_Language_Add_$_asp language_global_name;" />
+			</div>
+		]]>
+  </language_input_for_add>
+
+  <language_input_for_edit>
+    <![CDATA[
+			<div class="el_item">
+				<span>$_asp language_name;</span>
+			</div>
+			<div class="el_item">
+				<input id="txt_Language_Edit_$_asp language_global_name;" type="text" class="el_text_input" value="$_asp language_value;" name="txt_Language_Edit_$_asp language_global_name;" />
+			</div>
+		]]>
+  </language_input_for_edit>
+
+  <handheld_language_input_for_add>
+    <![CDATA[
+			<div class="el_item">
+				<span>$_asp language_name;</span>
+			</div>
+			<div class="el_item">
+				<input id="txt_HandheldLanguage_Add_$_asp language_global_name;" type="text" class="el_text_input" value="" name="txt_HandheldLanguage_Add_$_asp language_global_name;" />
+			</div>
+		]]>
+  </handheld_language_input_for_add>
+
+  <handheld_language_input_for_edit>
+    <![CDATA[
+			<div class="el_item">
+				<span>$_asp language_name;</span>
+			</div>
+			<div class="el_item">
+				<input id="txt_HandheldLanguage_Edit_$_asp language_global_name;" type="text" class="el_text_input" value="$_asp language_value;" name="txt_HandheldLanguage_Edit_$_asp language_global_name;" />
+			</div>
+		]]>
+  </handheld_language_input_for_edit>
+  
+</template_root>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<validation_root>
+  <validation_list>
+
+    <DropDownList id="ddlst_LanguageDefaultSite" type="number" label="language_default_site" category="edit_language" start_range="0" end_range="100000" important="true" client_injection_check="true" />
+    <DropDownList id="ddlst_LanguageDefaultSite" type="number" label="language_default_site" category="add_language" start_range="0" end_range="100000" important="true" client_injection_check="true" />
+    <FileUpload id="upd_LanguagePath" type="file" label="language_path" category="" max_file_size="100000000" important="false" />
+    <HiddenField id="hdn_LanguageId" type="number" label="language_id" category="" start_range="0" end_range="100000" important="true" />
+    <TextBox id="txt_HandheldLanguageVariant" type="ul_string" label="handheld_language_variant" category="add_handheld_language_variant" min_count="1" max_length="100000" important="true" unauthorized_check="true" table_name="language" column_name="tag_name" />
+    <TextBox id="txt_LanguagePath" type="string" category="" label="language_path" min_count="0" max_length="100000" important="false" />
+    <TextBox id="txt_LanguageVariant" type="ul_string" label="language_variant" category="add_language_variant" min_count="1" max_length="100000" important="true"  unauthorized_check="true" table_name="language" column_name="tag_name" />
+
+  </validation_list>
+</validation_root>
