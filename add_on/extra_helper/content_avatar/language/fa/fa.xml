@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <avatar>آواتار</avatar>
+    <avatar_path>مسیر آواتار</avatar_path>
+    <avatar_was_upload>آواتار بارگذاری شد</avatar_was_upload>
+    <content_avatar>آواتار محتوا</content_avatar>
+    <create_directory>ایجاد پوشه</create_directory>
+    <directory_name>نام پوشه</directory_name>
+    <directory_was_create>پوشه ایجاد شد</directory_was_create>
+    <please_fill_avatar_path_field_because_this_is_necessary>لطفا فیلد مسیر آواتار را پر کنید چون ضروری است</please_fill_avatar_path_field_because_this_is_necessary>
+    <please_fill_avatar_upload_field_because_this_is_necessary>لطفا فیلد بارگذاری آواتار را پر کنید چون ضروری است</please_fill_avatar_upload_field_because_this_is_necessary>
+    <start_upload>شروع بارگذاری</start_upload>
+    <use_avatar_path>استفاده از مسیر آواتار</use_avatar_path>
+    <you_should_select_a_image_extension>شما باید یک الگوی تصویر را انتخاب کنید</you_should_select_a_image_extension>
+  
+  </add_ons_language>
+</add_ons_language_root>
