@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="FetchNewRow.aspx.cs" Inherits="elanat.ActionFetchNewRow" %>

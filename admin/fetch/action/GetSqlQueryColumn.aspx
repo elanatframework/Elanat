@@ -1,0 +1,2 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="GetSqlQueryColumn.aspx.cs" Inherits="elanat.ActionGetSqlQueryColumn" %>
+<textarea id="txt_FetchListItem" name="txt_FetchListItem" class="el_textarea_input el_left_to_right el_important_field"><%=model.FetchListItemValue%></textarea>

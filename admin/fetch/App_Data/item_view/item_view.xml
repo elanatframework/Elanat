@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<item_view_root>
+  <![CDATA[item_search only char,varchar,nvarchar type]]>
+  <item_search_list> 
+ 	 <column>fetch_name</column>
+ 	</item_search_list>
+  <item_view_list>
+    <view_table>
+      <column>fetch_name</column>
+      <column>fetch_category</column>
+    </view_table>
+    <view_more>
+      <column>fetch_active</column>
+      <column>fetch_id</column>
+      <column>fetch_name</column>
+      <column>fetch_category</column>
+      <column>fetch_public_access_show</column>
+      <column>fetch_cache_duration</column>
+      <column>fetch_sort_index</column>
+    </view_more>
+  </item_view_list>
+</item_view_root>

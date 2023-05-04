@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<template_root>
+
+  <check_box_list name="cbxlst_LinkMenu">
+    <box>
+    <![CDATA[
+      <table id="$_asp name_attribute;" class="el_checkbox_list_input$_asp css_class;" $_asp attribute;>
+        $_asp item;
+      </table>
+    ]]>
+    </box>
+    <list_item>
+    <![CDATA[
+      <tr>
+        <td>
+          <input id="$_asp name_attribute;_$_asp indexer;" type="checkbox" name="$_asp name_attribute;$$_asp indexer;" value="$_asp value;" />
+          <label for="$_asp name_attribute;_$_asp indexer;">$_asp name;</label>
+        </td>
+      </tr>
+    ]]>
+    </list_item>
+  </check_box_list>
+  
+</template_root>

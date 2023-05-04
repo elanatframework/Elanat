@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ActiveFetch.aspx.cs" Inherits="elanat.ActionActiveFetch" %>

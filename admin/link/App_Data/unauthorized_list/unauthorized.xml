@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<unauthorized_root>
+  <unauthorized_list>
+    <el_link>
+      <link_href>
+        <unauthorized exist="true" start_by="false" end_by="false" reason="character_with_alt_and_255_is_unauthorized"> </unauthorized>
+        <unauthorized exist="true" start_by="false" end_by="false" reason="two_character_pound_is_unauthorized">##</unauthorized>
+      </link_href>
+    </el_link>  
+  </unauthorized_list>
+</unauthorized_root>
