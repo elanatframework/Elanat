@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <add>درج</add>
+    <add_view>درج نمایش</add_view>
+    <edit_view>ویرایش نمایش</edit_view>
+    <save_view>ذخیره نمایش</save_view>
+    <site_style_id>شماره استایل سایت</site_style_id>
+    <site_style_name>نام استایل سایت</site_style_name>
+    <site_template_id>شماره قالب سایت</site_template_id>
+    <site_template_name>نام قالب سایت</site_template_name>
+    <view>نمایش</view> 
+    <view_active>نمایش فعال</view_active>
+    <view_background_color>رنگ پس زمینه نمایش</view_background_color>
+    <view_common_dark_background_color>رنگ عمومی پس زمینه تاریک نمایش</view_common_dark_background_color>
+    <view_common_dark_text_color>رنگ عمومی متن تاریک نمایش</view_common_dark_text_color>
+    <view_common_light_background_color>رنگ عمومی پس زمینه روشن نمایش</view_common_light_background_color>
+    <view_common_light_text_color>رنگ عمومی متن روشن نمایش</view_common_light_text_color>
+    <view_common_middle_background_color>رنگ عمومی پس زمینه متوسط نمایش</view_common_middle_background_color>
+    <view_common_middle_text_color>رنگ عمومی متن متوسط نمایش</view_common_middle_text_color>
+    <view_fill_after_content>پر کردن بعد از محتوا نمایش</view_fill_after_content> 
+    <view_fill_after_header>پر کردن بعد از سرتیتر نمایش</view_fill_after_header> 
+    <view_fill_before_content>پر کزدن قبل از محتوا نمایش</view_fill_before_content>
+    <view_fill_before_footer>پر کردن قبل از پاورقی نمایش</view_fill_before_footer> 
+    <view_fill_before_header>پر کردن قبل از سرتیتر نمایش</view_fill_before_header> 
+    <view_fill_footer1>پر کزدن پاورقی 1 نمایش</view_fill_footer1> 
+    <view_fill_footer2>پر کردن پاورقی 2 نمایش</view_fill_footer2> 
+    <view_fill_footer_bar_box>پر کردن جعبه نوار پاورقی نمایش</view_fill_footer_bar_box> 
+    <view_fill_footer_bar_left>پر کردن نوار پاورقی سمت چپ نمایش</view_fill_footer_bar_left> 
+    <view_fill_footer_bar_right>پر کردن نوار پاورقی سمت راست نمایش</view_fill_footer_bar_right> 
+    <view_fill_footer_menu>پر کردن منو پاورقی نمایش</view_fill_footer_menu> 
+    <view_fill_header1>پر کردن سرتیتر 1 نمایش</view_fill_header1> 
+    <view_fill_header2>پر کردن سرتیتر 2 نمایش</view_fill_header2> 
+    <view_fill_header_bar_box>پر کردن جعبه نوار سرتیتر نمایش</view_fill_header_bar_box> 
+    <view_fill_header_bar_left>پر کردن نوار سرتیتر سمت چپ نمایش</view_fill_header_bar_left> 
+    <view_fill_header_bar_right>پر کردن نوار سرتیتر سمت راست نمایش</view_fill_header_bar_right> 
+    <view_fill_header_menu>پر کردن منو سرتیتر نمایش</view_fill_header_menu> 
+    <view_fill_left_menu>پر کردن منو سمت چپ نمایش</view_fill_left_menu> 
+    <view_fill_menu>پر کردن منو نمایش</view_fill_menu> 
+    <view_fill_right_menu>پر کردن منو سمت راست نمایش</view_fill_right_menu> 
+    <view_font_size>اندازه فونت نمایش</view_font_size> 
+    <view_id>شماره نمایش</view_id>
+    <view_include_footer_bar_part>شامل بخش نوار پاورقی نمایش</view_include_footer_bar_part> 
+    <view_include_footer_part>شامل بخش پاورقی نمایش</view_include_footer_part> 
+    <view_include_header_bar_part>شامل بخش نوار سرتیتر نمایش</view_include_header_bar_part> 
+    <view_include_header_part>شامل بخش سرتیتر نمایش</view_include_header_part> 
+    <view_include_main_part>شامل بخش اصلی نمایش</view_include_main_part>
+    <view_include_menu_part>شامل بخش منو نمایش</view_include_menu_part>
+    <view_match_type>نوع تطابق نمایش</view_match_type>
+    <view_name>نام نمایش</view_name>
+    <view_natural_dark_background_color>رنگ طبیعی پس زمینه تاریک نمایش</view_natural_dark_background_color>
+    <view_natural_dark_text_color>رنگ طبیعی متن تاریک نمایش</view_natural_dark_text_color>
+    <view_natural_light_background_color>رنگ طبیعی پس زمینه روشن نمایش</view_natural_light_background_color>
+    <view_natural_light_text_color>رنگ طبیعی متن روشن نمایش</view_natural_light_text_color>
+    <view_natural_middle_background_color>رنگ طبیعی پس زمینه متوسط نمایش</view_natural_middle_background_color>
+    <view_natural_middle_text_color>رنگ طبیعی متن متوسط نمایش</view_natural_middle_text_color>
+    <view_query_string>رشته کوئری نمایش</view_query_string>
+    <view_show_after_content>نمایش بعد از محتوا نمایش</view_show_after_content> 
+    <view_show_after_header>نمایش بعد از سرتیتر نمایش</view_show_after_header> 
+    <view_show_before_content>نمایش قبل از محتوا نمایش</view_show_before_content>
+    <view_show_before_footer>نمایش قبل از پاورقی نمایش</view_show_before_footer> 
+    <view_show_before_header>نمایش قبل از سرتیتر نمایش</view_show_before_header> 
+    <view_show_footer1>نمایش پاورقی 1 نمایش</view_show_footer1> 
+    <view_show_footer2>نمایش پاورقی 2 نمایش</view_show_footer2> 
+    <view_show_footer_bar_box>نمایش جعبه نوار پاورقی نمایش</view_show_footer_bar_box> 
+    <view_show_footer_bar_left>نمایش نوار پاورقی سمت چپ نمایش</view_show_footer_bar_left> 
+    <view_show_footer_bar_right>نمایش نوار پاورقی سمت راست نمایش</view_show_footer_bar_right> 
+    <view_show_footer_menu>نمایش منو پاورقی نمایش</view_show_footer_menu> 
+    <view_show_header1>نمایش سرتیتر 1 نمایش</view_show_header1> 
+    <view_show_header2>نمایش سرتیتر 2 نمایش</view_show_header2> 
+    <view_show_header_bar_box>نمایش جعبه نوار سرتیتر نمایش</view_show_header_bar_box> 
+    <view_show_header_bar_left>نمایش نوار سرتیتر سمت چپ نمایش</view_show_header_bar_left> 
+    <view_show_header_bar_right>نمایش نوار سرتیتر سمت راست نمایش</view_show_header_bar_right> 
+    <view_show_header_menu>نمایش منو سرتیتر نمایش</view_show_header_menu> 
+    <view_show_left_menu>نمایش منوی سمت چپ نمایش</view_show_left_menu> 
+    <view_show_menu>نمایش منو نمایش</view_show_menu>
+    <view_show_right_menu>نمایش منوی سمت راست نمایش</view_show_right_menu>
+    <view_site_style>استایل سایت نمایش</view_site_style> 
+    <view_site_template>قالب سایت نمایش</view_site_template> 
+    <view_static_head>هدر ایستای نمایش</view_static_head> 
+    <view_was_add>نمایش اضافه شد</view_was_add>
+    <view_was_save_edit>نمایش ویرایش شد</view_was_save_edit>
+
+  </add_ons_language>
+</add_ons_language_root>
