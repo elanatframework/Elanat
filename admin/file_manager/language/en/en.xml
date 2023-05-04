@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <active>active</active>
+    <append_data>append data</append_data>
+    <are_you_sure_want_to_copy>are you sure want to copy</are_you_sure_want_to_copy>
+    <are_you_sure_want_to_cut>are you sure want to cut</are_you_sure_want_to_cut>
+    <are_you_sure_want_to_paste>are you sure want to paste</are_you_sure_want_to_paste>
+    <are_you_sure_want_to_un_zip>are you sure want to un zip</are_you_sure_want_to_un_zip>
+    <are_you_sure_want_to_zip>are you sure want to zip</are_you_sure_want_to_zip>
+    <change_directory_permissions>change directory permissions</change_directory_permissions>
+    <change_file_permissions>change file permissions</change_file_permissions>
+    <change_permissions>change permissions</change_permissions>
+    <copy>copy</copy>
+    <create_directories>create directories</create_directories>
+    <create_directory>create directory</create_directory>
+    <create_file>create file</create_file>
+    <create_files>create files</create_files>
+    <cut>cut</cut>
+    <delete>delete</delete>
+    <delete_sub_directories_and_files>delete sub directories and files</delete_sub_directories_and_files>
+    <directory_name>directory name</directory_name>
+    <directory_path>directory path</directory_path>
+    <directory_permissions_was_save>directory permissions was save</directory_permissions_was_save>
+    <directory_was_create>directory was create</directory_was_create>
+    <directory_was_edit>directory was edit</directory_was_edit>
+    <download>download</download>
+    <edit>edit</edit>
+    <edit_directory>edit directory</edit_directory>
+    <edit_directory_permissions>edit directory permissions</edit_directory_permissions>
+    <edit_file>edit file</edit_file>
+    <edit_file_permissions>edit file permissions</edit_file_permissions>
+    <execute_file>execute file</execute_file>
+    <file_manager>file manager</file_manager>
+    <file_name>file name</file_name>
+    <file_path>file path</file_path>
+    <file_permissions_was_save>file permissions was save</file_permissions_was_save>
+    <file_text>file text</file_text>
+    <file_type>file type</file_type>
+    <file_was_create>file was create</file_was_create>
+    <file_was_edit>file was edit</file_was_edit>
+    <file_was_upload>file was upload</file_was_upload>
+    <full_control>full control</full_control>
+    <inactive>inactive</inactive>
+    <is_read_only>is read only</is_read_only>
+    <last_access_time>last access time</last_access_time>
+    <list_directory>list directory</list_directory>
+    <modify>modify</modify>
+    <name>name</name>
+    <new_directory>new directory</new_directory>
+    <new_file>new file</new_file>
+    <paste>paste</paste>
+    <path>path</path>
+    <please_fill_file_path_field_because_this_is_necessary>please fill file path field because this is necessary</please_fill_file_path_field_because_this_is_necessary>
+    <please_fill_file_upload_field_because_this_is_necessary>please fill file upload field because this is necessary</please_fill_file_upload_field_because_this_is_necessary>
+    <read>read</read>
+    <read_and_execute>read and execute</read_and_execute>
+    <read_attributes>read attributes</read_attributes>
+    <read_data>read data</read_data>
+    <read_extended_attributes>read extended attributes</read_extended_attributes>
+    <read_more>read more</read_more>
+    <read_permissions>read permissions</read_permissions>
+    <save_directory>save directory</save_directory>
+    <save_directory_permissions>save directory permissions</save_directory_permissions>
+    <save_file>save file</save_file>
+    <save_file_permissions>save file permissions</save_file_permissions>
+    <size>size</size>
+    <start_upload>start upload</start_upload>
+    <take_ownership>take ownership</take_ownership>
+    <traverse>traverse</traverse>
+    <type>type</type>
+    <unzip>unzip</unzip>
+    <upload_file>upload file</upload_file>
+    <use_file_path>use file path</use_file_path>
+    <use_overwrite_extract_existing_file>use overwrite extract existing file</use_overwrite_extract_existing_file>
+    <write>write</write>
+    <write_attributes>write attributes</write_attributes>
+    <write_data>write data</write_data>
+    <write_extended_attributes>write extended attributes</write_extended_attributes>
+    <zip>zip</zip>
+
+  
+</add_ons_language>
+</add_ons_language_root>

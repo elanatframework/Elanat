@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<validation_root>
+  <validation_list>
+    
+    <TextBox id="txt_DirectoryName" type="ul_string" label="directory_name" category="create_directory" min_count="1" max_length="248" important="true" unauthorized_check="true" table_name="file_manager" column_name="directory_name" />
+    <TextBox id="txt_FileName" type="ul_string" label="file_name" category="create_file" min_count="3" max_length="260" important="true" unauthorized_check="true" table_name="file_manager" column_name="file_name" />
+    <HiddenField id="hdn_DirectoryPath" type="string" label="directory_path" category="edit_directory" min_count="1" max_length="100000" important="true" />
+    <HiddenField id="hdn_DirectoryName" type="string" label="directory_name" category="edit_directory" min_count="1" max_length="100000" important="true" />
+    <HiddenField id="hdn_FilePath" type="string" label="file_path" category="edit_file" min_count="1" max_length="100000" important="true" />
+    <HiddenField id="hdn_FileName" type="string" label="file_name" category="edit_file" min_count="1" max_length="100000" important="true" />
+    <HiddenField id="hdn_FileType" type="string" label="file_type" category="edit_file" min_count="1" max_length="100000" important="true" />
+
+  </validation_list>
+</validation_root>
