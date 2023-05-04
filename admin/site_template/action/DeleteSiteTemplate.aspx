@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DeleteSiteTemplate.aspx.cs" Inherits="elanat.ActionDeleteSiteTemplate" %>
