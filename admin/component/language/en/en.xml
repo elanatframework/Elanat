@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <add>add</add>
+    <add_component>add component</add_component>
+    <component>component</component>
+    <component_access_add>component access add</component_access_add>
+    <component_access_delete_all>component access delete all</component_access_delete_all>
+    <component_access_delete_own>component access delete own</component_access_delete_own>
+    <component_access_edit_all>component access edit all</component_access_edit_all>
+    <component_access_edit_own>component access edit own</component_access_edit_own>
+    <component_access_show>component access show</component_access_show>
+    <component_active>component active</component_active>
+    <component_add_access_path>component add access path</component_add_access_path>
+    <component_author>component author</component_author>
+    <component_author_website>component author website</component_author_website>
+    <component_best_load_status>component best load status</component_best_load_status>
+    <component_cache_duration>component cache duration</component_cache_duration>
+    <component_cache_parameters>component cache parameters</component_cache_parameters>
+    <component_category>component category</component_category>
+    <component_delete_all_access_path>component delete all access path</component_delete_all_access_path>
+    <component_delete_own_access_path>component delete own access path</component_delete_own_access_path>
+    <component_directory_path>component directory path</component_directory_path>
+    <component_edit_all_access_path>component edit all access path</component_edit_all_access_path>
+    <component_edit_own_access_path>component edit own access path</component_edit_own_access_path>
+    <component_id>component id</component_id>
+    <component_info>component info</component_info>
+    <component_install_path>component install path</component_install_path>
+    <component_license>component license</component_license>
+    <component_load_tag>component load tag</component_load_tag>
+    <component_load_type>component load type</component_load_type>
+    <component_name>component name</component_name>
+    <component_name_is_duplicate>component name is duplicate</component_name_is_duplicate>
+    <component_path>component path</component_path>
+    <component_physical_name>component physical name</component_physical_name>
+    <component_physical_path>component physical path</component_physical_path>
+    <component_public_access_add>component public access add</component_public_access_add>
+    <component_public_access_delete_all>component public access delete all</component_public_access_delete_all>
+    <component_public_access_delete_own>component public access delete own</component_public_access_delete_own>
+    <component_public_access_edit_all>component public access edit all</component_public_access_edit_all>
+    <component_public_access_edit_own>component public access edit own</component_public_access_edit_own>
+    <component_public_access_show>component public access show</component_public_access_show>
+    <component_release_date>component release date</component_release_date>
+    <component_sort_index>component sort index</component_sort_index>
+    <component_static_head>component static head</component_static_head>
+    <component_uninstall_path>component uninstall path</component_uninstall_path>
+    <component_use_elanat>component use elanat</component_use_elanat>
+    <component_use_fetch>component use fetch</component_use_fetch>
+    <component_use_item>component use item</component_use_item>
+    <component_use_language>component use language</component_use_language>
+    <component_use_module>component use module</component_use_module>
+    <component_use_plugin>component use plugin</component_use_plugin>
+    <component_use_replace_part>component use replace part</component_use_replace_part>
+    <component_version>component version</component_version>
+    <component_version_support>component version support</component_version_support>
+    <component_was_add>component was add</component_was_add>
+    <component_was_save_edit>component was save edit</component_was_save_edit>
+    <edit_component>edit component</edit_component>
+    <information>information</information>
+    <please_fill_component_path_field_because_this_is_necessary>please fill component path field because this is necessary</please_fill_component_path_field_because_this_is_necessary>
+    <please_fill_component_upload_field_because_this_is_necessary>please fill component upload field because this is necessary</please_fill_component_upload_field_because_this_is_necessary>
+    <priority_for_component>priority for component</priority_for_component>
+    <save_component>save component</save_component>
+    <use_component_path>use component path</use_component_path>
+    <you_should_upload_zip_extension>you should upload zip extension</you_should_upload_zip_extension>
+    <zip_file_is_corrupt>zip file is corrupt</zip_file_is_corrupt>
+  
+  </add_ons_language>
+</add_ons_language_root>

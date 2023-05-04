@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <add_comment_in_this_category_is_inactive>add comment in this category is inactive</add_comment_in_this_category_is_inactive>
+    <add_comment_in_content_is_inactive>add comment in content is inactive</add_comment_in_content_is_inactive>
+    <add_comment_is_inactive>add comment is inactive</add_comment_is_inactive>
+    <add_comment>add comment</add_comment>
+    <add>add</add>
+    <captcha>captcha</captcha>
+    <comment_active>comment active</comment_active>
+    <comment_date_and_time_send>comment date and time send</comment_date_and_time_send>
+    <comment_date_send>comment date send</comment_date_send>
+    <comment_file_directory_path>comment file directory path</comment_file_directory_path>
+    <comment_file_physical_name>comment file physical name</comment_file_physical_name>
+    <comment_guest_about>comment guest about</comment_guest_about>
+    <comment_guest_address>comment guest address</comment_guest_address>
+    <comment_guest_birthday_day>comment guest birthday day</comment_guest_birthday_day>
+    <comment_guest_birthday_mount>comment guest birthday mount</comment_guest_birthday_mount>
+    <comment_guest_birthday_year>comment guest birthday year</comment_guest_birthday_year>
+    <comment_guest_birthday>comment guest birthday</comment_guest_birthday>
+    <comment_guest_city>comment guest city</comment_guest_city>
+    <comment_guest_country>comment guest country</comment_guest_country>
+    <comment_guest_email>comment guest email</comment_guest_email>
+    <comment_guest_gender>comment guest gender</comment_guest_gender>
+    <comment_guest_mobile_number>comment guest mobile number</comment_guest_mobile_number>
+    <comment_guest_name>comment guest name</comment_guest_name>
+    <comment_guest_phone_number>comment guest phone number</comment_guest_phone_number>
+    <comment_guest_postal_code>comment guest postal code</comment_guest_postal_code>
+    <comment_guest_public_email>comment guest public email</comment_guest_public_email>
+    <comment_guest_real_last_name>comment guest real last name</comment_guest_real_last_name>
+    <comment_guest_real_name>comment guest real name</comment_guest_real_name>
+    <comment_guest_state_or_province>comment guest state or province</comment_guest_state_or_province>
+    <comment_guest_website>comment guest website</comment_guest_website>
+    <comment_guest_zip_code>comment guest zip code</comment_guest_zip_code>
+    <comment_id>comment id</comment_id>
+    <comment_ip_address>comment ip address</comment_ip_address>
+    <comment_text>comment text</comment_text>
+    <comment_time_send>comment time send</comment_time_send>
+    <comment_title>comment title</comment_title>
+    <comment_type>comment type</comment_type>
+    <comment_upload_directory_value>comment upload directory value</comment_upload_directory_value>
+    <comment_upload_file_value>comment upload file value</comment_upload_file_value>
+    <comment_user_about>comment user about</comment_user_about>
+    <comment_user_address>comment user address</comment_user_address>
+    <comment_user_birthday_day>comment user birthday day</comment_user_birthday_day>
+    <comment_user_birthday_mount>comment user birthday mount</comment_user_birthday_mount>
+    <comment_user_birthday_year>comment user birthday year</comment_user_birthday_year>
+    <comment_user_birthday>comment user birthday</comment_user_birthday>
+    <comment_user_city>comment user city</comment_user_city>
+    <comment_user_country>comment user country</comment_user_country>
+    <comment_user_email>comment user email</comment_user_email>
+    <comment_user_gender>comment user gender</comment_user_gender>
+    <comment_user_guest_email>comment user/guest email</comment_user_guest_email>
+    <comment_user_guest_name>comment user/guest name</comment_user_guest_name>
+    <comment_user_mobile_number>comment user mobile number</comment_user_mobile_number>
+    <comment_user_phone_number>comment user phone number</comment_user_phone_number>
+    <comment_user_postal_code>comment user postal code</comment_user_postal_code>
+    <comment_user_public_email>comment user public email</comment_user_public_email>
+    <comment_user_real_last_name>comment user real last name</comment_user_real_last_name>
+    <comment_user_real_name>comment user real name</comment_user_real_name>
+    <comment_user_state_or_province>comment user state or province</comment_user_state_or_province>
+    <comment_user_website>comment user website</comment_user_website>
+    <comment_user_zip_code>comment user zip code</comment_user_zip_code>
+    <comment_was_add>comment was add</comment_was_add>
+    <comment_was_save_edit>comment was save edit</comment_was_save_edit>
+    <comment>comment</comment>
+    <content_id>content id</content_id>
+    <content_number_asp>content number $_asp content_number;</content_number_asp>
+    <content_title>content title</content_title>
+    <delete_comment_file>delete comment file</delete_comment_file>
+    <edit_comment>edit comment</edit_comment>
+    <female>female</female>
+    <file_path>file path</file_path>
+    <is_comment_reply>is comment reply</is_comment_reply>
+    <male>male</male>
+    <parent_comment>parent comment</parent_comment>
+    <role_can_approval_comment_in_only_own_content>role can approval comment in only own content</role_can_approval_comment_in_only_own_content>
+    <role_can_delete_comment_in_own_content_only>role can delete comment in own content only</role_can_delete_comment_in_own_content_only>
+    <role_can_edit_comment_in_only_own_content>role can edit comment in only own content</role_can_edit_comment_in_only_own_content>
+    <role_can_not_access_reply_to_all_comment>role can not access reply to all comment</role_can_not_access_reply_to_all_comment>
+    <role_can_not_access_reply_to_comment>role can not access reply to comment</role_can_not_access_reply_to_comment>
+    <role_can_not_access_to_upload_file>role can not access to upload file</role_can_not_access_to_upload_file>
+    <save_comment>save comment</save_comment>
+    <state_or_province>state or province</state_or_province>
+    <the_captcha_you_entered_is_incorrect>the captcha you entered is incorrect</the_captcha_you_entered_is_incorrect>
+    <unknown>unknown</unknown>
+    <upload_file_path>upload file path</upload_file_path>
+    <use_upload_path>use upload path</use_upload_path>
+    <user_id>user id</user_id>
+    <user_site_name>user site name</user_site_name>
+
+  </add_ons_language>
+</add_ons_language_root>

@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="InactiveComment.aspx.cs" Inherits="elanat.ActionInactiveComment" %>

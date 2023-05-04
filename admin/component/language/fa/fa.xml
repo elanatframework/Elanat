@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <add>درج</add>
+    <add_component>درج کامپوننت</add_component>
+    <component>کامپوننت</component>
+    <component_access_add>دسترسی درج کامپوننت</component_access_add>
+    <component_access_delete_all>دسترسی حذف همه کامپوننت </component_access_delete_all>
+    <component_access_delete_own>دسترسی حذف کامپوننت خود</component_access_delete_own>
+    <component_access_edit_all>دسترسی ویرایش همه کامپوننت</component_access_edit_all>
+    <component_access_edit_own>دسترسی ویرایش کامپوننت خود</component_access_edit_own>
+    <component_access_show>دسترسی نمایش کامپوننت</component_access_show>
+    <component_active>کامپوننت فعال</component_active>
+    <component_add_access_path>مسیر دسترسی درج کامپوننت</component_add_access_path>
+    <component_author>سازنده کامپوننت</component_author>
+    <component_author_website>وبسایت سازنده کامپوننت</component_author_website>
+    <component_best_load_status>بهترین وضعیت اجرای کامپوننت</component_best_load_status>
+    <component_cache_duration>مدت زمان کش کامپوننت</component_cache_duration>
+    <component_cache_parameters>پارامترهای کش کامپوننت</component_cache_parameters>
+    <component_category>دسته بندی کامپوننت</component_category>
+    <component_delete_all_access_path>مسیر دسترسی حذف همه کامپوننت</component_delete_all_access_path>
+    <component_delete_own_access_path>مسیر دسترسی حذف خود کامپوننت</component_delete_own_access_path>
+    <component_directory_path>مسیر پوشه کامپوننت</component_directory_path>
+    <component_edit_all_access_path>مسیر دسترسی ویرایش همه کامپوننت</component_edit_all_access_path>
+    <component_edit_own_access_path>مسیر دسترسی ویرایش خود کامپوننت</component_edit_own_access_path>
+    <component_id>شماره کامپوننت</component_id>
+    <component_info>اطلاعات کامپوننت</component_info>
+    <component_install_path>مسیر نصب کامپوننت</component_install_path>
+    <component_license>مجوز کامپوننت</component_license>
+    <component_load_tag>تگ اجرای کامپوننت</component_load_tag>
+    <component_load_type>نوع اجرای کامپوننت</component_load_type>
+    <component_name>نام کامپوننت</component_name>
+    <component_name_is_duplicate>نام کامپوننت تکراری است</component_name_is_duplicate>
+    <component_path>مسیر کامپوننت</component_path>
+    <component_physical_name>نام فیزیکی کامپوننت</component_physical_name>
+    <component_physical_path>مسیر فیزیکی کامپوننت</component_physical_path>
+    <component_public_access_add>دسترسی عمومی درج کامپوننت</component_public_access_add>
+    <component_public_access_delete_all>دسترسی عمومی حذف همه کامپوننت</component_public_access_delete_all>
+    <component_public_access_delete_own>دسترسی عمومی حذف خود کامپوننت</component_public_access_delete_own>
+    <component_public_access_edit_all>دسترسی عمومی ویرایش همه کامپوننت</component_public_access_edit_all>
+    <component_public_access_edit_own>دسترسی عمومی ویرایش خود کامپوننت</component_public_access_edit_own>
+    <component_public_access_show>دسترسی عمومی نمایش کامپوننت</component_public_access_show>
+    <component_release_date>تاریخ انتشار کامپوننت</component_release_date>
+    <component_sort_index>شاخص مرتب سازی کامپوننت</component_sort_index>
+    <component_static_head>هدر ایستای کامپوننت</component_static_head>
+    <component_uninstall_path>مسیر حذف کامپوننت</component_uninstall_path>
+    <component_use_elanat>استفاده از اعلانات در کامپوننت</component_use_elanat>
+    <component_use_fetch>استفاده از واکش در کامپوننت</component_use_fetch>
+    <component_use_item>استفاده از آیتم در کامپوننت</component_use_item>
+    <component_use_language>استفاده از زبان در کامپوننت</component_use_language>
+    <component_use_module>استفاده از ماژول در کامپوننت</component_use_module>
+    <component_use_plugin>استفاده از پلاگین در کامپوننت</component_use_plugin>
+    <component_use_replace_part>استفاده از بخش جایگزین در کامپوننت</component_use_replace_part>
+    <component_version>نسخه کامپوننت</component_version>
+    <component_version_support>پشتیبانی نسخه های کامپوننت</component_version_support>
+    <component_was_add>کامپوننت اضافه شد</component_was_add>
+    <component_was_save_edit>کامپوننت ویرایش شد</component_was_save_edit>
+    <edit_component>ویرایش کامپوننت</edit_component>
+    <information>اطلاعات</information>
+    <please_fill_component_path_field_because_this_is_necessary>لطفا فیلد مسیر کامپوننت را پر کنید چون ضروری است</please_fill_component_path_field_because_this_is_necessary>
+    <please_fill_component_upload_field_because_this_is_necessary>لطفا فیلد بارگذاری کامپوننت را پر کنید چون ضروری است</please_fill_component_upload_field_because_this_is_necessary>
+    <priority_for_component>اهمیت برای کامپوننت</priority_for_component>
+    <save_component>ذخیره کامپوننت</save_component>
+    <use_component_path>استفاده از مسیر کامپوننت</use_component_path>
+    <you_should_upload_zip_extension>شما باید پسوند zip بارگذاری کنید</you_should_upload_zip_extension>
+    <zip_file_is_corrupt>فایل زیپ معیوب است</zip_file_is_corrupt>
+  
+  </add_ons_language>
+</add_ons_language_root>
