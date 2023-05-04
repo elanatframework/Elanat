@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ModuleMenuQueryString.aspx.cs" Inherits="elanat.ActionModuleMenuQueryString" %>

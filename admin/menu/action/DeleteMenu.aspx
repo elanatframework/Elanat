@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DeleteMenu.aspx.cs" Inherits="elanat.ActionDeleteMenu" %>

@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ActiveMenu.aspx.cs" Inherits="elanat.ActionActiveMenu" %>
