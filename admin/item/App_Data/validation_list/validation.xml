@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<validation_root>
+  <validation_list>
+
+    <CheckBoxList id="cbxlst_ItemAccessShow" type="number" label="item_access_show" category="" start_range="0" end_range="100000" important="false" client_injection_check="true" />
+    <CheckBoxList id="cbxlst_ItemMenu" type="number" label="item_menu" category="" start_range="0" end_range="100000" important="false" client_injection_check="true" />
+    <HiddenField id="hdn_ItemId" type="number" label="item_id" category="" start_range="0" end_range="100000" important="true" />
+    <TextBox id="txt_ItemCacheDuration" type="number" label="item_cache_duration" category="" start_range="0" end_range="100000" important="true" />
+    <TextBox id="txt_ItemName" type="string" label="item_name" category="" min_count="1" max_length="50" important="true" is_unique="true" unauthorized_check="true" table_name="el_item" column_name="item_name"/>
+    <TextBox id="txt_ItemSortIndex" type="number" label="item_sort_index" category="" start_range="0" end_range="100000" important="false" />
+    <TextBox id="txt_ItemValue" type="string" label="item_value" category="" min_count="1" max_length="100000" important="true" />
+
+    <CheckBoxList id="cbxlst_ItemAccessShow" type="number" label="item_access_show" category="edit" start_range="0" end_range="100000" important="false" client_injection_check="true" />
+    <CheckBoxList id="cbxlst_ItemMenu" type="number" label="item_menu" category="edit" start_range="0" end_range="100000" important="false" client_injection_check="true" />
+    <HiddenField id="hdn_ItemId" type="number" label="item_id" category="edit" start_range="0" end_range="100000" important="true" />
+    <TextBox id="txt_ItemCacheDuration" type="number" label="item_cache_duration" category="edit" start_range="0" end_range="100000" important="true" />
+    <TextBox id="txt_ItemName" type="string" label="item_name" category="edit" min_count="1" max_length="50" important="true" unauthorized_check="true" table_name="el_item" column_name="item_name"/>
+    <TextBox id="txt_ItemSortIndex" type="number" label="item_sort_index" category="edit" start_range="0" end_range="100000" important="false" />
+    <TextBox id="txt_ItemValue" type="string" label="item_value" category="edit" min_count="1" max_length="100000" important="true" />
+    
+  </validation_list>
+</validation_root>

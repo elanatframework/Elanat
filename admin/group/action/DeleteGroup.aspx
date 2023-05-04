@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DeleteGroup.aspx.cs" Inherits="elanat.ActionDeleteGroup" %>
