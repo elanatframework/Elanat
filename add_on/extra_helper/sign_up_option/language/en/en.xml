@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <active_about>active about</active_about>
+    <active_address>active address</active_address>
+    <active_avatar>active avatar</active_avatar>
+    <active_birthday>active birthday</active_birthday>
+    <active_city>active city</active_city>
+    <active_country>active country</active_country>
+    <active_email>active email</active_email>
+    <active_gender>active gender</active_gender>
+    <active_real_last_name>active real last name</active_real_last_name>
+    <active_mobile_number>active mobile number</active_mobile_number>
+    <active_real_name>active real name</active_real_name>
+    <active_phone_number>active phone number</active_phone_number>
+    <active_postal_code>active postal code</active_postal_code>
+    <active_public_email>active public email</active_public_email>
+    <active_state_or_province>active state or province</active_state_or_province>
+    <active_user_name>active user name</active_user_name>
+    <active_user_site_name>active user site name</active_user_site_name>
+    <active_website>active website</active_website>
+    <active_zip_code>active zip code</active_zip_code>
+    <save_sign_up_option>save sign up option</save_sign_up_option>
+    <sign_up_option>sign up option</sign_up_option>
+    <sign_up_option_was_save>sign up option was save</sign_up_option_was_save>
+
+
+  </add_ons_language>
+</add_ons_language_root>

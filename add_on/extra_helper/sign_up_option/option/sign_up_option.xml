@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sign_up_option_root>
+  <user_name active="true" />
+  <user_site_name active="true" />
+  <real_name active="true" />
+  <real_last_name active="true" />
+  <email active="true" />
+  <avatar active="false" />
+  <phone_number active="false" />
+  <mobile_number active="false" />
+  <address active="false" />
+  <postal_code active="false" />
+  <about active="false" />
+  <birthday active="true" />
+  <gender active="true" />
+  <country active="false" />
+  <state_or_province active="false" />
+  <city active="false" />
+  <zip_code active="false" />
+  <public_email active="true" />
+  <website active="true" />
+</sign_up_option_root>

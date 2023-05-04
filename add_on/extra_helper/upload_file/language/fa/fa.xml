@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <file_path>مسیر فایل</file_path>
+    <file_was_upload>فایل بارگذاری شد</file_was_upload>
+    <limitation_of_number_of_upload_has_finished>محدودیت تعداد بارگذاری به پایان رسیده است</limitation_of_number_of_upload_has_finished>
+    <please_fill_file_path_field_because_this_is_necessary>لطفا فیلد مسیر فایل را پر کنید چون ضروری است</please_fill_file_path_field_because_this_is_necessary>
+    <please_fill_file_upload_field_because_this_is_necessary>لطفا فیلد بارگذاری فایل را پر کنید چون ضروری است</please_fill_file_upload_field_because_this_is_necessary>
+    <role_can_not_access_to_upload_file>نقش دسترسی به بارگذاری فایل ندارد</role_can_not_access_to_upload_file>
+    <start_upload>شروع بارگذاری</start_upload>
+    <upload_file>بارگذاری فایل</upload_file>
+    <use_file_path>استفاده از مسیر فایل</use_file_path>
+    
+  </add_ons_language>
+</add_ons_language_root>

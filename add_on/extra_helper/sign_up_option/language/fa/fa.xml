@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <active_about>درباره فعال</active_about>
+    <active_address>آدرس فعال</active_address>
+    <active_avatar>آواتار فعال</active_avatar>
+    <active_birthday>تاریخ تولد فعال</active_birthday>
+    <active_city>شهر فعال</active_city>
+    <active_country>کشور فعال</active_country>
+    <active_email>ایمیل فعال</active_email>
+    <active_gender>جنسیت فعال</active_gender>
+    <active_real_last_name>فامیلی واقعی فعال</active_real_last_name>
+    <active_mobile_number>شماره موبایل فعال</active_mobile_number>
+    <active_real_name>نام واقعی فعال</active_real_name>
+    <active_phone_number>شماره تلفن فعال</active_phone_number>
+    <active_postal_code>کد پستی فعال</active_postal_code>
+    <active_public_email>ایمیل عمومی فعال</active_public_email>
+    <active_state_or_province>ایالت یا استان فعال</active_state_or_province>
+    <active_user_name>نام کاربری فعال</active_user_name>
+    <active_user_site_name>نام کاربر در سایت فعال</active_user_site_name>
+    <active_website>وبسایت فعال</active_website>
+    <active_zip_code>زیپ کد فعال</active_zip_code>
+    <save_sign_up_option>ذخیره گزینه ثبت نام</save_sign_up_option>
+    <sign_up_option>گزینه ثبت نام</sign_up_option>
+    <sign_up_option_was_save>گزینه ثبت نام ذخیره شد</sign_up_option_was_save>
+  
+</add_ons_language>
+</add_ons_language_root>

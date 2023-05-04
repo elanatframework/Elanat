@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <active_category_search>دسته بندی جستجو فعال</active_category_search>
+    <active_date_search>تاریخ جستجو فعال</active_date_search>
+    <active_title_text_search>جستجوی عنوان-متن فعال</active_title_text_search>
+    <minimum_search_character>حداقل کاراکتر جستجو</minimum_search_character>
+    <next_search_delay>تاخیر جستجوی بعدی</next_search_delay>
+    <save_search_option>ذخیره گزینه جستجو</save_search_option>
+    <save_searched_text_to_foot_print>ذخیره متن جستجو شده در ردپا</save_searched_text_to_foot_print>
+    <search_option>گزینه جستجو</search_option>
+    <search_option_was_save>گزینه جستجو ذخیره شد</search_option_was_save>
+    <searched_per_page>جستجو شده در هر صفحه</searched_per_page>
+
+  </add_ons_language>
+</add_ons_language_root>
