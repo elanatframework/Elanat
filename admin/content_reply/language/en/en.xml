@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <about>about</about>
+    <add>add</add>
+    <add_content_reply>add content reply</add_content_reply>
+    <address>address</address>
+    <birthday>birthday</birthday>
+    <captcha>captcha</captcha>
+    <city>city</city>
+    <content_id>content id</content_id>
+    <content_number_asp>content number $_asp content_number;</content_number_asp>
+    <content_reply>content reply</content_reply>
+    <content_reply_active>content reply active</content_reply_active>
+    <content_reply_date_and_time_send>content reply date and time send</content_reply_date_and_time_send>
+    <content_reply_date_send>content reply date send</content_reply_date_send>
+    <content_reply_guest_about>content reply guest about</content_reply_guest_about>
+    <content_reply_guest_address>content reply guest address</content_reply_guest_address>
+    <content_reply_guest_birthday>content reply guest birthday</content_reply_guest_birthday>
+    <content_reply_guest_birthday_day>content reply guest birthday day</content_reply_guest_birthday_day>
+    <content_reply_guest_birthday_mount>content reply guest birthday mount</content_reply_guest_birthday_mount>
+    <content_reply_guest_birthday_year>content reply guest birthday year</content_reply_guest_birthday_year>
+    <content_reply_guest_city>content reply guest city</content_reply_guest_city>
+    <content_reply_guest_country>content reply guest country</content_reply_guest_country>
+    <content_reply_guest_email>content reply guest email</content_reply_guest_email>
+    <content_reply_guest_gender>content reply guest gender</content_reply_guest_gender>
+    <content_reply_guest_mobile_number>content reply guest mobile number</content_reply_guest_mobile_number>
+    <content_reply_guest_name>content reply guest name</content_reply_guest_name>
+    <content_reply_guest_phone_number>content reply guest phone number</content_reply_guest_phone_number>
+    <content_reply_guest_postal_code>content reply guest postal code</content_reply_guest_postal_code>
+    <content_reply_guest_public_email>content reply guest public email</content_reply_guest_public_email>
+    <content_reply_guest_real_last_name>content reply guest real last name</content_reply_guest_real_last_name>
+    <content_reply_guest_real_name>content reply guest real name</content_reply_guest_real_name>
+    <content_reply_guest_state_or_province>content_reply guest state or province</content_reply_guest_state_or_province>
+    <content_reply_guest_website>content reply guest website</content_reply_guest_website>
+    <content_reply_guest_zip_code>content reply guest zip code</content_reply_guest_zip_code>
+    <content_reply_id>content reply id</content_reply_id>
+    <content_reply_ip_address>content reply ip address</content_reply_ip_address>
+    <content_reply_text>content reply text</content_reply_text>
+    <content_reply_time_send>content reply time send</content_reply_time_send>
+    <content_reply_type>content reply type</content_reply_type>
+    <content_reply_user_guest_email>content reply user/guest email</content_reply_user_guest_email>
+    <content_reply_user_guest_name>content reply user/guest name</content_reply_user_guest_name>
+    <content_reply_was_add>content reply was add</content_reply_was_add>
+    <content_reply_was_save_edit>content reply was save edit</content_reply_was_save_edit>
+    <content_title>content title</content_title>
+    <country>country</country>
+    <edit_content_reply>edit content reply</edit_content_reply>
+    <email>email</email>
+    <female>female</female>
+    <gender>gender</gender>
+    <limit_content_reply_count_for_content_is_finished>limit content Reply count for content is finished</limit_content_reply_count_for_content_is_finished>
+    <limit_content_reply_time_for_content_is_finished>limit content reply time for content is finished</limit_content_reply_time_for_content_is_finished>
+    <male>male</male>
+    <mobile_number>mobile number</mobile_number>
+    <name>name</name>
+    <phone_number>phone number</phone_number>
+    <postal_code>postal code</postal_code>
+    <public_email>public email</public_email>
+    <real_last_name>real last name</real_last_name>
+    <save_content_reply>save content reply</save_content_reply>
+    <send_content_reply>send content reply</send_content_reply>
+    <site>site</site>
+    <state_or_province>state or province</state_or_province>
+    <text>text</text>
+    <title>title</title>
+    <type>type</type>
+    <unknown>unknown</unknown>
+    <user_id>user id</user_id>
+    <zip_code>zip code</zip_code>
+
+  </add_ons_language>
+</add_ons_language_root>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<item_view_root>
+  <![CDATA[item_search only char,varchar,nvarchar type]]>
+  <item_search_list> 
+ 	 <column>content_title</column>
+ 	</item_search_list>
+  <item_view_list>
+    <view_table>
+      <column>content_reply_user_guest_name</column>
+      <column>content_title</column>
+      <column>content_reply_user_guest_email</column>
+      <column>content_reply_date_and_time_send</column>
+      <column>content_reply_text</column>
+    </view_table>
+    <view_more>
+      <column>content_id</column>
+      <column>content_reply_active</column>
+      <column>content_reply_date_and_time_send</column>
+      <column>content_reply_date_send</column>
+      <column>content_reply_guest_about</column>
+      <column>content_reply_guest_address</column>
+      <column>content_reply_guest_birthday</column>
+      <column>content_reply_guest_city</column>
+      <column>content_reply_guest_country</column>
+      <column>content_reply_guest_email</column>
+      <column>content_reply_guest_gender</column>
+      <column>content_reply_guest_mobile_number</column>
+      <column>content_reply_guest_name</column>
+      <column>content_reply_guest_phone_number</column>
+      <column>content_reply_guest_postal_code</column>
+      <column>content_reply_guest_public_email</column>
+      <column>content_reply_guest_real_last_name</column>
+      <column>content_reply_guest_real_name</column>
+      <column>content_reply_guest_state_or_province</column>
+      <column>content_reply_guest_website</column>
+      <column>content_reply_guest_zip_code</column>
+      <column>content_reply_id</column>
+      <column>content_reply_ip_address</column>
+      <column>content_reply_text</column>
+      <column>content_reply_time_send</column>
+      <column>content_reply_type</column>
+      <column>content_reply_user_guest_email</column>
+      <column>content_reply_user_guest_name</column>
+      <column>content_title</column>
+      <column>user_id</column>
+    </view_more>
+  </item_view_list>
+</item_view_root>

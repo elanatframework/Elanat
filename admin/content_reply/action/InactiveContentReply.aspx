@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="InactiveContentReply.aspx.cs" Inherits="elanat.ActionInactiveContentReply" %>

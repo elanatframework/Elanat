@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="IsUserFootPrint.aspx.cs" Inherits="elanat.ActionIsUserFootPrint" %>
