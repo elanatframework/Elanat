@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<before_load_path_reference_root>
+
+  <before_load_path_reference_list>
+   
+    <reference type="url" check_type="page" exist="false" start_by="true" end_by="false" regex_match="false" active="true" reason="you_do_not_access_to_backup_component">
+      <path_value>/backup</path_value>
+      <load_value><![CDATA[/action/system_access/reference/check_component_access_show/Default.aspx?component_name=backup]]></load_value>
+    </reference>
+
+    <reference type="url" check_type="page" exist="false" start_by="true" end_by="false" regex_match="false" active="true" reason="you_do_not_access_to_template_component">
+      <path_value>/template</path_value>
+      <load_value><![CDATA[/action/system_access/reference/check_component_access_show/Default.aspx?component_name=template]]></load_value>
+    </reference>
+
+    <reference type="url" check_type="page" exist="false" start_by="true" end_by="false" regex_match="false" active="true" reason="you_do_not_access_to_language_component">
+      <path_value>/language</path_value>
+      <load_value><![CDATA[/action/system_access/reference/check_component_access_show/Default.aspx?component_name=language]]></load_value>
+    </reference>
+
+    <reference type="url" check_type="page" exist="false" start_by="true" end_by="false" regex_match="false" active="true" reason="you_do_not_access_to_attachment_component">
+      <path_value>/upload/attachment</path_value>
+      <load_value><![CDATA[/action/system_access/reference/check_component_access_show/Default.aspx?component_name=attachment]]></load_value>
+    </reference>
+
+    <reference type="url" check_type="page" exist="false" start_by="true" end_by="false" regex_match="false" active="true" reason="you_do_not_access_to_contact_component">
+      <path_value>/upload/contact</path_value>
+      <load_value><![CDATA[/action/system_access/reference/check_component_access_show/Default.aspx?component_name=contact]]></load_value>
+    </reference>
+
+    <reference type="url" check_type="page" exist="false" start_by="true" end_by="false" regex_match="false" active="true" reason="you_do_not_access_to_comment_component">
+      <path_value>/page/comment</path_value>
+      <load_value><![CDATA[/action/system_access/reference/check_component_access_show/Default.aspx?component_name=comment]]></load_value>
+    </reference>
+
+    <reference type="url" check_type="page" exist="false" start_by="true" end_by="false" regex_match="false" active="true" reason="you_do_not_access_to_comment_component">
+      <path_value>/page_content/comment</path_value>
+      <load_value><![CDATA[/action/system_access/reference/check_component_access_show/Default.aspx?component_name=comment]]></load_value>
+    </reference>
+
+    <reference type="url" check_type="page" exist="false" start_by="true" end_by="false" regex_match="false" active="true" reason="comment_time_limitation_is_active">
+      <path_value>/page/comment</path_value>
+      <load_value><![CDATA[/action/system_access/reference/check_comment_time_limitation/Default.aspx]]></load_value>
+    </reference>
+
+    <reference type="url" check_type="page" exist="false" start_by="true" end_by="false" regex_match="false" active="true" reason="comment_time_limitation_is_active">
+      <path_value>/page_content/comment</path_value>
+      <load_value><![CDATA[/action/system_access/reference/check_comment_time_limitation/Default.aspx]]></load_value>
+    </reference>
+
+    <reference type="url" check_type="page" exist="true" start_by="false" end_by="false" regex_match="false" active="true" reason="attachment_count_limitation_is_active">
+      <path_value>btn_AddAttachment=</path_value>
+      <load_value><![CDATA[/action/system_access/reference/check_attachment_count_limitation/Default.aspx]]></load_value>
+    </reference>
+    
+    <reference type="form" check_type="page" exist="true" start_by="false" end_by="false" regex_match="false" active="true" reason="attachment_count_limitation_is_active">
+      <path_value>btn_AddAttachment=</path_value>
+      <load_value><![CDATA[/action/system_access/reference/check_attachment_count_limitation/Default.aspx]]></load_value>
+    </reference>
+    
+    <reference type="url" check_type="page" exist="true" start_by="false" end_by="false" regex_match="false" active="true" reason="attachment_size_limitation_is_active">
+      <path_value>btn_AddAttachment=</path_value>
+      <load_value><![CDATA[/action/system_access/reference/check_attachment_size_limitation/Default.aspx]]></load_value>
+    </reference>
+    
+    <reference type="form" check_type="page" exist="true" start_by="false" end_by="false" regex_match="false" active="true" reason="attachment_size_limitation_is_active">
+      <path_value>btn_AddAttachment=</path_value>
+      <load_value><![CDATA[/action/system_access/reference/check_attachment_size_limitation/Default.aspx]]></load_value>
+    </reference>
+    
+    <reference type="url" check_type="page" exist="true" start_by="false" end_by="false" regex_match="false" active="true" reason="comment_count_limitation_is_active">
+      <path_value>btn_AddComment=</path_value>
+      <load_value><![CDATA[/action/system_access/reference/check_comment_count_limitation/Default.aspx]]></load_value>
+    </reference>
+    
+    <reference type="form" check_type="page" exist="true" start_by="false" end_by="false" regex_match="false" active="true" reason="comment_count_limitation_is_active">
+      <path_value>btn_AddComment=</path_value>
+      <load_value><![CDATA[/action/system_access/reference/check_comment_count_limitation/Default.aspx]]></load_value>
+    </reference>
+    
+    <reference type="url" check_type="page" exist="true" start_by="false" end_by="false" regex_match="false" active="true" reason="contact_count_limitation_is_active">
+      <path_value>btn_AddContact=</path_value>
+      <load_value><![CDATA[/action/system_access/reference/check_contact_count_limitation/Default.aspx]]></load_value>
+    </reference>
+    
+    <reference type="form" check_type="page" exist="true" start_by="false" end_by="false" regex_match="false" active="true" reason="contact_count_limitation_is_active">
+      <path_value>btn_AddContact=</path_value>
+      <load_value><![CDATA[/action/system_access/reference/check_contact_count_limitation/Default.aspx]]></load_value>
+    </reference>
+    
+    <reference type="url" check_type="page" exist="true" start_by="false" end_by="false" regex_match="false" active="true" reason="content_count_limitation_is_active">
+      <path_value>btn_AddContent=</path_value>
+      <load_value><![CDATA[/action/system_access/reference/check_content_count_limitation/Default.aspx]]></load_value>
+    </reference>
+    
+    <reference type="form" check_type="page" exist="true" start_by="false" end_by="false" regex_match="false" active="true" reason="content_count_limitation_is_active">
+      <path_value>btn_AddContent=</path_value>
+      <load_value><![CDATA[/action/system_access/reference/check_content_count_limitation/Default.aspx]]></load_value>
+    </reference>
+
+    <reference type="url" check_type="page" exist="false" start_by="true" end_by="false" regex_match="false" active="true" reason="content_reply_time_limitation_is_active">
+      <path_value>/page/content_reply</path_value>
+      <load_value><![CDATA[/action/system_access/reference/check_content_reply_time_limitation/Default.aspx]]></load_value>
+    </reference>
+
+    <reference type="url" check_type="page" exist="false" start_by="true" end_by="false" regex_match="false" active="true" reason="content_reply_time_limitation_is_active">
+      <path_value>/page_content/content_reply</path_value>
+      <load_value><![CDATA[/action/system_access/reference/check_content_reply_time_limitation/Default.aspx]]></load_value>
+    </reference>
+    
+    <reference type="url" check_type="page" exist="true" start_by="false" end_by="false" regex_match="false" active="true" reason="content_reply_count_limitation_is_active">
+      <path_value>btn_AddContentReply=</path_value>
+      <load_value><![CDATA[/action/system_access/reference/check_content_reply_count_limitation/Default.aspx]]></load_value>
+    </reference>
+    
+    <reference type="form" check_type="page" exist="true" start_by="false" end_by="false" regex_match="false" active="true" reason="content_reply_count_limitation_is_active">
+      <path_value>btn_AddContentReply=</path_value>
+      <load_value><![CDATA[/action/system_access/reference/check_content_reply_count_limitation/Default.aspx]]></load_value>
+    </reference>
+    
+    <reference type="url" check_type="page" exist="true" start_by="false" end_by="false" regex_match="false" active="false" reason="login_try_count_limitation_is_active">
+      <path_value>btn_Login=</path_value>
+      <load_value><![CDATA[/action/system_access/reference/check_login_try_count_limitation/Default.aspx]]></load_value>
+    </reference>
+    
+    <reference type="form" check_type="page" exist="true" start_by="false" end_by="false" regex_match="false" active="false" reason="login_try_count_limitation_is_active">
+      <path_value>btn_Login=</path_value>
+      <load_value><![CDATA[/action/system_access/reference/check_login_try_count_limitation/Default.aspx]]></load_value>
+    </reference>
+
+    <reference type="url" check_type="page" exist="true" start_by="false" end_by="false" regex_match="false" active="true" reason="lock_login_is_active">
+      <path_value>btn_Login=</path_value>
+      <load_value><![CDATA[/action/system_access/reference/check_lock_login/Default.aspx]]></load_value>
+    </reference>
+
+    <reference type="form" check_type="page" exist="true" start_by="false" end_by="false" regex_match="false" active="true" reason="lock_login_is_active">
+      <path_value>btn_Login=</path_value>
+      <load_value><![CDATA[/action/system_access/reference/check_lock_login/Default.aspx]]></load_value>
+    </reference>
+    
+    <reference type="url" check_type="page" exist="true" start_by="false" end_by="false" regex_match="false" active="true" reason="next_search_time_interval_limitation_is_active">
+      <path_value>btn_Search=</path_value>
+      <load_value><![CDATA[/action/system_access/reference/check_next_search_time_interval_limitation/Default.aspx]]></load_value>
+    </reference>
+    
+    <reference type="form" check_type="page" exist="true" start_by="false" end_by="false" regex_match="false" active="true" reason="next_search_time_interval_limitation_is_active">
+      <path_value>btn_Search=</path_value>
+      <load_value><![CDATA[/action/system_access/reference/check_next_search_time_interval_limitation/Default.aspx]]></load_value>
+    </reference>
+	 
+  </before_load_path_reference_list>
+  
+</before_load_path_reference_root>

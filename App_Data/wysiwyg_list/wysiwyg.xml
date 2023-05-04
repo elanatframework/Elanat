@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<wysiwyg_root>
+  
+  <wysiwyg_list>
+    <wysiwyg name="tinymce_4_1_3_full" active="true" />
+    <wysiwyg name="tinymce_4_1_3_medium" active="true" />
+    <wysiwyg name="tinymce_4_1_3_mini" active="true" />
+    <wysiwyg name="tinymce_5_10_0_full" active="true" />
+    <wysiwyg name="tinymce_5_10_0_medium" active="true" />
+    <wysiwyg name="tinymce_5_10_0_mini" active="true" />
+  </wysiwyg_list>
+  
+</wysiwyg_root>

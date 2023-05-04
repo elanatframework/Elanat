@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<type_root>
+
+  <type_list>
+
+    <content>
+      <type value="post" name="post"/>
+    </content>
+
+    <comment>
+      <type value="public" name="public_comment" />
+    </comment>
+
+    <content_reply>
+      <type value="public" name="public_content_reply" />
+    </content_reply>
+
+    <contact>
+      <type value="public" name="public_contact" />
+    </contact>
+
+    <bookmark>
+      <type value="category" name="category" />
+      <type value="content" name="content" />
+      <type value="link" name="link" />
+      <type value="note" name="note" />
+      <type value="user" name="user" />
+    </bookmark>
+
+  </type_list>
+
+</type_root>

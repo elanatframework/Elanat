@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<system_root>
+  
+  <system_list>
+    <system name ="home"/>
+    <system name ="content"/>
+    <system name ="users"/>
+    <system name ="tools"/>
+    <system name ="appearance"/>
+    <system name ="file_and_directory"/>
+    <system name ="add_ons"/>
+  </system_list>
+  
+</system_root>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<authorized_extension_root>
+  
+  <authorized_extension_list>
+    
+    <authorized_extension active="true">
+      <extension>xml</extension>
+      <extension>html</extension>
+    </authorized_extension>
+    
+    <unauthorized_extension active="true">
+      <extension>aspx</extension>
+      <extension>ascx</extension>
+      <extension>exe</extension>
+      <extension>dll</extension>
+    </unauthorized_extension>
+
+    <authorized_extension_for_upload active="true">
+      <extension value="zip" />
+      <extension value="rar" />
+      <extension value="7z" />
+      <extension value="gif" />
+      <extension value="png" />
+      <extension value="jpeg" />
+      <extension value="jpg" />
+      <extension value="txt" />
+      <extension value="pdf" />
+      <extension value="csv" />
+      <extension value="mp3" />
+      <extension value="wma" />
+      <extension value="mp4" />
+      <extension value="mpg" />
+      <extension value="flv" />
+      <extension value="avi" />
+      <extension value="doc" />
+      <extension value="docx" />
+      <extension value="xls" />
+      <extension value="xlsx" />
+      <extension value="rtf" />
+    </authorized_extension_for_upload>
+
+    <unauthorized_extension_for_upload active="true">
+      <extension value="aspx" />
+      <extension value="ascx" />
+      <extension value="exe" />
+      <extension value="dll" />
+      <extension value="php" />
+    </unauthorized_extension_for_upload>
+  
+  </authorized_extension_list>
+
+</authorized_extension_root>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<role_bit_column_access_root>
+  
+  <role_bit_column_access_list>
+    <role name="role_add_always_on_top_content" active="true" />
+    <role name="role_add_free_comment_content" active="true" />
+    <role name="role_submit_visit" active="true" />
+    <role name="role_submit_foot_print" active="true" />
+    <role name="role_approval_comment_only_own_content" active="true" />
+    <role name="role_edit_comment_only_own_content" active="true" />
+    <role name="role_delete_comment_only_own_content" active="true" />
+    <role name="role_reply_comment_only_own_content" active="true" />
+    <role name="role_reply_comment_all_content" active="true" />
+    <role name="role_upload_file" active="true" />
+    <role name="role_add_content_without_approval" active="true" />
+    <role name="role_write_html" active="true" />
+    <role name="role_write_script" active="true" />
+    <role name="role_web_config_configuration" active="true" />
+    <role name="role_config_configuration" active="true" />
+    <role name="role_authorized_extension_configuration" active="true" />
+    <role name="role_content_icon_configuration" active="true" />
+    <role name="role_type_configuration" active="true" />
+    <role name="role_file_extensions_configuration" active="true" />
+    <role name="role_page_location_configuration" active="true" />
+    <role name="role_replace_part_configuration" active="true" />
+    <role name="role_site_static_head_configuration" active="true" />
+    <role name="role_site_dynamic_head_configuration" active="true" />
+    <role name="role_admin_static_head_configuration" active="true" />
+    <role name="role_admin_dynamic_head_configuration" active="true" />
+    <role name="role_global_template_configuration" active="true" />
+    <role name="role_global_style_configuration" active="true" />
+    <role name="role_global_script_configuration" active="true" />
+    <role name="role_site_script_configuration" active="true" />
+    <role name="role_admin_script_configuration" active="true" />
+    <role name="role_foreign_key_configuration" active="true" />
+    <role name="role_struct_configuration" active="true" />
+    <role name="role_robots_configuration" active="true" />
+    <role name="role_link_protocol_configuration" active="true" />
+    <role name="role_scheduled_tasks_configuration" active="true" />
+    <role name="role_security_configuration" active="true" />
+    <role name="role_calendar_configuration" active="true" />
+    <role name="role_box_configuration" active="true" />
+    <role name="role_captcha_configuration" active="true" />
+    <role name="role_file_viewer_configuration" active="true" />
+    <role name="role_wysiwyg_configuration" active="true" />
+    <role name="role_role_bit_column_access_configuration" active="true" />
+    <role name="role_start_up_configuration" active="true" />
+    <role name="role_after_load_path_reference_configuration" active="true" />
+    <role name="role_before_load_path_reference_configuration" active="true" />
+    <role name="role_default_page_configuration" active="true" />
+    <role name="role_dynamic_extension_configuration" active="true" />
+    <role name="role_event_reference_configuration" active="true" />
+    <role name="role_system_configuration" active="true" />
+    <role name="role_client_file_extensions_configuration" active="true" />
+    <role name="role_admin_page_load_configuration" active="true" />
+    <role name="role_site_page_load_configuration" active="true" />
+    <role name="role_admin_global_style_configuration" active="true" />
+    <role name="role_site_global_style_configuration" active="true" />
+    <role name="role_admin_global_template_configuration" active="true" />
+    <role name="role_site_global_template_configuration" active="true" />
+    <role name="role_admin_global_location_configuration" active="true" />
+    <role name="role_site_global_location_configuration" active="true" />
+    <role name="role_url_redirect_configuration" active="true" />
+    <role name="role_url_rewrite_configuration" active="true" />
+  </role_bit_column_access_list>
+  
+</role_bit_column_access_root>
