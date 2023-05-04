@@ -1,0 +1,2 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="elanat.PluginSiteShowAcceptCookieMessage" %>
+<div id="div_AcceptCookieMessage"><a id="a_CookieAcceptLink" href="<%=elanat.AspxHtmlValue.SitePath()%>page_content/privacy_policy/#div_CookiesPolicy"><%=model.AgreeAndNotAgreeWithCookiesPolicyLanguage%></a></div>
