@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="GetPageInformation.aspx.cs" Inherits="elanat.ActionGetPageInformation" %>

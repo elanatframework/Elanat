@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <active>فعال</active>
+    <add>درج</add>
+    <add_page>درج صفحه</add_page>
+    <admin_main_cache_parameters>پارامترهای کش اصلی ادمین</admin_main_cache_parameters>
+    <default_query_sring>رشته کوئری پیش فرض</default_query_sring>
+    <delete>حذف</delete>
+    <edit>ویرایش</edit>
+    <edit_page>ویرایش صفحه</edit_page>
+    <inactive>غیرفعال</inactive>
+    <information>اطلاعات</information>
+    <page>صفحه</page>
+    <page_access_show>دسترسی نمایش صفحه</page_access_show>
+    <page_active>صفحه فعال</page_active>
+    <page_author>سازنده صفحه</page_author>
+    <page_best_load_status>بهترین وضعیت اجرای صفحه</page_best_load_status>
+    <page_cache_duration>مدت زمان کش صفحه</page_cache_duration>
+    <page_cache_parameters>پارامترهای کش صفحه</page_cache_parameters>
+    <page_category>دسته بندی صفحه</page_category>
+    <page_classification_meta>متا طبقه بندی صفحه</page_classification_meta>
+    <page_copyright_meta>متا حق چاپ صفحه</page_copyright_meta>
+    <page_date_create>تاریخ ایجاد صفحه</page_date_create>
+    <page_description_meta>متا توضیحات صفحه</page_description_meta>
+    <page_directory_path>مسیر پوشه صفحه</page_directory_path>
+    <page_global_name>نام سراسری صفحه</page_global_name>
+    <page_global_name_is_duplicate>نام سراسری صفحه تکراری است</page_global_name_is_duplicate>
+    <page_id>شماره صفحه</page_id>
+    <page_info>اطلاعات صفحه</page_info>
+    <page_keywords_meta>کلمات کلیدی سایت صفحه</page_keywords_meta>
+    <page_license>مجوز صفحه</page_license>
+    <page_load_alone>اجرای به تنهایی صفحه</page_load_alone>
+    <page_load_tag>تگ اجرای صفحه</page_load_tag>
+    <page_load_type>نوع اجرای صفحه</page_load_type>
+    <page_name>نام صفحه</page_name>
+    <page_name_is_duplicate>نام صفحه تکراری است</page_name_is_duplicate>
+    <page_path>مسیر صفحه</page_path>
+    <page_physical_name>نام فیزیکی صفحه</page_physical_name>
+    <page_physical_path>مسیر فیزیکی صفحه</page_physical_path>
+    <page_public_access_show>دسترسی عمومی نمایش صفحه</page_public_access_show>
+    <page_public_site>سایت عمومی صفحه</page_public_site>
+    <page_query_string>رشته کوئری صفحه</page_query_string>
+    <page_release_date>تاریخ انتشار صفحه</page_release_date>
+    <page_revisit_after_meta>متا بازبینی بعد صفحه</page_revisit_after_meta>
+    <page_rights_meta>متا حقوق صفحه</page_rights_meta>
+    <page_robots_meta>متا ربات های صفحه</page_robots_meta>
+    <page_show_link_in_site>نمایش لینک صفحه در سایت</page_show_link_in_site>
+    <page_site>سایت صفحه</page_site>
+    <page_static_head>هدر ایستای صفحه</page_static_head>
+    <page_style>استایل صفحه</page_style>
+    <page_template>قالب صفحه</page_template>
+    <page_time_create>زمان ایجاد صفحه</page_time_create>
+    <page_title>عنوان صفحه</page_title>
+    <page_use_application_name_meta>به کارگیری متا نام برنامه در صفحه</page_use_application_name_meta>
+    <page_use_author_meta>به کارگیری متا نویسنده در صفحه</page_use_author_meta>
+    <page_use_classification_meta>به کارگیری متا طبقه بندی در صفحه</page_use_classification_meta>
+    <page_use_copyright_meta>به کارگیری متا حق چاپ در صفحه</page_use_copyright_meta>
+    <page_use_description_meta>به کارگیری متا توضیحات در صفحه</page_use_description_meta>
+    <page_use_elanat>استفاده از اعلانات در صفحه</page_use_elanat>
+    <page_use_fetch>استفاده از واکش در صفحه</page_use_fetch>
+    <page_use_generator_meta>به کارگیری متا مولد در صفحه</page_use_generator_meta>
+    <page_use_html>به کارگیری اچ تی ام ال در صفحه</page_use_html>
+    <page_use_item>استفاده از آیتم در صفحه</page_use_item>
+    <page_use_javascript_inactive_refresh_meta>به کارگیری متا تازه سازی غیرفعال بودن جاوا اسکریپت صفحه</page_use_javascript_inactive_refresh_meta>
+    <page_use_keywords_meta>به کارگیری متا کلمات کلیدی در صفحه</page_use_keywords_meta>
+    <page_use_language>استفاده از زبان در صفحه</page_use_language>
+    <page_use_language_meta>استفاده از متا زبان در صفحه</page_use_language_meta>
+    <page_use_load_tag>به کارگیری تگ اجرای صفحه</page_use_load_tag>
+    <page_use_module>استفاده از ماژول در صفحه</page_use_module>
+    <page_use_plugin>استفاده از پلاگین در صفحه</page_use_plugin>
+    <page_use_replace_part>استفاده از بخش جایگزین در صفحه</page_use_replace_part>
+    <page_use_revisit_after_meta>به کارگیری متا بازبینی بعد در صفحه</page_use_revisit_after_meta>
+    <page_use_rights_meta>به کارگیری متا حقوق در صفحه</page_use_rights_meta>
+    <page_use_robots_meta>به کارگیری متا ربات ها در صفحه</page_use_robots_meta>
+    <page_use_static_head>به کارگیری هدر ایستا در صفحه</page_use_static_head>
+    <page_version>نسخه صفحه</page_version>
+    <page_visit>بازدید صفحه</page_visit>
+    <page_was_add>صفحه اضافه شد</page_was_add>
+    <page_was_save_edit>صفحه ویرایش شد</page_was_save_edit>
+    <please_fill_page_path_field_because_this_is_necessary>لطفا فیلد مسیر صفحه را پر کنید چون ضروری است</please_fill_page_path_field_because_this_is_necessary>
+    <please_fill_page_upload_field_because_this_is_necessary>لطفا فیلد بارگذاری صفحه را پر کنید چون ضروری است</please_fill_page_upload_field_because_this_is_necessary>
+    <priority_for_page>اهمیت برای صفحه</priority_for_page>
+    <read_more>بیشتر بخوانید</read_more>
+    <save_page>ذخیره صفحه</save_page>
+    <site_main_cache_parameters>پارامترهای کش اصلی سایت</site_main_cache_parameters>
+    <site_style_id>شماره استایل سایت</site_style_id>
+    <site_style_name>نام استایل سایت</site_style_name>
+    <site_template_id>شماره قالب سایت</site_template_id>
+    <site_template_name>نام قالب سایت</site_template_name>
+    <use_admin_main_cache>به کارگیری کش اصلی ادمین</use_admin_main_cache>
+    <use_page_path>استفاده از مسیر صفحه</use_page_path>
+    <use_site_main_cache>به کارگیری کش اصلی سایت</use_site_main_cache>
+    <user_id>شماره کاربر</user_id>
+    <user_site_name>نام کاربر در سایت</user_site_name>
+    <zip_file_is_corrupt>فایل زیپ معیوب است</zip_file_is_corrupt>
+
+  </add_ons_language>
+</add_ons_language_root>

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <active>active</active>
+    <add>add</add>
+    <add_page>add page</add_page>
+    <admin_main_cache_parameters>admin main cache parameters</admin_main_cache_parameters>
+    <default_query_sring>default query sring</default_query_sring>
+    <delete>delete</delete>
+    <edit>edit</edit>
+    <edit_page>edit page</edit_page>
+    <inactive>inactive</inactive>
+    <information>information</information>
+    <page>page</page>
+    <page_access_show>page access show</page_access_show>
+    <page_active>page active</page_active>
+    <page_author>page author</page_author>
+    <page_best_load_status>page best load status</page_best_load_status>
+    <page_cache_duration>page cache duration</page_cache_duration>
+    <page_cache_parameters>page cache parameters</page_cache_parameters>
+    <page_category>page category</page_category>
+    <page_classification_meta>page classification meta</page_classification_meta>
+    <page_copyright_meta>page copyright meta</page_copyright_meta>
+    <page_date_create>page date create</page_date_create>
+    <page_description_meta>page description meta</page_description_meta>
+    <page_directory_path>page directory path</page_directory_path>
+    <page_global_name>page global name</page_global_name>
+    <page_global_name_is_duplicate>page global name is duplicate</page_global_name_is_duplicate>
+    <page_id>page id</page_id>
+    <page_info>page info</page_info>
+    <page_keywords_meta>page keywords meta</page_keywords_meta>
+    <page_license>page license</page_license>
+    <page_load_alone>page load alone</page_load_alone>
+    <page_load_tag>page load tag</page_load_tag>
+    <page_load_type>page load type</page_load_type>
+    <page_name>page name</page_name>
+    <page_name_is_duplicate>page name is duplicate</page_name_is_duplicate>
+    <page_path>page path</page_path>
+    <page_physical_name>page physical name</page_physical_name>
+    <page_physical_path>page physical path</page_physical_path>
+    <page_public_access_show>page public access show</page_public_access_show>
+    <page_public_site>page public site</page_public_site>
+    <page_query_string>page query string</page_query_string>
+    <page_release_date>page release date</page_release_date>
+    <page_revisit_after_meta>page revisit after meta</page_revisit_after_meta>
+    <page_rights_meta>page rights meta</page_rights_meta>
+    <page_robots_meta>page robots meta</page_robots_meta>
+    <page_show_link_in_site>page show link in site</page_show_link_in_site>
+    <page_site>page site</page_site>
+    <page_static_head>page static head</page_static_head>
+    <page_style>page style</page_style>
+    <page_template>page template</page_template>
+    <page_time_create>page time create</page_time_create>
+    <page_title>page title</page_title>
+    <page_use_application_name_meta>page use application name meta</page_use_application_name_meta>
+    <page_use_author_meta>page use author meta</page_use_author_meta>
+    <page_use_classification_meta>page use classification meta</page_use_classification_meta>
+    <page_use_copyright_meta>page use copyright meta</page_use_copyright_meta>
+    <page_use_description_meta>page use description meta</page_use_description_meta>
+    <page_use_elanat>page use elanat</page_use_elanat>
+    <page_use_fetch>page use fetch</page_use_fetch>
+    <page_use_generator_meta>page use generator meta</page_use_generator_meta>
+    <page_use_html>page use html</page_use_html>
+    <page_use_item>page use item</page_use_item>
+    <page_use_javascript_inactive_refresh_meta>page use javascript inactive refresh meta</page_use_javascript_inactive_refresh_meta>
+    <page_use_keywords_meta>page use keywords meta</page_use_keywords_meta>
+    <page_use_language>page use language</page_use_language>
+    <page_use_language_meta>page use language meta</page_use_language_meta>
+    <page_use_load_tag>page use load tag</page_use_load_tag>
+    <page_use_module>page use module</page_use_module>
+    <page_use_plugin>page use plugin</page_use_plugin>
+    <page_use_replace_part>page use replace part</page_use_replace_part>
+    <page_use_revisit_after_meta>page use revisit after meta</page_use_revisit_after_meta>
+    <page_use_rights_meta>page use rights meta</page_use_rights_meta>
+    <page_use_robots_meta>page use robots meta</page_use_robots_meta>
+    <page_use_static_head>page use static head</page_use_static_head>
+    <page_version>page version</page_version>
+    <page_visit>page visit</page_visit>
+    <page_was_add>page was add</page_was_add>
+    <page_was_save_edit>page was save edit</page_was_save_edit>
+    <please_fill_page_path_field_because_this_is_necessary>please fill page path field because this is necessary</please_fill_page_path_field_because_this_is_necessary>
+    <please_fill_page_upload_field_because_this_is_necessary>please fill page upload field because this is necessary</please_fill_page_upload_field_because_this_is_necessary>
+    <priority_for_page>priority for page</priority_for_page>
+    <read_more>read more</read_more>
+    <save_page>save page</save_page>
+    <site_main_cache_parameters>site main cache parameters</site_main_cache_parameters>
+    <site_style_id>site style id</site_style_id>
+    <site_style_name>site style name</site_style_name>
+    <site_template_id>site template id</site_template_id>
+    <site_template_name>site template name</site_template_name>
+    <use_admin_main_cache>use admin main cache</use_admin_main_cache>
+    <use_page_path>use page path</use_page_path>
+    <use_site_main_cache>use site main cache</use_site_main_cache>
+    <user_id>user id</user_id>
+    <user_site_name>user site name</user_site_name>
+    <zip_file_is_corrupt>zip file is corrupt</zip_file_is_corrupt>
+
+  </add_ons_language>
+</add_ons_language_root>
