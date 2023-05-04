@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <add>add</add>
+    <add_patch>add patch</add_patch>
+    <information>information</information>
+    <patch>patch</patch>
+    <patch_active>patch active</patch_active>
+    <patch_author>patch author</patch_author>
+    <patch_author_website>patch author website</patch_author_website>
+    <patch_category>patch category</patch_category>
+    <patch_directory_path>patch directory path</patch_directory_path>
+    <patch_id>patch id</patch_id>
+    <patch_info>patch info</patch_info>
+    <patch_install_path>patch install path</patch_install_path>
+    <patch_license>patch license</patch_license>
+    <patch_name>patch name</patch_name>
+    <patch_name_is_duplicate>patch name is duplicate</patch_name_is_duplicate>
+    <patch_path>patch path</patch_path>
+    <patch_release_date>patch release date</patch_release_date>
+    <patch_static_head>patch static head</patch_static_head>
+    <patch_uninstall_path>patch uninstall path</patch_uninstall_path>
+    <patch_version>patch version</patch_version>
+    <patch_version_support>patch version support</patch_version_support>
+    <patch_was_add>patch was add</patch_was_add>
+    <please_fill_patch_path_field_because_this_is_necessary>please fill patch path field because this is necessary</please_fill_patch_path_field_because_this_is_necessary>
+    <please_fill_patch_upload_field_because_this_is_necessary>please fill patch upload field because this is necessary</please_fill_patch_upload_field_because_this_is_necessary>
+    <use_patch_path>use patch path</use_patch_path>
+    <zip_file_is_corrupt>zip file is corrupt</zip_file_is_corrupt>
+
+  </add_ons_language>
+</add_ons_language_root>
