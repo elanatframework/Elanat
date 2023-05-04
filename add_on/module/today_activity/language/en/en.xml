@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+
+  <add_ons_language>
+
+		<active>active</active>
+		<active_active_content>active active content</active_active_content>
+		<active_comment>active comment</active_comment>
+		<active_contact>active contact</active_contact>
+		<active_content>active content</active_content>
+		<active_foot_print>active foot print</active_foot_print>
+		<active_inactive_content>active inactive content</active_inactive_content>
+		<active_new_user>active new user</active_new_user>
+		<active_visit>active visit</active_visit>
+		<comment>comment</comment>
+		<contact>contact</contact>
+		<content>content</content>
+		<foot_print>foot print</foot_print>
+		<inactive>inactive</inactive>
+		<new_user>new user</new_user>
+		<save_today_activity_option>save today activity option</save_today_activity_option>
+		<today_activity>today activity</today_activity>
+		<today_activity_option>today activity option</today_activity_option>
+		<today_activity_option_was_save>today activity option was save</today_activity_option_was_save>
+		<visit>visit</visit>
+
+	</add_ons_language>
+</add_ons_language_root>

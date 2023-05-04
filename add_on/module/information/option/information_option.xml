@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<information_option_root>
+  <foot_print active="true" />
+  <visit active="true" />
+  <user active="true" />
+  <contact active="true" />
+  <comment active="true" />
+  <content active="true" />
+  <active_content active="true" />
+  <inactive_content active="true" />
+  <trash_content active="true" />
+  <draft_content active="true" />
+  <delay_content active="true" />
+  <admin_note_content active="true" />
+  <attachment active="true" />
+  <log_error active="true" />
+  <upload_size active="true" />
+  <tmp_size active="true" />
+</information_option_root>

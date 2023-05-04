@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<validation_root>
+  <validation_list>
+
+    <TextBox id="txt_ContactCount" type="number" label="contact_count" category="" start_range="1" end_range="10" important="true" />
+    <TextBox id="txt_CommentCount" type="number" label="comment_count" category="" start_range="1" end_range="10" important="true" />
+    <TextBox id="txt_AttachmentCount" type="number" label="attachment_count" category="" start_range="1" end_range="10" important="true" />
+    <TextBox id="txt_ContentCount" type="number" label="content_count" category="" start_range="1" end_range="10" important="true" />
+    <TextBox id="txt_FootPrintCount" type="number" label="foot_print_count" category="" start_range="1" end_range="10" important="true" />
+    <TextBox id="txt_UserSignUpCount" type="number" label="attachment_name" category="" start_range="1" end_range="10" important="true" />
+    <TextBox id="txt_ActiveUserCount" type="number" label="user_sign_up_count" category="" start_range="1" end_range="10" important="true" />
+
+  </validation_list>
+</validation_root>
