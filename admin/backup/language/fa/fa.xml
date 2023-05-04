@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <action_directory>پوشه action</action_directory>
+    <add_on_directory>پوشه add_on</add_on_directory>
+    <admin_directory>پوشه admin</admin_directory>
+    <all_file_and_directory>همه فایل ها و پوشه ها</all_file_and_directory>
+    <app_data_directory>پوشه App_Data</app_data_directory>
+    <backup_path>مسیر پشتیبان</backup_path>
+    <backup_physical_name>نام فیزیکی پشتیبان</backup_physical_name>
+    <backup_size>حجم پشتیبان</backup_size>
+    <backup_was_create>پشتیبان ایجاد شد</backup_was_create>
+    <backup>پشتیبان</backup>
+    <bin_directory>پوشه bin</bin_directory>
+    <client_directory>پوشه client</client_directory>
+    <database_backup_was_create>پشتیبان پایگاه داده ایجاد شد</database_backup_was_create>
+    <database>پایگاه داده</database>
+    <include_directory>پوشه include</include_directory>
+    <language_directory>پوشه language</language_directory>
+    <logs_directory>پوشه logs</logs_directory>
+    <make_backup>ایجاد پشتیبان</make_backup>
+    <member_directory>پوشه member</member_directory>
+    <page_directory>پوشه page</page_directory>
+    <please_fill_backup_path_field_because_this_is_necessary>لطفا فیلد مسیر پشتیبان را پر کنید چون ضروری است</please_fill_backup_path_field_because_this_is_necessary>
+    <please_fill_backup_upload_field_because_this_is_necessary>لطفا فیلد بارگذاری پشتیبان را پر کنید چون ضروری است</please_fill_backup_upload_field_because_this_is_necessary>
+    <robots_txt_file>فایل robots.txt</robots_txt_file>
+    <start_backup>شروع پشتیبان گیری</start_backup>
+    <start_upload>شروع بارگذاری</start_upload>
+    <template_directory>پوشه template</template_directory>
+    <upload_backup>بارگذاری پشتیبان</upload_backup>
+    <upload_directory>پوشه upload</upload_directory>
+    <use_backup_path>استفاده از مسیر پشتیبان</use_backup_path>
+    <web_config_file>فایل web.config</web_config_file>
+    <you_should_upload_bat_or_dat_extension>شما باید پسوند bat یا dat بارگذاری کنید</you_should_upload_bat_or_dat_extension>
+
+  </add_ons_language>
+</add_ons_language_root>
