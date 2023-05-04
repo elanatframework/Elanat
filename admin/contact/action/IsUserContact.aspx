@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="IsUserContact.aspx.cs" Inherits="elanat.ActionIsUserContact" %>

@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DeleteContact.aspx.cs" Inherits="elanat.ActionDeleteContact" %>

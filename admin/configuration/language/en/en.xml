@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <admin_dynamic_head>admin dynamic head</admin_dynamic_head>
+    <admin_global_location>admin global location</admin_global_location>
+    <admin_global_style>admin global style</admin_global_style>
+    <admin_global_template>admin global template</admin_global_template>
+    <admin_page_load>admin page load</admin_page_load>
+    <admin_script>admin script</admin_script>
+    <admin_static_head>admin static head</admin_static_head>
+    <after_load_path_reference>after load path reference</after_load_path_reference>
+    <authorized_extension>authorized extension</authorized_extension>
+    <before_load_path_reference>before load path reference</before_load_path_reference>
+    <box>box</box>
+    <calendar>calendar</calendar>
+    <captcha>captcha</captcha>
+    <client_file_extensions>client file extensions</client_file_extensions>
+    <config>config</config>
+    <config_was_save>config was save</config_was_save>
+    <configuration>configuration</configuration>
+    <content_icon>content icon</content_icon>
+    <default_page>default page</default_page>
+    <dynamic_extension>dynamic extension</dynamic_extension>
+    <event_reference>event reference</event_reference>
+    <file_extensions>file extensions</file_extensions>
+    <file_viewer>file viewer</file_viewer>
+    <foreign_key>foreign key</foreign_key>
+    <global_script>global script</global_script>
+    <global_style>global style</global_style>
+    <global_template>global template</global_template>
+    <link_protocol>link protocol</link_protocol>
+    <page_location>page location</page_location>
+    <reference>reference</reference>
+    <replace_part>replace part</replace_part>
+    <robots>robots</robots>
+    <role_bit_column_access>role bit column access</role_bit_column_access>
+    <save_config>save config</save_config>
+    <scheduled_tasks>scheduled tasks</scheduled_tasks>
+    <security>security</security>
+    <site_dynamic_head>site dynamic head</site_dynamic_head>
+    <site_global_location>site global location</site_global_location>
+    <site_global_style>site global style</site_global_style>
+    <site_global_template>site global template</site_global_template>
+    <site_page_load>site page load</site_page_load>
+    <site_script>site script</site_script>
+    <site_static_head>site static head</site_static_head>
+    <start_up>start up</start_up>
+    <struct>struct</struct>
+    <system>system</system>
+    <type>type</type>
+    <unauthorized>unauthorized</unauthorized>
+    <url_redirect>url redirect</url_redirect>
+    <url_rewrite>url rewrite</url_rewrite>
+    <web_config>web config</web_config>
+    <wysiwyg>wysiwyg</wysiwyg>
+    <you_do_not_have_access_to_this_file>you do not have access to this file</you_do_not_have_access_to_this_file>
+    
+  </add_ons_language>
+</add_ons_language_root>

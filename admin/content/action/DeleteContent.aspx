@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DeleteContent.aspx.cs" Inherits="elanat.ActionDeleteInactiveContent" %>

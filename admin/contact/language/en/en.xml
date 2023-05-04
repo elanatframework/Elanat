@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <active>active</active>
+    <add_contact_response>add contact response</add_contact_response>
+    <contact>contact</contact>
+    <contact_date_and_time_send>contact date and time send</contact_date_and_time_send>
+    <contact_date_send>contact date send</contact_date_send>
+    <contact_file_directory_path>contact file directory path</contact_file_directory_path>
+    <contact_file_physical_name>contact file physical name</contact_file_physical_name>
+    <contact_guest_about>contact guest about</contact_guest_about>
+    <contact_guest_address>contact guest address</contact_guest_address>
+    <contact_guest_birthday>contact guest birthday</contact_guest_birthday>
+    <contact_guest_birthday_day>contact guest birthday day</contact_guest_birthday_day>
+    <contact_guest_birthday_mount>contact guest birthday mount</contact_guest_birthday_mount>
+    <contact_guest_birthday_year>contact guest birthday year</contact_guest_birthday_year>
+    <contact_guest_city>contact guest city</contact_guest_city>
+    <contact_guest_country>contact guest country</contact_guest_country>
+    <contact_guest_email>contact guest email</contact_guest_email>
+    <contact_guest_gender>contact guest gender</contact_guest_gender>
+    <contact_guest_mobile_number>contact guest mobile number</contact_guest_mobile_number>
+    <contact_guest_name>contact guest name</contact_guest_name>
+    <contact_guest_phone_number>contact guest phone number</contact_guest_phone_number>
+    <contact_guest_postal_code>contact guest postal code</contact_guest_postal_code>
+    <contact_guest_public_email>contact guest public email</contact_guest_public_email>
+    <contact_guest_real_last_name>contact guest real last name</contact_guest_real_last_name>
+    <contact_guest_real_name>contact guest real name</contact_guest_real_name>
+    <contact_guest_state_or_province>contact guest state or province</contact_guest_state_or_province>
+    <contact_guest_website>contact guest website</contact_guest_website>
+    <contact_guest_zip_code>contact guest zip code</contact_guest_zip_code>
+    <contact_id>contact id</contact_id>
+    <contact_ip_address>contact ip address</contact_ip_address>
+    <contact_response>contact response</contact_response>
+    <contact_response_code>contact response code</contact_response_code>
+    <contact_response_text>contact response text</contact_response_text>
+    <contact_response_was_add>contact response was add</contact_response_was_add>
+    <contact_text>contact text</contact_text>
+    <contact_time_send>contact time send</contact_time_send>
+    <contact_title>contact title</contact_title>
+    <contact_type>contact type</contact_type>
+    <contact_upload_directory_value>contact upload directory value</contact_upload_directory_value>
+    <contact_upload_file_value>contact upload file value</contact_upload_file_value>
+    <contact_user_guest_email>contact user/guest email</contact_user_guest_email>
+    <contact_user_guest_name>contact user/guest name</contact_user_guest_name>
+    <contact_was_save_edit>contact was save edit</contact_was_save_edit>
+    <delete>delete</delete>
+    <delete_contact_file>delete contact file</delete_contact_file>
+    <edit>edit</edit>
+    <edit_contact>edit contact</edit_contact>
+    <female>female</female>
+    <file_path>file path</file_path>
+    <inactive>inactive</inactive>
+    <male>male</male>
+    <read_more>read more</read_more>
+    <save_contact>save contact</save_contact>
+    <unknown>unknown</unknown>
+    <upload_file>upload file</upload_file>
+    <user_id>user id</user_id>
+
+  </add_ons_language>
+</add_ons_language_root>

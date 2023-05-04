@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<item_view_root>
+  <![CDATA[item_search only char,varchar,nvarchar type]]>
+  <item_search_list> 
+ 	 <column>contact_title</column>
+ 	</item_search_list>
+  <item_view_list>
+    <view_table>
+      <column>contact_user_guest_name</column>
+      <column>contact_title</column>
+      <column>contact_date_and_time_send</column>
+      <column>contact_file_physical_name</column>
+    </view_table>
+    <view_more>
+      <column>contact_date_and_time_send</column>
+      <column>contact_date_send</column>
+      <column>contact_file_directory_path</column>
+      <column>contact_file_physical_name</column>
+      <column>contact_guest_about</column>
+      <column>contact_guest_address</column>
+      <column>contact_guest_birthday</column>
+      <column>contact_guest_city</column>
+      <column>contact_guest_country</column>
+      <column>contact_guest_email</column>
+      <column>contact_guest_gender</column>
+      <column>contact_guest_mobile_number</column>
+      <column>contact_guest_name</column>
+      <column>contact_guest_phone_number</column>
+      <column>contact_guest_postal_code</column>
+      <column>contact_guest_public_email</column>
+      <column>contact_guest_real_last_name</column>
+      <column>contact_guest_real_name</column>
+      <column>contact_guest_state_or_province</column>
+      <column>contact_guest_website</column>
+      <column>contact_guest_zip_code</column>
+      <column>contact_id</column>
+      <column>contact_ip_address</column>
+      <column>contact_response_code</column>
+      <column>contact_response_text</column>
+      <column>contact_text</column>
+      <column>contact_time_send</column>
+      <column>contact_title</column>
+      <column>contact_type</column>
+      <column>contact_user_guest_email</column>
+      <column>contact_user_guest_name</column>
+      <column>user_id</column>
+    </view_more>
+  </item_view_list>
+
+</item_view_root>
