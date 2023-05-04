@@ -1,0 +1,28 @@
+﻿.el_add_content
+{
+    margin-right: 10px;
+    min-width: 300px;
+    max-width: 900px;
+    float: left;
+    width: 100%;
+}
+
+.el_content_right_menu
+{
+    width:300px;
+    float:left;
+}
+
+#txt_ContentTitle
+{
+    width: calc(100% - 12px) !important;
+	max-width: 100% !important;
+	font-size: 18px;
+	background-position: calc(100% - -27px) -1793px !important;
+	padding-right: 0px !important;
+}
+
+#txt_ContentText
+{
+    height: 600px;
+}

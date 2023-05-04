@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <add>درج</add>
+    <add_admin_style>درج استایل ادمین</add_admin_style>
+    <admin_style>استایل ادمین</admin_style>
+    <admin_style_active>ادمین استایل فعال</admin_style_active>
+    <admin_style_author>سازنده استایل ادمین</admin_style_author>
+    <admin_style_directory_path>مسیر پوشه استایل ادمین</admin_style_directory_path>
+    <admin_style_id>شماره استایل ادمین</admin_style_id>
+    <admin_style_info>اطلاعات استایل ادمین</admin_style_info>
+    <admin_style_license>مجوز استایل ادمین</admin_style_license>
+    <admin_style_load_tag>تگ اجرای استایل ادمین</admin_style_load_tag>
+    <admin_style_name>نام استایل ادمین</admin_style_name>
+    <admin_style_name_is_duplicate>نام استایل ادمین تکراری است</admin_style_name_is_duplicate>
+    <admin_style_path>مسیر استایل ادمین</admin_style_path>
+    <admin_style_physical_name>نام فیزیکی استایل ادمین</admin_style_physical_name>
+    <admin_style_physical_path>مسیر فیزیکی استایل ادمین</admin_style_physical_path>
+    <admin_style_release_date>تاریخ انتشار استایل ادمین</admin_style_release_date>
+    <admin_style_responsive_support>پشتیبانی واکنشی استایل ادمین</admin_style_responsive_support>
+    <admin_style_right_to_left_language_support>پشتیبانی زبان های راست به چپ استایل ادمین</admin_style_right_to_left_language_support>
+    <admin_style_static_head>هدر ایستای استایل ادمین</admin_style_static_head>
+    <admin_style_template>قالب استایل ادمین</admin_style_template>
+    <admin_style_version>نسخه استایل ادمین</admin_style_version>
+    <admin_style_view_support>پشتیبانی نمایش استایل ادمین</admin_style_view_support>
+    <admin_style_was_add>استایل ادمین اضافه شد</admin_style_was_add>
+    <admin_view_style>نمایش استایل ادمین</admin_view_style>
+    <information>اطلاعات</information>
+    <please_fill_admin_style_path_field_because_this_is_necessary>لطفا فیلد مسیر استایل ادمین را پر کنید چون ضروری است</please_fill_admin_style_path_field_because_this_is_necessary>
+    <please_fill_admin_style_upload_field_because_this_is_necessary>لطفا فیلد بارگذاری استایل ادمین را پر کنید چون ضروری است</please_fill_admin_style_upload_field_because_this_is_necessary>
+    <use_admin_style_path>استفاده از مسیر استایل ادمین</use_admin_style_path>
+    <you_should_upload_zip_extension>شما باید پسوند zip بارگذاری کنید</you_should_upload_zip_extension>
+    <zip_file_is_corrupt>فایل زیپ معیوب است</zip_file_is_corrupt>
+
+  </add_ons_language>
+ </add_ons_language_root>

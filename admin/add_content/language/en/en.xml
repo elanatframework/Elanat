@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  
+  <add_ons_language>
+  
+    <access>access</access>
+    <add_content>add content</add_content>
+    <add_new_content>add new content</add_new_content>
+    <avatar_and_icon>avatar and icon</avatar_and_icon>
+    <category>category</category>
+    <content_access_show>content access show</content_access_show>
+    <content_always_on_top>content always on top</content_always_on_top>
+    <content_avatar>content avatar</content_avatar>
+    <content_comment_is_free>content comment is free</content_comment_is_free>
+    <content_date_create>content date create</content_date_create>
+    <content_icon>content icon</content_icon>
+    <content_password>content password</content_password>
+    <content_public_access_show>content public access show</content_public_access_show>
+    <content_source>content source</content_source>
+    <content_status>content status</content_status>
+    <content_text>content text</content_text>
+    <content_time_create>content time create</content_time_create>
+    <content_title>content title</content_title>
+    <content_type>content type</content_type>
+    <content_verify_comments>content verify comments</content_verify_comments>
+    <content_visit>content visit</content_visit>
+    <content_was_add>content was add</content_was_add>
+    <content_was_save_edit>content was save edit</content_was_save_edit>
+    <date_and_time>date and time</date_and_time>
+    <date_publish>date publish</date_publish>
+    <edit_content>edit content</edit_content>
+    <editor_template>editor template</editor_template>
+    <file_upload>file upload</file_upload>
+    <link_menu>link menu</link_menu>
+    <meta>meta</meta>
+    <meta_keywords>meta keywords</meta_keywords>
+    <password>password</password>
+    <read_more>read more</read_more>
+    <save_content>save content</save_content>
+    <select_avatar_from_list>select avatar from list</select_avatar_from_list>
+    <source>source</source>
+    <start_upload>start upload</start_upload>
+    <status>status</status>
+    <time_publish>time publish</time_publish>
+    <to_draft>to draft</to_draft>
+    <use_delay_publish>use delay publish</use_delay_publish>
+
+  
+</add_ons_language>
+  
+</add_ons_language_root>

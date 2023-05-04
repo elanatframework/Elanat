@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AdminStyleNewRow.aspx.cs" Inherits="elanat.ActionAdminStyleNewRow" %>
