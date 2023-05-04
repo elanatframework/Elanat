@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <add>add</add>
+    <add_extra_helper>add extra helper</add_extra_helper>
+    <edit_extra_helper>edit extra helper</edit_extra_helper>
+    <extra_helper>extra helper</extra_helper>
+    <extra_helper_access_show>extra helper access show</extra_helper_access_show>
+    <extra_helper_active>extra helper active</extra_helper_active>
+    <extra_helper_author>extra helper author</extra_helper_author>
+    <extra_helper_author_website>extra helper author website</extra_helper_author_website>
+    <extra_helper_cache_duration>extra helper cache duration</extra_helper_cache_duration>
+    <extra_helper_cache_parameters>extra helper cache parameters</extra_helper_cache_parameters>
+    <extra_helper_category>extra helper category</extra_helper_category>
+    <extra_helper_directory_path>extra helper directory path</extra_helper_directory_path>
+    <extra_helper_id>extra helper id</extra_helper_id>
+    <extra_helper_info>extra helper info</extra_helper_info>
+    <extra_helper_install_path>extra helper install path</extra_helper_install_path>
+    <extra_helper_license>extra helper license</extra_helper_license>
+    <extra_helper_load_tag>extra helper load tag</extra_helper_load_tag>
+    <extra_helper_load_type>extra helper load type</extra_helper_load_type>
+    <extra_helper_name>extra helper name</extra_helper_name>
+    <extra_helper_name_is_duplicate>extra helper name is duplicate</extra_helper_name_is_duplicate>
+    <extra_helper_path>extra helper path</extra_helper_path>
+    <extra_helper_physical_name>extra helper physical name</extra_helper_physical_name>
+    <extra_helper_physical_path>extra helper physical path</extra_helper_physical_path>
+    <extra_helper_public_access_show>extra helper public access show</extra_helper_public_access_show>
+    <extra_helper_release_date>extra helper release date</extra_helper_release_date>
+    <extra_helper_sort_index>extra helper sort index</extra_helper_sort_index>
+    <extra_helper_static_head>extra helper static head</extra_helper_static_head>
+    <extra_helper_uninstall_path>extra helper uninstall path</extra_helper_uninstall_path>
+    <extra_helper_use_elanat>extra helper use elanat</extra_helper_use_elanat>
+    <extra_helper_use_fetch>extra helper use fetch</extra_helper_use_fetch>
+    <extra_helper_use_item>extra helper use item</extra_helper_use_item>
+    <extra_helper_use_language>extra helper use language</extra_helper_use_language>
+    <extra_helper_use_module>extra helper use module</extra_helper_use_module>
+    <extra_helper_use_plugin>extra helper use plugin</extra_helper_use_plugin>
+    <extra_helper_use_replace_part>extra helper use replace part</extra_helper_use_replace_part>
+    <extra_helper_version>extra helper version</extra_helper_version>
+    <extra_helper_version_support>extra helper version support</extra_helper_version_support>
+    <extra_helper_was_add>extra helper was add</extra_helper_was_add>
+    <extra_helper_was_save_edit>extra helper was save edit</extra_helper_was_save_edit>
+    <information>information</information>
+    <please_fill_extra_helper_path_field_because_this_is_necessary>please fill extra_helper path field because this is necessary</please_fill_extra_helper_path_field_because_this_is_necessary>
+    <please_fill_extra_helper_upload_field_because_this_is_necessary>please fill extra_helper upload field because this is necessary</please_fill_extra_helper_upload_field_because_this_is_necessary>
+    <priority_for_extra_helper>priority for extra helper</priority_for_extra_helper>
+    <save_extra_helper>save extra helper</save_extra_helper>
+    <use_extra_helper_path>use extra helper path</use_extra_helper_path>
+    <you_should_upload_zip_extension>you should upload zip extension</you_should_upload_zip_extension>
+    <zip_file_is_corrupt>zip file is corrupt</zip_file_is_corrupt>
+
+  </add_ons_language>
+</add_ons_language_root>

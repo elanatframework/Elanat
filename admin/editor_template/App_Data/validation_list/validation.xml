@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<validation_root>
+  <validation_list>
+
+    <CheckBoxList id="cbxlst_EditorTemplateAccessShow" type="number" label="editor_template_access_show" category="" start_range="0" end_range="100000" important="false" client_injection_check="true" />
+    <FileUpload id="upd_EditorTemplatePath" type="file" label="editor_template_path" category="" max_file_size="100000000" important="false" />
+    <HiddenField id="hdn_EditorTemplateId" type="number" label="editor_template_id" category="" start_range="0" end_range="100000" important="true" />
+    <TextBox id="txt_EditorTemplateCacheDuration" type="number" label="editor_template_cache_duration" category="" start_range="0" end_range="100000" important="true" />
+    <TextBox id="txt_EditorTemplateCacheParameters" type="string" label="editor_template_cache_parameters" category="" min_count="0" max_length="200" important="false" />
+    <TextBox id="txt_EditorTemplateCategory" type="ul_string" label="editor_template_category" category="" min_count="0" max_length="50" important="false" />
+    <TextBox id="txt_EditorTemplatePath" type="string" label="editor_template_path" category="" min_count="0" max_length="100000" important="false" />
+    <TextBox id="txt_EditorTemplateSortIndex" type="number" label="editor_template_sort_index" category="" start_range="0" end_range="100000" important="false" />
+
+  </validation_list>
+</validation_root>

@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="InactiveEditorTemplate.aspx.cs" Inherits="elanat.ActionInactiveEditorTemplate" %>

@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="EditorTemplateNewRow.aspx.cs" Inherits="elanat.ActionEditorTemplateNewRow" %>
