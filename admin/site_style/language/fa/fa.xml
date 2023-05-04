@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <add>درج</add>
+    <add_site_style>درج استایل سایت</add_site_style>
+    <current_view_style>استایل نمایش کنونی</current_view_style>
+    <information>اطلاعات</information>
+    <please_fill_site_style_path_field_because_this_is_necessary>لطفا فیلد مسیر استایل سایت را پر کنید چون ضروری است</please_fill_site_style_path_field_because_this_is_necessary>
+    <please_fill_site_style_upload_field_because_this_is_necessary>لطفا فیلد بارگذاری استایل سایت را پر کنید چون ضروری است</please_fill_site_style_upload_field_because_this_is_necessary>
+    <site_style>استایل سایت</site_style>
+    <site_style_active>استایل سایت فعال</site_style_active>
+    <site_style_author>سازنده استایل سایت</site_style_author>
+    <site_style_directory_path>مسیر پوشه استایل سایت</site_style_directory_path>
+    <site_style_id>شماره استایل سایت</site_style_id>
+    <site_style_info>اطلاعات استایل سایت</site_style_info>
+    <site_style_license>مجوز استایل سایت</site_style_license>
+    <site_style_load_tag>تگ اجرای استایل سایت</site_style_load_tag>
+    <site_style_name>نام استایل سایت</site_style_name>
+    <site_style_name_is_duplicate>نام استایل سایت تکراری است</site_style_name_is_duplicate>
+    <site_style_path>مسیر استایل سایت</site_style_path>
+    <site_style_physical_name>نام فیزیکی استایل سایت</site_style_physical_name>
+    <site_style_physical_path>مسیر پوشه استایل سایت</site_style_physical_path>
+    <site_style_release_date>تاریخ انتشار استایل سایت</site_style_release_date>
+    <site_style_responsive_support>پشتیبانی واکشی استایل سایت</site_style_responsive_support>
+    <site_style_right_to_left_language_support>پشتیبانی زبان های راست به چپ استایل سایت</site_style_right_to_left_language_support>
+    <site_style_static_head>هدر ایستای استایل سایت</site_style_static_head>
+    <site_style_template>قالب استایل سایت</site_style_template>
+    <site_style_version>نسخه استایل سایت</site_style_version>
+    <site_style_view_support>پشتیبانی نمایش استایل سایت</site_style_view_support>
+    <site_style_was_add>استایل سایت اضافه شد</site_style_was_add>
+    <use_site_style_path>استفاده از مسیر استایل سایت</use_site_style_path>
+    <you_should_upload_zip_extension>شما باید پسوند zip بارگذاری کنید</you_should_upload_zip_extension>
+	<zip_file_is_corrupt>فایل زیپ معیوب است</zip_file_is_corrupt>t>
+    
+  </add_ons_language>
+</add_ons_language_root>

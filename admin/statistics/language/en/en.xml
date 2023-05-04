@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <browser_and_os_info>browser and os info</browser_and_os_info>
+    <current_directory>current directory</current_directory>
+    <false>false</false>
+    <is_64_bit_operating_system>is 64 bit operating system</is_64_bit_operating_system>
+    <is_64_bit_process>is 64 bit process</is_64_bit_process>
+    <logical_drives>logical drives</logical_drives>
+    <machine_name>machine name</machine_name>
+    <os_platform>os platform</os_platform>
+    <os_version>os version</os_version>
+    <processor_count>processor count</processor_count>
+    <statistics>statistics</statistics>
+    <system>system</system>
+    <system_page_size>system page size</system_page_size>
+    <tick_count>tick count</tick_count>
+    <true>true</true>
+    <user_domain_name>user domain name</user_domain_name>
+    <user_interactive>user interactive</user_interactive>
+    <user_name>user name</user_name>
+    <version>version</version>
+    <web_server_name>web server name</web_server_name>
+    <working_set>working set</working_set>
+
+  </add_ons_language>
+</add_ons_language_root>
