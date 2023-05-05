@@ -96,7 +96,7 @@ namespace elanat
             CurrentClientObjectClass ccoc = new CurrentClientObjectClass();
             string QueryString = "";
             QueryString += "user_id=" + ccoc.UserId;
-            QueryString += "&url_path=" + Path.GetTextBeforeValue("?");
+            QueryString += "&path=" + Path.GetTextBeforeValue("?");
 
             if (Path.Contains("?"))
                 QueryString += "&" + Path.GetTextAfterValue("?");
