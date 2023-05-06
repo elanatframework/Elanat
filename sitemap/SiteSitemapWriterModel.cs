@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Data.SqlClient;
@@ -143,7 +143,7 @@ namespace elanat
 
                     TmpPageListItemStruct = TmpPageListItemStruct.Replace("$_asp site_url_path;", siteMainUrl);
                     TmpPageListItemStruct = TmpPageListItemStruct.Replace("$_asp page_global_name;", item.Value);
-                    TmpPageListItemStruct = TmpPageListItemStruct.Replace("$_asp priority;", "1");
+                    TmpPageListItemStruct = TmpPageListItemStruct.Replace("$_asp priority;", "6");
 
                     TmpPageListItemStruct = TmpPageListItemStruct.Replace("$_asp extra_page_url_value;", evc.GetPageUrlValue());
 
