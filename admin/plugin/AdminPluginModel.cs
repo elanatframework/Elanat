@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.IO;
@@ -477,6 +477,9 @@ namespace elanat
             }
             else
             {
+                if (string.IsNullOrEmpty(PluginNameValue))
+                    PluginNameValue = PluginFilePhysicalName.GetTextBeforeLastValue(".");
+
                 string PluginPath = FileAndDirectory.GetNewDirectoryNameIfDirectoryExist(HttpContext.Current.Server.MapPath(StaticObject.SitePath + "plugin/"), PluginNameValue);
                 CurrentClientObjectClass ccoc = new CurrentClientObjectClass();
 
@@ -484,7 +487,7 @@ namespace elanat
                 XmlDocument NewCatalogDocument = new XmlDocument();
                 NewCatalogDocument.Load(HttpContext.Current.Server.MapPath(StaticObject.SitePath + "App_Data/elanat_system_data/empty_patern/plugin/catalog.xml"));
 
-                NewCatalogDocument.SelectSingleNode("plugin_catalog_root/plugin_name").Attributes["value"].Value = (string.IsNullOrEmpty(PluginNameValue)) ? DirectoryName : PluginNameValue;
+                NewCatalogDocument.SelectSingleNode("plugin_catalog_root/plugin_name").Attributes["value"].Value = PluginNameValue;
                 NewCatalogDocument.SelectSingleNode("plugin_catalog_root/plugin_directory_path").Attributes["value"].Value = PluginPath;
                 NewCatalogDocument.SelectSingleNode("plugin_catalog_root/plugin_physical_name").Attributes["value"].Value = PluginFilePhysicalName;
                 NewCatalogDocument.SelectSingleNode("plugin_catalog_root/plugin_replace").Attributes["use_language"].Value = PluginUseLanguageValue.BooleanToTrueFalse();
