@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Web;
 using System.Xml;
 using System.Collections.Specialized;
@@ -17,7 +17,6 @@ namespace elanat.Scripts
         string CurrentStyleId = "0";
         string CurrentTemplateId = "0";
         string CurrentLanguageId = "0";
-        string CurrentMetaKeywordsValue = "";
         string CurrentQueryString = "";
         string CurrentDateFormat = "";
         string CurrentTimeFormat = "";
@@ -468,13 +467,20 @@ namespace elanat.Scripts
             }
 
             if (dup.PageUseCopyrightMeta.ZeroOneToBoolean())
+            {
                 CurrentUseCopyrightMeta = dup.PageUseCopyrightMeta;
+                CurrentCopyrightMeta = dup.PageCopyrightMeta;
+            }
 
             if (dup.PageUseLanguageMeta.ZeroOneToBoolean())
                 CurrentUseLanguageMeta = dup.PageUseLanguageMeta;
 
             if (dup.PageUseRobotsMeta.ZeroOneToBoolean())
+            {
                 CurrentUseRobotsMeta = dup.PageUseRobotsMeta;
+                CurrentRobotsMeta = dup.PageRobotsMeta;
+
+            }
 
             if (dup.PageUseApplicationNameMeta.ZeroOneToBoolean())
                 CurrentUseApplicationName = dup.PageUseApplicationNameMeta;
@@ -1189,12 +1195,11 @@ namespace elanat.Scripts
             hsdh.ShowDynamicMetaRobots = dup.PageUseRobotsMeta.ZeroOneToBoolean();
 
             hsdh.DynamicMetaAapplicationNameValue = CurrentMetaAapplicationName;
-            hsdh.DynamicMetaAuthorValue = CurrentAuthorMeta;
             hsdh.DynamicMetaClassificationValue = CurrentClassificationMeta;
             hsdh.DynamicMetaCopyrightValue = CurrentCopyrightMeta;
             hsdh.DynamicMetaDescriptionValue = CurrentDescriptionMeta;
             hsdh.DynamicMetaGeneratorValue = CurrentMetaGenerator;
-            hsdh.DynamicMetaKeywordsValue = CurrentMetaKeywordsValue;
+            hsdh.DynamicMetaKeywordsValue = CurrentKeywordsMeta;
             hsdh.DynamicMetaLanguageValue = CurrentLanguageGlobalName;
             hsdh.DynamicMetaRevisitAfterValue = CurrentRevisitAfterMeta;
             hsdh.DynamicMetaRightValue = CurrentRightsMeta;
