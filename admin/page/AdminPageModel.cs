@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Data.SqlClient;
@@ -547,6 +547,9 @@ namespace elanat
             }
             else
             {
+                if (string.IsNullOrEmpty(PageNameValue))
+                    PageNameValue = PageFilePhysicalName.GetTextBeforeLastValue(".");
+
                 string PagePath = FileAndDirectory.GetNewDirectoryNameIfDirectoryExist(HttpContext.Current.Server.MapPath(StaticObject.SitePath + "page/"), PageGlobalNameValue);
                 CurrentClientObjectClass ccoc = new CurrentClientObjectClass();
 
@@ -555,7 +558,7 @@ namespace elanat
                 NewCatalogDocument.Load(HttpContext.Current.Server.MapPath(StaticObject.SitePath + "App_Data/elanat_system_data/empty_patern/page/catalog.xml"));
 
                 NewCatalogDocument.SelectSingleNode("page_catalog_root/page_global_name").Attributes["value"].Value = (string.IsNullOrEmpty(PageGlobalNameValue)) ? DirectoryName : PageGlobalNameValue;
-                NewCatalogDocument.SelectSingleNode("page_catalog_root/page_name").Attributes["value"].Value = (string.IsNullOrEmpty(PageNameValue)) ? DirectoryName : PageNameValue;
+                NewCatalogDocument.SelectSingleNode("page_catalog_root/page_name").Attributes["value"].Value = PageNameValue;
                 NewCatalogDocument.SelectSingleNode("page_catalog_root/page_directory_path").Attributes["value"].Value = PagePath;
                 NewCatalogDocument.SelectSingleNode("page_catalog_root/page_physical_name").Attributes["value"].Value = PageFilePhysicalName;
                 NewCatalogDocument.SelectSingleNode("page_catalog_root/page_replace").Attributes["use_language"].Value = PageUseLanguageValue.BooleanToTrueFalse();
