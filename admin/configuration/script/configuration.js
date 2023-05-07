@@ -1,4 +1,4 @@
-﻿function el_CodeMirrorIssues()
+function el_CodeMirrorIssues()
 {
     var ConfigText = editor.getValue();
 
@@ -21,6 +21,8 @@ function el_SetCodeMirror(obj, ConfigName, MimeType)
             document.getElementById("txt_Config").innerHTML = xmlhttp.responseText;
             
             editor = CodeMirror.fromTextArea(document.getElementById("txt_Config"), { lineNumbers: true, matchBrackets: true, lineWrapping: true, mode: MimeType, });
+
+            editor.setValue(document.getElementById("txt_Config").innerText); 
         }
 
         if (xmlhttp.status != 0 && (xmlhttp.readyState == 0 || xmlhttp.status > 200))
