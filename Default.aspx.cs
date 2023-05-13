@@ -39,7 +39,6 @@ namespace elanat.Scripts
         string CurrentUseLanguageMeta = "";
         string CurrentUseRobotsMeta = "";
         string CurrentUseApplicationName = "";
-        string CurrentAuthorMeta = "";
         string CurrentCopyrightMeta = "";
         string CurrentRobotsMeta = "";
         string CurrentUseGeneratorMeta = "";
