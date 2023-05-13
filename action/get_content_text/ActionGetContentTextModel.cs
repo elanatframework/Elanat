@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Data.SqlClient;
@@ -84,7 +84,7 @@ namespace elanat
 
 
                 // If Content Protection By Password
-                string ContentText = (string.IsNullOrEmpty(dbdr.dr["content_password"].ToString())) ? dbdr.dr["content_text"].ToString().Replace("<hr class=\"el_read_more\" />", null).Replace("&gt;", ">").Replace("&lt;", "<") : Template.GetSiteGlobalTemplate("part/show_protection_content_by_password").Replace("$_asp content_id;", dbdr.dr["content_id"].ToString()).Replace("$_asp captcha;", Security.GetCaptchaImage());
+                string ContentText = (string.IsNullOrEmpty(dbdr.dr["content_password"].ToString())) ? dbdr.dr["content_text"].ToString().Replace("<hr class=\"el_read_more\">", null).Replace("&gt;", ">").Replace("&lt;", "<") : Template.GetSiteGlobalTemplate("part/show_protection_content_by_password").Replace("$_asp content_id;", dbdr.dr["content_id"].ToString()).Replace("$_asp captcha;", Security.GetCaptchaImage());
 
                 HttpContext.Current.Response.Write(ContentText);
             }
