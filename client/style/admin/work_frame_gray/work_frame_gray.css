@@ -1,4 +1,4 @@
-﻿::selection
+::selection
 {
     background: #ddd none repeat scroll 0% 0%;
     color: #444;
@@ -581,6 +581,12 @@ table {
     cursor: pointer;
     color: black;
     text-align: center;
+    font-size: 12px;
+}
+
+.avatar_list .el_delete
+{
+    margin: -15px;
 }
 
 .el_content_avatar_image 
