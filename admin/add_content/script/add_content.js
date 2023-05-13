@@ -1,6 +1,6 @@
-﻿function el_AddReadMoreToWysiwyg()
+function el_AddReadMoreToWysiwyg()
 {
-    el_InsertContentToWysiwyg("<hr class=\"el_read_more\" />");
+    el_InsertContentToWysiwyg("<hr class=\"el_read_more\">");
 }
 
 function el_GetContentIcon()
