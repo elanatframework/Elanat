@@ -62,7 +62,7 @@
                     <select id="ddlst_Language" name="ddlst_Language" class="el_alone_select_input">
                         <%=model.LanguageOptionListValue %>
                     </select>
-                    <input id="btn_Login" name="btn_Login" type="submit" class="el_button_input" value="<%=model.LoginLanguage%>" onclick="el_AjaxPostBack(this, true, 'frm_SiteLogin')" />
+                    <input id="btn_Login" name="btn_Login" type="submit" class="el_button_input" value="<%=model.LoginLanguage%>" onclick="el_AjaxPostBack(this, true)" />
                 </div>
             </div>
                 
