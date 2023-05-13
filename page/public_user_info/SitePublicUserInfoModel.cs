@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Data.SqlClient;
@@ -73,7 +73,7 @@ namespace elanat
         public void SetValue(string UserId)
         {
             // Set Language
-            AddOnsLanguage aol = new AddOnsLanguage(StaticObject.GetCurrentSiteGlobalLanguage(), StaticObject.SitePath + "action/get_user_info/");
+            AddOnsLanguage aol = new AddOnsLanguage(StaticObject.GetCurrentSiteGlobalLanguage(), StaticObject.SitePath + "page/public_user_info/");
             UserInfoTitleLanguage = aol.GetAddOnsLanguage("user_info");
             ProfileHeadLanguage = aol.GetAddOnsLanguage("profile");
             UserIsOnlineLanguage = aol.GetAddOnsLanguage("user_is_online");
