@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Diagnostics;
@@ -275,7 +275,7 @@ namespace elanat
                     int ContentId = int.Parse(dbdr.dr["content_id"].ToString());
                     string ContentText = (string.IsNullOrEmpty(AccessNeedContentText)) ? dbdr.dr["content_text"].ToString() : AccessNeedContentText;
 
-                    if (UseReadMore && ContentText.Contains("<hr class=\"el_read_more\" />"))
+                    if (UseReadMore && ContentText.Contains("<hr class=\"el_read_more\">"))
                     {
 
                         ReadMore = ReadMoreTemplate;
@@ -304,17 +304,17 @@ namespace elanat
                             {
                                 ReadMoreSaveContent = ReadMoreSaveContent.Replace("$_db content_id;", dbdr.dr["content_id"].ToString());
                                 ReadMoreSaveContent = ReadMoreSaveContent.Replace("$_db content_title;", dbdr.dr["content_title"].ToString());
-                                ReadMoreSaveContent = ReadMoreSaveContent.Replace("$_db content_text;", ContentText.Replace("<hr class=\"el_read_more\" />", null).Replace("&gt;", ">").Replace("&lt;", "<"));
+                                ReadMoreSaveContent = ReadMoreSaveContent.Replace("$_db content_text;", ContentText.Replace("<hr class=\"el_read_more\">", null).Replace("&gt;", ">").Replace("&lt;", "<"));
                             }
                             ReadMore += ReadMoreSaveContent;
                         }
-                        ContentText = ContentText.Remove(ContentText.LastIndexOf("<hr class=\"el_read_more\" />"));
+                        ContentText = ContentText.Remove(ContentText.LastIndexOf("<hr class=\"el_read_more\">"));
                         ContentText += ReadMoreTextTemplate;
                         ReadMore = ReadMore.Replace("$_asp use_link;", UseLink);
                     }
                     else
                     {
-                        ContentText = ContentText.Replace("<hr class=\"el_read_more\" />", null);
+                        ContentText = ContentText.Replace("<hr class=\"el_read_more\">", null);
                         if (StaticObject.ContentTextCharacterLength > 0)
                             ContentText = ContentText.Substring(0, StaticObject.ContentTextCharacterLength);
                     }
@@ -639,7 +639,7 @@ namespace elanat
                 Content = Content.Replace("$_asp_lang visit;", VisitLanguage);
 
                 // If Content Protection By Password
-                Content = (string.IsNullOrEmpty(dbdr.dr["content_password"].ToString())) ? Content.Replace("$_db content_text;", dbdr.dr["content_text"].ToString().Replace("<hr class=\"el_read_more\" />", null).Replace("&gt;", ">").Replace("&lt;", "<")) : Content.Replace("$_db content_text;", Template.GetSiteGlobalTemplate("part/show_protection_content_by_password").Replace("$_asp content_id;", dbdr.dr["content_id"].ToString()).Replace("$_asp captcha;", Security.GetCaptchaImage()));
+                Content = (string.IsNullOrEmpty(dbdr.dr["content_password"].ToString())) ? Content.Replace("$_db content_text;", dbdr.dr["content_text"].ToString().Replace("<hr class=\"el_read_more\">", null).Replace("&gt;", ">").Replace("&lt;", "<")) : Content.Replace("$_db content_text;", Template.GetSiteGlobalTemplate("part/show_protection_content_by_password").Replace("$_asp content_id;", dbdr.dr["content_id"].ToString()).Replace("$_asp captcha;", Security.GetCaptchaImage()));
                 
                 Content = Content.Replace("$_db comment_count;", dbdr.dr["comment_count"].ToString());
                 Content = (ShowVisitInContent)? Content.Replace("$_db content_visit;", dbdr.dr["content_visit"].ToString()) : Content.Replace("$_db content_visit;", null);
@@ -711,7 +711,7 @@ namespace elanat
                 string StringContentText = dbdr.dr["content_text"].ToString();
                 db.Close();
 
-                StringContentText = StringContentText.Replace("<hr class=\"el_read_more\" />", "");
+                StringContentText = StringContentText.Replace("<hr class=\"el_read_more\">", "");
 
                 return StringContentText;
             }
