@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Data.SqlClient;
@@ -166,7 +166,7 @@ namespace elanat
                     TmpRssListItemStruct = RssListItemStruct;
 
                     // If Content Protection By Password
-                    string ContentText = (string.IsNullOrEmpty(dbdr.dr["content_password"].ToString())) ? dbdr.dr["content_text"].ToString().Replace("<hr class=\"el_read_more\" />", null).Replace("&gt;", ">").Replace("&lt;", "<") : Template.GetSiteTemplate("part/password_protection/protection_content_by_password");
+                    string ContentText = (string.IsNullOrEmpty(dbdr.dr["content_password"].ToString())) ? dbdr.dr["content_text"].ToString().Replace("<hr class=\"el_read_more\">", null).Replace("&gt;", ">").Replace("&lt;", "<") : Template.GetSiteTemplate("part/password_protection/protection_content_by_password");
 
                     if (UseRemoveHtmlTag)
                     {
