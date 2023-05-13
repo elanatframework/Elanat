@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.IO;
@@ -38,6 +38,9 @@ namespace elanat
 
             foreach (DirectoryInfo dir in dirget)
             {
+                if (dir.Name == "thumb")
+                    continue;
+
                 TmpDirectoryListItemTemplate = DirectoryListItemTemplate;
                 TmpDirectoryListItemTemplate = TmpDirectoryListItemTemplate.Replace("$_asp directory_name;", dir.Name);
                 SumDirectoryListItemTemplate += TmpDirectoryListItemTemplate;
