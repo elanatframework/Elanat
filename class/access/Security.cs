@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -282,6 +282,7 @@ namespace elanat
                 Lines.Add("user_name:" + ccoc.UserName);
                 Lines.Add("ip:" + Ip);
                 Lines.Add("error_text:" + ex.GetBaseException());
+                Lines.Add("inner_error_text:" + ex.InnerException);
 
 
                 string FileName = "";
@@ -367,6 +368,7 @@ namespace elanat
                 Lines.Add("user_name:guest");
                 Lines.Add("ip:none");
                 Lines.Add("error_text:" + ex.GetBaseException());
+                Lines.Add("inner_error_text:" + ex.InnerException);
 
 
                 string FileName = "";
