@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.IO;
@@ -155,7 +155,7 @@ namespace elanat
                 }
 
 
-                File.Copy(StaticObject.SitePath + "App_Data/tmp/" + DirectoryName + "/update/Install.aspx", StaticObject.AdminPath + "about/action/update_install/" + version.Attributes["value"].Value + ".aspx");
+                File.Copy(HttpContext.Current.Server.MapPath(StaticObject.SitePath + "App_Data/tmp/" + DirectoryName + "/update/Install.aspx"), HttpContext.Current.Server.MapPath(StaticObject.AdminPath + "/about/action/update_install/" + version.Attributes["value"].Value + ".aspx"));
 
                 PageLoader.LoadWithServer(StaticObject.AdminPath + "about/action/update_install/" + version.Attributes["value"].Value + ".aspx");
 
@@ -175,13 +175,16 @@ namespace elanat
                 rf.AddLocalMessage(Language.GetAddOnsLanguage("elanat_was_update", StaticObject.GetCurrentAdminGlobalLanguage(), StaticObject.AdminPath + "/about/"), "success");
                 rf.AddLocalMessage(version.Attributes["value"].Value, "help");
                 rf.AddReturnFunction("el_KeppLoginAjaxInstall('" + version.Attributes["value"].Value + "')");
-                rf.RedirectToResponseFormPage();
 
 
                 // Add Reference
                 ReferenceClass rc = new ReferenceClass();
                 rc.StartEvent("update", version.Attributes["value"].Value);
+
+                rf.RedirectToResponseFormPage();
             }
+
+            CheckNewUpdate();
         }
 
         public void CheckNewUpdate()
@@ -189,25 +192,24 @@ namespace elanat
             string ElanatSystemPath = ElanatConfig.GetNode("elanat/site_address").InnerText;
             string ElanatSystemVersion = ElanatConfig.GetNode("elanat/version").Attributes["value"].Value;
 
+            ResponseForm rf = new ResponseForm(StaticObject.GetCurrentAdminGlobalLanguage());
+
             string ElanatLastVesrsion = PageLoader.LoadForeignPage(ElanatSystemPath + "/service/last_version/");
             if (ElanatLastVesrsion == ElanatSystemVersion)
-                ResponseForm.WriteLocalAlone(Language.GetAddOnsLanguage("is_up_to_date", StaticObject.GetCurrentAdminGlobalLanguage(), StaticObject.AdminPath + "/about/").Replace("$_asp elanat_system_version;", ElanatLastVesrsion), "success");
+                rf.AddLocalMessage(Language.GetAddOnsLanguage("is_up_to_date", StaticObject.GetCurrentAdminGlobalLanguage(), StaticObject.AdminPath + "/about/").Replace("$_asp elanat_system_version;", ElanatLastVesrsion), "success");
             else
             {
-                ResponseForm rf = new ResponseForm(StaticObject.GetCurrentAdminGlobalLanguage());
                 rf.AddLocalMessage(Language.GetAddOnsLanguage("update_is_available", StaticObject.GetCurrentAdminGlobalLanguage(), StaticObject.AdminPath + "/about/").Replace("$_asp elanat_system_version;", ElanatLastVesrsion), "success");
                 rf.AddPageLoad(StaticObject.AdminPath + "/about/action/NewUpdate.aspx", "div_Update");
                 rf.AddReturnFunction("el_RemoveTag('btn_CheckNewUpdate')");
-                rf.RedirectToResponseFormPage();
-
-                UpdateCssClass = UpdateCssClass.DeleteHtmlClass("el_hidden");
-                UpdateCssClass = UpdateCssClass.AddHtmlClass("el_zone");
             }
 
 
             // Add Reference
             ReferenceClass rc = new ReferenceClass();
             rc.StartEvent("check_new_update", DateAndTime.GetDate("yyyy/MM/dd HH:mm:ss"));
+
+            rf.RedirectToResponseFormPage();
         }
     }
 }
