@@ -1,7 +1,8 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Linq;
+using System.Net.Mail;
 using System.Text.RegularExpressions;
 using System.Web;
 using System.Web.UI.WebControls;
@@ -179,12 +180,15 @@ namespace elanat
             if (string.IsNullOrEmpty(Text))
                 return false;
 
-            Regex re = new Regex(Text, RegexOptions.IgnoreCase);
-
-            if (re.IsMatch(@"^(("")("".+?(?<!\\)""@)|(([0-9a-z]((\.(?!\.))|[-!#\$%&'\*\+/=\?\^`\{\}\|~\w])*)(?<=[0-9a-z])@))((\[)(\[(\d{1,3}\.){3}\d{1,3}\])|(([0-9a-z][-0-9a-z]*[0-9a-z]*\.)+[a-z0-9][\-a-z0-9]{0,22}[a-z0-9]))$"))
+            try
+            {
+                MailAddress mail = new MailAddress(Text);
                 return true;
-
-            return false;
+            }
+            catch (FormatException)
+            {
+                return false;
+            }
         }
 
         public static bool ZeroOneToBoolean(this int Value)
