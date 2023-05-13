@@ -275,14 +275,15 @@ namespace elanat
                 Random rand = new Random();
 
                 List<string> Lines = new List<string>();
-                Lines.Add("error_title:" + ex.Message);
-                Lines.Add("path:" + Path);
-                Lines.Add("date:" + Date);
-                Lines.Add("time:" + DateAndTime.GetTime("HH:mm:ss"));
-                Lines.Add("user_name:" + ccoc.UserName);
-                Lines.Add("ip:" + Ip);
-                Lines.Add("error_text:" + ex.GetBaseException());
-                Lines.Add("inner_error_text:" + ex.InnerException);
+                Lines.Add("error_title=" + ex.Message);
+                Lines.Add("path=" + Path);
+                Lines.Add("date=" + Date);
+                Lines.Add("time=" + DateAndTime.GetTime("HH:mm:ss"));
+                Lines.Add("user_name=" + ccoc.UserName);
+                Lines.Add("ip=" + Ip);
+                Lines.Add("error_text=" + ex.GetBaseException());
+                Lines.Add("inner_error_title=" + ex.InnerException.Message);
+                Lines.Add("inner_error_text=" + ex.InnerException.GetBaseException());
 
 
                 string FileName = "";
@@ -323,13 +324,13 @@ namespace elanat
                 Random rand = new Random();
 
                 List<string> Lines = new List<string>();
-                Lines.Add("error_title:" + ErrorTitle);
-                Lines.Add("path:" + Path);
-                Lines.Add("date:" + Date);
-                Lines.Add("time:" + DateAndTime.GetTime("HH:mm:ss"));
-                Lines.Add("user_name:" + ccoc.UserName);
-                Lines.Add("ip:" + Ip);
-                Lines.Add("error_text:" + ErrorText);
+                Lines.Add("error_title=" + ErrorTitle);
+                Lines.Add("path=" + Path);
+                Lines.Add("date=" + Date);
+                Lines.Add("time=" + DateAndTime.GetTime("HH:mm:ss"));
+                Lines.Add("user_name=" + ccoc.UserName);
+                Lines.Add("ip=" + Ip);
+                Lines.Add("error_text=" + ErrorText);
 
 
                 string FileName = "";
@@ -361,14 +362,15 @@ namespace elanat
                 Random rand = new Random();
 
                 List<string> Lines = new List<string>();
-                Lines.Add("error_title:" + ex.Message);
-                Lines.Add("path:none");
-                Lines.Add("date:" + Date);
-                Lines.Add("time:" + Time);
-                Lines.Add("user_name:guest");
-                Lines.Add("ip:none");
-                Lines.Add("error_text:" + ex.GetBaseException());
-                Lines.Add("inner_error_text:" + ex.InnerException);
+                Lines.Add("error_title=" + ex.Message);
+                Lines.Add("path=none");
+                Lines.Add("date=" + Date);
+                Lines.Add("time=" + Time);
+                Lines.Add("user_name=guest");
+                Lines.Add("ip=none");
+                Lines.Add("error_text=" + ex.GetBaseException());
+                Lines.Add("inner_error_title=" + ex.InnerException.Message);
+                Lines.Add("inner_error_text=" + ex.InnerException.GetBaseException());
 
 
                 string FileName = "";
