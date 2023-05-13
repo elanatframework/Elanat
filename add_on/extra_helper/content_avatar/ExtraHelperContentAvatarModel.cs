@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.IO;
@@ -62,6 +62,9 @@ namespace elanat
 
             foreach (DirectoryInfo dir in dirget)
             {
+                if (dir.Name == "thumb")
+                    continue;
+
                 TmpDirectoryListItemTemplate = DirectoryListItemTemplate;
                 TmpDirectoryListItemTemplate = TmpDirectoryListItemTemplate.Replace("$_asp directory_name;", dir.Name);
                 SumDirectoryListItemTemplate += TmpDirectoryListItemTemplate;
@@ -74,6 +77,9 @@ namespace elanat
 
             foreach (FileInfo file in fileInfo)
             {
+                if (file.Name == "none.png")
+                    continue;
+
                 TmpContentAvatarListItemTemplate = ContentAvatarListItemTemplate;
                 TmpContentAvatarListItemTemplate = TmpContentAvatarListItemTemplate.Replace("$_asp file_name;", file.Name);
                 TmpContentAvatarListItemTemplate = TmpContentAvatarListItemTemplate.Replace("$_asp parent_directory_path;", PathValue + "/");
@@ -151,13 +157,10 @@ namespace elanat
 
 
             // Create Thumbnail Image
-            if (ElanatConfig.GetNode("file_and_directory/auto_create_thumbnail_image").Attributes["active"].Value == "true")
-            {
-                if (!System.IO.Directory.Exists(HttpContext.Current.Server.MapPath(StaticObject.SitePath + "client/image/content_avatar/" + PathValue + "/thumb/")))
-                    System.IO.Directory.CreateDirectory(HttpContext.Current.Server.MapPath(StaticObject.SitePath + "client/image/content_avatar/" + PathValue + "/thumb/"));
+            if (!System.IO.Directory.Exists(HttpContext.Current.Server.MapPath(StaticObject.SitePath + "client/image/content_avatar/" + PathValue + "/thumb/")))
+                System.IO.Directory.CreateDirectory(HttpContext.Current.Server.MapPath(StaticObject.SitePath + "client/image/content_avatar/" + PathValue + "/thumb/"));
 
-                FileAndDirectory.CreateThumbnailImage(StaticObject.SitePath + "client/image/content_avatar/" + PathValue + "/" + AvatarPhysicalName, StaticObject.SitePath + "client/image/content_avatar/" + PathValue + "/thumb/" + AvatarPhysicalName);
-            }
+            FileAndDirectory.CreateThumbnailImage(StaticObject.SitePath + "client/image/content_avatar/" + PathValue + "/" + AvatarPhysicalName, StaticObject.SitePath + "client/image/content_avatar/" + PathValue + "/thumb/" + AvatarPhysicalName);
 
 
             // Add Reference
