@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <template_root>
 
 <properties>
@@ -1564,7 +1564,7 @@
 	</directory_list_item>
 	<file_list_item use_elanat="true">
 		<![CDATA[
-		<div class="avatar_list" title="$_asp file_name;" style="background-image:url('$_elanat ::system site_path;client/image/content_avatar/$_asp parent_directory_path;$_asp file_name;')" onclick="el_AddContentAvatar('$_asp parent_directory_path;$_asp file_name;');el_CloseParentBox('div_ContentAvatarList')" ></div>
+		<div class="avatar_list" title="$_asp file_name;" style="background-image:url('$_elanat ::system site_path;client/image/content_avatar/$_asp parent_directory_path;thumb/$_asp file_name;')" onclick="el_AddContentAvatar('$_asp parent_directory_path;$_asp file_name;');el_CloseParentBox('div_ContentAvatarList')" ></div>
 		]]>
 	</file_list_item>
 	<none_file_item use_language="true" use_elanat="true">
@@ -1599,7 +1599,7 @@
 	</directory_list_item>
 	<file_list_item use_elanat="true">
 		<![CDATA[
-		<div class="avatar_list" title="$_asp file_name;" style="background-image:url('$_elanat ::system site_path;client/image/content_avatar/$_asp parent_directory_path;$_asp file_name;')"><div class="el_delete" onclick="el_DeleteAvatar(this,'$_asp file_name;'); return false;"></div></div>
+		<div class="avatar_list" title="$_asp file_name;" style="background-image:url('$_elanat ::system site_path;client/image/content_avatar/$_asp parent_directory_path;thumb/$_asp file_name;')"><div class="el_delete" onclick="el_DeleteAvatar(this,'$_asp file_name;'); return false;"></div></div>
 		]]>
 	</file_list_item>
 </content_avatar>
