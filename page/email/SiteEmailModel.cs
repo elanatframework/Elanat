@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Data.SqlClient;
@@ -98,11 +98,13 @@ namespace elanat
             CurrentClientObjectClass ccoc = new CurrentClientObjectClass();
             DateAndTime dat = new DateAndTime();
 
+
             string EmailBodyTemplate = Template.GetSiteTemplate("email/send_content_email");
             EmailBodyTemplate = EmailBodyTemplate.Replace("$_asp site_url;", HttpContext.Current.Request.Url.AbsoluteUri.Replace(HttpContext.Current.Request.Url.PathAndQuery, ""));
             EmailBodyTemplate = EmailBodyTemplate.Replace("$_asp site_path;", StaticObject.SitePath);
             EmailBodyTemplate = EmailBodyTemplate.Replace("$_asp local_date;", dat.GetLocalDate(ccoc.Calendar, DateAndTime.GetDate("yyyy/MM/dd")));
-            EmailBodyTemplate = EmailBodyTemplate.Replace("$_asp email_content;", dbdr.dr["content_text"].ToString());
+            string ContentText = (string.IsNullOrEmpty(dbdr.dr["content_password"].ToString())) ? dbdr.dr["content_text"].ToString() : Language.GetHandheldLanguage("content_protection_by_password", StaticObject.GetCurrentSiteGlobalLanguage());
+            EmailBodyTemplate = EmailBodyTemplate.Replace("$_asp email_content;", ContentText);
 
             db.Close();
 
