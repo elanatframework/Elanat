@@ -134,7 +134,7 @@ namespace elanat
             else
             {
                 TmpPageListItemStruct = TmpPageListItemStruct.Replace("$_asp extra_page_url_value;", "site/" + SiteGlobalName + "/");
-                TmpPageListItemStruct = TmpPageListItemStruct.Replace("$_asp priority;", ".9");
+                TmpPageListItemStruct = TmpPageListItemStruct.Replace("$_asp priority;", "0.9");
             }
 
             SumPageListItemStruct += TmpPageListItemStruct;
@@ -169,7 +169,7 @@ namespace elanat
 
                     TmpPageListItemStruct = TmpPageListItemStruct.Replace("$_asp site_url_path;", siteMainUrl);
                     TmpPageListItemStruct = TmpPageListItemStruct.Replace("$_asp page_global_name;", item.Value);
-                    TmpPageListItemStruct = TmpPageListItemStruct.Replace("$_asp priority;", "7");
+                    TmpPageListItemStruct = TmpPageListItemStruct.Replace("$_asp priority;", "0.7");
                     TmpPageListItemStruct = TmpPageListItemStruct.Replace("$_asp extra_page_url_value;", evc.GetPageUrlValue());
 
                     SumPageListItemStruct += TmpPageListItemStruct;
