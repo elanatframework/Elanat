@@ -140,6 +140,8 @@ namespace elanat
 
             SumPageListItemStruct += TmpPageListItemStruct;
 
+            XmlSitemapCount--;
+
 
             if ((XmlSitemapCount - lc.SitePageNameShowInSiteListItem.Length) >= 0)
             {
