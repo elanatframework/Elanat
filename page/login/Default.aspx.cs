@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -69,7 +69,7 @@ namespace elanat
             ccoc.AdminLanguageIsRightToLeft = dul.LanguageIsRightToLeft;
 
 
-            if (string.IsNullOrEmpty(model.UserNameOrUserEmailValue) || string.IsNullOrEmpty(model.PasswordValue) || (ccoc.CaptchaReleaseCount == 0 && string.IsNullOrEmpty(model.CaptchaTextValue)))
+            if (string.IsNullOrEmpty(model.UserNameOrUserEmailValue) || string.IsNullOrEmpty(model.PasswordValue))
                 ResponseForm.WriteLocalAlone(Language.GetAddOnsLanguage("you_should_fill_all_options", StaticObject.GetCurrentSiteGlobalLanguage(), StaticObject.SitePath + "page/login/"), "problem");
 
 
