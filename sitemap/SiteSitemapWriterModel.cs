@@ -129,12 +129,12 @@ namespace elanat
             if (ElanatConfig.GetNode("properties/default_site").Attributes["value"].Value == SiteGlobalName)
             {
                 TmpPageListItemStruct = TmpPageListItemStruct.Replace("$_asp extra_page_url_value;", "");
-                TmpPageListItemStruct = TmpPageListItemStruct.Replace("$_asp priority;", "10");
+                TmpPageListItemStruct = TmpPageListItemStruct.Replace("$_asp priority;", "1");
             }
             else
             {
                 TmpPageListItemStruct = TmpPageListItemStruct.Replace("$_asp extra_page_url_value;", "site/" + SiteGlobalName + "/");
-                TmpPageListItemStruct = TmpPageListItemStruct.Replace("$_asp priority;", "9");
+                TmpPageListItemStruct = TmpPageListItemStruct.Replace("$_asp priority;", ".9");
             }
 
             SumPageListItemStruct += TmpPageListItemStruct;
