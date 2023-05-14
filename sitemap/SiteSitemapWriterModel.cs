@@ -117,7 +117,7 @@ namespace elanat
 
 
             // Set Page Struct
-            string DefaultPage = dus.GetSiteDefaultPage(SiteId);
+            string DefaultPageId = dus.GetSiteDefaultPage(SiteId);
 
             lc.FillSitePageNameShowInSiteListItem(SiteId, StaticObject.GetCurrentSiteGlobalLanguage());
 
@@ -152,11 +152,11 @@ namespace elanat
                 evc.SiteName = dus.GetSiteNameBySiteId(ccoc.SiteId);
 
                 DataUse.Page dup = new DataUse.Page();
-
+                string DefaultPageGlobalName = dup.GetPageGlobalName(DefaultPageId);
 
                 foreach (ListItem item in lc.SitePageNameShowInSiteListItem)
                 {
-                    if (item.Value == DefaultPage)
+                    if (item.Value == DefaultPageGlobalName)
                         continue;
 
                     evc.PageId = dup.GetPageIdByPageGlobalName(item.Value);
