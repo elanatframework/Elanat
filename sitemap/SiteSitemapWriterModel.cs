@@ -117,9 +117,31 @@ namespace elanat
 
 
             // Set Page Struct
-            lc.FillSitePageNameListItem(SiteId, StaticObject.GetCurrentSiteGlobalLanguage());
+            string DefaultPage = dus.GetSiteDefaultPage(SiteId);
 
-            if ((XmlSitemapCount - lc.SitePageNameListItem.Length) >= 0)
+            lc.FillSitePageNameShowInSiteListItem(SiteId, StaticObject.GetCurrentSiteGlobalLanguage());
+
+            // Set Default Page
+            TmpPageListItemStruct = PageListItemStruct;
+
+            TmpPageListItemStruct = TmpPageListItemStruct.Replace("$_asp site_url_path;", siteMainUrl);
+            TmpPageListItemStruct = TmpPageListItemStruct.Replace("$_asp priority;", "10");
+
+            if (ElanatConfig.GetNode("default_site").Attributes["value"].Value == SiteGlobalName)
+            {
+                TmpPageListItemStruct = TmpPageListItemStruct.Replace("$_asp extra_page_url_value;", "");
+                TmpPageListItemStruct = TmpPageListItemStruct.Replace("$_asp priority;", "10");
+            }
+            else
+            {
+                TmpPageListItemStruct = TmpPageListItemStruct.Replace("$_asp extra_page_url_value;", "site/" + SiteGlobalName + "/");
+                TmpPageListItemStruct = TmpPageListItemStruct.Replace("$_asp priority;", "9");
+            }
+
+            SumPageListItemStruct += TmpPageListItemStruct;
+
+
+            if ((XmlSitemapCount - lc.SitePageNameShowInSiteListItem.Length) >= 0)
             {
                 // Set Extra Page Url Value
                 ExtraValue evc = new ExtraValue();
@@ -131,8 +153,11 @@ namespace elanat
                 DataUse.Page dup = new DataUse.Page();
 
 
-                foreach (ListItem item in lc.SitePageNameListItem)
+                foreach (ListItem item in lc.SitePageNameShowInSiteListItem)
                 {
+                    if (item.Value == DefaultPage)
+                        continue;
+
                     evc.PageId = dup.GetPageIdByPageGlobalName(item.Value);
                     evc.PageTitle = dup.GetPageTitleByPageId(evc.PageId);
 
@@ -143,8 +168,7 @@ namespace elanat
 
                     TmpPageListItemStruct = TmpPageListItemStruct.Replace("$_asp site_url_path;", siteMainUrl);
                     TmpPageListItemStruct = TmpPageListItemStruct.Replace("$_asp page_global_name;", item.Value);
-                    TmpPageListItemStruct = TmpPageListItemStruct.Replace("$_asp priority;", "6");
-
+                    TmpPageListItemStruct = TmpPageListItemStruct.Replace("$_asp priority;", "7");
                     TmpPageListItemStruct = TmpPageListItemStruct.Replace("$_asp extra_page_url_value;", evc.GetPageUrlValue());
 
                     SumPageListItemStruct += TmpPageListItemStruct;
@@ -295,7 +319,7 @@ namespace elanat
         private string GetSubCategoryPriority(string CategorySubCategoryCount)
         {
             float Space = float.Parse(CategorySubCategoryCount) + 1;
-            return "0." + Math.Round(30 + (50 / Space)).ToString();
+            return "0." + Math.Round(10 + (50 / Space)).ToString();
         }
 
         private string GetContentFreqTime(string Date1, string Date2, string Date3)
