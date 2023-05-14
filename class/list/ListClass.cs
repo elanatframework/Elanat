@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.IO;
@@ -1392,6 +1392,28 @@ namespace elanat
                     ListListItem.Add(new ListItem(Language.GetHandheldLanguage(dbdr.dr["page_global_name"].ToString(), GlobalLanguage), dbdr.dr["page_global_name"].ToString()));
 
             SitePageNameListItem = ListListItem.ToArray();
+
+            db.Close();
+        }
+
+        // Get Site Page Name Show In Site List Item
+        public ListItem[] SitePageNameShowInSiteListItem;
+        public void FillSitePageNameShowInSiteListItem(string SiteId, string GlobalLanguage)
+        {
+            DataBaseSocket db = new DataBaseSocket();
+            DataBaseDataReader dbdr = new DataBaseDataReader();
+            dbdr.dr = db.GetProcedure("get_all_page_list_by_site_id", "@site_id", SiteId);
+
+            List<ListItem> ListListItem = new List<ListItem>();
+
+            if (dbdr.dr != null && dbdr.dr.HasRows)
+                while (dbdr.dr.Read())
+                {
+                    if (dbdr.dr["page_show_link_in_site"].ToString().TrueFalseToBoolean())
+                        ListListItem.Add(new ListItem(Language.GetHandheldLanguage(dbdr.dr["page_global_name"].ToString(), GlobalLanguage), dbdr.dr["page_global_name"].ToString()));
+                }
+
+            SitePageNameShowInSiteListItem = ListListItem.ToArray();
 
             db.Close();
         }
