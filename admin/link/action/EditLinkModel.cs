@@ -13,7 +13,7 @@ namespace elanat
     {
         public string EditLinkLanguage { get; set; }
         public string LinkHrefLanguage { get; set; }
-        public string LinkRefLanguage { get; set; }
+        public string LinkRelLanguage { get; set; }
         public string LinkMenuLanguage { get; set; }
         public string LinkValueLanguage { get; set; }
         public string LinkTitleLanguage { get; set; }
