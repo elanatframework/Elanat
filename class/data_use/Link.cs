@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
@@ -13,6 +13,7 @@ namespace elanat.DataUse
         public string LinkValue = "";
         public string LinkTitle = "";
         public string LinkHref = "";
+        public string LinkRel = "";
         public string LinkTarget = "";
         public string LinkSortIndex = "";
         public string LinkActive = "";
@@ -49,7 +50,7 @@ namespace elanat.DataUse
         {
             DataBaseSocket db = new DataBaseSocket();
             DataBaseDataReader dbdr = new DataBaseDataReader();
-			dbdr.dr = db.GetProcedure("add_link", new List<string>() { "@link_href", "@link_protocol", "@link_sort_index", "@link_target", "@link_title", "@link_value", "@link_active" }, new List<string>() { LinkHref, LinkProtocol, LinkSortIndex, LinkTarget, LinkTitle, LinkValue, LinkActive });
+			dbdr.dr = db.GetProcedure("add_link", new List<string>() { "@link_href", "@link_protocol", "@link_sort_index", "@link_target", "@link_title", "@link_rel", "@link_value", "@link_active" }, new List<string>() { LinkHref, LinkProtocol, LinkSortIndex, LinkTarget, LinkTitle, LinkRel, LinkValue, LinkActive });
 
             dbdr.dr.Read();
 
@@ -61,7 +62,7 @@ namespace elanat.DataUse
         public void AddWithFillReturnDr()
         {
             ReturnDb = new DataBaseSocket();
-            ReturnDr = ReturnDb.GetProcedure("add_link", new List<string>() { "@link_href", "@link_protocol", "@link_sort_index", "@link_target", "@link_title", "@link_value", "@link_active" }, new List<string>() { LinkHref, LinkProtocol, LinkSortIndex, LinkTarget, LinkTitle, LinkValue, LinkActive });
+            ReturnDr = ReturnDb.GetProcedure("add_link", new List<string>() { "@link_href", "@link_protocol", "@link_sort_index", "@link_target", "@link_title", "@link_rel", "@link_value", "@link_active" }, new List<string>() { LinkHref, LinkProtocol, LinkSortIndex, LinkTarget, LinkTitle, LinkRel, LinkValue, LinkActive });
 
             ReturnDr.Read();
 
@@ -88,7 +89,7 @@ namespace elanat.DataUse
         public void Edit()
         {
             DataBaseSocket db = new DataBaseSocket();
-            db.SetProcedure("edit_link", new List<string>() { "@link_id", "@link_href", "@link_protocol", "@link_sort_index", "@link_target", "@link_title", "@link_value", "@link_active" }, new List<string>() { LinkId, LinkHref, LinkProtocol, LinkSortIndex, LinkTarget, LinkTitle, LinkValue, LinkActive });
+            db.SetProcedure("edit_link", new List<string>() { "@link_id", "@link_href", "@link_protocol", "@link_sort_index", "@link_target", "@link_title", "@link_rel", "@link_value", "@link_active" }, new List<string>() { LinkId, LinkHref, LinkProtocol, LinkSortIndex, LinkTarget, LinkTitle, LinkRel, LinkValue, LinkActive });
         }
 
         public void FillCurrentLink(string LinkId)
@@ -109,6 +110,7 @@ namespace elanat.DataUse
             LinkValue = dbdr.dr["link_value"].ToString();
             LinkTitle = dbdr.dr["link_title"].ToString();
             LinkHref = dbdr.dr["link_href"].ToString();
+            LinkRel = dbdr.dr["link_rel"].ToString();
             LinkTarget = dbdr.dr["link_target"].ToString();
             LinkSortIndex = dbdr.dr["link_sort_index"].ToString();
             LinkActive = dbdr.dr["link_active"].ToString().TrueFalseToZeroOne();
@@ -139,6 +141,7 @@ namespace elanat.DataUse
                 case "link_value": return LinkValue;
                 case "link_title": return LinkTitle;
                 case "link_href": return LinkHref;
+                case "link_rel": return LinkRel;
                 case "link_target": return LinkTarget;
                 case "link_sort_index": return LinkSortIndex;
                 case "link_active": return LinkActive;
@@ -159,6 +162,7 @@ namespace elanat.DataUse
             LinkValue = "";
             LinkTitle = "";
             LinkHref = "";
+            LinkRel = "";
             LinkTarget = "";
             LinkSortIndex = "";
             LinkActive = "";
