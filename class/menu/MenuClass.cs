@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
@@ -460,6 +460,7 @@ namespace elanat
                     TmpLinkListItemTemplate = TmpLinkListItemTemplate.Replace("$_db link_value;", dbdr.dr["link_value"].ToString());
                     TmpLinkListItemTemplate = TmpLinkListItemTemplate.Replace("$_db link_href;", dbdr.dr["link_href"].ToString());
                     TmpLinkListItemTemplate = TmpLinkListItemTemplate.Replace("$_db link_title;", dbdr.dr["link_title"].ToString());
+                    TmpLinkListItemTemplate = TmpLinkListItemTemplate.Replace("$_db link_rel;", dbdr.dr["link_rel"].ToString());
                     TmpLinkListItemTemplate = TmpLinkListItemTemplate.Replace("$_db link_target;", dbdr.dr["link_target"].ToString());
                     TmpLinkListItemTemplate = TmpLinkListItemTemplate.Replace("$_db link_protocol;", dbdr.dr["link_protocol"].ToString());
 
