@@ -2,7 +2,7 @@
 <template_root>
 
 <properties>
-	<template_name>el simple frame</template_name>
+	<template_name>work frame</template_name>
 </properties>
 
 <html>
@@ -6826,6 +6826,7 @@
 			<link_protocol>$_db link_protocol;</link_protocol>
 			<link_target>$_db link_target;</link_target>
 			<link_sort_index>$_db link_sort_index;</link_sort_index>
+			<link_rel>$_db link_rel;</link_rel>
 			<link_active>$_db link_active;</link_active>
 		</item>
 		<static_head>
