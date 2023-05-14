@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <struct_root>
 
 <extra_value>
@@ -284,7 +284,7 @@
 		<category>
 		<![CDATA[
 			<url>
-				<loc>$_asp site_url_path;/$_asp extra_category_url_value;</loc>
+				<loc>$_asp site_url_path;$_asp extra_category_url_value;</loc>
 				<lastmod>$_asp date_time;</lastmod>
 				<changefreq>$_asp change_freq;</changefreq>
 				<priority>$_asp priority;</priority>
