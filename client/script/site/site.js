@@ -1,4 +1,4 @@
-﻿/* Start Bold-Normal Body Text */
+/* Start Bold-Normal Body Text */
 
 function el_SetBodyTextToBold(obj)
 {
@@ -340,12 +340,14 @@ function el_ZoneMenuResponsive()
 
 function el_ShowMenuResponsive()
 {
-	document.getElementById("div_Menu").className = "el_menu_responsive_show";
+    if (document.getElementById("div_Menu"))
+	    document.getElementById("div_Menu").className = "el_menu_responsive_show";
 }
 
 function el_CloseMenuResponsive()
 {
-    document.getElementById("div_Menu").className = "el_menu_responsive_button";
+    if (document.getElementById("div_Menu"))
+        document.getElementById("div_Menu").className = "el_menu_responsive_button";
 }
 
 if (ElanatVariant.UseSiteAutoResize)
