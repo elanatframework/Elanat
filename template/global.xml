@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <template_root>
 
   <content_type>
@@ -52,7 +52,7 @@
 		<list_item>
 		<![CDATA[
 			<li>
-				<a href="$_db link_protocol;$_db link_href;" title="$_db link_title;" target="$_db link_target;">$_db link_value;</a>
+				<a rel="$_db link_rel;" href="$_db link_protocol;$_db link_href;" title="$_db link_title;" target="$_db link_target;">$_db link_value;</a>
 			</li>
 		]]>
 		</list_item>
