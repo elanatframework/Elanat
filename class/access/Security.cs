@@ -282,8 +282,6 @@ namespace elanat
                 Lines.Add("user_name=" + ccoc.UserName);
                 Lines.Add("ip=" + Ip);
                 Lines.Add("error_text=" + ex.GetBaseException());
-                Lines.Add("inner_error_title=" + ex.InnerException.Message);
-                Lines.Add("inner_error_text=" + ex.InnerException.GetBaseException());
 
 
                 string FileName = "";
@@ -369,8 +367,6 @@ namespace elanat
                 Lines.Add("user_name=guest");
                 Lines.Add("ip=none");
                 Lines.Add("error_text=" + ex.GetBaseException());
-                Lines.Add("inner_error_title=" + ex.InnerException.Message);
-                Lines.Add("inner_error_text=" + ex.InnerException.GetBaseException());
 
 
                 string FileName = "";
