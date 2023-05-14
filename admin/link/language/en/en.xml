@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+  
+    <active>active</active>
+    <add>add</add>
+    <add_link>add link</add_link>
+    <blank>blank</blank>
+    <delete>delete</delete>
+    <edit>edit</edit>
+    <edit_link>edit link</edit_link>
+    <inactive>inactive</inactive>
+    <link>link</link>
+    <link_active>link active</link_active>
+    <link_href>link href</link_href>
+    <link_id>link id</link_id>
+    <link_rel>link rel</link_rel>
+    <link_menu>link menu</link_menu>
+    <link_protocol>link protocol</link_protocol>
+    <link_sort_index>link sort index</link_sort_index>
+    <link_target>link target</link_target>
+    <link_title>link title</link_title>
+    <link_value>link value</link_value>
+    <link_was_add>link was add</link_was_add>
+    <link_was_save_edit>link was save edit</link_was_save_edit>
+    <parent>parent</parent>
+    <read_more>read more</read_more>
+    <save_link>save link</save_link>
+    <self>self</self>
+    <target>target</target>
+    <top>top</top>
+	
+</add_ons_language>
+</add_ons_language_root>
