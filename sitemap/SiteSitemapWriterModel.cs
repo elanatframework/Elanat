@@ -125,9 +125,8 @@ namespace elanat
             TmpPageListItemStruct = PageListItemStruct;
 
             TmpPageListItemStruct = TmpPageListItemStruct.Replace("$_asp site_url_path;", siteMainUrl);
-            TmpPageListItemStruct = TmpPageListItemStruct.Replace("$_asp priority;", "10");
 
-            if (ElanatConfig.GetNode("default_site").Attributes["value"].Value == SiteGlobalName)
+            if (ElanatConfig.GetNode("properties/default_site").Attributes["value"].Value == SiteGlobalName)
             {
                 TmpPageListItemStruct = TmpPageListItemStruct.Replace("$_asp extra_page_url_value;", "");
                 TmpPageListItemStruct = TmpPageListItemStruct.Replace("$_asp priority;", "10");
