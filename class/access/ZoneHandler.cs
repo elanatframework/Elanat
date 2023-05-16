@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Web;
 using System.IO;
 using System.Web.Compilation;
@@ -157,6 +157,8 @@ namespace elanat
                     string line = cmd.StandardOutput.ReadLine();
                     context.Response.Write(line);
                 }
+
+                context.Response.ContentType = "text/html";
             }
             else
             {
@@ -167,7 +169,7 @@ namespace elanat
 
 
             // Set Finally Mime Type
-            if (PathHasFileName)
+            if (PathHasFileName && !System.IO.Path.GetExtension(AbsolutePath).IsScriptExtension())
                 context.Response.ContentType = fad.GetMimeType(AbsolutePath);
 
 
