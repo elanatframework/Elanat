@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
@@ -191,6 +191,8 @@ namespace elanat
                     string line = cmd.StandardOutput.ReadLine();
                     Response.Write(line);
                 }
+
+                Response.ContentType = "text/html";
             }
             else
             {
