@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -240,15 +240,7 @@ namespace elanat
             {
                 case ".js": return "text/javascript";
                 case ".aspx": return "text/html";
-                case ".cpp": return "text/html";
                 case ".dll": return "text/html";
-                case ".dnc": return "text/html";
-                case ".php": return "text/html";
-                case ".njs": return "text/html";
-                case ".pl": return "text/html";
-                case ".py": return "text/html";
-                case ".rb": return "text/html";
-                case ".jsp": return "text/html";
             }
 
             Microsoft.Win32.RegistryKey regKey = Microsoft.Win32.Registry.ClassesRoot.OpenSubKey(Extension);
