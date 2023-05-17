@@ -133,7 +133,7 @@ namespace elanat
             }
             else if (Extension == ".dll")
             {
-                context.Response.Write(NativeDll.NativeMethods.Main(HttpContext.Current.Server.MapPath(AbsolutePath), context.Request.Form.AllKeys.ToString(), QueryString));
+                context.Response.Write(NativeDll.NativeMethods.Main(HttpContext.Current.Server.MapPath(AbsolutePath), context.Request.Form.ToString(), QueryString));
             }
             else if (Extension.IsScriptExtension())
             {
@@ -141,12 +141,18 @@ namespace elanat
 
                 // Set Arguments
                 string PackagePath = @fad.ScriptExtensioPackagePath;
-                string RunPathCommand = fad.ScriptExtensioRunPathCommand.Replace("$_asp page_path;", HttpContext.Current.Server.MapPath(AbsolutePath));
+                string RunPathCommand = fad.ScriptExtensioRunPathCommand;
+
+                PackagePath = PackagePath.Replace("$_asp site_path;", HttpContext.Current.Server.MapPath(StaticObject.SitePath));
+                RunPathCommand = RunPathCommand.Replace("$_asp site_path;", HttpContext.Current.Server.MapPath(StaticObject.SitePath));
+                RunPathCommand = RunPathCommand.Replace("$_asp page_path;", HttpContext.Current.Server.MapPath(AbsolutePath));
+                RunPathCommand = RunPathCommand.Replace("$_asp query_string;", QueryString);
+                RunPathCommand = RunPathCommand.Replace("$_asp form_data;", context.Request.Form.ToString());
 
 
                 System.Diagnostics.Process cmd = new System.Diagnostics.Process();
                 cmd.StartInfo.FileName = "cmd.exe";
-                cmd.StartInfo.Arguments = "/C c:& cd " + PackagePath.Replace("$_asp site_path;", HttpContext.Current.Server.MapPath(StaticObject.SitePath)) + "& " + RunPathCommand.Replace("$_asp site_path;", HttpContext.Current.Server.MapPath(StaticObject.SitePath));
+                cmd.StartInfo.Arguments = "/C c:& cd " + PackagePath + "& " + RunPathCommand;
                 cmd.StartInfo.UseShellExecute = false;
                 cmd.StartInfo.RedirectStandardOutput = true;
                 cmd.StartInfo.RedirectStandardError = true;
