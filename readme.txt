@@ -1,4 +1,4 @@
-﻿Elanat 1.0.0.0
+﻿Elanat 1.0.4.2
 --------------
 
 Elanat is Add-on oriented framework on the web.
