@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
@@ -13,7 +13,7 @@ namespace elanat
     {
        protected void Page_Load(object sender, EventArgs e)
         {
-            string FormString = Request.Form.AllKeys.ToString();
+            string FormString = Request.Form.ToString();
             string QueryString = Request.QueryString.ToString();
 
             Response.Write(NativeDll.NativeMethods.Main(HttpContext.Current.Server.MapPath("main.dll"), FormString, QueryString));
