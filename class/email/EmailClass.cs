@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Mail;
@@ -13,9 +13,9 @@ namespace elanat
         {
             XmlNode node = StaticObject.ConfigDocument.SelectSingleNode("elanat_root/email");
 
-            string MailHost = node["host"].InnerText;
-            string MailPort = node["port"].InnerText;
-            string MailSender = node["sender"].InnerText;
+            string MailHost = node["host"].InnerText.Trim();
+            string MailPort = node["port"].InnerText.Trim();
+            string MailSender = node["sender"].InnerText.Trim();
             string MailBeforeSubject = (WithElanatSubject)? node["text_before_email_subject"].InnerText : null;
             string MailAfterSubject = (WithElanatSubject)? node["text_after_email_subject"].InnerText : null;
             string MailBeforeBody = (WithElanatBody) ? node["text_before_email_body"].InnerText : null;
