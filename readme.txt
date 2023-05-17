@@ -3,7 +3,7 @@
 
 Elanat is Add-on oriented framework on the web.
 
-Elanat Copyright (C) 2022 Mohammad Rabie.
+Elanat Copyright (C) 2022-2023 Mohammad Rabie.
 
 The main features of Elanat: 
 
