@@ -7,6 +7,7 @@
     <default_page name="Default.htm" />
     <default_page name="index.htm" />
     <default_page name="index.html" />
+    <default_page name="index.cpp" />
     <default_page name="index.dnc" />
     <default_page name="index.php" />
     <default_page name="index.njs" />
