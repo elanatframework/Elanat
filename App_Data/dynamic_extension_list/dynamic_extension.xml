@@ -4,6 +4,7 @@
   <dynamic_extension_list>
     <dynamic_extension extension="aspx" />
     <dynamic_extension extension="asp" />
+    <dynamic_extension extension="cpp" />
     <dynamic_extension extension="exe" />
     <dynamic_extension extension="php" />
     <dynamic_extension extension="dll" />
