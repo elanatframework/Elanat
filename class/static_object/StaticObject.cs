@@ -377,13 +377,15 @@ namespace elanat
             {
                 // Set Arguments
                 string StartCommand = node.Attributes["start_command"].Value;
+                StartCommand = StartCommand.Replace("$_asp quotation_mark;", "\"");
+                StartCommand = StartCommand.Replace("$_asp site_path;", HttpContext.Current.Server.MapPath(StaticObject.SitePath));
 
                 if (string.IsNullOrEmpty(StartCommand))
                     continue;
 
                 System.Diagnostics.Process cmd = new System.Diagnostics.Process();
                 cmd.StartInfo.FileName = "cmd.exe";
-                cmd.StartInfo.Arguments = "/C c:& cd " + StartCommand.Replace("$_asp site_path;", HttpContext.Current.Server.MapPath(StaticObject.SitePath));
+                cmd.StartInfo.Arguments = "/C c:& cd " + StartCommand;
                 cmd.StartInfo.UseShellExecute = false;
                 cmd.StartInfo.RedirectStandardOutput = true;
                 cmd.StartInfo.RedirectStandardError = true;
