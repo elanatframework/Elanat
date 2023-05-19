@@ -165,7 +165,7 @@ namespace elanat
             }
             else if (Extension == ".dll")
             {
-                Response.Write(NativeDll.NativeMethods.Main(HttpContext.Current.Server.MapPath(Path), Request.Form.AllKeys.ToString(), Request.QueryString.ToString()));
+                Response.Write(NativeDll.NativeMethods.Main(HttpContext.Current.Server.MapPath(Path), Request.Form.ToString(), Request.QueryString.ToString()));
             }
             else if (Extension.IsScriptExtension())
             {
@@ -175,12 +175,20 @@ namespace elanat
 
                 // Set Arguments
                 string PackagePath = @fad.ScriptExtensioPackagePath;
-                string RunPathCommand = fad.ScriptExtensioRunPathCommand.Replace("$_asp page_path;", HttpContext.Current.Server.MapPath(Path));
+                string RunPathCommand = fad.ScriptExtensioRunPathCommand;
+
+                PackagePath = PackagePath.Replace("$_asp quotation_mark;", "\"");
+                PackagePath = PackagePath.Replace("$_asp site_path;", HttpContext.Current.Server.MapPath(StaticObject.SitePath));
+                RunPathCommand = RunPathCommand.Replace("$_asp quotation_mark;", "\"");
+                RunPathCommand = RunPathCommand.Replace("$_asp site_path;", HttpContext.Current.Server.MapPath(StaticObject.SitePath));
+                RunPathCommand = RunPathCommand.Replace("$_asp page_path;", HttpContext.Current.Server.MapPath(Path));
+                RunPathCommand = RunPathCommand.Replace("$_asp query_string;", Request.QueryString.ToString().Replace("\"", "$_asp quotation_mark;"));
+                RunPathCommand = RunPathCommand.Replace("$_asp form_data;", Request.Form.ToString().Replace("\"", "$_asp quotation_mark;"));
 
 
                 System.Diagnostics.Process cmd = new System.Diagnostics.Process();
                 cmd.StartInfo.FileName = "cmd.exe";
-                cmd.StartInfo.Arguments = "/C c:& cd " + PackagePath.Replace("$_asp site_path;", HttpContext.Current.Server.MapPath(StaticObject.SitePath)) + "& " + RunPathCommand.Replace("$_asp site_path;", HttpContext.Current.Server.MapPath(StaticObject.SitePath));
+                cmd.StartInfo.Arguments = "/C c:& cd " + PackagePath + "& " + RunPathCommand;
                 cmd.StartInfo.UseShellExecute = false;
                 cmd.StartInfo.RedirectStandardOutput = true;
                 cmd.StartInfo.RedirectStandardError = true;
