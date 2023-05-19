@@ -143,11 +143,13 @@ namespace elanat
                 string PackagePath = @fad.ScriptExtensioPackagePath;
                 string RunPathCommand = fad.ScriptExtensioRunPathCommand;
 
+                PackagePath = PackagePath.Replace("$_asp quotation_mark;", "\"");
                 PackagePath = PackagePath.Replace("$_asp site_path;", HttpContext.Current.Server.MapPath(StaticObject.SitePath));
+                RunPathCommand = RunPathCommand.Replace("$_asp quotation_mark;", "\"");
                 RunPathCommand = RunPathCommand.Replace("$_asp site_path;", HttpContext.Current.Server.MapPath(StaticObject.SitePath));
                 RunPathCommand = RunPathCommand.Replace("$_asp page_path;", HttpContext.Current.Server.MapPath(AbsolutePath));
-                RunPathCommand = RunPathCommand.Replace("$_asp query_string;", QueryString);
-                RunPathCommand = RunPathCommand.Replace("$_asp form_data;", context.Request.Form.ToString());
+                RunPathCommand = RunPathCommand.Replace("$_asp query_string;", QueryString.Replace("\"", "$_asp quotation_mark;"));
+                RunPathCommand = RunPathCommand.Replace("$_asp form_data;", context.Request.Form.ToString().Replace("\"", "$_asp quotation_mark;"));
 
 
                 System.Diagnostics.Process cmd = new System.Diagnostics.Process();
