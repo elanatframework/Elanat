@@ -195,7 +195,7 @@ namespace elanat
             ResponseForm rf = new ResponseForm(StaticObject.GetCurrentAdminGlobalLanguage());
 
             string ElanatLastVesrsion = PageLoader.LoadForeignPage(ElanatSystemPath + "/service/last_version/");
-            if (ElanatLastVesrsion == ElanatSystemVersion)
+            if (float.Parse("." + ElanatSystemVersion.Replace(".", "")) >= float.Parse("." + ElanatLastVesrsion.Replace(".", "")))
                 rf.AddLocalMessage(Language.GetAddOnsLanguage("is_up_to_date", StaticObject.GetCurrentAdminGlobalLanguage(), StaticObject.AdminPath + "/about/").Replace("$_asp elanat_system_version;", ElanatLastVesrsion), "success");
             else
             {
