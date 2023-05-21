@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
@@ -72,7 +72,7 @@ namespace elanat
             model.FetchSortIndexValue = Request.Form["txt_FetchSortIndex"];
             model.FetchPublicAccessShowValue = Request.Form["cbx_FetchPublicAccessShow"] == "on";
             model.FetchNameValue = Request.Form["txt_FetchName"];
-            model.FetchSqlQueryValue = Request.Form["txt_FetchSqlQuery"];
+            model.FetchSqlQueryValue = Request.Form["txt_FetchSqlQuery"].Replace(Environment.NewLine, " ");
             model.FetchBoxValue = Request.Form["txt_FetchBox"];
             model.FetchListItemValue = Request.Form["txt_FetchListItem"];
             model.FetchStaticHeadValue = Request.Form["txt_FetchStaticHead"];
@@ -141,7 +141,7 @@ namespace elanat
             model.SqlQueryUseFetchValue = Request.Form["cbx_SqlQueryUseFetch"] == "on";
             model.SqlQueryUseItemValue = Request.Form["cbx_SqlQueryUseItem"] == "on";
             model.SqlQueryUseElanatValue = Request.Form["cbx_SqlQueryUseElanat"] == "on";
-            model.FetchSqlQueryValue = Request.Form["txt_FetchSqlQuery"];
+            model.FetchSqlQueryValue = Request.Form["txt_FetchSqlQuery"].Replace(Environment.NewLine, " ");
             model.FetchIdValue = Request.Form["hdn_FetchId"];
 
 
