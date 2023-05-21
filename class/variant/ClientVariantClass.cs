@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
@@ -1142,7 +1142,7 @@ namespace elanat
             node = StaticObject.ConfigDocument.SelectSingleNode("elanat_root/security");
 
             // Set Cookies Life Time
-            VariantValue = node["cookies_life_time"].Attributes["value"].Value;
+            VariantValue = node["cookie_life_time"].Attributes["value"].Value;
             TmpClientVariantListItemStruct = ClientVariantListItemStruct;
             TmpClientVariantListItemStruct = TmpClientVariantListItemStruct.Replace("$_asp variant_name;", "CookiesLifeTime");
             TmpClientVariantListItemStruct = TmpClientVariantListItemStruct.Replace("$_asp variant_value;", "\"" + VariantValue + "\"");
@@ -1391,8 +1391,8 @@ namespace elanat
 
             node = StaticObject.ConfigDocument.SelectSingleNode("elanat_root/security");
 
-            // Set Cookies Life Time
-            VariantValue = node["cookies_life_time"].Attributes["value"].Value;
+            // Set Cookie Life Time
+            VariantValue = node["cookie_life_time"].Attributes["value"].Value;
             TmpClientVariantListItemStruct = ClientVariantListItemStruct;
             TmpClientVariantListItemStruct = TmpClientVariantListItemStruct.Replace("$_asp variant_name;", "CookiesLifeTime");
             TmpClientVariantListItemStruct = TmpClientVariantListItemStruct.Replace("$_asp variant_value;", "\"" + VariantValue + "\"");
