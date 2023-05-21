@@ -192,7 +192,7 @@ namespace elanat
                     TmpMenuListItemTemplate = MenuListItemTemplate;
 
                     // Get Menu Plugin
-                    string Plugin = GetPlugin(MenuId, GroupId, CurrentQueryString);
+                    string Plugin = GetPlugin(MenuId, GroupId, GlobalLanguage, CurrentQueryString);
                     if (!string.IsNullOrEmpty(Plugin))
                     {
                         TmpMenuListItemTemplate = MenuListItemTemplate;
@@ -201,7 +201,7 @@ namespace elanat
                     }
 
                     // Get Menu Module
-                    string Module = GetModule(MenuId, GroupId, CurrentQueryString);
+                    string Module = GetModule(MenuId, GroupId, GlobalLanguage, CurrentQueryString);
                     if (!string.IsNullOrEmpty(Module))
                     {
                         TmpMenuListItemTemplate = MenuListItemTemplate;
@@ -309,7 +309,7 @@ namespace elanat
                         if (!string.IsNullOrEmpty(CurrentQueryString))
                             CurrentQueryString += "&" + MenuPluginQueryString;
                         else
-                            CurrentQueryString += "?" + MenuPluginQueryString;
+                            CurrentQueryString = "?" + MenuPluginQueryString;
 
                     string PluginValue = ar.GetPlugin(dbdr.dr["plugin_id"].ToString() + "{" + CurrentQueryString + "}", GlobalLanguage);
 
@@ -356,7 +356,7 @@ namespace elanat
                         if (!string.IsNullOrEmpty(CurrentQueryString))
                             CurrentQueryString += "&" + MenuModuleQueryString;
                         else
-                            CurrentQueryString += "?" + MenuModuleQueryString;
+                            CurrentQueryString = "?" + MenuModuleQueryString;
 
                     string ModuleValue = ar.GetModule(dbdr.dr["module_id"].ToString() + "{" + CurrentQueryString + "}", GlobalLanguage);
 
