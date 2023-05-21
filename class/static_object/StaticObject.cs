@@ -166,7 +166,7 @@ namespace elanat
 
             GuestGroup = ConfigDocument.SelectNodes("elanat_root/security/guest_group")[0].Attributes["value"].Value;
             SessionLifeTime = ConfigDocument.SelectNodes("elanat_root/security/session_life_time")[0].Attributes["value"].Value;
-            CookiesLifeTime = ConfigDocument.SelectNodes("elanat_root/security/cookies_life_time")[0].Attributes["value"].Value;
+            CookiesLifeTime = ConfigDocument.SelectNodes("elanat_root/security/cookie_life_time")[0].Attributes["value"].Value;
             LockLogin = ConfigDocument.SelectNodes("elanat_root/security/lock_login_for_first_login")[0].Attributes["active"].Value.TrueFalseToBoolean();
             SaveLogsError = ConfigDocument.SelectNodes("elanat_root/security/save_logs_error")[0].Attributes["active"].Value.TrueFalseToBoolean();
             UseRobotDetection = ConfigDocument.SelectNodes("elanat_root/security/robot_detection")[0].Attributes["active"].Value.TrueFalseToBoolean();
