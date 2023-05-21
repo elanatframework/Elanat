@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <elanat_root>
   <elanat>
     <application_name value="elanat framework" />
@@ -117,7 +117,7 @@
     <wysiwyg_path>tinymce_5_10_0_medium</wysiwyg_path>
   </default_include_path>
   <security>
-    <admin_life_time value="3600" />
+    <admin_life_time value="36000" />
     <captcha_character>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</captcha_character>
     <captcha_character_count from="4" to="6" />
     <captcha_font value="tahoma" />
@@ -133,10 +133,9 @@
     <captcha_admin_release_count value="100" />
     <captcha_member_release_count value="5" />
     <captcha_guest_release_count value="2" />
-    <cookies_life_time value="3600" />
     <database_name value="elanat" />
     <default_group value="member" />
-    <guest_life_time value="3600" />
+    <guest_life_time value="36000" />
     <guest_group value="guest" />
     <inactive_site active="false" />
     <just_use_https active="false" />
@@ -144,7 +143,7 @@
     <just_use_https_in_login_page active="false" />
     <just_use_https_in_site active="false" />
     <lock_login_for_first_login active="false" />
-    <member_life_time value="3600" />
+    <member_life_time value="36000" />
     <new_password_length value="20" />
     <new_random_text_value_count value="50" />
     <registered_user_after_accept_active_email active="false" />
@@ -155,8 +154,8 @@
     <robot_detection_member_request count="16000" after_show_captcha_count="300" />
     <robot_detection_guest_request count="8000" after_show_captcha_count="300" />
     <save_logs_error active="true" />
-    <session_life_time value="3600" />
-    <cookie_life_time value="3600" />
+    <session_life_time value="36000" />
+    <cookie_life_time value="36000" />
     <use_admin_activation active="false" />
     <use_http_only_for_session_id active="false" />
     <use_secret_key_for_login active="false" />
@@ -204,11 +203,9 @@
     <show_protection_attachment value="1" />
   </delay>
   <email>
-    <host>
-    </host>
+    <host></host>
     <port>0</port>
-    <username>
-    </username>
+    <username></username>
     <sender>info@localhost</sender>
     <text_before_email_subject>
     </text_before_email_subject>
@@ -221,16 +218,11 @@
     <use_https active="true" />
   </email>
   <ftp>
-    <host>
-    </host>
-    <port>
-    </port>
-    <username>
-    </username>
-    <password>
-    </password>
-    <root>
-    </root>
+    <host></host>
+    <port></port>
+    <username></username>
+    <password></password>
+    <root></root>
   </ftp>
   <file_and_directory>
     <!-- Note: Between 0 To 2147483648 B -->
