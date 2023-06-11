@@ -27,7 +27,7 @@ ruby
 Perl
 node.js
 
-We plan to make structural modifications to Elanat, so the core of Elanat will be modified by ourselves. We encourage you to create your own add-on for Elanat; The link below is Elanat's separate add-on repository and you can add any add-on you like in this repository.
+We plan to make structural modifications to Elanat, so the core of Elanat will be modified by ourselves. We encourage you to create your own add-on for Elanat; The link below is Elanat separate add-on repository and you can add any add-on you like in this repository.
 https://github.com/elanatframework/Elanat_add-ons
 
 add-ons
