@@ -11,7 +11,7 @@ At Elanat, we have introduced several new technologies in web-based systems; Som
 
 We also used several high-level technologies:
 
- - structure box and list_item
+ - Structure box and list item
  - The separation of the template from the style
  - Content name value
  - Variables in the content template
