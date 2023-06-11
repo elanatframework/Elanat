@@ -7,7 +7,7 @@ At Elanat, we have introduced several new technologies in web-based systems; Som
  - Server-side independence
  - add-on-oriented
  - Socket-connector
- - Switcher library
+ - Library switcher
 
 We also used several high-level technologies:
 
