@@ -1,7 +1,7 @@
 Elanat framework is one of the best systems on the web. There is also a built-in CMS in Elanat core. Elanat uses an internal MVC architecture that is not related to Microsoft ASP.NET MVC.
 This system is very powerful and very large and it benefits from a very modern structure that allows you to create up to 20 new add-ons for Elanat every day.
 
-![Elanat framework]([(https://miro.medium.com/v2/resize:fit:720/format:webp/1*SKR8vafM_-vrqUvn7DwurQ.png])
+![Elanat framework]([elanat_banner.png])
 
 The wonderful structure of Elanat is in a way that it interacts with 8 types of add-ons, all of which are components, and the component itself is also a component. In the admin section, all component lists and other add-ons are displayed by the plugin add-on.
 There are nearly 600 executable aspx files, 56 DBMS tables, 560 stored procedures, more than 600 XML files and nearly 70 JavaScript files in Elanat core.
