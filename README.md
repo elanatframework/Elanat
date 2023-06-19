@@ -1,8 +1,8 @@
 <a href="https://elanat.net">
   <h1 align="center">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="[https://storage.googleapis.com/cms-storage-bucket/6e19fee6b47b36ca613f.png](https://elanat.net/page/elanat_english_presentation_home_page/image/elanat_admin_on_surface_presentation.png)">
-      <img alt="Elanat Framework" src="[https://storage.googleapis.com/cms-storage-bucket/c823e53b3a1a7b0d36a9.png](https://elanat.net/page/elanat_english_presentation_home_page/image/elanat_admin_on_surface_presentation.png)">
+      <source media="(prefers-color-scheme: dark)" srcset="https://elanat.net/page/elanat_english_presentation_home_page/image/elanat_admin_on_surface_presentation.png">
+      <img alt="Elanat Framework" src="https://elanat.net/page/elanat_english_presentation_home_page/image/elanat_admin_on_surface_presentation.png">
     </picture>
   </h1>
 </a>
