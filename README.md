@@ -1,3 +1,13 @@
+<a href="https://elanat.net">
+  <h1 align="center">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="[https://storage.googleapis.com/cms-storage-bucket/6e19fee6b47b36ca613f.png](https://elanat.net/page/elanat_english_presentation_home_page/image/elanat_admin_on_surface_presentation.png)">
+      <img alt="Elanat Framework" src="[https://storage.googleapis.com/cms-storage-bucket/c823e53b3a1a7b0d36a9.png](https://elanat.net/page/elanat_english_presentation_home_page/image/elanat_admin_on_surface_presentation.png)">
+    </picture>
+  </h1>
+</a>
+
+
 ![My Banner](elanat_admin_view_section.png)
 
 Elanat framework is one of the best systems on the web. There is also a built-in CMS in Elanat core. Elanat uses an internal MVC architecture that is not related to Microsoft ASP.NET MVC.
