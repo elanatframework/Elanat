@@ -1,4 +1,4 @@
-![My Banner](elanat_banner.png)
+![My Banner](elanat_admin_view_section.png)
 
 Elanat framework is one of the best systems on the web. There is also a built-in CMS in Elanat core. Elanat uses an internal MVC architecture that is not related to Microsoft ASP.NET MVC.
 This system is very powerful and very large and it benefits from a very modern structure that allows you to create up to 20 new add-ons for Elanat every day.
