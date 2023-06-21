@@ -17,7 +17,6 @@ We also used several high-level technologies:
  - The separation of the template from the style
  - Content name value
  - Variables in the content template
- - ...
 
 In many cases, the Elanat system is better than Microsoft SharePoint, Drupal and Liferay.
 
