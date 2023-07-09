@@ -1,4 +1,4 @@
-## Elanat framework is migrating to .NET Core. Soon all the data of this version will be completely deleted and the new version of .NET Core 7 will replace this version. The migration of Elanat to .NET Core will be done by using the [https://github.com/elanatframework/Code_behind](Code_behind) infrastructure.
+## Elanat framework is migrating to .NET Core. Soon all the data of this version will be completely deleted and the new version of .NET Core 7 will replace this version. The migration of Elanat to .NET Core will be done by using the [Code_behind](https://github.com/elanatframework/Code_behind) infrastructure.
 
 ![My Banner](elanat_admin_view_section.png)
 
