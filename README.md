@@ -1,3 +1,5 @@
+## Elanat framework is migrating to .NET Core. Soon all the data of this version will be completely deleted and the new version of .NET Core 7 will replace this version. The migration of Elanat to .NET Core will be done by using the [https://github.com/elanatframework/Code_behind](Code_behind) infrastructure.
+
 ![My Banner](elanat_admin_view_section.png)
 
 Elanat framework is one of the best systems on the web. There is also a built-in CMS in Elanat core. Elanat uses an internal MVC architecture that is not related to Microsoft ASP.NET MVC.
