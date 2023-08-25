@@ -1,6 +1,9 @@
 ![logo](https://github.com/elanatframework/Elanat/assets/111444759/fb48c66f-2c43-43bd-b877-a17e0022a781)
 # Elanat
 
+## This repository is currently migrating from .NET Standard to .NET Core. This process may take until the end of August 2023. In order for computer professionals and programmers to study how to migrate from .NET Standard to .NET Core, the version of .NET Standard has been fully copied to the repository at the link below and will remain for several months.
+https://github.com/elanatframework/Elanat_old
+
 ## Big surprise, the new version of Elanat is prepared on .NET Core and the new source will be released in August 2023. Elanat is the largest system ever migrated from .NET Standard to .NET Core. Elanat migration is done by using [Code_behind](https://github.com/elanatframework/Code_behind) infrastructure.
 
 ![My Banner](elanat_admin_view_section.png)
