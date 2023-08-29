@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<validation_root>
-  <validation_list>
-
-    <TextBox id="txt_ContactResponseCode" type="string" label="contact_response_code" category="" min_count="32" max_length="32" important="true" />
-
-  </validation_list>
-</validation_root>
