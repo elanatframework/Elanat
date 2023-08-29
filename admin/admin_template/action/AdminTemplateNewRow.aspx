@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AdminTemplateNewRow.aspx.cs" Inherits="elanat.ActionAdminTemplateNewRow" %>

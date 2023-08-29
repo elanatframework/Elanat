@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<protection_root>
-  <protection_list table_name="el_editor_template" column_key_name="editor_template_id">
-
-  </protection_list>
-</protection_root>

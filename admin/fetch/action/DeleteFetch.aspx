@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DeleteFetch.aspx.cs" Inherits="elanat.ActionDeleteFetch" %>

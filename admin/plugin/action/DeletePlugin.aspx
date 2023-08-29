@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DeletePlugin.aspx.cs" Inherits="elanat.ActionDeletePlugin" %>

@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="InactiveAdminStyle.aspx.cs" Inherits="elanat.ActionInactiveAdminStyle" %>

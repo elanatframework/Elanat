@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="IsUserComment.aspx.cs" Inherits="elanat.ActionIsUserInactiveComment" %>

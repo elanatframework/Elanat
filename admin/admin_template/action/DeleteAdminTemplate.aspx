@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DeleteAdminTemplate.aspx.cs" Inherits="elanat.ActionDeleteAdminTemplate" %>

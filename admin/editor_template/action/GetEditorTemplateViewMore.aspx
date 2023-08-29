@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="GetEditorTemplateViewMore.aspx.cs" Inherits="elanat.ActionGetEditorTemplateViewMore" %>

@@ -1,3 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="NewUpdate.aspx.cs" Inherits="elanat.ActionNewUpdate" %>
-<input id="btn_Update" name="btn_Update" type="submit" class="el_button_input" value="<%=model.UpdateLanguage%>" onclick="el_AjaxPostBack(this, true, 'frm_AdminAbout')" />
-<span class="el_checkbox_input"><input id="cbx_BreakSupportCheck" name="cbx_BreakSupportCheck" type="checkbox" /><label for="cbx_BreakSupportCheck"><%=model.BreakSupportCheckLanguage%></label></span>

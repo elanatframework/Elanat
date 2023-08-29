@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="SiteStyleNewRow.aspx.cs" Inherits="elanat.ActionSiteStyleNewRow" %>

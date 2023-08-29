@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DeleteBackup.aspx.cs" Inherits="elanat.ActionDeleteBackup" %>

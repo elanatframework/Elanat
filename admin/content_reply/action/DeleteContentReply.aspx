@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DeleteContentReply.aspx.cs" Inherits="elanat.ActionDeleteContentReply" %>

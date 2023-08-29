@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="GetLanguageViewMore.aspx.cs" Inherits="elanat.ActionGetLanguageViewMore" %>

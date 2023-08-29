@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="PluginNewRow.aspx.cs" Inherits="elanat.ActionPluginNewRow" %>

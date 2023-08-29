@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="GetItemViewMore.aspx.cs" Inherits="elanat.ActionGetItemViewMore" %>

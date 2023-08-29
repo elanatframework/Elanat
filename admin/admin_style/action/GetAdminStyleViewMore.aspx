@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="GetAdminStyleViewMore.aspx.cs" Inherits="elanat.ActionGetAdminStyleViewMore" %>

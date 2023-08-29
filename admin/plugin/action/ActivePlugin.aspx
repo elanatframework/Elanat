@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ActivePlugin.aspx.cs" Inherits="elanat.ActionActivePlugin" %>

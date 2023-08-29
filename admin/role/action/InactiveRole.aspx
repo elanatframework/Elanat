@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="InactiveRole.aspx.cs" Inherits="elanat.ActionInactiveRole" %>

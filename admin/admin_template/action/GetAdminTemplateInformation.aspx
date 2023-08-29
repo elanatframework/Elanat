@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="GetAdminTemplateInformation.aspx.cs" Inherits="elanat.ActionGetAdminTemplateInformation" %>

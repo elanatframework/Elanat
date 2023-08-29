@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DeleteGroupFootPrint.aspx.cs" Inherits="elanat.ActionDeleteGroupFootPrint" %>

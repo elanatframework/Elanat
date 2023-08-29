@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="CutFileDirectory.aspx.cs" Inherits="elanat.ActionCutFileDirectory" %>

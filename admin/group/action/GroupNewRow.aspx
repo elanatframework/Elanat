@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="GroupNewRow.aspx.cs" Inherits="elanat.ActionGroupNewRow" %>

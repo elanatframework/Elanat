@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ApprovalComment.aspx.cs" Inherits="elanat.ActionApprovalComment" %>

@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DeleteComment.aspx.cs" Inherits="elanat.ActionDeleteComment" %>

@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="GetModuleViewMore.aspx.cs" Inherits="elanat.ActionGetModuleViewMore" %>

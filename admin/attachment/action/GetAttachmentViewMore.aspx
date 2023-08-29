@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="GetAttachmentViewMore.aspx.cs" Inherits="elanat.ActionGetAttachmentViewMore" %>

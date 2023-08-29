@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="GetContentViewMore.aspx.cs" Inherits="elanat.ActionGetInactiveContentViewMore" %>

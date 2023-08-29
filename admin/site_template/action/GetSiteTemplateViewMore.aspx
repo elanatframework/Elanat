@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="GetSiteTemplateViewMore.aspx.cs" Inherits="elanat.ActionGetSiteTemplateViewMore" %>

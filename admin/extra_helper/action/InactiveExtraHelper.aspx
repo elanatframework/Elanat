@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="InactiveExtraHelper.aspx.cs" Inherits="elanat.ActionInactiveExtraHelper" %>
