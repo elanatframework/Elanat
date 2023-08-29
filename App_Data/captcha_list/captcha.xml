@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<captcha_root>
-  
-  <captcha_list>
-    <captcha name="elanat_captcha" active="true" />
-  </captcha_list>
-  
-</captcha_root>
