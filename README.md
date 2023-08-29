@@ -6,7 +6,7 @@ https://github.com/elanatframework/Elanat_old
 
 ## Big surprise, the new version of Elanat is prepared on .NET Core and the new source will be released in August 2023. Elanat is the largest system ever migrated from .NET Standard to .NET Core. Elanat migration is done by using [Code_behind](https://github.com/elanatframework/Code_behind) infrastructure.
 
-![My Banner](elanat_admin_view_section.png)
+![Elanat admin view section](https://github.com/elanatframework/Elanat/assets/111444759/78b077fc-5d68-4c43-832e-aec1851512fa)
 
 Elanat framework is one of the best systems on the web. There is also a built-in CMS in Elanat core. Elanat uses an internal MVC architecture that is not related to Microsoft ASP.NET MVC.
 This system is very powerful and very large and it benefits from a very modern structure that allows you to create up to 20 new add-ons for Elanat every day.
