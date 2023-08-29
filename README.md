@@ -6,7 +6,7 @@ https://github.com/elanatframework/Elanat_old
 
 Elanat is a CMS-framework based on ASP.NET Core. Elanat version 1 was created based on ASP.NET Standard; in a short time, Elanat migrated to ASP.NET Core; therefore, Elanat version 2 is based on ASP.NET Core. Elanat uses the [CodeBehind](https://github.com/elanatframework/Code_behind) framework; this framework is an infrastructure whose executable files are aspx that run on .NET Core.
 
-![Elanat site view section](https://github.com/elanatframework/Elanat/assets/111444759/41406826-e9c8-4aa9-8d31-255b35c3056e)
+![Elanat site view section](https://github.com/elanatframework/Elanat/assets/111444759/c156ecfb-8c29-48d0-8409-d4ce1fcad3c3)
 
 Elanat framework is one of the best systems on the web. There is also a built-in CMS in Elanat core. Elanat uses an [CodeBehind](https://github.com/elanatframework/Code_behind) infrastructure MVC architecture that is not related to Microsoft ASP.NET MVC.
 This system is very powerful and very large and it benefits from a very modern structure that allows you to create up to 20 new add-ons for Elanat every day.
