@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="PathHandlersLoader.aspx.cs" Inherits="elanat.PathHandlersLoader" ValidateRequest="false" %>
