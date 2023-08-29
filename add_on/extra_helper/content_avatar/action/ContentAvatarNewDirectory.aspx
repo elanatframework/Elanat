@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ContentAvatarNewDirectory.aspx.cs" Inherits="elanat.ActionContentAvatarNewDirectory" %>

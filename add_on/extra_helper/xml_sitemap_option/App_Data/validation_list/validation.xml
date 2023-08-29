@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<validation_root>
-  <validation_list>
-
-    <TextBox id="txt_XmlSitemapCount" type="number" label="xml_sitemap_count" category="" start_range="1" end_range="1000" important="true" />
-    <TextBox id="txt_XmlSitemapCache" type="number" label="xml_sitemap_cache" category="" start_range="0" end_range="10000" important="true" />
-
-  </validation_list>
-</validation_root>

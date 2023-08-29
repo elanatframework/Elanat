@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DeleteDirectory.aspx.cs" Inherits="elanat.ActionDeleteDirectory" %>

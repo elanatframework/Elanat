@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DeleteAvatar.aspx.cs" Inherits="elanat.ActionDeleteAvatar" %>
