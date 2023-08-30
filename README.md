@@ -2,6 +2,7 @@
 # Elanat
 
 The ASP.NET Standard version of Elanat is fully copied in the repository below. The README.md file of this repository gives you information on how to migrate Elanat from ASP.NET Standard to ASP.NET Core.
+
 https://github.com/elanatframework/Elanat_old
 
 Elanat is a CMS-Framework based on ASP.NET Core. Elanat version 1 was created based on ASP.NET Standard; in a short time, Elanat migrated to ASP.NET Core; therefore, Elanat version 2 is based on ASP.NET Core. Elanat uses the [CodeBehind](https://github.com/elanatframework/Code_behind) framework; this framework is an infrastructure whose executable files are aspx that run on .NET Core.
@@ -77,6 +78,7 @@ Extra helper: Extra helpers are add-ons that only showed in admin section of Ela
 Editor template: Editor templates add-ons are part of a html page template; each of the Editor templates helps content writers use a ready-made template to create pages faster and more organized.
 
 Website:
+
 [https://elanat.net](https://elanat.net)
 
 Tools used in creating Elanat:
