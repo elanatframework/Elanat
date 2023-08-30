@@ -1,10 +1,12 @@
 ![logo](https://github.com/elanatframework/Elanat/assets/111444759/fb48c66f-2c43-43bd-b877-a17e0022a781)
 # Elanat
 
-## This repository is currently migrating from .NET Standard to .NET Core. This process may take until the end of August 2023. In order for computer professionals and programmers to study how to migrate from .NET Standard to .NET Core, the version of .NET Standard has been fully copied to the repository at the link below and will remain for several months.
+The ASP.NET Standard version of Elanat is fully copied in the repository below. The README.md file of this repository gives you information on how to migrate Elanat from ASP.NET Standard to ASP.NET Core.
 https://github.com/elanatframework/Elanat_old
 
 Elanat is a CMS-Framework based on ASP.NET Core. Elanat version 1 was created based on ASP.NET Standard; in a short time, Elanat migrated to ASP.NET Core; therefore, Elanat version 2 is based on ASP.NET Core. Elanat uses the [CodeBehind](https://github.com/elanatframework/Code_behind) framework; this framework is an infrastructure whose executable files are aspx that run on .NET Core.
+
+
 
 Elanat site view section image
 ![Elanat site view section](https://github.com/elanatframework/Elanat/assets/111444759/19bf9019-9aca-43ce-ad44-2754af5176e1)
