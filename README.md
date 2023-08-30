@@ -51,7 +51,7 @@ We encourage you to create your own add-on for Elanat; The link below is Elanat 
 
 https://github.com/elanatframework/Elanat_add-ons
 
-# Add-ons
+### Add-ons
 
 According to the list below, There are 8 different types of add-ons in Elanat :
 
@@ -80,11 +80,11 @@ Extra helper: Extra helpers are add-ons that only showed in admin section of Ela
 
 Editor template: Editor templates add-ons are part of a html page template; each of the Editor templates helps content writers use a ready-made template to create pages faster and more organized.
 
-# Website:
+### Website:
 
 [https://elanat.net](https://elanat.net)
 
-# Tools used in creating Elanat:
+### Tools used in creating Elanat:
 
  - ASP.NET Core 7.0
  - CodeBehind framework
