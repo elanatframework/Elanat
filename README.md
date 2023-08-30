@@ -7,6 +7,8 @@ The ASP.NET Standard version of Elanat is fully copied in the repository below. 
 
 https://github.com/elanatframework/Elanat_old
 
+Elanat was created to be a reliable system in .NET and an honor for .NET programmers and can be compared to other systems under PHP and JAVA.
+
 Elanat site view section image
 ![Elanat site view section](https://github.com/elanatframework/Elanat/assets/111444759/19bf9019-9aca-43ce-ad44-2754af5176e1)
 
