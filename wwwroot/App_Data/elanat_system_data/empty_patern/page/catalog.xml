@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<page_catalog_root>
+
+  <page_name value="" />
+
+  <page_global_name value="" />
+
+  <page_category value="other" />
+
+  <page_author value="" />
+
+  <page_directory_path value="" />
+
+  <page_physical_name value="index.html" />
+
+  <page_replace use_language="false" use_replace_part="false" use_module="false" use_plugin="false" use_elanat="false" use_item="false" use_fetch="false"  />
+
+  <page_cache_parameters></page_cache_parameters>
+
+  <page_version_support>
+    <version value="2.0.0.0" />
+  </page_version_support>
+
+  <page_author_website>
+
+  </page_author_website>
+	
+	<page_best_load_status value="" />
+	
+	<page_version value="1.0.0.0" />
+	
+	<page_release_date value="2023/08/31"/>
+
+	<page_info>
+	
+	</page_info>
+	
+	<page_title>
+	
+	</page_title>
+	
+	<page_license>
+		
+	</page_license>
+	
+	<page_static_head>
+
+	</page_static_head>
+	
+	<page_load_tag>
+
+	</page_load_tag>
+	
+</page_catalog_root>

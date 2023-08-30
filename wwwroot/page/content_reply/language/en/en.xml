@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <about>about</about>
+    <address>address</address>
+    <birthday>birthday</birthday>
+    <birthday_day>birthday day</birthday_day>
+    <birthday_mount>birthday mount</birthday_mount>
+    <birthday_year>birthday year</birthday_year>
+    <city>city</city>
+    <content_id>content id</content_id>
+    <content_reply>content reply</content_reply>
+    <content_reply_was_send>content reply was send</content_reply_was_send>
+    <country>country</country>
+    <email>email</email>
+    <female>female</female>
+    <gender>gender</gender>
+    <last_name>last name</last_name>
+    <male>male</male>
+    <mobile_number>mobile number</mobile_number>
+    <name>name</name>
+    <phone_number>phone number</phone_number>
+    <postal_code>postal code</postal_code>
+    <public_email>public email</public_email>
+    <real_last_name>real last name</real_last_name>
+    <real_name>real name</real_name>
+    <send_content_reply>send content reply</send_content_reply>
+    <site>site</site>
+    <state_or_province>state or province</state_or_province>
+    <text>text</text>
+    <the_captcha_you_entered_is_incorrect>the captcha you entered is incorrect</the_captcha_you_entered_is_incorrect>
+    <type>type</type>
+    <unknown>unknown</unknown>
+    <website>website</website>
+    <zip_code>zip code</zip_code>
+	
+</add_ons_language>
+</add_ons_language_root>

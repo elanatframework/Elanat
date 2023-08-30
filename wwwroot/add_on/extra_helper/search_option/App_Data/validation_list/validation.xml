@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<validation_root>
+  <validation_list>
+
+    <TextBox id="txt_SearchedPerPage" type="number" label="searched_per_page" category="" start_range="1" end_range="100" important="true" />
+    <TextBox id="txt_MinimumSearchCharacter" type="number" label="minimum_search_character" category="" start_range="1" end_range="100" important="true" />
+    <TextBox id="txt_NextSearchDelay" type="number" label="next_search_delay" category="" start_range="0" end_range="10000" important="true" />
+
+  </validation_list>
+</validation_root>

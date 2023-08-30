@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<editor_template_catalog_root>
+
+  <editor_template_name value="plus14" />
+
+  <editor_template_category value="" />
+
+  <editor_template_author value="Elanat" />
+  
+  <editor_template_directory_path value="plus14" />
+
+  <editor_template_physical_name value="plus14.html" />
+  
+  <editor_template_replace use_language="true" use_replace_part="false" use_module="false" use_plugin="false" use_elanat="false" use_item="false" use_fetch="false"  />
+	
+  <editor_template_cache_parameters></editor_template_cache_parameters>
+
+  <editor_template_version value="1.0.8.4" />
+
+  <editor_template_release_date value="2023/06/02"/>
+
+  <editor_template_info>
+
+  </editor_template_info>
+
+  <editor_template_license>
+
+  </editor_template_license>
+
+  <editor_template_static_head>
+    <script type="text/javascript">
+	    <![CDATA[
+		    function el_SetPlus14ToEditorTemplate()
+		    {
+			    var TemplateValue = document.getElementById("txt_Plus14Template");
+			    var ImageSrc = document.getElementById("txt_Plus14ImageSrc");
+			    var ImageAlt = document.getElementById("txt_Plus14ImageAlt");
+			    var ImageWidth = document.getElementById("txt_Plus14ImageWidth");
+			    var ImageHeight = document.getElementById("txt_Plus14ImageHeight");
+
+			    ElanatVariant.EditorTemplateValue = "<div class='el_div_plus14' onclick='el_ShowPlus14Picture(this)'><p><b>+14</b> " + ImageAlt.value + "</p><img src='" + ImageSrc.value + "' alt='" + ImageAlt.value + "' title='" + ImageAlt.value + "' height='" + ImageHeight.value + "' width='" +	ImageWidth.value + "' el_plus14='true' /></div><br>";
+        }
+	    ]]>
+    </script>
+  </editor_template_static_head>
+
+  <editor_template_load_tag>
+
+  </editor_template_load_tag>
+  
+  <editor_template_view_static_head>
+
+  </editor_template_view_static_head>
+
+  <editor_template_view_load_tag>
+
+  </editor_template_view_load_tag>
+
+  <editor_template_version_support>
+    <version value="1.0.0.0" />
+  </editor_template_version_support>
+
+  <editor_template_author_website>
+
+  </editor_template_author_website>
+
+  <editor_template_install_path value="" />
+
+  <editor_template_uninstall_path value="" />
+
+</editor_template_catalog_root>

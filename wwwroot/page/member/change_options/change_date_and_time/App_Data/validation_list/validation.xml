@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<validation_root>
+  <validation_list>
+
+    <DropDownList id="ddlst_Calendar" type="string" label="calendar" category="" min_count="0" max_length="50" important="false" client_injection_check="true" />
+    <DropDownList id="ddlst_FirstDayOfWeek" type="number" label="first_day_of_week" category="" start_range="0" end_range="100000" important="false" client_injection_check="true" />
+    <DropDownList id="ddlst_TimeZone" type="string" label="time_zone" category="" min_count="0" max_length="4" important="false" client_injection_check="true" />
+    <TextBox id="txt_DateFormat" type="string" label="date_format" category="" min_count="1" max_length="50" important="false" />
+    <TextBox id="txt_DayDifference" type="number" label="day_difference" category="" start_range="0" end_range="100000" important="true" />
+    <TextBox id="txt_TimeFormat" type="string" label="time_format" category="" min_count="1" max_length="50" important="false" />
+    <TextBox id="txt_TimeHoursDifference" type="number" label="time_hours_difference" category="" start_range="0" end_range="100000" important="true" />
+    <TextBox id="txt_TimeMinutesDifference" type="number" label="time_minutes_difference" category="" start_range="0" end_range="100000" important="true" />
+
+  </validation_list>
+</validation_root>

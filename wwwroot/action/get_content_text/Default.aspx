@@ -1,0 +1,1 @@
+﻿<%@ Page Controller="Elanat.ActionGetContentTextController" Model="Elanat.ActionGetContentTextModel" %>

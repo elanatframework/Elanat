@@ -1,0 +1,1 @@
+﻿<%@ Page Controller="Elanat.ActionGetLanguageViewMoreController" Model="Elanat.ActionGetLanguageViewMoreModel" %>

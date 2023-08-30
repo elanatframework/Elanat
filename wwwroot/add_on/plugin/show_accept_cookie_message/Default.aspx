@@ -1,0 +1,2 @@
+﻿<%@ Page Controller="Elanat.PluginSiteShowAcceptCookieMessageController" Model="Elanat.PluginSiteShowAcceptCookieMessageModel" %>
+<div id="div_AcceptCookieMessage"><a href="<%=Elanat.AspxHtmlValue.SitePath()%>page_content/privacy_policy/#div_CookiesPolicy"><%=model.AgreeAndNotAgreeWithCookiesPolicyLanguage%></a></div>

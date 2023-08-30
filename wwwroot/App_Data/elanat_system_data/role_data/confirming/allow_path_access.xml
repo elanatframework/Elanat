@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<allow_path_access_root>
+
+  <allow_path_access_list>
+
+    <path type="url" regex_match="false" exist="false" start_by="true" end_by="false" active="false" reason="">
+      <path_value>example</path_value>
+    </path>
+
+    <path type="form" regex_match="false" exist="false" start_by="true" end_by="false" active="false" reason="">
+      <path_value>example</path_value>
+    </path>
+
+  </allow_path_access_list>
+  
+</allow_path_access_root>

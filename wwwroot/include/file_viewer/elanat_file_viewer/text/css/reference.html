@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title></title>
+	<script src="../../../../../client/script/global.js"></script>
+
+	<!-- Start Code Highlighter -->
+	<link rel="stylesheet" href="../../../../code_highlighter/codemirror-5.4/lib/codemirror.css" />
+	<script src="../../../../code_highlighter/codemirror-5.4/lib/codemirror.js"></script>
+
+	<script src="../../../../code_highlighter/codemirror-5.4/mode/css/css.js"></script>
+	<!-- End Code Highlighter -->
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+	<textarea id="txt_FileText" style="width:100%;height:100%;">
+	</textarea>
+	
+	<script>
+		var qs = el_GetQueryStrings();
+		var FilePath = qs["file_path"];
+		
+		var xmlhttp = (window.XMLHttpRequest)? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
+
+		xmlhttp.onreadystatechange = function()
+		{
+			if (xmlhttp.readyState == 4 && xmlhttp.status == 200)
+				document.getElementById("txt_FileText").value = xmlhttp.responseText;
+		}
+		xmlhttp.open("GET", FilePath, false);
+		xmlhttp.send();
+	</script>
+	
+	 <script>
+        var editor = CodeMirror.fromTextArea(document.getElementById("txt_FileText"), {
+            lineNumbers: true,
+            matchBrackets: true,
+            lineWrapping: true,
+			readOnly: true,
+            mode: "text/css",
+        });
+    </script>
+	
+</body>

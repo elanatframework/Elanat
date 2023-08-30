@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<template_root>
+
+  <content_type>
+    <post script_function_value="el_CreateWysiwyg();"></post>
+  </content_type>
+
+ <part>
+ 
+	<fetch>
+		<box>
+		<![CDATA[
+			<ul>
+				$_asp item;
+			</ul>
+		]]>
+		</box>
+		<list_item>
+		<![CDATA[
+			<li>
+				$_asp value;
+			</li>
+		]]>
+		</list_item>
+	</fetch>
+	
+	<item>
+		<box>
+		<![CDATA[
+			<ul>
+				$_asp item;
+			</ul>
+		]]>
+		</box>
+		<list_item>
+		<![CDATA[
+			<li>
+				$_asp value;
+			</li>
+		]]>
+		</list_item>
+	</item>
+	
+	<link>
+		<box>
+		<![CDATA[
+			<ul>
+				$_asp item;
+			</ul>
+		]]>
+		</box>
+		<list_item>
+		<![CDATA[
+			<li>
+				<a rel="$_db link_rel;" href="$_db link_protocol;$_db link_href;" title="$_db link_title;" target="$_db link_target;">$_db link_value;</a>
+			</li>
+		]]>
+		</list_item>
+	</link>
+	
+	<plugin>
+		<box>
+		<![CDATA[
+			<ul>
+				$_asp item;
+			</ul>
+		]]>
+		</box>
+		<list_item>
+		<![CDATA[
+			<li>
+				$_asp value;
+			</li>
+		]]>
+		</list_item>
+	</plugin>
+	
+	<module>
+		<box>
+		<![CDATA[
+			<ul>
+				$_asp item;
+			</ul>
+		]]>
+		</box>
+		<list_item>
+		<![CDATA[
+			<li>
+				$_asp value;
+			</li>
+		]]>
+		</list_item>
+	</module>
+ 
+	<parent_hidden_tag><![CDATA[<div class="el_hidden">$_asp item;</div>]]></parent_hidden_tag>
+
+   <site_logo use_elanat="true">
+     <![CDATA[
+		<div class="el_alert_logo" style="background-image: url('$_elanat ::system site_path;client/image/site_logo/$_elanat ::site site_global_name;.png');"></div>
+		]]>
+   </site_logo>
+
+   <alert>
+    <![CDATA[
+		<div class="el_alert el_$_asp priority;_priority">
+			<div class="el_delete" onclick="el_RemoveParentNode(this)"></div>
+			$_asp alert_text;
+		</div>
+		]]>
+	</alert>
+	
+	<logs_error>
+	<![CDATA[
+		<div style="color:red;text-align:center;">
+			$_logs_error_text;
+		</div>
+		<br />
+	]]>
+	</logs_error>
+	
+ </part>
+ 
+ <note>
+	<![CDATA[
+	<div class="el_note">
+		<span class="el_dogear"></span>
+		<p>$_asp note;</p>
+	</div>
+	]]>
+ </note>
+ 
+ <extra_html_input>
+ 
+	<drop_down_list>
+		<box>
+		<![CDATA[
+		    <div class="el_extra_drop_down_list">
+				<div class="el_item_select">
+					<button type="button" class="el_current_item" style="background-image: url($_asp current_item_image;)" onclick="return false"></button>
+					<button type="button" class="el_drop_down_toggle" onclick="el_ShowDropDownList(this)">
+						<span class="el_toggle"></span>
+					</button>
+				</div>
+				<ul class="el_drop_down_menu">
+					$_asp item;
+				</ul>
+			</div>
+		]]>
+		
+		</box>
+		<list_item>
+			<![CDATA[
+				<li>
+					<a $_asp select_item_method;>
+						<span style="background-image: url($_asp item_image;);">
+							$_asp item_name;
+						</span>
+					</a>
+				</li>
+			]]>
+		</list_item>
+		
+	</drop_down_list>
+	
+ </extra_html_input>
+ 
+ <variant_note>
+ 
+	<plugin>
+		<start>
+		<![CDATA[
+			<!-- Start Plugin $_asp plugin_id; -->
+		]]>
+		</start>
+		<end>
+		<![CDATA[
+			<!-- End Plugin $_asp plugin_id; -->
+		]]>
+		</end>
+	</plugin>
+	
+	<module>
+		<start>
+		<![CDATA[
+			<!-- Start Module $_asp module_id; -->
+		]]>
+		</start>
+		<end>
+		<![CDATA[
+			<!-- End Module $_asp module_id; -->
+		]]>
+		</end>
+	</module>
+	
+	<fetch>
+		<start>
+		<![CDATA[
+			<!-- Start Fetch $_asp fetch_name; -->
+		]]>
+		</start>
+		<end>
+		<![CDATA[
+			<!-- End Fetch $_asp fetch_name; -->
+		]]>
+		</end>
+	</fetch>
+
+	<item>
+		<start>
+		<![CDATA[
+			<!-- Start Item $_asp item_id; -->
+		]]>
+		</start>
+		<end>
+		<![CDATA[
+			<!-- End Item $_asp item_id; -->
+		]]>
+		</end>
+	</item>
+ 
+ </variant_note>
+ 
+</template_root>

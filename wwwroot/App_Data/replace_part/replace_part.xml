@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<replace_part_root>
+  
+  <replace_part_list>
+    <replace_part name="example" use_language="false" use_replace_part="false" use_module="false" use_plugin="false" use_elanat="false" use_item="false" use_fetch="false" cache_duration="0" active="true">example replace part</replace_part>
+  </replace_part_list>
+  
+</replace_part_root>

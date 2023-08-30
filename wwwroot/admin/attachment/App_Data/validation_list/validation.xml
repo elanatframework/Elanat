@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<validation_root>
+  <validation_list>
+
+    <CheckBoxList id="cbxlst_AttachmentAccessShow" type="number" label="attachment_access_show" category="" start_range="0" end_range="100000" important="false" client_injection_check="true" />
+    <HiddenField id="hdn_AttachmentId" type="number" label="attachment_id" category="" start_range="0" end_range="100000" important="true" />
+    <TextBox id="txt_AttachmentAbout" type="string" label="attachment_about" category="" min_count="0" max_length="400" important="false" />
+    <TextBox id="txt_AttachmentContent" type="string" label="attachment_content" category="" min_count="1" max_length="100000" important="true" />
+    <TextBox id="txt_AttachmentName" type="string" label="attachment_name" category="" min_count="1" max_length="50" important="true" unauthorized_check="true" table_name="el_attachment" column_name="attachment_name" />
+    <TextBox id="txt_AttachmentPassword" type="string" label="attachment_password" category="" min_count="0" max_length="50" important="false" />
+
+  </validation_list>
+</validation_root>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<template_root>
+  
+  <module_menu_query_string_input_for_add>
+    <![CDATA[
+    <div id="div_ModuleMenuQueryString_$_asp module_menu_value;">
+			<div class="el_item">
+				<span>$_asp module_menu_name;</span>
+			</div>
+			<div class="el_item">
+				<input id="txt_ModuleMenuQueryString_Add_$_asp module_menu_value;" type="text" class="el_long_text_input el_left_to_right" name="txt_ModuleMenuQueryString_Add_$_asp module_menu_value;" value="$_asp module_menu_query_string_value;" />
+			</div>
+     </div>
+		]]>
+  </module_menu_query_string_input_for_add>
+  
+</template_root>

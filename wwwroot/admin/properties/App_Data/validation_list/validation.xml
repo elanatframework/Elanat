@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<validation_root>
+  <validation_list>
+
+    <DropDownList id="ddlst_AddCommentLoadTypeInContentPage" type="ul_string" label="add_comment_load_type_in_content_page" category="view" min_count="1" max_length="50" important="true" client_injection_check="true" />
+    <DropDownList id="ddlst_AddCommentLoadTypeInMainPage" type="ul_string" label="add_comment_load_type_in_main_page" category="view" min_count="1" max_length="50" important="true" client_injection_check="true" />
+    <DropDownList id="ddlst_AddContentReplyLoadTypeInContentPage" type="ul_string" label="add_content_reply_load_type_in_content_page" category="view" min_count="1" max_length="50" important="true" client_injection_check="true" />
+    <DropDownList id="ddlst_AddContentReplyLoadTypeInMainPage" type="ul_string" label="add_content_reply_load_type_in_main_page" category="view" min_count="1" max_length="50" important="true" client_injection_check="true" />
+    <DropDownList id="ddlst_CommentInAddCommentBoxLocation" type="ul_string" label="comment_in_add_comment_box_location" category="properties" min_count="1" max_length="50" important="true" client_injection_check="true" />
+    <DropDownList id="ddlst_ContentPageNumberLocation" type="ul_string" label="content_page_number_location" category="properties" min_count="1" max_length="50" important="true" client_injection_check="true" />
+    <DropDownList id="ddlst_DefaultAdminLanguage" type="ul_string" label="default_admin_language" category="properties" min_count="1" max_length="50" important="true" client_injection_check="true" />
+    <DropDownList id="ddlst_DefaultAdminStyle" type="ul_string" label="default_admin_style" category="properties" min_count="1" max_length="50" important="true" client_injection_check="true" />
+    <DropDownList id="ddlst_DefaultAdminTemplate" type="ul_string" label="default_admin_template" category="properties" min_count="1" max_length="50" important="true" client_injection_check="true" />
+    <DropDownList id="ddlst_DefaultComponent" type="ul_string" label="default_component" category="view" min_count="1" max_length="50" important="true" client_injection_check="true" />
+    <DropDownList id="ddlst_DefaultPage" type="ul_string" label="default_page" category="view" min_count="1" max_length="50" important="true" client_injection_check="true" />
+    <DropDownList id="ddlst_DefaultSite" type="ul_string" label="default_site" category="properties" min_count="1" max_length="50" important="true" client_injection_check="true" />
+    <DropDownList id="ddlst_DefaultSiteLanguage" type="ul_string" label="default_site_language" category="view" min_count="1" max_length="50" important="true" client_injection_check="true" />
+    <DropDownList id="ddlst_DefaultSiteStyle" type="ul_string" label="default_site_style" category="properties" min_count="1" max_length="50" important="true" client_injection_check="true" />
+    <DropDownList id="ddlst_DefaultSiteTemplate" type="ul_string" label="default_site_template" category="properties" min_count="1" max_length="50" important="true" client_injection_check="true" />
+    <DropDownList id="ddlst_DefaultSystem" type="ul_string" label="default_system" category="view" min_count="1" max_length="50" important="true" client_injection_check="true" />
+    <DropDownList id="ddlst_IncludeBox" type="ul_string" label="include_box" category="include" min_count="1" max_length="50" important="true" client_injection_check="true" />
+    <DropDownList id="ddlst_IncludeCalendar" type="string" label="include_calendar" category="include" min_count="1" max_length="50" important="true" client_injection_check="true" />
+    <DropDownList id="ddlst_IncludeCaptcha" type="ul_string" label="include_captcha" category="include" min_count="1" max_length="50" important="true" client_injection_check="true" />
+    <DropDownList id="ddlst_IncludeFileViewer" type="ul_string" label="include_file_viewer" category="include" min_count="1" max_length="50" important="true" client_injection_check="true" />
+    <DropDownList id="ddlst_IncludeWysiwyg" type="ul_string" label="include_wysiwyg" category="include" min_count="1" max_length="50" important="true" client_injection_check="true" />
+    <DropDownList id="ddlst_ReadMoreStatus" type="ul_string" label="read_more_status" category="properties" min_count="1" max_length="50" important="true" client_injection_check="true" />
+    <TextBox id="txt_CommentInContent" type="number" label="comment_in_content" category="properties" start_range="0" end_range="100000" important="true" />
+    <TextBox id="txt_CommentReplyInComment" type="number" label="comment_reply_in_comment" category="properties" start_range="0" end_range="100000" important="true" />
+    <TextBox id="txt_ContentInMainPage" type="number" label="content_in_main_page" category="properties" start_range="0" end_range="100000" important="true" />
+    <TextBox id="txt_ContentPerPage" type="number" label="content_per_page" category="properties" start_range="0" end_range="100000" important="true" />
+    <TextBox id="txt_ContentTextCharacterLength" type="number" label="content_text_character_length" category="properties" start_range="0" end_range="100000" important="true" />
+    <TextBox id="txt_CornHourDuration" type="number" label="corn_hour_duration" category="properties" start_range="0" end_range="100000" important="true" />
+    <TextBox id="txt_LimiteTimeForSendComment" type="number" label="limite_time_for_send_comment" category="properties" start_range="0" end_range="100000" important="true" />
+    <TextBox id="txt_LimiteTimeForSendCommentReply" type="number" label="limite_time_for_send_comment_reply" category="properties" start_range="0" end_range="100000" important="true" />
+    <TextBox id="txt_LimiteTimeForSendContentReply" type="number" label="limite_time_for_send_content_reply" category="properties" start_range="0" end_range="100000" important="true" />
+    <TextBox id="txt_NullLanguageSuffix" type="string" label="null_language_suffix" category="properties" min_count="0" max_length="50" important="false" />
+    <TextBox id="txt_RowInMainTable" type="number" label="row_in_main_table" category="properties" start_range="0" end_range="100000" important="true" />
+    <TextBox id="txt_RowPerTable" type="number" label="row_per_table" category="properties" start_range="0" end_range="100000" important="true" />
+    <TextBox id="txt_SitePath" type="string" label="site_path" category="properties" min_count="1" max_length="128" important="true" />
+
+  </validation_list>
+</validation_root>

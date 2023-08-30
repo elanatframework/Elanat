@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<box_root>
+  
+  <box_list>
+    <box name="elanat_box" active="true" />
+  </box_list>
+  
+</box_root>

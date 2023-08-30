@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+    
+    <add>add</add>
+    <add_site_template>add site template</add_site_template>
+    <information>information</information>
+    <please_fill_site_template_path_field_because_this_is_necessary>please fill site template path field because this is necessary</please_fill_site_template_path_field_because_this_is_necessary>
+    <please_fill_site_template_upload_field_because_this_is_necessary>please fill site template upload field because this is necessary</please_fill_site_template_upload_field_because_this_is_necessary>
+    <site_template>site template</site_template>
+    <site_template_active>site template active</site_template_active>
+    <site_template_author>site template author</site_template_author>
+    <site_template_directory_path>site template directory path</site_template_directory_path>
+    <site_template_id>site template id</site_template_id>
+    <site_template_info>site template info</site_template_info>
+    <site_template_license>site template license</site_template_license>
+    <site_template_load_tag>site template load tag</site_template_load_tag>
+    <site_template_name>site template name</site_template_name>
+    <site_template_name_is_duplicate>site template name is duplicate</site_template_name_is_duplicate>
+    <site_template_path>site template path</site_template_path>
+    <site_template_physical_name>site template physical name</site_template_physical_name>
+    <site_template_physical_path>site template physical path</site_template_physical_path>
+    <site_template_release_date>site template release date</site_template_release_date>
+    <site_template_static_head>site template static head</site_template_static_head>
+    <site_template_version>site template version</site_template_version>
+    <site_template_was_add>site template was add</site_template_was_add>
+    <use_site_template_path>use site template path</use_site_template_path>
+    <you_should_upload_zip_extension>you should upload zip extension</you_should_upload_zip_extension>
+    <zip_file_is_corrupt>zip file is corrupt</zip_file_is_corrupt>
+    
+  </add_ons_language>
+</add_ons_language_root>

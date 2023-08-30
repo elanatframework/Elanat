@@ -1,0 +1,1 @@
+﻿<%@ Page Controller="Elanat.ActionGetFootPrintViewMoreController" Model="Elanat.ActionGetFootPrintViewMoreModel" %>

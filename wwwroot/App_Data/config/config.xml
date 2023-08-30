@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<elanat_root>
+  <elanat>
+    <application_name value="Elanat framework" />
+    <version value="2.0.0.0" />
+    <licenses value="gpl" />
+    <site_address>http://elanat.net</site_address>
+    <news_address active="true">http://elanat.net/service/news</news_address>
+    <install_code active="false" value="" />
+    <!-- Note: Cut Install Directory To elanat_system_data_directory After Install -->
+    <cut_install_directory_after_install active="true" />
+  </elanat>
+  <properties>
+    <site_path>/</site_path>
+    <null_language_suffix>-L?</null_language_suffix>
+    <content_in_main_page value="10" />
+    <content_per_page value="10" />
+    <comment_in_content value="10" />
+    <comment_reply_in_comment value="10" />
+    <row_in_main_table value="10" />
+    <row_per_table value="10" />
+    <use_site_auto_resize active="true" />
+    <content_text_character_length value="0" />
+    <!-- Note: location: ajax-save-new_page -->
+    <use_read_more load_type="ajax" active="true" />
+    <show_all_sub_category_when_select_father_category active="true" />
+    <default_admin_style value="work_frame_gray" />
+    <default_site_style value="article_green" />
+    <default_admin_template value="work_frame" />
+    <default_site_template value="article" />
+    <default_site value="default" />
+    <default_page value="main" />
+    <default_system value="home" />
+    <default_component value="dashboard" />
+    <default_admin_language value="en" />
+    <default_site_language value="en" />
+    <show_use_cookie_message_alert active="true" />
+    <use_view_style active="true" />
+    <create_external_link_for_site_view_style active="false" />
+    <create_external_link_for_admin_view_style active="false" />
+    <create_external_link_for_user_view_style active="false" />
+    <create_external_link_for_current_view_style active="false" />
+    <use_site_client_variant active="true" />
+    <create_external_link_for_site_client_variant active="false" />
+    <use_admin_client_variant active="true" />
+    <create_external_link_for_admin_client_variant active="false" />
+    <use_site_client_language_variant active="true" />
+    <create_external_link_for_site_client_language_variant active="false" />
+    <use_admin_client_language_variant active="true" />
+    <create_external_link_for_admin_client_language_variant active="false" />
+    <!-- Note: location: before-after-both -->
+    <content_page_number location="both" use_ajax="false" active="true" />
+    <!-- Note: location: before-after -->
+    <show_comment_in_add_comment_box active="true" location="before" />
+    <!-- Note: active: (Server Refresh = true | Cache Refresh = false) -->
+    <server_refresh active="true" />
+    <scheduled_tasks active="true" />
+    <scheduled_delay active="true" />
+    <scheduled_load active="true" />
+    <scheduled_timer active="true" />
+    <!-- Note: value: (Second) -->
+    <corn_hour_duration value="5" />
+    <add_plugin_variant_note active="false" />
+    <add_module_variant_note active="false" />
+    <add_fetch_variant_note active="false" />
+    <add_item_variant_note active="false" />
+  </properties>
+  <active>
+    <login_active active="true" />
+    <sign_up_active active="true" />
+    <add_comment active="true" />
+  </active>
+  <debug>
+    <write_logs_error active="false" />
+    <use_variant_debug active="true" />
+  </debug>
+  <view>
+    <show_site_name active="true" />
+    <show_site_slogan_name active="true" />
+    <main_page>
+      <show_content_keywords_in_content active="true" />
+      <show_attachment_in_content active="true" />
+      <show_comment_in_content active="false" />
+      <show_add_comment_in_content load_with="server" active="false" />
+      <show_add_content_reply_in_content load_with="iframe" active="true" />
+      <show_content_reply_in_content active="true" />
+      <show_title_in_content active="true" />
+      <show_author_name_in_content active="true" use_name="true" />
+      <show_category_name_in_content active="true" use_name="true" />
+      <show_date_in_content active="true" use_name="true" />
+      <show_time_in_content active="true" use_name="true" />
+      <show_visit_in_content active="true" use_name="true" />
+    </main_page>
+    <content_page>
+      <show_content_keywords_in_content active="true" />
+      <show_attachment_in_content active="true" />
+      <show_comment_in_content active="false" />
+      <show_add_comment_in_content load_with="server" active="true" />
+      <show_add_content_reply_in_content load_with="iframe" active="true" />
+      <show_content_reply_in_content active="true" />
+      <show_title_in_content active="true" />
+      <show_author_name_in_content active="true" use_name="true" />
+      <show_category_name_in_content active="true" use_name="true" />
+      <show_date_in_content active="true" use_name="true" />
+      <show_time_in_content active="true" use_name="true" />
+      <show_visit_in_content active="true" use_name="true" />
+    </content_page>
+  </view>
+  <water_mark active="false" font_size="12" opacity=".5">
+    <water_mark_text>protected by copyright law</water_mark_text>
+  </water_mark>
+  <default_include_path>
+    <box_path>elanat_box</box_path>
+    <captcha_path>elanat_captcha</captcha_path>
+    <calendar_path>gregorian</calendar_path>
+    <file_viewer_path>elanat_file_viewer</file_viewer_path>
+    <wysiwyg_path>tinymce_5_10_0_medium</wysiwyg_path>
+  </default_include_path>
+  <security>
+    <admin_life_time value="36000" />
+    <captcha_character>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</captcha_character>
+    <captcha_character_count from="4" to="6" />
+    <captcha_font value="tahoma" />
+    <!-- Note: captcha_font_size = em Size -->
+    <captcha_font_size value="16" />
+    <!-- Note: captcha_height = 0 To 100 And Always Most Be Bigger Than captcha_font_size -->
+    <captcha_height value="30" />
+    <!-- Note: captcha_noise = 0 To 100 -->
+    <captcha_noise value="10" />
+    <captcha_repeat_time active="false" value="5" />
+    <captcha_rotate_transform value="5" />
+    <captcha_width value="200" />
+    <captcha_admin_release_count value="100" />
+    <captcha_member_release_count value="5" />
+    <captcha_guest_release_count value="2" />
+    <database_name value="elanat" />
+    <default_group value="member" />
+    <guest_life_time value="36000" />
+    <guest_group value="guest" />
+    <inactive_site active="false" />
+    <just_use_https active="false" />
+    <just_use_https_in_admin active="false" />
+    <just_use_https_in_login_page active="false" />
+    <just_use_https_in_site active="false" />
+    <lock_login_for_first_login active="false" />
+    <member_life_time value="36000" />
+    <new_password_length value="20" />
+    <new_random_text_value_count value="50" />
+    <registered_user_after_accept_active_email active="false" />
+    <robot_detection active="true" />
+    <robot_detection_ip_block_duration value="3600" />
+    <robot_detection_reset_time_duration value="600" />
+    <robot_detection_admin_request count="200000" after_show_captcha_count="300" />
+    <robot_detection_member_request count="16000" after_show_captcha_count="300" />
+    <robot_detection_guest_request count="8000" after_show_captcha_count="300" />
+    <save_logs_error active="true" />
+    <session_life_time value="3600" />
+    <cookie_life_time value="36000" />
+    <use_admin_activation active="false" />
+    <use_secret_key_for_login active="false" />
+    <use_sensitivity_case_captcha active="false" />
+    <user_online_time_life value="600" />
+    <user_secure_value_size value="16" />
+  </security>
+  <date_and_time>
+    <date_format>tuning</date_format>
+    <!-- Note: day_difference = +date Or -date -->
+    <day_difference value="0" />
+    <default_calendar value="gregorian" />
+    <first_day_of_week value="0" />
+    <site_birthday>2023/08/31</site_birthday>
+    <!-- Note: time_difference_hours = +hours Or -hours -->
+    <time_difference_hours value="0" />
+    <!-- Note: time_difference_minutes = +minutes Or -minutes -->
+    <time_difference_minutes value="0" />
+    <time_format>HH:mm</time_format>
+    <time_zone value="0" />
+  </date_and_time>
+  <cache>
+    <site_main cache_parameters="page_content" active="false" />
+    <admin_main cache_parameters="" active="false" />
+    <admin_role cache_type="memory" value="20" />
+    <guest_role cache_type="memory" value="20" />
+    <member_role cache_type="disk" value="10" />
+    <use_client_cache_for_dynamic_page value="60" check_server_cache="true" active="false" />
+    <use_client_cache_for_static_page value="2678400" check_last_modified="false" active="true" />
+    <text_creator_cache use_server_cache="true" cache_type="disk" server_value="3600" use_client_cache="true" client_value="3600" />
+  </cache>
+  <hash>
+    <!-- Note: hash_number_count: 1 To 32, 1 = 16 Line, 2 = 256 Line, n = 16^n Line -->
+    <ip_black_list hash_number_count="4" />
+    <online_user hash_number_count="4" />
+  </hash>
+  <delay>
+    <!-- Note: main Is Equal other -->
+    <main value="0" />
+    <sign_up value="0" />
+    <login value="0" />
+    <lock_login_page value="1" />
+    <captcha value="0" />
+    <show_protection_content value="1" />
+    <show_protection_attachment value="1" />
+  </delay>
+  <email>
+    <host>
+    </host>
+    <port>0</port>
+    <username>
+    </username>
+    <sender>info@localhost</sender>
+    <text_before_email_subject>
+    </text_before_email_subject>
+    <text_after_email_subject>
+    </text_after_email_subject>
+    <text_before_email_body>
+    </text_before_email_body>
+    <text_after_email_body>
+    </text_after_email_body>
+    <use_https active="true" />
+  </email>
+  <ftp>
+    <host>
+    </host>
+    <port>
+    </port>
+    <username>
+    </username>
+    <password>
+    </password>
+    <root>
+    </root>
+  </ftp>
+  <file_and_directory>
+    <!-- Note: Between 0 To 2147483648 B -->
+    <auto_create_thumbnail_image active="true" />
+    <maximum_size_for_attachment value="209715200" />
+    <maximum_size_for_backup value="209715200" />
+    <maximum_size_for_comment value="209715200" />
+    <maximum_size_for_component value="209715200" />
+    <maximum_size_for_contact value="209715200" />
+    <maximum_size_for_content_avatar value="209715200" />
+    <maximum_size_for_editor_template value="209715200" />
+    <maximum_size_for_extra_helper value="209715200" />
+    <maximum_size_for_fetch value="209715200" />
+    <maximum_size_for_language value="209715200" />
+    <maximum_size_for_module value="209715200" />
+    <maximum_size_for_page value="209715200" />
+    <maximum_size_for_patch value="209715200" />
+    <maximum_size_for_plugin value="209715200" />
+    <maximum_size_for_admin_style value="209715200" />
+    <maximum_size_for_admin_template value="209715200" />
+    <maximum_size_for_site_style value="209715200" />
+    <maximum_size_for_site_template value="209715200" />
+    <maximum_size_for_upload value="209715200" />
+    <maximum_size_for_user_avatar value="209715200" />
+    <maximum_size_for_user_upload value="1024" />
+    <thumbnail_image_height value="128" />
+    <thumbnail_image_width value="128" />
+  </file_and_directory>
+</elanat_root>

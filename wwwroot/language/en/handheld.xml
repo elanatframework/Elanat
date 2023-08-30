@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<language_root>
+  <lang__>
+    <_about>This website publishes our content. We strive to create services and content that are relevant to the theme of our website. Our website is created using a powerful system that allows us to create a variety of services and content. We try to provide useful services and content for you.</_about>
+    <_elanat_coprright><![CDATA[<div class="el_copyright">Elanat framework 2.0 powered by <a href="https://elanat.net">Elanat</a> © 2023. Some rights reserved.</div>]]></_elanat_coprright>
+    <_email_confirm_email>$_elanat ::site site_global_local_name; received notification on $_asp local_date; that you want confirm own email. you did not sign up in $_elanat ::site site_global_local_name;, ignore this message; otherwise, this is a email for confirm email. you can click to bellw url to confirm your email in $_elanat ::site site_global_local_name;</_email_confirm_email>
+    <_email_new_password>$_elanat ::site site_global_local_name; received notification on $_asp local_date; that you forget password. You did not request a password recovery, ignore this message; otherwise, this is a email for get new password for you. You can click to bellw url to show new password in $_elanat ::site site_global_local_name;</_email_new_password>
+    <_noscript_message_alert>JavaScript is disabled in your browser, you may not be able to properly viewing the content on this site. You may have disabled run JavaScript in your browser or your browser does not support JavaScript. In order to better view the content of the website, please use a browser that is able to run JavaScript.</_noscript_message_alert>
+    <_privacy_policy_change>The privacy policy may change from time to time, we encourage visitors to check this page frequently.</_privacy_policy_change>
+    <_privacy_policy_cookies_and_web_beacons>Like any other website, $_elanat ::site site_global_local_name; uses cookies. These cookies are used to store information, including visitor preferences, and which pages of the website the visitor has accessed or visited. The information is used to optimize the user experience by customizing the content of our site based on the visitor's browser type or other information. You can choose to disable cookies via your browser options. For more detailed information about managing cookies with specific web browsers, you can find them on the respective websites of browsers.</_privacy_policy_cookies_and_web_beacons>
+    <_privacy_policy_for_company_name>In $_elanat ::site site_global_local_name;, one of our top priorities is the privacy of our visitors. This privacy policy document contains types of information that $_elanat ::site site_global_local_name; collects and records; and how we use it</_privacy_policy_for_company_name>
+    <_privacy_policy_information_for_children>Another part of our priority is to add protection for children while using the Internet. We encourage parents and guardians to observe, participate in and / or supervise and guide their activity online. $_elanat ::site site_global_local_name; does not knowingly collect any personally identifiable information from children under 13 years of age. If you believe your child has provided this information on our website, we strongly encourage you to contact us immediately and we will do our best to eliminate them promptly information from our archives.</_privacy_policy_information_for_children>
+    <_privacy_policy_information_for_consent>By using our website, you agree to our privacy policy and agree to its terms and conditions.</_privacy_policy_information_for_consent>
+    <_privacy_policy_introduction>News, documents and documents available on this website may include typos or unintentional errors. However, we reserve the right to take action to resolve any form of error at any time, or to remove parts of the site at our sole discretion. Our site may, at any time and without notice, make any further changes that may be necessary to the site and materials of information, products, programs, services or prices (available) and the news described on this site. To do Your use, browsing and searching on the site is your personal responsibility. Our site is not liable for any direct, incidental, consequential, indirect or punitive damages arising out of your access to and use of the site.</_privacy_policy_introduction>
+    <_privacy_policy_log_file>$_elanat ::site site_global_local_name; follows a standard procedure for using log files. These files record visitors when they visit websites. All hosting companies do this and are part of the analysis of hosting services. The information collected by the log files includes Internet Protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time, reference / output pages, and possibly the number of clicks . These are not linked to personally identifiable information. The purpose of the information is to analyze trends, manage the site, track users' movement on the website and collect demographic information.</_privacy_policy_log_file>
+    <_terms_of_service_accuracy_of_materials>the materials appearing on $_elanat ::site site_global_local_name; website could include technical, typographical, or photographic errors. $_elanat ::site site_global_local_name; does not warrant that any of the materials on its website are accurate, complete or current. $_elanat ::site site_global_local_name; may make changes to the materials contained on its website at any time without notice. However $_elanat ::site site_global_local_name; does not make any commitment to update the materials.</_terms_of_service_accuracy_of_materials>
+    <_terms_of_service_change>this agreement belongs to visitors from the website and users of our services. the terms of service may change from time to time, we encourage visitors to check this page frequently.</_terms_of_service_change>
+    <_terms_of_service_disclaimer>the materials on $_elanat ::site site_global_local_name; website are provided on an 'as is' basis. $_elanat ::site site_global_local_name; makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.</_terms_of_service_disclaimer>
+    <_terms_of_service_for_company_name>By accessing the website at $_elanat ::site site_host;, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site.</_terms_of_service_for_company_name>
+    <_terms_of_service_licence>If use content source in your website, copying content is free.</_terms_of_service_licence>
+    <_terms_of_service_limitations>In no event shall $_elanat ::site site_global_local_name; or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on $_elanat ::site site_global_local_name;'s website, even $_elanat ::site site_global_local_name; or a $_elanat ::site site_global_local_name; authorized representative has been notified orally or in writing of the possibility of such damage. Because some jurisdictions do not allow limitations on implied warranties, or limitations of liability for consequential or incidental damages, these limitations may not apply to you.</_terms_of_service_limitations>
+    <_terms_of_service_link>$_elanat ::site site_global_local_name; has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by $_elanat ::site site_global_local_name; of the site. Use of any such linked website is at the user's own risk.</_terms_of_service_link>
+    <_use_cookie_message_alert>By using this website, you agree with our use of cookies to improve its performance and enhance your user experience. More info in our </_use_cookie_message_alert>
+    <_user_agreement>this agreement is belongs for users registered on the website, by registering on this website, you agree to post any content that contains false or misleading content, abusive or abusive content, or infringe upon the rights and personality of others and immaterial content, including the copyrights, permissions or any other material. The other thing that violates the rules will be avoided. You also agree that we have the ability and the right to delete, edit or close any account or post at any time. We will keep your information with us unless the judicial authorities ask us. We do not have responsibility for Internet attacks on our website that cause your information to be broken down. The user agreement may change from time to time, we encourage visitors to check this page frequently.</_user_agreement>
+  </lang__>
+  <lang_a>
+    <about>about</about>
+    <about_us>about us</about_us>
+    <accept>accept</accept>
+    <access_add>access add</access_add>
+    <access_delete_all>access delete all</access_delete_all>
+    <access_delete_own>access delete own</access_delete_own>
+    <access_edit_all>access edit all</access_edit_all>
+    <access_edit_own>access edit own</access_edit_own>
+    <access_show>access show</access_show>
+    <accuracy_of_materials>accuracy of materials</accuracy_of_materials>
+    <active>active</active>
+    <add_comment_is_inactive>add comment is inactive</add_comment_is_inactive>
+    <add_contact_is_inactive>add contact is inactive</add_contact_is_inactive>
+    <add_content>add content</add_content>
+    <add_content_reply_is_inactive>add content reply is inactive</add_content_reply_is_inactive>
+    <add_ons>add-ons</add_ons>
+    <address>address</address>
+    <admin_panel>admin panel</admin_panel>
+    <admin_note>admin note</admin_note>
+    <admin_style>admin style</admin_style>
+    <admin_template>admin template</admin_template>
+    <administrator>administrator</administrator>
+    <after_content>after content</after_content>
+    <after_header>after header</after_header>
+    <ajax>ajax</ajax>
+    <alt>alt</alt>
+    <angry>angry</angry>
+    <appearance>appearance</appearance>
+    <approval>approval</approval>
+    <approval_comment>approval comment</approval_comment>
+    <approval_content>approval content</approval_content>
+    <approval_content_reply>approval content reply</approval_content_reply>
+    <are_you_sure_want_to_delete>are you sure want to delete</are_you_sure_want_to_delete>
+    <are_you_sure_want_to_delete_directory>are you sure want to delete directory</are_you_sure_want_to_delete_directory>
+    <article>article</article>
+    <article_green>article green</article_green>
+    <asp_terms_of_service>$_elanat ::site site_global_local_name; terms of service</asp_terms_of_service>
+    <attachment>attachment</attachment>
+    <attachment_count_limitation_is_active>attachment count limitation is active</attachment_count_limitation_is_active>
+    <attachment_size_limitation_is_active>attachment size limitation is active</attachment_size_limitation_is_active>
+    <author>author</author>
+  </lang_a>
+  <lang_b>
+    <back_to_top>back to top</back_to_top>
+    <backup>backup</backup>
+    <before_content>before content</before_content>
+    <before_footer>before footer</before_footer>
+    <book>book</book>
+  </lang_b>
+  <lang_c>
+    <captcha>captcha</captcha>
+    <category>category</category>
+    <change>change</change>
+    <change_avatar>change avatar</change_avatar>
+    <change_date_and_time>change date and time</change_date_and_time>
+    <change_email>change email</change_email>
+    <change_language>change language</change_language>
+    <change_options>change options</change_options>
+    <change_password>change password</change_password>
+    <change_profile>change profile</change_profile>
+    <change_template_and_style>change template and style</change_template_and_style>
+    <change_view>change view</change_view>
+    <coins>coins</coins>
+    <color_select>color select</color_select>
+    <comment>comment</comment>
+    <comment_count_limitation_is_active>comment count limitation is active</comment_count_limitation_is_active>
+    <comment_option>comment option</comment_option>
+    <comment_reply>comment reply</comment_reply>
+    <comment_time_limitation_is_active>comment time limitation is active</comment_time_limitation_is_active>
+    <comments>comments</comments>
+    <common>common</common>
+    <component>component</component>
+    <configuration>configuration</configuration>
+    <confirm_email>confirm email</confirm_email>
+    <confirming>confirming</confirming>
+    <consent>consent</consent>
+    <contact>contact</contact>
+    <contact_count_limitation_is_active>contact count limitation is active</contact_count_limitation_is_active>
+    <contact_option>contact option</contact_option>
+    <contact_response>contact response</contact_response>
+    <contact_us>contact us</contact_us>
+    <content>content</content>
+    <content_avatar>content avatar</content_avatar>
+    <content_count_limitation_is_active>content count limitation is active</content_count_limitation_is_active>
+    <content_keywords>content keywords</content_keywords>
+    <content_not_exist>content not exist</content_not_exist>
+    <content_protection_by_password>content protection by password</content_protection_by_password>
+    <content_reply>content reply</content_reply>
+    <content_reply_count_limitation_is_active>content reply count limitation is active</content_reply_count_limitation_is_active>
+    <content_reply_option>content reply option</content_reply_option>
+    <content_reply_time_limitation_is_active>content reply time limitation is active</content_reply_time_limitation_is_active>
+    <content_type>content type</content_type>
+    <convert>convert</convert>
+    <cookies_and_web_beacons>cookies and web beacons</cookies_and_web_beacons>
+    <cookies_policy_page>cookies policy page</cookies_policy_page>
+  </lang_c>
+  <lang_d>
+    <dashboard>dashboard</dashboard>
+    <date_and_time>date and time</date_and_time>
+    <date_create>date create</date_create>
+    <default>default</default>
+    <delete>delete</delete>
+    <delete_foot_print>delete foot print</delete_foot_print>
+    <disclaimer>disclaimer</disclaimer>
+    <document>document</document>
+  </lang_d>
+  <lang_e>
+    <earth>earth</earth>
+    <editor>editor</editor>
+    <editor_template>editor template</editor_template>
+    <elanat>elanat</elanat>
+    <article>el hegemony</article>
+    <article_green>el hegemony green</article_green>
+    <work_frame>el simple frame</work_frame>
+    <work_frame_gray>el simple frame gray</work_frame_gray>
+    <elanat_box>elanat box</elanat_box>
+    <elanat_captcha>elanat captcha</elanat_captcha>
+    <elanat_file_viewer>elanat file viewer</elanat_file_viewer>
+    <email>email</email>
+    <english>english</english>
+    <error>error</error>
+    <extra_helper>extra helper</extra_helper>
+  </lang_e>
+  <lang_f>
+    <fetch>fetch</fetch>
+    <file_and_directory>file and directory</file_and_directory>
+    <file_manager>file manager</file_manager>
+    <flower>flower</flower>
+    <foot_print>foot print</foot_print>
+    <footer_1>footer 1</footer_1>
+    <footer_2>footer 2</footer_2>
+    <footer_bar_box>footer bar box</footer_bar_box>
+    <footer_bar_left>footer bar left</footer_bar_left>
+    <footer_bar_right>footer bar right</footer_bar_right>
+    <footer_menu>footer menu</footer_menu>
+    <forget_password>forget password</forget_password>
+  </lang_f>
+  <lang_g>
+    <gregorian>gregorian</gregorian>
+    <group>group</group>
+    <guest>guest</guest>
+  </lang_g>
+  <lang_h>
+    <header_1>header 1</header_1>
+    <header_2>header 2</header_2>
+    <header_bar_box>header bar box</header_bar_box>
+    <header_bar_left>header bar left</header_bar_left>
+    <header_bar_right>header bar right</header_bar_right>
+    <header_menu>header menu</header_menu>
+    <height>height</height>
+    <hijri>hijri</hijri>
+    <home>home</home>
+    <home_page>home page</home_page>
+    <html>html</html>
+    <html_to_inner_xml>html to inner xml</html_to_inner_xml>
+  </lang_h>
+  <lang_i>
+    <iframe>iframe</iframe>
+    <image_prewiew>image prewiew</image_prewiew>
+    <inactive>inactive</inactive>
+    <include_cdata>include cdata</include_cdata>
+    <information>information</information>
+    <information_for_children>information for children</information_for_children>
+    <inner_xml>inner xml</inner_xml>
+    <inner_xml_to_html>inner xml to html</inner_xml_to_html>
+    <introduction>introduction</introduction>
+    <item>item</item>
+  </lang_i>
+  <lang_j>
+  </lang_j>
+  <lang_k>
+  </lang_k>
+  <lang_l>
+    <language>language</language>
+    <last_comment>last comment</last_comment>
+    <last_data>last data</last_data>
+    <laugh>laugh</laugh>
+    <left_menu>left menu</left_menu>
+    <licence>licence</licence>
+    <limitations>limitations</limitations>
+    <link>link</link>
+    <lock>lock</lock>
+    <lock_login>lock login</lock_login>
+    <lock_login_is_active>lock login is active</lock_login_is_active>
+    <lock_login_is_inactive>lock login is inactive</lock_login_is_inactive>
+    <lock_login_patch_is_inactive>lock login patch is inactive</lock_login_patch_is_inactive>
+    <log_files>log files</log_files>
+    <login>login</login>
+    <login_try_count_limitation_is_active>login try count limitation is active</login_try_count_limitation_is_active>
+    <logout>logout</logout>
+    <logged_out>logged out</logged_out>
+  </lang_l>
+  <lang_m>
+    <main>main</main>
+    <main_page>main page</main_page>
+    <manager>manager</manager>
+    <member>member</member>
+    <menu>menu</menu>
+    <module>module</module>
+    <multimedia>multimedia</multimedia>
+    <music>music</music>
+  </lang_m>
+  <lang_n>
+    <news>news</news>
+    <next_search_time_interval_limitation_is_active>next search time interval limitation is active</next_search_time_interval_limitation_is_active>
+    <none>none</none>
+    <number>number</number>
+  </lang_n>
+  <lang_o>
+    <ok>ok</ok>
+    <options>options</options>
+    <other_ways_for_contact>other ways for contact</other_ways_for_contact>
+  </lang_o>
+  <lang_p>
+    <page>page</page>
+    <password>password</password>
+    <patch>patch</patch>
+    <persian>persian</persian>
+    <phone_number>phone number</phone_number>
+    <photos>photos</photos>
+    <please_login_or_sign_up_to_post_a_comment>please login or sign up to post a comment</please_login_or_sign_up_to_post_a_comment>
+    <plugin>plugin</plugin>
+    <plus14>plus14</plus14>
+    <post>post</post>
+    <powered_by>powered by</powered_by>
+    <print>print</print>
+    <privacy_policy>privacy policy</privacy_policy>
+    <privacy_policy_for_asp>privacy policy for $_elanat ::site site_global_local_name;</privacy_policy_for_asp>
+    <profile>profile</profile>
+    <properties>properties</properties>
+    <public_comment>public comment</public_comment>
+    <public_contact>public contact</public_contact>
+    <public_content_reply>public content reply</public_content_reply>
+    <public_user_info>public user info</public_user_info>
+  </lang_p>
+  <lang_q>
+    <question>question</question>
+  </lang_q>
+  <lang_r>
+    <rating_is_asp_from_asp_voted>rating is $_asp rating; from $_asp number_of_voted; voted</rating_is_asp_from_asp_voted>
+    <read_more>read more</read_more>
+    <recycle_bin>recycle bin</recycle_bin>
+    <refresh>refresh</refresh>
+    <reply>reply</reply>
+    <return>return</return>
+    <return_to_home>return to home</return_to_home>
+    <right_menu>right menu</right_menu>
+    <robot_detect_captcha>robot detect captcha</robot_detect_captcha>
+    <role>role</role>
+    <role_add_always_on_top_content>role add always on top content</role_add_always_on_top_content>
+    <role_add_content_without_approval>role add content without approval</role_add_content_without_approval>
+    <role_add_free_comment_content>role add free comment content</role_add_free_comment_content>
+    <role_admin_dynamic_head_configuration>role admin dynamic head configuration</role_admin_dynamic_head_configuration>
+    <role_admin_global_location_configuration>role admin global location configuration</role_admin_global_location_configuration>
+    <role_admin_global_style_configuration>role admin global style configuration</role_admin_global_style_configuration>
+    <role_admin_global_template_configuration>role admin global template configuration</role_admin_global_template_configuration>
+    <role_admin_page_load_configuration>role admin page load configuration</role_admin_page_load_configuration>
+    <role_admin_script_configuration>role admin script configuration</role_admin_script_configuration>
+    <role_admin_static_head_configuration>role admin static head configuration</role_admin_static_head_configuration>
+    <role_after_load_path_reference_configuration>role after load path reference configuration</role_after_load_path_reference_configuration>
+    <role_approval_comment_all_content>role approval comment all content</role_approval_comment_all_content>
+    <role_approval_comment_only_own_content>role approval comment only own content</role_approval_comment_only_own_content>
+    <role_approval_comment_own_content>role approval comment own content</role_approval_comment_own_content>
+    <role_approval_users_content>role approval users content</role_approval_users_content>
+    <role_authorized_extension_configuration>role authorized extension configuration</role_authorized_extension_configuration>
+    <role_before_load_path_reference_configuration>role before load path reference configuration</role_before_load_path_reference_configuration>
+    <role_box_configuration>role box configuration</role_box_configuration>
+    <role_calendar_configuration>role calendar configuration</role_calendar_configuration>
+    <role_captcha_configuration>role captcha configuration</role_captcha_configuration>
+    <role_category_map_configuration>role category map configuration</role_category_map_configuration>
+    <role_client_file_extensions_configuration>role client file extensions configuration</role_client_file_extensions_configuration>
+    <role_config_configuration>role config configuration</role_config_configuration>
+    <role_content_avatar_configuration>role content avatar configuration</role_content_avatar_configuration>
+    <role_content_icon_configuration>role content icon configuration</role_content_icon_configuration>
+    <role_default_page_configuration>role default page configuration</role_default_page_configuration>
+    <role_delete_comment_all_content>role delete comment all content</role_delete_comment_all_content>
+    <role_delete_comment_only_own_content>role delete comment only own content</role_delete_comment_only_own_content>
+    <role_delete_comment_own_content>role delete comment own content</role_delete_comment_own_content>
+    <role_dynamic_extension_configuration>role dynamic extension configuration</role_dynamic_extension_configuration>
+    <role_edit_comment_all_content>role edit comment all content</role_edit_comment_all_content>
+    <role_edit_comment_only_own_content>role edit comment only own content</role_edit_comment_only_own_content>
+    <role_edit_comment_own_content>role edit comment own content</role_edit_comment_own_content>
+    <role_event_reference_configuration>role event reference configuration</role_event_reference_configuration>
+    <role_file_extensions_configuration>role file extensions configuration</role_file_extensions_configuration>
+    <role_file_viewer_configuration>role file viewer configuration</role_file_viewer_configuration>
+    <role_foreign_key_configuration>role foreign key configuration</role_foreign_key_configuration>
+    <role_global_script_configuration>role global script configuration</role_global_script_configuration>
+    <role_global_style_configuration>role global style configuration</role_global_style_configuration>
+    <role_global_template_configuration>role global template configuration</role_global_template_configuration>
+    <role_link_protocol_configuration>role link protocol configuration</role_link_protocol_configuration>
+    <role_page_location_configuration>role page location configuration</role_page_location_configuration>
+    <role_reference_configuration>role reference configuration</role_reference_configuration>
+    <role_replace_part_configuration>role replace part configuration</role_replace_part_configuration>
+    <role_reply_comment_own_content>role reply comment own content</role_reply_comment_own_content>
+    <role_reply_comment_all_content>role reply comment all content</role_reply_comment_all_content>
+    <role_reply_comment_only_own_content>role reply comment only own content</role_reply_comment_only_own_content>
+    <role_robots_configuration>role robots configuration</role_robots_configuration>
+    <role_role_bit_column_access_configuration>role role bit column access configuration</role_role_bit_column_access_configuration>
+    <role_role_group_configuration>role role group configuration</role_role_group_configuration>
+    <role_scheduled_tasks_configuration>role scheduled tasks configuration</role_scheduled_tasks_configuration>
+    <role_security_configuration>role security configuration</role_security_configuration>
+    <role_site_dynamic_head_configuration>role site dynamic head configuration</role_site_dynamic_head_configuration>
+    <role_site_global_location_configuration>role site global location configuration</role_site_global_location_configuration>
+    <role_site_global_style_configuration>role site global style configuration</role_site_global_style_configuration>
+    <role_site_global_template_configuration>role site global template configuration</role_site_global_template_configuration>
+    <role_site_page_load_configuration>role site page load configuration</role_site_page_load_configuration>
+    <role_site_script_configuration>role site script configuration</role_site_script_configuration>
+    <role_site_static_head_configuration>role site static head configuration</role_site_static_head_configuration>
+    <role_start_up_configuration>role start up configuration</role_start_up_configuration>
+    <role_struct_configuration>role struct configuration</role_struct_configuration>
+    <role_submit_foot_print>role submit foot print</role_submit_foot_print>
+    <role_submit_visit>role submit visit</role_submit_visit>
+    <role_system_configuration>role system configuration</role_system_configuration>
+    <role_type_configuration>role type configuration</role_type_configuration>
+    <role_unauthorized_configuration>role unauthorized configuration</role_unauthorized_configuration>
+    <role_upload_file>role upload file</role_upload_file>
+    <role_upload_file_configuration>role upload file configuration</role_upload_file_configuration>
+    <role_web_config_configuration>role web config configuration</role_web_config_configuration>
+    <role_write_html>role write html</role_write_html>
+    <role_write_script>role write script</role_write_script>
+    <role_wysiwyg_configuration>role wysiwyg configuration</role_wysiwyg_configuration>
+    <rss>rss</rss>
+    <rss_option>rss option</rss_option>
+  </lang_r>
+  <lang_s>
+    <sad>sad</sad>
+    <search>search</search>
+    <search_option>search option</search_option>
+    <send_email>send email</send_email>
+    <server>server</server>
+    <set_thumbnail>set thumbnail</set_thumbnail>
+    <set_image>set image</set_image>
+    <show_admin_component_access_view>show admin component access view</show_admin_component_access_view>
+    <show_attachment>show attachment</show_attachment>
+    <show_content>show content</show_content>
+    <show_extra_helper_list>show extra helper list</show_extra_helper_list>
+    <show_logs_list>show logs list</show_logs_list>
+    <sign_up>sign up</sign_up>
+    <sign_up_option>sign up option</sign_up_option>
+    <site>site</site>
+    <site_logo>site logo</site_logo>
+    <site_map>site map</site_map>
+    <site_style>site style</site_style>
+    <site_template>site template</site_template>
+    <sitemap>sitemap</sitemap>
+    <sitemap_option>sitemap option</sitemap_option>
+    <src>src</src>
+    <statistics>statistics</statistics>
+    <style>style</style>
+    <super_users>super users</super_users>
+    <surprise>surprise</surprise>
+  </lang_s>
+  <lang_t>
+    <template>template</template>
+    <terms_of_service>terms of service</terms_of_service>
+    <text>text</text>
+    <tinymce_4_1_3_full>tinymce 4.1.3 full</tinymce_4_1_3_full>
+    <tinymce_4_1_3_medium>tinymce 4.1.3 medium</tinymce_4_1_3_medium>
+    <tinymce_4_1_3_mini>tinymce 4.1.3 miini</tinymce_4_1_3_mini>
+    <tinymce_5_10_0_full>tinymce 5.10.0 full</tinymce_5_10_0_full>
+    <tinymce_5_10_0_medium>tinymce 5.10.0 medium</tinymce_5_10_0_medium>
+    <tinymce_5_10_0_mini>tinymce 5.10.0 miini</tinymce_5_10_0_mini>
+    <to_trash>to trash</to_trash>
+    <today_activity>today activity</today_activity>
+    <tools>tools</tools>
+  </lang_t>
+  <lang_u>
+    <upload_file>upload file</upload_file>
+    <user>user</user>
+    <user_agreement>user agreement</user_agreement>
+    <user_comment>user comment</user_comment>
+    <user_content>user content</user_content>
+    <user_foot_print>user foot print</user_foot_print>
+    <user_info>user info</user_info>
+    <user_statistics>user statistics</user_statistics>
+    <users>users</users>
+  </lang_u>
+  <lang_v>
+    <video>video</video>
+    <view>view</view>
+    <view_more>view more</view_more>
+  </lang_v>
+  <lang_w>
+    <warning>warning</warning>
+    <width>width</width>
+    <work_frame>work frame</work_frame>
+    <work_frame_gray>work frame gray</work_frame_gray>
+  </lang_w>
+  <lang_x>
+    <xml_sitemap_option>xml sitemap option</xml_sitemap_option>
+  </lang_x>
+  <lang_y>
+    <you_do_not_access_to_attachment_component>you do not access to attachment component</you_do_not_access_to_attachment_component>
+    <you_do_not_access_to_backup_component>you do not access to backup component</you_do_not_access_to_backup_component>
+    <you_do_not_access_to_comment_component>you do not access to comment component</you_do_not_access_to_comment_component>
+    <you_do_not_access_to_contact_component>you do not access to contact component</you_do_not_access_to_contact_component>
+    <you_do_not_access_to_language_component>you do not access to language component</you_do_not_access_to_language_component>
+    <you_do_not_access_to_template_component>you do not access to template component</you_do_not_access_to_template_component>
+    <you_have_successfully_logged_out>you have successfully logged out</you_have_successfully_logged_out>
+    <your_email_has_been_accepted>your email has been accepted</your_email_has_been_accepted>
+    <your_new_password>your new password</your_new_password>
+  </lang_y>
+  <lang_z>
+  </lang_z>
+</language_root>

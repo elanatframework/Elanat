@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<site_catalog_root>
+
+  <site_page_list>
+
+    <page name="about" load_type="text" use_language="false" use_module="false" use_plugin="false" use_replace_part="false" use_fetch="false" use_item="false"/>
+    <page name="contact" load_type="text" use_language="false" use_module="false" use_plugin="false" use_replace_part="false" use_fetch="false" use_item="false"/>
+    <page name="inactive_site_message" load_type="text" use_language="false" use_module="false" use_plugin="false" use_replace_part="false" use_fetch="false" use_item="false"/>
+    <page name="privacy_policy" load_type="text" use_language="false" use_module="false" use_plugin="false" use_replace_part="false" use_fetch="false" use_item="false"/>
+    <page name="terms_of_service" load_type="text" use_language="false" use_module="false" use_plugin="false" use_replace_part="false" use_fetch="false" use_item="false"/>
+    <page name="user_agreement" load_type="text" use_language="false" use_module="false" use_plugin="false" use_replace_part="false" use_fetch="false" use_item="false"/>
+
+  </site_page_list>
+	
+</site_catalog_root>

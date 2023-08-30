@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+  
+    <active>active</active>
+    <add>add</add>
+    <add_item>add item</add_item>
+    <delete>delete</delete>
+    <edit>edit</edit>
+    <edit_item>edit item</edit_item>
+    <inactive>inactive</inactive>
+    <item>item</item>
+    <item_access_show>item access show</item_access_show>
+    <item_active>item active</item_active>
+    <item_cache_duration>item cache duration</item_cache_duration>
+    <item_id>item id</item_id>
+    <item_menu>item menu</item_menu>
+    <item_name>item name</item_name>
+    <item_public_access_show>item public access show</item_public_access_show>
+    <item_sort_index>item sort index</item_sort_index>
+    <item_use_box>item use box</item_use_box>
+    <item_use_elanat>item use elanat</item_use_elanat>
+    <item_use_fetch>item use fetch</item_use_fetch>
+    <item_use_item>item use item</item_use_item>
+    <item_use_language>item use language</item_use_language>
+    <item_use_module>item use module</item_use_module>
+    <item_use_plugin>item use plugin</item_use_plugin>
+    <item_use_replace_part>item use replace part</item_use_replace_part>
+    <item_value>item value</item_value>
+    <item_was_add>item was add</item_was_add>
+    <item_was_save_edit>item was save edit</item_was_save_edit>
+    <read_more>read more</read_more>
+    <save_item>save item</save_item>
+	
+  </add_ons_language>
+</add_ons_language_root>

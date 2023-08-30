@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+    
+    <calendar>calendar</calendar>
+    <change_date_and_time>change date and time</change_date_and_time>
+    <date_format>date format</date_format>
+    <date_and_time_was_change>date and time was change</date_and_time_was_change>
+    <day_difference>day difference</day_difference>
+    <first_day_of_week>first day of weak</first_day_of_week>
+    <member>member</member>
+    <time_format>time format</time_format>
+    <time_hours_difference>time hours difference</time_hours_difference>
+    <time_minutes_difference>time minutes difference</time_minutes_difference>
+    <time_zone>time zone</time_zone>
+    
+  </add_ons_language>
+</add_ons_language_root>

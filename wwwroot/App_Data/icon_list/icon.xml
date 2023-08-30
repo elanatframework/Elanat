@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<icon_root>
+  
+  <icon_list>
+    <icon name="angry"><![CDATA[
+      <img class="contact_icon"$_lang="" angry="";" alt="($_lang="" angry="";)" src="/image/contact_icon/angry.png" />
+    ]]></icon>
+    <icon name="attachment"><![CDATA[
+      <img class="contact_icon"$_lang attachment;" alt="($_lang attachment;)" src="/image/contact_icon/attachment.png" />
+    ]]></icon>
+    <icon name="book"><![CDATA[
+      <img class="contact_icon"$_lang book;" alt="($_lang book;)" src="/image/contact_icon/book.png" />
+    ]]></icon>
+    <icon name="coins"><![CDATA[
+      <img class="contact_icon"$_lang coins;" alt="($_lang coins;)" src="/image/contact_icon/coins.png" />
+    ]]></icon>
+    <icon name="earth"><![CDATA[
+      <img class="contact_icon"$_lang earth;" alt="($_lang earth;)" src="/image/contact_icon/earth.png" />
+    ]]></icon>
+    <icon name="flower"><![CDATA[
+      <img class="contact_icon"$_lang flower;" alt="($_lang flower;)" src="/image/contact_icon/flower.png" />
+    ]]></icon>
+    <icon name="laugh"><![CDATA[
+      <img class="contact_icon"$_lang laugh;" alt="($_lang laugh;)" src="/image/contact_icon/laugh.png" />
+    ]]></icon>
+    <icon name="lock"><![CDATA[
+      <img class="contact_icon"$_lang lock;" alt="($_lang lock;)" src="/image/contact_icon/lock.png" />
+    ]]></icon>
+    <icon name="multimedia"><![CDATA[
+      <img class="contact_icon"$_lang multimedia;" alt="($_lang multimedia;)" src="/image/contact_icon/multimedia.png" />
+    ]]></icon>
+    <icon name="music"><![CDATA[
+      <img class="contact_icon"$_lang music;" alt="($_lang music;)" src="/image/contact_icon/music.png" />
+    ]]></icon>
+    <icon name="photos"><![CDATA[
+      <img class="contact_icon"$_lang photos;" alt="($_lang photos;)" src="/image/contact_icon/photos.png" />
+    ]]></icon>
+    <icon name="question"><![CDATA[
+      <img class="contact_icon"$_lang question;" alt="($_lang question;)" src="/image/contact_icon/question.png" />
+    ]]></icon>
+    <icon name="refresh"><![CDATA[
+      <img class="contact_icon"$_lang refresh;" alt="($_lang refresh;)" src="/image/contact_icon/refresh.png" />
+    ]]></icon>
+    <icon name="sad"><![CDATA[
+      <img class="contact_icon"$_lang sad;" alt="($_lang sad;)" src="/image/contact_icon/sad.png" />
+    ]]></icon>
+    <icon name="surprise"><![CDATA[
+      <img class="contact_icon"$_lang surprise;" alt="($_lang surprise;)" src="/image/contact_icon/surprise.png" />
+    ]]></icon>
+    <icon name="warning"><![CDATA[
+      <img class="contact_icon"$_lang warning;" alt="($_lang warning;)" src="/image/contact_icon/warning.png" />
+    ]]></icon>
+  </icon_list>
+  
+</icon_root>

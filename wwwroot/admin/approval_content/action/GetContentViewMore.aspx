@@ -1,0 +1,1 @@
+﻿<%@ Page Controller="Elanat.ActionGetInactiveContentViewMoreController" Model="Elanat.ActionGetInactiveContentViewMoreModel" %>

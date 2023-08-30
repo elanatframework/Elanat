@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<fetch_root>
+  <sql_query><![CDATA[select page_name from el_page]]></sql_query>
+  <box><![CDATA[				<ul>
+					$_asp item;
+				</ul>
+		]]></box>
+  <list_item><![CDATA[				<li>
+          $_db page_name;
+				</li>
+		]]></list_item>
+  <item>
+    <page_name>$_db page_name;</page_name>
+  </item>
+  <static_head><![CDATA[]]></static_head>
+  <load_tag><![CDATA[]]></load_tag>
+</fetch_root>

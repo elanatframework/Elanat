@@ -1,0 +1,1 @@
+﻿<%@ Page Controller="Elanat.ActionShowProtectionAttachmentController" Model="Elanat.ActionShowProtectionAttachmentModel" %>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<validation_root>
+  <validation_list>
+
+    <TextBox id="txt_RepeatEmail" type="string" label="repeat_email" format="^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$" category="" min_count="1" max_length="254" important="true" />
+    <TextBox id="txt_UserEmail" type="string" label="user_email" format="^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$" category="" min_count="1" max_length="254" important="true" />
+
+  </validation_list>
+</validation_root>

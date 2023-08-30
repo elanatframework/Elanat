@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <admin_style_name>نام استایل ادمین</admin_style_name>
+    <admin_template_name>نام قالب ادمین</admin_template_name>
+    <avatar>آواتار</avatar>
+    <avatar_path>مسیر آواتار</avatar_path>
+    <avatar_was_change>آواتار تغییر کرد</avatar_was_change>
+    <birthday_day>روز تولد</birthday_day>
+    <birthday_mount>ماه تولد</birthday_mount>
+    <birthday_year>سال تولد</birthday_year>
+    <calendar>تقویم</calendar>
+    <change_avatar>تغییر آواتار</change_avatar>
+    <change_date_and_time>تغییر تاریخ و زمان</change_date_and_time>
+    <change_email>تغییر ایمیل</change_email>
+    <change_group>تغییر گروه</change_group>
+    <change_language>تغییر زبان</change_language>
+    <change_password>تغییر رمز عبور</change_password>
+    <change_profile>تغییر مشخصات</change_profile>
+    <change_template_and_style>تغییر قالب و استایل</change_template_and_style>
+    <change_view>تغییر نمایش</change_view>
+    <date_and_time>تاریخ و زمان</date_and_time>
+    <date_and_time_was_change>تاریخ و زمان تغییر کردند</date_and_time_was_change>
+    <date_format>الگوی تاریخ</date_format>
+    <day_difference>تفاوت روز</day_difference>
+    <default_admin_style_name>نام استایل ادمین پیش فرض</default_admin_style_name>
+    <default_admin_template_name>نام قالب ادمین پیش فرض</default_admin_template_name>
+    <default_site_style_name>نام استایل سایت پیش فرض</default_site_style_name>
+    <default_site_template_name>نام قالب سایت پیش فرض</default_site_template_name>
+    <delete>حذف</delete>
+    <delete_foot_print>حذف ردپا</delete_foot_print>
+    <email>ایمیل</email>
+    <email_and_repeat_email_must_be_alike>ایمیل و تکرار ایمیل باید یکسان باشد</email_and_repeat_email_must_be_alike>
+    <email_was_change>ایمیل تغییر کرد</email_was_change>
+    <female>خانم</female>
+    <first_day_of_week>اولین روز هفته</first_day_of_week>
+    <foot_print_was_delete>ردپا حذف شد</foot_print_was_delete>
+    <delete_foot_print>حذف ردپا</delete_foot_print>
+    <group>گروه</group>
+    <group_was_change>گروه تغییر کرد</group_was_change>
+    <language>زبان</language>
+    <language_was_change>زبان تغییر کرد</language_was_change>
+    <male>آقا</male>
+    <none>هیچ یک</none>
+    <password_and_repeat_password_must_be_alike>رمز عبور و تکرار رمز عبور باید یکسان باشد</password_and_repeat_password_must_be_alike>
+    <password>رمز عبور</password>
+    <password_was_change>رمز عبور تغییر کرد</password_was_change>
+    <please_fill_avatar_upload_field_because_this_is_necessary>لطفا فیلد بارگذاری آواتار را پر کنید چون ضروری است</please_fill_avatar_upload_field_because_this_is_necessary>
+    <profile>مشخصات</profile>
+    <repeat_email>تکرار ایمیل</repeat_email>
+    <repeat_password>تکرار رمز عبور</repeat_password>
+    <show_user_address_in_user_info>نمایش آدرس کاربر در اطلاعات کابری</show_user_address_in_user_info>
+    <show_user_avatar_in_user_info>نمایش آواتار کاربر در اطلاعات کابری</show_user_avatar_in_user_info>
+    <show_user_birthday_in_user_info>نمایش تاریخ تولد کاربر در اطلاعات کابری</show_user_birthday_in_user_info>
+    <show_user_city_in_user_info>نمایش شهر کاربر در اطلاعات کابری</show_user_city_in_user_info>
+    <show_user_country_in_user_info>نمایش کشور کاربر در اطلاعات کابری</show_user_country_in_user_info>
+    <show_user_email_in_user_info>نمایش ایمیل کاربر در اطلاعات کابری</show_user_email_in_user_info>
+    <show_user_gender_in_user_info>نمایش جنسیت کاربر در اطلاعات کابری</show_user_gender_in_user_info>
+    <show_user_last_login_in_user_info>نمایش آخرین ورود کاربر در اطلاعات کابری</show_user_last_login_in_user_info>
+    <show_user_mobile_number_in_user_info>نمایش شماره موبایل کاربر در اطلاعات کابری</show_user_mobile_number_in_user_info>
+    <show_user_online_in_user_info>نمایش فعال بودن کاربر در اطلاعات کابری</show_user_online_in_user_info>
+    <show_user_phone_number_in_user_info>نمایش شماره تلفن کاربر در اطلاعات کابری</show_user_phone_number_in_user_info>
+    <show_user_postal_code_in_user_info>نمایش کد پستی کاربر در اطلاعات کابری</show_user_postal_code_in_user_info>
+    <show_user_state_or_province_in_user_info>نمایش ایالت یا استان کاربر در اطلاعات کابری</show_user_state_or_province_in_user_info>
+    <show_user_website_in_user_info>نمایش وبسایت کاربر در اطلاعات کابری</show_user_website_in_user_info>
+    <show_user_zip_code_in_user_info>نمایش زیپ کد کاربر در اطلاعات کاربری</show_user_zip_code_in_user_info>
+    <site_style_name>نام استایل سایت</site_style_name>
+    <site_template_name>نام قالب سایت</site_template_name>
+    <template_and_style>قالب و استایل</template_and_style>
+    <template_and_style_was_change>قالب و استایل تغییر کردند</template_and_style_was_change>
+    <time_format>الگوی زمان</time_format>
+    <time_hours_difference>تفاوت زمان ساعت</time_hours_difference>
+    <time_minutes_difference>تفاوت زمان دقیقه</time_minutes_difference>
+    <time_zone>منطقه زمانی</time_zone>
+    <use_avatar_path>استفاده از مسیر آواتار</use_avatar_path>
+    <user_about>درباره کاربر</user_about>
+    <user_address>آدرس کاربر</user_address>
+    <user_admin_emplate>قالب ادمین کاربر</user_admin_emplate>
+    <user_admin_language>زبان ادمین کاربر</user_admin_language>
+    <user_admin_style>استایل ادمین کاربر</user_admin_style>
+    <user_admin_template>قالب ادمین کاربر</user_admin_template>
+    <user_background_color>رنگ پس زمینه کاربر</user_background_color>
+    <user_birthday>تاریخ تولد کاربر</user_birthday>
+    <user_city>شهر کاربر</user_city>
+    <user_comment_count>تعداد نظر کاربر</user_comment_count>
+    <user_common_dark_background_color>رنگ عمومی پس زمینه تاریک کاربر</user_common_dark_background_color>
+    <user_common_dark_text_color>رنگ عمومی متن تاریک کاربر</user_common_dark_text_color>
+    <user_common_light_background_color>رنگ عمومی پس زمینه روشن کاربر</user_common_light_background_color>
+    <user_common_light_text_color>رنگ عمومی متن روشن کاربر</user_common_light_text_color>
+    <user_common_middle_background_color>رنگ عمومی پس زمینه متوسط کاربر</user_common_middle_background_color>
+    <user_common_middle_text_color>رنگ عمومی متن متوسط کاربر</user_common_middle_text_color>
+    <user_content_count>تعداد محتوای کاربر</user_content_count>
+    <user_country>کشور کاربر</user_country>
+    <user_date_create>تاریخ ایجاد کاربر</user_date_create>
+    <user_email>ایمیل کاربر</user_email>
+    <user_font_size>اندازه فونت کاربر</user_font_size>
+    <user_gender>جنسیت کاربر</user_gender>
+    <user_group>گروه کاربر</user_group>
+    <user_group_name>نام گروه کاربر</user_group_name>
+    <user_id>شماره کاربر</user_id>
+    <user_info>اطلاعات کاربر</user_info>
+    <user_info_background_color>رنگ پس زمینه اطلاعات کاربر</user_info_background_color>
+    <user_info_font_color>رنگ فونت اطلاعات کاربر</user_info_font_color>
+    <user_last_login>آخرین ورود کاربر</user_last_login>
+    <user_mobile_number>شماره موبایل کاربر</user_mobile_number>
+    <user_name>نام کاربری</user_name>
+    <user_natural_dark_background_color>رنگ طبیعی پس زمینه تاریک کاربر</user_natural_dark_background_color>
+    <user_natural_dark_text_color>رنگ طبیعی متن تاریک کاربر</user_natural_dark_text_color>
+    <user_natural_light_background_color>رنگ طبیعی پس زمینه روشن کاربر</user_natural_light_background_color>
+    <user_natural_light_text_color>رنگ طبیعی متن روشن کاربر</user_natural_light_text_color>
+    <user_natural_middle_background_color>رنگ طبیعی پس زمینه متوسط کاربر</user_natural_middle_background_color>
+    <user_natural_middle_text_color>رنگ طبیعی متن متوسط کاربر</user_natural_middle_text_color>
+    <user_number_of_upload>تعداد بارگذاری کاربر</user_number_of_upload>
+    <user_other_info>سایر اطلاعات کاربر</user_other_info>
+    <user_password>رمز کاربر</user_password>
+    <user_percent_of_content>درصد محتوای کاربر</user_percent_of_content>
+    <user_phone_number>شماره تلفن کاربر</user_phone_number>
+    <user_postal_code>کد پستی کاربر</user_postal_code>
+    <user_profile>مشخصات کاربر</user_profile>
+    <user_profile_was_change>مشخصات کاربر تغییر کرد</user_profile_was_change>
+    <user_public_email>ایمیل عمومی کاربر</user_public_email>
+    <user_real_last_name>فامیلی واقعی کاربر</user_real_last_name>
+    <user_real_name>نام واقعی کاربر</user_real_name>
+    <user_site_language>زبان سایت کاربر</user_site_language>
+    <user_site_name>نام کاربر در سایت</user_site_name>
+    <user_site_style>استایل سایت کاربر</user_site_style>
+    <user_site_template>قالب سایت کاربر</user_site_template>
+    <user_size_of_upload>حجم بارگذاری کاربر</user_size_of_upload>
+    <user_state_or_province>ایالت یا استان کاربر</user_state_or_province>
+    <user_website>وبسایت کاربر</user_website>
+    <user_zip_code>زیپ کد کاربر</user_zip_code>
+    <view>ویو</view>
+    <view_was_change>ویو تغییر کرد</view_was_change>
+    <you_do_not_access_to_delete_own_foot_print>شما به حذف ردپای خود دسترسی ندارید</you_do_not_access_to_delete_own_foot_print>
+    <you_should_select_a_image_extension>شما باید یک الگوی تصویر را انتخاب کنید</you_should_select_a_image_extension>
+  
+
+</add_ons_language>
+</add_ons_language_root>

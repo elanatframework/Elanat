@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <about>about</about>
+    <address>address</address>
+    <birthday>birthday</birthday>
+    <birthday_day>birthday day</birthday_day>
+    <birthday_mount>birthday mount</birthday_mount>
+    <birthday_year>birthday year</birthday_year>
+    <city>city</city>
+    <contact>contact</contact>
+    <contact_was_send>contact was send</contact_was_send>
+    <country>country</country>
+    <email>email</email>
+    <female>female</female>
+    <gender>gender</gender>
+    <last_name>last name</last_name>
+    <male>male</male>
+    <mobile_number>mobile number</mobile_number>
+    <name>name</name>
+    <phone_number>phone number</phone_number>
+    <postal_code>postal code</postal_code>
+    <public_email>public email</public_email>
+    <real_last_name>real last name</real_last_name>
+    <real_name>real name</real_name>
+    <role_can_not_access_to_upload_file>role can not access to upload file</role_can_not_access_to_upload_file>
+    <send_contact>send contact</send_contact>
+    <site>site</site>
+    <state_or_province>state or province</state_or_province>
+    <text>text</text>
+    <the_captcha_you_entered_is_incorrect>the captcha you entered is incorrect</the_captcha_you_entered_is_incorrect>
+    <title>title</title>
+    <type>type</type>
+    <unknown>unknown</unknown>
+    <upload_file>upload file</upload_file>
+    <upload_path>upload path</upload_path>
+    <use_upload_path>use upload path</use_upload_path>
+    <website>website</website>
+    <write_below_code_for_our_future_response>write below code for our future response</write_below_code_for_our_future_response>
+    <your_file_type_is_not_allowed>your file type is not allowed</your_file_type_is_not_allowed>
+    <zip_code>zip code</zip_code>
+	
+  </add_ons_language>
+</add_ons_language_root>

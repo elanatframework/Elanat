@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<plugin_catalog_root>
+
+  <plugin_name value="show_accept_cookie_message" />
+
+  <plugin_category value="" />
+
+  <plugin_author value="Elanat" />
+
+  <plugin_directory_path value="show_accept_cookie_message" />
+
+  <plugin_physical_name value="Default.aspx" />
+  
+  <plugin_replace use_language="false" use_replace_part="false" use_module="false" use_plugin="false" use_elanat="false" use_item="false" use_fetch="false"  />
+	
+  <plugin_cache_parameters></plugin_cache_parameters>
+
+  <plugin_version_support>
+    <version value="2.0.0.0" />
+  </plugin_version_support>
+
+  <plugin_author_website>
+
+  </plugin_author_website>
+
+  <plugin_best_load_status value="server" />
+
+  <plugin_version value="2.0.0.0" />
+
+  <plugin_release_date value="2023/08/31"/>
+
+  <plugin_info>
+
+  </plugin_info>
+
+  <plugin_license>
+
+  </plugin_license>
+
+  <plugin_static_head>
+
+  </plugin_static_head>
+
+  <plugin_load_tag>
+
+  </plugin_load_tag>
+
+  <plugin_install_path value="" />
+
+  <plugin_uninstall_path value="" />
+
+  <plugin_add_access_path>
+
+  </plugin_add_access_path>
+
+  <plugin_edit_own_access_path>
+
+  </plugin_edit_own_access_path>
+
+  <plugin_edit_all_access_path>
+    <path type="url" start_by="true" exist="false" end_by="false" regex_match="false" active="true">
+      <path_value>catalog.xml</path_value>
+    </path>
+  </plugin_edit_all_access_path>
+
+  <plugin_delete_own_access_path>
+
+  </plugin_delete_own_access_path>
+
+  <plugin_delete_all_access_path>
+
+  </plugin_delete_all_access_path>
+
+  </plugin_catalog_root>

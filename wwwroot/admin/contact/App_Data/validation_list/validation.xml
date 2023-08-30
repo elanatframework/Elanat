@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<validation_root>
+  <validation_list>
+   
+    <DropDownList id="ddlst_ContactGuestBirthdayDay" type="regex" label="contact_guest_birthday_day" format="0([0-9])|1([0-9])|2([0-9])|3([0-1])" category="" important="false" />
+    <DropDownList id="ddlst_ContactGuestBirthdayMount" type="regex" label="contact_guest_birthday_mount" format="0([0-9])|1([0-2])" category="" important="false" />
+    <DropDownList id="ddlst_ContactGuestBirthdayYear" type="regex" label="contact_guest_birthday_year" format="0(\d{3})|1(\d{3})|2(\d{3})" category="" important="false" />
+    <DropDownList id="ddlst_ContactType" type="ul_string" label="contact_type" category="" min_count="0" max_length="50" important="false" client_injection_check="true" />
+    <FileUpload id="upd_UploadFile" type="file" label="upload_file" category="" max_file_size="100000000" important="false" />
+    <HiddenField id="hdn_ContactId" type="number" label="contact_id" category="" start_range="0" end_range="100000" important="true" />   
+    <HiddenField id="hdn_ContactUploadDirectoryValue" type="string" label="contact_upload_directory_value" category="" min_count="1" max_length="800" important="false" client_injection_check="true"/>
+    <HiddenField id="hdn_ContactUploadFileValue" type="string" label="contact_upload_file_value" category="" min_count="1" max_length="255" important="false" client_injection_check="true"/>
+    <TextBox id="txt_ContactDateSend" type="regex" label="contact_date_send" format="(0(\d{3})|1(\d{3})|2(\d{3}))\/(0([0-9])|1([0-2]))\/(0([0-9])|1([0-9])|2([0-9])|3([0-1]))" category="" important="true"/>
+    <TextBox id="txt_ContactGuesAbout" type="string" label="contact_guest_about" category="" min_count="0" max_length="200" important="false" />
+    <TextBox id="txt_ContactGuesAddress" type="string" label="contact_guest_address" category="" min_count="0" max_length="200" important="false" />
+    <TextBox id="txt_ContactGuesPhoneNumber" type="string" label="contact_guest_phone_number" category="" min_count="0" max_length="50" important="false" />
+    <TextBox id="txt_ContactGuesPostalCode" type="string" label="contact_guest_postal_code" category="" min_count="0" max_length="50" important="false" />
+    <TextBox id="txt_ContactGuestCity" type="string" label="contact_guest_city" category="" min_count="0" max_length="50" important="false" />
+    <TextBox id="txt_ContactGuestCountry" type="string" label="contact_guest_country" category="" min_count="0" max_length="50" important="false" />
+    <TextBox id="txt_ContactGuestEmail" type="string" label="contact_guest_email" format="^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$" category="" min_count="0" max_length="254" important="false" />
+    <TextBox id="txt_ContactGuestMobileNumber" type="string" label="contact_guest_mobile_number" category="" min_count="0" max_length="50" important="false" />
+    <TextBox id="txt_ContactGuestName" type="string" label="contact_guest_name" category="" min_count="0" max_length="50" important="false" />
+    <TextBox id="txt_ContactGuestPublicEmail" type="string" label="contact_guest_public_email" format="^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$" category="" min_count="0" max_length="254" important="false" />
+    <TextBox id="txt_ContactGuestRealLastName" type="string" label="contact_guest_real_last_name" category="" min_count="0" max_length="50" important="false" />   
+    <TextBox id="txt_ContactGuestRealName" type="string" label="contact_guest_real_name" category="" min_count="0" max_length="50" important="false" />
+    <TextBox id="txt_ContactGuestStateOrProvince" type="string" label="contact_guest_state_or_province" category="" min_count="0" max_length="50" important="false" />
+    <TextBox id="txt_ContactGuestWebsite" type="string" label="contact_guest_website" category="" min_count="0" max_length="255" important="false" />
+    <TextBox id="txt_ContactGuestZipCode" type="string" label="contact_guest_zip_code" category="" min_count="0" max_length="10" important="false" />
+    <TextBox id="txt_ContactText" type="string" label="contact_text" category="" min_count="1" max_length="400" important="true" />
+    <TextBox id="txt_ContactTimeSend" type="regex" label="contact_time_send" format="(0([0-9])|1([0-9])|2([0-3])):([0-5][0-9]):([0-5][0-9])" category="" important="true"/>
+    <TextBox id="txt_ContactTitle" type="string" label="contact_title" category="" min_count="0" max_length="100" important="false" />
+
+  </validation_list>
+</validation_root>

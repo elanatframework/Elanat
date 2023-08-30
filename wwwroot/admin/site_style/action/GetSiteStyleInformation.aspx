@@ -1,0 +1,1 @@
+﻿<%@ Page Controller="Elanat.ActionGetSiteStyleInformationController" Model="Elanat.ActionGetSiteStyleInformationModel" %>

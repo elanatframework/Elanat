@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <active>فعال</active>
+    <active_active_content>محتوای فعال فعال</active_active_content>
+    <active_admin_note_content>محتوای یادداشت های مدیر فعال</active_admin_note_content>
+    <active_attachment>ضمیمه فعال</active_attachment>
+    <active_comment>نظر فعال</active_comment>
+    <active_contact>تماس فعال</active_contact>
+    <active_content>محتوا فعال</active_content>
+    <active_delay_content>محتوای تاخیر فعال</active_delay_content>
+    <active_draft_content>محتوای پیش نویس فعال</active_draft_content>
+    <active_foot_print>ردپا فعال</active_foot_print>
+    <active_inactive_content>محتوای غیرفعال فعال</active_inactive_content>
+    <active_log_error>خطای سیاهه فعال</active_log_error>
+    <active_tmp_size>حجم tmp فعال</active_tmp_size>
+    <active_trash_content>محتوای زباله فعال</active_trash_content>
+    <active_upload_size>حجم بارگذاری فعال</active_upload_size>
+    <active_user>کاربر فعال</active_user>
+    <active_visit>بازدید فعال</active_visit>
+    <admin_note>یادداشت مدیر</admin_note>
+    <attachment>ضمیمه</attachment>
+    <comment>نظر</comment>
+    <contact>تماس</contact>
+    <content>محتوا</content>
+    <delay>تاخیر</delay>
+    <draft>پیش نویس</draft>
+    <foot_print>ردپا</foot_print>
+    <inactive>غیرفعال</inactive>
+    <information>اطلاعات</information>
+    <information_option>گزینه اطلاعات</information_option>
+    <information_option_was_save>گزینه اطلاعات ذخیره شد</information_option_was_save>
+    <log_error>خطای سیاهه</log_error>
+    <save_information_option>ذخیره گزینه اطلاعات</save_information_option>
+    <tmp_size>حجم tmp</tmp_size>
+    <trash>زباله</trash>
+    <upload_size>حجم بارگذاری</upload_size>
+    <user>کاربر</user>
+    <visit>بازدید</visit>
+
+  </add_ons_language>
+</add_ons_language_root>

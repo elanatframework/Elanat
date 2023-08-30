@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <approval_content>approval content</approval_content>
+    <category_id>category id</category_id>
+    <category_name>category name</category_name>
+    <comment_count>comment count</comment_count>
+    <content_always_on_top>content always on top</content_always_on_top>
+    <content_avatar_physical_name>content avatar physical name</content_avatar_physical_name>
+    <content_date_create>content date create</content_date_create>
+    <content_icon_name>content icon name</content_icon_name>
+    <content_icon_physical_name>content icon physical name</content_icon_physical_name>
+    <content_id>content id</content_id>
+    <content_keywords_text>content keywords text</content_keywords_text>
+    <content_password>content password</content_password>
+    <content_public_access_show>content public access show</content_public_access_show>
+    <content_rating_number_of_voted>content rating number of voted</content_rating_number_of_voted>
+    <content_rating_rating>content rating rating</content_rating_rating>
+    <content_reply_count>content reply count</content_reply_count>
+    <content_source_text>content source text</content_source_text>
+    <content_status>content status</content_status>
+    <content_text>content text</content_text>
+    <content_time_create>content time create</content_time_create>
+    <content_title>content title</content_title>
+    <content_type>content type</content_type>
+    <content_verify_comments>content verify comments</content_verify_comments>
+    <content_visit>content visit</content_visit>
+    <language_global_name>language global name</language_global_name>
+    <language_name>language name</language_name>
+    <user_id>user id</user_id>
+    <user_site_name>user site name</user_site_name>
+
+  </add_ons_language>
+</add_ons_language_root>

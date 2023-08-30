@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+    
+    <change_email>تغییر ایمیل</change_email>
+    <email_and_repeat_email_must_be_alike>ایمیل و تکرار ایمیل باید یکسان باشد</email_and_repeat_email_must_be_alike>
+    <email_was_change>ایمیل تغییر کرد</email_was_change>
+    <member>عضو</member>
+    <repeat_email>تکرار ایمیل</repeat_email>
+    <user_email>ایمیل کاربری</user_email>
+    
+  </add_ons_language>
+</add_ons_language_root>

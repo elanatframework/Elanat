@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<protection_root>
+  <protection_list table_name="el_extra_helper" column_key_name="extra_helper_id">
+    <protection column_name="extra_helper_name" column_value="admin_note" />
+    <protection column_name="extra_helper_name" column_value="comment_option" />
+    <protection column_name="extra_helper_name" column_value="contact_option" />
+    <protection column_name="extra_helper_name" column_value="content_avatar" />
+    <protection column_name="extra_helper_name" column_value="content_reply_option" />
+    <protection column_name="extra_helper_name" column_value="rss_option" />
+    <protection column_name="extra_helper_name" column_value="search_option" />
+    <protection column_name="extra_helper_name" column_value="show_admin_component_access_view" />
+    <protection column_name="extra_helper_name" column_value="show_extra_helper_list" />
+    <protection column_name="extra_helper_name" column_value="show_logs_list" />
+    <protection column_name="extra_helper_name" column_value="sign_up_option" />
+    <protection column_name="extra_helper_name" column_value="site_logo" />
+    <protection column_name="extra_helper_name" column_value="sitemap_option" />
+    <protection column_name="extra_helper_name" column_value="upload_file" />
+    <protection column_name="extra_helper_name" column_value="xml_sitemap_option" />
+  </protection_list>
+</protection_root>

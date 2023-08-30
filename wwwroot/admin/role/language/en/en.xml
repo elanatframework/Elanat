@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  
+  <add_ons_language>
+
+    <add>add</add>
+    <add_role>add role</add_role>
+    <edit_role>edit role</edit_role>
+    <role>role</role>
+    <role_active>role active</role_active>
+    <role_add_always_on_top_content>role add always on top content</role_add_always_on_top_content>
+    <role_add_content_without_approval>role add content without approval</role_add_content_without_approval>
+    <role_add_free_comment_content>role add free comment content</role_add_free_comment_content>
+    <role_admin_dynamic_head_configuration>role admin dynamic head configuration</role_admin_dynamic_head_configuration>
+    <role_admin_global_location_configuration>role admin global location configuration</role_admin_global_location_configuration>
+    <role_admin_global_style_configuration>role admin global style configuration</role_admin_global_style_configuration>
+    <role_admin_global_template_configuration>role admin global template configuration</role_admin_global_template_configuration>
+    <role_admin_page_load_configuration>role admin page load configuration</role_admin_page_load_configuration>
+    <role_admin_script_configuration>role admin script configuration</role_admin_script_configuration>
+    <role_admin_static_head_configuration>role admin static head configuration</role_admin_static_head_configuration>
+    <role_after_load_path_reference_configuration>role after load path reference configuration</role_after_load_path_reference_configuration>
+    <role_approval_comment_all_content>role approval comment all content</role_approval_comment_all_content>
+    <role_approval_comment_only_own_content>role approval comment only own content</role_approval_comment_only_own_content>
+    <role_approval_comment_own_content>role approval comment own content</role_approval_comment_own_content>
+    <role_approval_users_content>role approval users content</role_approval_users_content>
+    <role_authorized_extension_configuration>role authorized extension configuration</role_authorized_extension_configuration>
+    <role_before_load_path_reference_configuration>role before load path reference configuration</role_before_load_path_reference_configuration>
+    <role_bit_column_access>role bit column access</role_bit_column_access>
+    <role_box_configuration>role box configuration</role_box_configuration>
+    <role_calendar_configuration>role calendar configuration</role_calendar_configuration>
+    <role_captcha_configuration>role captcha configuration</role_captcha_configuration>
+    <role_category_map_configuration>role category map configuration</role_category_map_configuration>
+    <role_client_file_extensions_configuration>role client file extensions configuration</role_client_file_extensions_configuration>
+    <role_config_configuration>role config configuration</role_config_configuration>
+    <role_content_avatar_configuration>role content avatar configuration</role_content_avatar_configuration>
+    <role_content_icon_configuration>role content icon configuration</role_content_icon_configuration>
+    <role_default_page_configuration>role default page configuration</role_default_page_configuration>
+    <role_delete_comment_all_content>role delete comment all content</role_delete_comment_all_content>
+    <role_delete_comment_only_own_content>role delete comment only own content</role_delete_comment_only_own_content>
+    <role_delete_comment_own_content>role delete comment own content</role_delete_comment_own_content>
+    <role_dynamic_extension_configuration>role dynamic extension configuration</role_dynamic_extension_configuration>
+    <role_edit_comment_only_own_content>role edit comment only own content</role_edit_comment_only_own_content>
+    <role_edit_comment_own_content>role edit comment own content</role_edit_comment_own_content>
+    <role_event_reference_configuration>role event reference configuration</role_event_reference_configuration>
+    <role_file_extensions_configuration>role file extensions configuration</role_file_extensions_configuration>
+    <role_file_viewer_configuration>role file viewer configuration</role_file_viewer_configuration>
+    <role_foreign_key_configuration>role foreign key configuration</role_foreign_key_configuration>
+    <role_global_script_configuration>role global script configuration</role_global_script_configuration>
+    <role_global_style_configuration>role global style configuration</role_global_style_configuration>
+    <role_global_template_configuration>role global template configuration</role_global_template_configuration>
+    <role_id>role id</role_id>
+    <role_link_protocol_configuration>role link protocol configuration</role_link_protocol_configuration>
+    <role_name>role name</role_name>
+    <role_page_location_configuration>role page location configuration</role_page_location_configuration>
+    <role_reference_configuration>role reference configuration</role_reference_configuration>
+    <role_replace_part_configuration>role replace part configuration</role_replace_part_configuration>
+    <role_reply_comment_own_content>role replay comment own content</role_reply_comment_own_content>
+    <role_reply_comment_all_content>role reply comment all content</role_reply_comment_all_content>
+    <role_reply_comment_only_own_content>role reply comment only own content</role_reply_comment_only_own_content>
+    <role_robots_configuration>role robots configuration</role_robots_configuration>
+    <role_role_bit_column_access_configuration>role role bit column access configuration</role_role_bit_column_access_configuration>
+    <role_scheduled_tasks_configuration>role scheduled tasks configuration</role_scheduled_tasks_configuration>
+    <role_security_configuration>role security configuration</role_security_configuration>
+    <role_site_dynamic_head_configuration>role site dynamic head configuration</role_site_dynamic_head_configuration>
+    <role_site_global_location_configuration>role site global location configuration</role_site_global_location_configuration>
+    <role_site_global_style_configuration>role site global style configuration</role_site_global_style_configuration>
+    <role_site_global_template_configuration>role site global template configuration</role_site_global_template_configuration>
+    <role_site_page_load_configuration>role site page load configuration</role_site_page_load_configuration>
+    <role_site_script_configuration>role site script configuration</role_site_script_configuration>
+    <role_site_static_head_configuration>role site static head configuration</role_site_static_head_configuration>
+    <role_start_up_configuration>role start up configuration</role_start_up_configuration>
+    <role_struct_configuration>role struct configuration</role_struct_configuration>
+    <role_submit_foot_print>role submit foot print</role_submit_foot_print>
+    <role_submit_visit>role submit visit</role_submit_visit>
+    <role_system_configuration>role system configuration</role_system_configuration>
+    <role_type>role type</role_type>
+    <role_type_configuration>role type configuration</role_type_configuration>
+    <role_unauthorized_configuration>role unauthorized configuration</role_unauthorized_configuration>
+    <role_upload_file>role upload file</role_upload_file>
+    <role_upload_file_configuration>role upload file configuration</role_upload_file_configuration>
+    <role_url_redirect_configuration>role url redirect configuration</role_url_redirect_configuration>
+    <role_url_rewrite_configuration>role url rewrite configuration</role_url_rewrite_configuration>
+    <role_was_add>role was add</role_was_add>
+    <role_was_save_edit>role was save edit</role_was_save_edit>
+    <role_web_config_configuration>role web config configuration</role_web_config_configuration>
+    <role_write_html>role write html</role_write_html>
+    <role_write_script>role write script</role_write_script>
+    <role_wysiwyg_configuration>role wysiwyg configuration</role_wysiwyg_configuration>
+    <save_role>save role</save_role>
+  
+</add_ons_language>
+
+</add_ons_language_root>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<comment_option_root>
+  <name active="true" />
+  <last_name active="false" />
+  <email active="false" />
+  <title active="false" />
+  <text active="true" />
+  <file active="false" />
+  <type active="false" />
+  <phone_number active="false" />
+  <mobile_number active="false" />
+  <address active="false" />
+  <postal_code active="false" />
+  <about active="false" />
+  <birthday active="false" />
+  <gender active="false" />
+  <country active="false" />
+  <state_or_province active="false" />
+  <city active="false" />
+  <zip_code active="false" />
+  <public_email active="false" />
+  <website active="false" />
+</comment_option_root>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <all_category_has_been_re_create_in_category_map_successfully>all category has been re create in category map successfully</all_category_has_been_re_create_in_category_map_successfully>
+    <all_file_and_sub_directory_in_disk_cache_directory_has_been_delete_successfully>all file and sub directory in disk cache directory has been delete successfully</all_file_and_sub_directory_in_disk_cache_directory_has_been_delete_successfully>
+    <all_file_and_sub_directory_in_logs_directory_has_been_delete_successfully>all file and sub directory in logs directory has been delete successfully</all_file_and_sub_directory_in_logs_directory_has_been_delete_successfully>
+    <all_file_and_sub_directory_in_tmp_directory_has_been_delete_successfully>all file and sub directory in tmp directory has been delete successfully</all_file_and_sub_directory_in_tmp_directory_has_been_delete_successfully>
+    <all_file_in_upload_directory_has_been_re_create_in_upload_file_list_successfully>all file in upload directory has been re create in upload file list successfully</all_file_in_upload_directory_has_been_re_create_in_upload_file_list_successfully>
+    <all_foot_prints_has_been_delete_successfully>all foot prints has been delete successfully</all_foot_prints_has_been_delete_successfully>
+    <application_start>application start</application_start>
+    <application_start_was_refresh>application start was refresh</application_start_was_refresh>
+    <cache>cache</cache>
+    <cache_was_refresh>cache was refresh</cache_was_refresh>
+    <cookie>cookie</cookie>
+    <delete>delete</delete>
+    <disk_cache_directory>disk cache directory</disk_cache_directory>
+    <foot_print>foot print</foot_print>
+    <lock_login>lock login</lock_login>
+    <lock_login_was_refresh>lock login was refresh</lock_login_was_refresh>
+    <login_ip_black_list>login ip black list</login_ip_black_list>
+    <login_ip_black_list_was_refresh>login ip black list was refresh</login_ip_black_list_was_refresh>
+    <logs_directory>logs directory</logs_directory>
+    <re_create>re create</re_create>
+    <refresh>refresh</refresh>
+    <session>session</session>
+    <session_was_refresh>session was refresh</session_was_refresh>
+    <site_category>site category</site_category>
+    <tmp_directory>tmp directory</tmp_directory>
+    <upload_file_list>upload file list</upload_file_list>
+    <version>version</version>
+	
+  </add_ons_language>
+</add_ons_language_root>

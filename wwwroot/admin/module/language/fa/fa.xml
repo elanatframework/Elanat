@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <add>درج</add>
+    <add_module>درج ماژول</add_module>
+    <edit_module>ویرایش ماژول</edit_module>
+    <information>اطلاعات</information>
+    <module>ماژول</module>
+    <module_access_add>دسترسی درج ماژول</module_access_add>
+    <module_access_delete_all>دسترسی حذف همه ماژول </module_access_delete_all>
+    <module_access_delete_own>دسترسی حذف ماژول خود</module_access_delete_own>
+    <module_access_edit_all>دسترسی ویرایش همه ماژول</module_access_edit_all>
+    <module_access_edit_own>دسترسی ویرایش ماژول خود</module_access_edit_own>
+    <module_access_show>دسترسی نمایش ماژول</module_access_show>
+    <module_active>ماژول فعال</module_active>
+    <module_add_access_path>مسیر دسترسی درج ماژول</module_add_access_path>
+    <module_author>سازنده ماژول</module_author>
+    <module_author_website>وب سایت سازنده ماژول</module_author_website>
+    <module_best_load_status>بهترین وضعیت اجرای ماژول</module_best_load_status>
+    <module_cache_duration>مدت زمان کش ماژول</module_cache_duration>
+    <module_cache_parameters>پارامترهای کش ماژول</module_cache_parameters>
+    <module_category>دسته بندی ماژول</module_category>
+    <module_delete_all_access_path>مسیر دسترسی حذف همه ماژول</module_delete_all_access_path>
+    <module_delete_own_access_path>مسیر دسترسی حذف خود ماژول</module_delete_own_access_path>
+    <module_directory_path>مسیر پوشه ماژول</module_directory_path>
+    <module_edit_all_access_path>مسیر دسترسی ویرایش همه ماژول</module_edit_all_access_path>
+    <module_edit_own_access_path>مسیر دسترسی ویرایش خود ماژول</module_edit_own_access_path>
+    <module_id>شماره ماژول</module_id>
+    <module_info>اطلاعات ماژول</module_info>
+    <module_install_path>مسیر نصب ماژول</module_install_path>
+    <module_license>مجوز ماژول</module_license>
+    <module_load_tag>تگ اجرای ماژول</module_load_tag>
+    <module_load_type>نوع اجرای ماژول</module_load_type>
+    <module_menu>منو ماژول</module_menu>
+    <module_menu_query_string>رشته کوئری منو ماژول</module_menu_query_string>
+    <module_name>نام ماژول</module_name>
+    <module_name_is_duplicate>نام ماژول تکراری است</module_name_is_duplicate>
+    <module_option_path>مسیر گزینه ماژول</module_option_path>
+    <module_path>مسیر ماژول</module_path>
+    <module_physical_name>نام فیزیکی ماژول</module_physical_name>
+    <module_physical_path>مسیر فیزیکی ماژول</module_physical_path>
+    <module_public_access_add>دسترسی عمومی درج ماژول</module_public_access_add>
+    <module_public_access_delete_all>دسترسی عمومی حذف همه ماژول</module_public_access_delete_all>
+    <module_public_access_delete_own>دسترسی عمومی حذف خود ماژول</module_public_access_delete_own>
+    <module_public_access_edit_all>دسترسی عمومی ویرایش همه ماژول</module_public_access_edit_all>
+    <module_public_access_edit_own>دسترسی عمومی ویرایش خود ماژول</module_public_access_edit_own>
+    <module_public_access_show>دسترسی عمومی نمایش ماژول</module_public_access_show>
+    <module_release_date>تاریخ انتشار ماژول</module_release_date>
+    <module_sort_index>شاخص مرتب سازی ماژول</module_sort_index>
+    <module_static_head>هدر ایستای ماژول</module_static_head>
+    <module_uninstall_path>مسیر حذف ماژول</module_uninstall_path>
+    <module_use_elanat>استفاده از اعلانات در ماژول</module_use_elanat>
+    <module_use_fetch>استفاده از واکش در ماژول</module_use_fetch>
+    <module_use_item>استفاده از آیتم در ماژول</module_use_item>
+    <module_use_language>استفاده از زبان در ماژول</module_use_language>
+    <module_use_module>استفاده از ماژول در ماژول</module_use_module>
+    <module_use_plugin>استفاده از پلاگین در ماژول</module_use_plugin>
+    <module_use_replace_part>استفاده از بخش جایگزین در ماژول</module_use_replace_part>
+    <module_version>نسخه ماژول</module_version>
+    <module_version_support>پشتیبانی نسخه های ماژول</module_version_support>
+    <module_was_add>ماژول اضافه شد</module_was_add>
+    <module_was_save_edit>ماژول ویرایش شد</module_was_save_edit>
+    <please_fill_module_path_field_because_this_is_necessary>لطفا فیلد مسیر ماژول را پر کنید چون ضروری است</please_fill_module_path_field_because_this_is_necessary>
+    <please_fill_module_upload_field_because_this_is_necessary>لطفا فیلد بارگذاری ماژول را پر کنید چون ضروری است</please_fill_module_upload_field_because_this_is_necessary>
+    <priority_for_module>اهمیت برای ماژول</priority_for_module>
+    <save_module>ذخیره ماژول</save_module>
+    <use_module_path>استفاده از مسیر ماژول</use_module_path>
+    <you_should_upload_zip_extension>شما باید پسوند zip بارگذاری کنید</you_should_upload_zip_extension>
+    <zip_file_is_corrupt>فایل زیپ معیوب است</zip_file_is_corrupt>
+
+  </add_ons_language>
+</add_ons_language_root>

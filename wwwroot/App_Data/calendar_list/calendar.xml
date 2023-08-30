@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<calendar_root>
+  
+  <calendar_list>
+    <calendar name="gregorian" active="true" />
+    <calendar name="persian" active="true" />
+    <calendar name="hijri" active="true" />
+  </calendar_list>
+  
+</calendar_root>

@@ -1,0 +1,1 @@
+﻿<%@ Page Controller="Elanat.ActionGetFetchInformationController" Model="Elanat.ActionGetFetchInformationModel" %>

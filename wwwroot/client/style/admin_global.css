@@ -1,0 +1,62 @@
+﻿/* Start Component Access */
+
+.el_access_box li
+{
+    width: 200px;
+    padding: 10px;
+    margin: 5px;
+    font-family: tahoma;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.el_access_true
+{
+    background-color: #00BA57;
+}
+
+.el_access_false
+{
+    background-color: #ddd;
+}
+
+/* End Component Access */
+
+/* Start Icon */
+
+.el_content_layout
+{
+    font-family: arial;
+    font-weight: bold;
+    background-image: url('../image/aggregation_32.png');
+    background-repeat: no-repeat;
+    height: 20px;
+    padding: 10px 20px;
+    background-color: #ccc;
+    cursor: pointer;
+    display: table;
+    width: calc(33.33% - 40px);
+    float: left;
+}
+
+.el_content_draft_layout
+{
+    background-position: 80px -4278px;
+}
+
+.el_content_inactive_layout
+{
+    background-position: 80px -758px;
+}
+
+.el_content_trash_layout
+{
+    background-position: 80px -5238px;
+}
+
+.el_content_status_selected
+{
+    background-color: #AAAAAA;
+}
+
+/* End Icon */

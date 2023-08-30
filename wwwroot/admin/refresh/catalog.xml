@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<component_catalog_root>
+
+  <component_name value="refresh" />
+
+  <component_category value="home" />
+
+  <component_author value="Elanat" />
+
+  <component_directory_path value="refresh" />
+
+  <component_physical_name value="Default.aspx" />
+  
+  <component_replace use_language="false" use_replace_part="false" use_module="false" use_plugin="false" use_elanat="false" use_item="false" use_fetch="false"  />
+
+  <component_cache_parameters></component_cache_parameters>
+
+  <component_version_support>
+    <version value="2.0.0.0" />
+  </component_version_support>
+
+  <component_author_website>
+
+  </component_author_website>
+
+  <component_best_load_status value="iframe" />
+
+  <component_version value="2.0.0.0" />
+
+  <component_release_date value="2023/08/31"/>
+
+  <component_info>
+
+  </component_info>
+
+  <component_license>
+
+  </component_license>
+
+  <component_static_head>
+
+  </component_static_head>
+
+  <component_load_tag>
+
+  </component_load_tag>
+
+  <component_install_path value="" />
+
+  <component_uninstall_path value="" />
+
+  <component_add_access_path>
+
+  </component_add_access_path>
+
+  <component_edit_own_access_path>
+
+  </component_edit_own_access_path>
+
+  <component_edit_all_access_path>
+    <path type="url" start_by="false" exist="true" end_by="false" regex_match="false" active="true">
+      <path_value>btn_LockLogin=</path_value>
+    </path>
+    <path type="form" start_by="false" exist="true" end_by="false" regex_match="false" active="true">
+      <path_value>btn_LockLogin=</path_value>
+    </path>
+    <path type="url" start_by="false" exist="true" end_by="false" regex_match="false" active="true">
+      <path_value>btn_Cache=</path_value>
+    </path>
+    <path type="form" start_by="false" exist="true" end_by="false" regex_match="false" active="true">
+      <path_value>btn_Cache=</path_value>
+    </path>
+    <path type="url" start_by="false" exist="true" end_by="false" regex_match="false" active="true">
+      <path_value>btn_Session=</path_value>
+    </path>
+    <path type="form" start_by="false" exist="true" end_by="false" regex_match="false" active="true">
+      <path_value>btn_Session=</path_value>
+    </path>
+    <path type="url" start_by="false" exist="true" end_by="false" regex_match="false" active="true">
+      <path_value>btn_Cookie=</path_value>
+    </path>
+    <path type="form" start_by="false" exist="true" end_by="false" regex_match="false" active="true">
+      <path_value>btn_Cookie=</path_value>
+    </path>
+    <path type="url" start_by="false" exist="true" end_by="false" regex_match="false" active="true">
+      <path_value>btn_LoginIpBlackList=</path_value>
+    </path>
+    <path type="form" start_by="false" exist="true" end_by="false" regex_match="false" active="true">
+      <path_value>btn_LoginIpBlackList=</path_value>
+    </path>
+    <path type="url" start_by="false" exist="true" end_by="false" regex_match="false" active="true">
+      <path_value>btn_SiteCategory=</path_value>
+    </path>
+    <path type="form" start_by="false" exist="true" end_by="false" regex_match="false" active="true">
+      <path_value>btn_SiteCategory=</path_value>
+    </path>
+    <path type="url" start_by="false" exist="true" end_by="false" regex_match="false" active="true">
+      <path_value>btn_UploadFileList=</path_value>
+    </path>
+    <path type="form" start_by="false" exist="true" end_by="false" regex_match="false" active="true">
+      <path_value>btn_UploadFileList=</path_value>
+    </path>
+    <path type="url" start_by="true" exist="false" end_by="false" regex_match="false" active="true">
+      <path_value>catalog.xml</path_value>
+    </path>
+    <path type="url" start_by="true" exist="false" end_by="false" regex_match="false" active="true">
+      <path_value>/language</path_value>
+    </path>
+  </component_edit_all_access_path>
+
+  <component_delete_own_access_path>
+
+  </component_delete_own_access_path>
+
+  <component_delete_all_access_path>
+    <path type="url" start_by="false" exist="true" end_by="false" regex_match="false" active="true">
+      <path_value>btn_TmpDirectory=</path_value>
+    </path>
+    <path type="form" start_by="false" exist="true" end_by="false" regex_match="false" active="true">
+      <path_value>btn_TmpDirectory=</path_value>
+    </path>
+    <path type="url" start_by="false" exist="true" end_by="false" regex_match="false" active="true">
+      <path_value>btn_LogsDirectory=</path_value>
+    </path>
+    <path type="form" start_by="false" exist="true" end_by="false" regex_match="false" active="true">
+      <path_value>btn_LogsDirectory=</path_value>
+    </path>
+    <path type="url" start_by="false" exist="true" end_by="false" regex_match="false" active="true">
+      <path_value>btn_FoorPrint=</path_value>
+    </path>
+    <path type="form" start_by="false" exist="true" end_by="false" regex_match="false" active="true">
+      <path_value>btn_FoorPrint=</path_value>
+    </path>
+  </component_delete_all_access_path>
+
+  </component_catalog_root>

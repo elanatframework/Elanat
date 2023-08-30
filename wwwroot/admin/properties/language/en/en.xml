@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<add_ons_language_root><![CDATA[do not change order]]>
+  <add_ons_language>
+    
+    <active_add_fetch_variant_note>active add fetch variant note</active_add_fetch_variant_note>
+    <active_add_item_variant_note>active add item variant note</active_add_item_variant_note>
+    <active_add_module_variant_note>active add module variant note</active_add_module_variant_note>
+    <active_add_plugin_variant_note>active add plugin variant note</active_add_plugin_variant_note>
+    <active_content_page_number>active content page number</active_content_page_number>
+    <active_scheduled_delay>active scheduled delay</active_scheduled_delay>
+    <active_scheduled_load>active scheduled load</active_scheduled_load>
+    <active_scheduled_tasks>active scheduled tasks</active_scheduled_tasks>
+    <active_scheduled_timer>active scheduled timer</active_scheduled_timer>
+    <active_server_refresh>active server refresh</active_server_refresh>
+    <add_comment_load_type_in_content_page>add comment load type in content page</add_comment_load_type_in_content_page>
+    <add_comment_load_type_in_main_page>add comment load type in main page</add_comment_load_type_in_main_page>
+    <add_content_reply_load_type_in_content_page>add content reply load type in content page</add_content_reply_load_type_in_content_page>
+    <add_content_reply_load_type_in_main_page>add content reply load type in main page</add_content_reply_load_type_in_main_page>
+    <comment_in_add_comment_box_location>comment in add comment box location</comment_in_add_comment_box_location>
+    <comment_in_content>comment in content</comment_in_content>
+    <comment_reply_in_comment>comment reply in comment</comment_reply_in_comment>
+    <content_in_main_page>content in main page</content_in_main_page>
+    <content_page_number_location>content page number location</content_page_number_location>
+    <content_per_page>content per page</content_per_page>
+    <content_text_character_length>content text character length</content_text_character_length>
+    <corn_hour_duration>corn hour duration</corn_hour_duration>
+    <create_external_link_for_admin_client_language_variant>create external link for admin client language variant</create_external_link_for_admin_client_language_variant>
+    <create_external_link_for_admin_client_variant>create external link for admin client variant</create_external_link_for_admin_client_variant>
+    <create_external_link_for_admin_view_style>create external link for admin view style</create_external_link_for_admin_view_style>
+    <create_external_link_for_current_view_style>create external link for current view style</create_external_link_for_current_view_style>
+    <create_external_link_for_site_client_language_variant>create external link for site client language variant</create_external_link_for_site_client_language_variant>
+    <create_external_link_for_site_client_variant>create external link for site client variant</create_external_link_for_site_client_variant>
+    <create_external_link_for_site_view_style>create external link for site view style</create_external_link_for_site_view_style>
+    <create_external_link_for_user_view_style>create external link for user view style</create_external_link_for_user_view_style>
+    <default_admin_language>default admin language</default_admin_language>
+    <default_admin_style>default admin style</default_admin_style>
+    <default_admin_template>default admin template</default_admin_template>
+    <default_component>default component</default_component>
+    <default_page>default page</default_page>
+    <default_site>default site</default_site>
+    <default_site_language>default site language</default_site_language>
+    <default_site_style>default site style</default_site_style>
+    <default_site_template>default site template</default_site_template>
+    <default_system>default system</default_system>
+    <include>include</include>
+    <include_box>include box</include_box>
+    <include_calendar>include calendar</include_calendar>
+    <include_captcha>include captcha</include_captcha>
+    <include_file_viewer>include file viewer</include_file_viewer>
+    <include_was_save>include was save</include_was_save>
+    <include_wysiwyg>include wysiwyg</include_wysiwyg>
+    <limite_time_for_send_comment>limite time for send comment</limite_time_for_send_comment>
+    <limite_time_for_send_comment_reply>limite time for send comment reply</limite_time_for_send_comment_reply>
+    <limite_time_for_send_content_reply>limite time for send content reply</limite_time_for_send_content_reply>
+    <null_language_suffix>null language suffix</null_language_suffix>
+    <properties>properties</properties>
+    <properties_was_save>properties was save</properties_was_save>
+    <read_more_status>read more status</read_more_status>
+    <row_in_main_table>row in main table</row_in_main_table>
+    <row_per_table>row per table</row_per_table>
+    <save_include>save include</save_include>
+    <save_properties>save properties</save_properties>
+    <save_view>save view</save_view>
+    <show_add_comment_in_content_in_content_page>show add comment in content in content page</show_add_comment_in_content_in_content_page>
+    <show_add_comment_in_content_in_main_page>show add comment in content in main page</show_add_comment_in_content_in_main_page>
+    <show_add_content_reply_in_content_in_content_page>show add content reply in content in content page</show_add_content_reply_in_content_in_content_page>
+    <show_add_content_reply_in_content_in_main_page>show add content reply in content in main page</show_add_content_reply_in_content_in_main_page>
+    <show_all_sub_category_when_select_father_category>show all sub category when select father category</show_all_sub_category_when_select_father_category>
+    <show_attachment_in_content_in_content_page>show attachment in content in content page</show_attachment_in_content_in_content_page>
+    <show_attachment_in_content_in_main_page>show attachment in content in main page</show_attachment_in_content_in_main_page>
+    <show_author_name_in_content_in_content_page>show author name in content in content page</show_author_name_in_content_in_content_page>
+    <show_author_name_in_content_in_main_page>show author name in content in main page</show_author_name_in_content_in_main_page>
+    <show_category_name_in_content_in_content_page>show category name in content in content page</show_category_name_in_content_in_content_page>
+    <show_category_name_in_content_in_main_page>show category name in content in main page</show_category_name_in_content_in_main_page>
+    <show_comment_in_add_comment_box>show comment in add comment box</show_comment_in_add_comment_box>
+    <show_comment_in_content_in_content_page>show comment in content in content page</show_comment_in_content_in_content_page>
+    <show_comment_in_content_in_main_page>show comment in content in main page</show_comment_in_content_in_main_page>
+    <show_content_keywords_in_content_in_content_page>show content keywords in content in content page</show_content_keywords_in_content_in_content_page>
+    <show_content_keywords_in_content_in_main_page>show content keywords in content in main page</show_content_keywords_in_content_in_main_page>
+    <show_content_reply_in_content_in_content_page>show content reply in content in content page</show_content_reply_in_content_in_content_page>
+    <show_content_reply_in_content_in_main_page>show content reply in content in main page</show_content_reply_in_content_in_main_page>
+    <show_date_in_content_in_content_page>show date in content in content page</show_date_in_content_in_content_page>
+    <show_date_in_content_in_main_page>show date in content in main page</show_date_in_content_in_main_page>
+    <show_site_name>show site name</show_site_name>
+    <show_site_slogan_name>show site slogan name</show_site_slogan_name>
+    <show_time_in_content_in_content_page>show time in content in content page</show_time_in_content_in_content_page>
+    <show_time_in_content_in_main_page>show time in content in main page</show_time_in_content_in_main_page>
+    <show_title_in_content_in_content_page>show title in content in content page</show_title_in_content_in_content_page>
+    <show_title_in_content_in_main_page>show title in content in main page</show_title_in_content_in_main_page>
+    <show_use_cookie_message_alert>show use cookie message alert</show_use_cookie_message_alert>
+    <show_visit_in_content_in_content_page>show visit in content in content page</show_visit_in_content_in_content_page>
+    <show_visit_in_content_in_main_page>show visit in content in main page</show_visit_in_content_in_main_page>
+    <site_path>site path</site_path>
+    <use_admin_client_language_variant>use admin client language variant</use_admin_client_language_variant>
+    <use_admin_client_variant>use admin client variant</use_admin_client_variant>
+    <use_ajax_for_content_page_number>use ajax for content page number</use_ajax_for_content_page_number>
+    <use_read_more>use read more</use_read_more>
+    <use_site_auto_resize>use site auto resize</use_site_auto_resize>
+    <use_site_client_language_variant>use site client language variant</use_site_client_language_variant>
+    <use_site_client_variant>use site client variant</use_site_client_variant>
+    <use_view_style>use view style</use_view_style>
+    <view>view</view>
+    <view_was_save>view was save</view_was_save>
+
+
+  </add_ons_language>
+</add_ons_language_root>

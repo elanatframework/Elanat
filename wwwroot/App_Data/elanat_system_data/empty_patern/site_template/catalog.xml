@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<site_template_catalog_root>
+
+  <site_template_name value="" />
+
+  <site_template_author value="" />
+
+  <site_template_directory_path value="" />
+
+  <site_template_physical_name value="template.xml" />
+
+  <site_template_version value="1.0.0.0" />
+
+  <site_template_release_date value="2023/08/31"/>
+
+  <site_template_info>
+
+  </site_template_info>
+
+  <site_template_license>
+
+  </site_template_license>
+
+  <site_template_static_head>
+
+  </site_template_static_head>
+
+  <site_template_load_tag>
+
+  </site_template_load_tag>
+
+</site_template_catalog_root>

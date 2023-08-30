@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+    
+    <calendar>تقویم</calendar>
+    <change_date_and_time>تغییر تاریخ و زمان</change_date_and_time>
+    <date_format>الگوی تاریخ</date_format>
+    <date_and_time_was_change>تاریخ و زمان تغییر کرد</date_and_time_was_change>
+    <day_difference>تفاوت روز</day_difference>
+    <first_day_of_week>اولین روز هفته</first_day_of_week>
+    <member>عضو</member>
+    <time_format>الگوی زمان</time_format>
+    <time_hours_difference>تفاوت زمان ساعت</time_hours_difference>
+    <time_minutes_difference>تفاوت زمان دقیقه</time_minutes_difference>
+    <time_zone>منطقه زمانی</time_zone>
+    
+  </add_ons_language>
+</add_ons_language_root>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <logo_path>مسیر آرم</logo_path>
+    <logo_was_upload>آرم بارگذاری شد</logo_was_upload>
+    <please_fill_logo_path_field_because_this_is_necessary>لطفا فیلد مسیر آرم را پر کنید چون ضروری است</please_fill_logo_path_field_because_this_is_necessary>
+    <please_fill_logo_upload_field_because_this_is_necessary>لطفا فیلد بارگذاری آرم را پر کنید چون ضروری است</please_fill_logo_upload_field_because_this_is_necessary>
+    <site>سایت</site>
+    <site_logo>آرم سایت</site_logo>
+    <start_upload>شروع بارگذاری</start_upload>
+    <upload_logo>بارگذاری آرم</upload_logo>
+    <use_logo_path>استفاده از مسیر آرم</use_logo_path>
+    <you_should_select_a_image_extension>شما باید یک الگوی تصویر را انتخاب کنید</you_should_select_a_image_extension>
+    
+  
+</add_ons_language>
+</add_ons_language_root>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <add>add</add>
+    <add_site_style>add site style</add_site_style>
+    <current_view_style>current view style</current_view_style>
+    <information>information</information>
+    <please_fill_site_style_path_field_because_this_is_necessary>please fill site style path field because this is necessary</please_fill_site_style_path_field_because_this_is_necessary>
+    <please_fill_site_style_upload_field_because_this_is_necessary>please fill site style upload field because this is necessary</please_fill_site_style_upload_field_because_this_is_necessary>
+    <site_style>site style</site_style>
+    <site_style_active>site style active</site_style_active>
+    <site_style_author>site style author</site_style_author>
+    <site_style_directory_path>site style directory path</site_style_directory_path>
+    <site_style_id>site style id</site_style_id>
+    <site_style_info>site style info</site_style_info>
+    <site_style_license>site style license</site_style_license>
+    <site_style_load_tag>site style load tag</site_style_load_tag>
+    <site_style_name>site style name</site_style_name>
+    <site_style_name_is_duplicate>site style name is duplicate</site_style_name_is_duplicate>
+    <site_style_path>site style path</site_style_path>
+    <site_style_physical_name>site style physical name</site_style_physical_name>
+    <site_style_physical_path>site style physical path</site_style_physical_path>
+    <site_style_release_date>site style release date</site_style_release_date>
+    <site_style_responsive_support>site style responsive support</site_style_responsive_support>
+    <site_style_right_to_left_language_support>site style right to left language support</site_style_right_to_left_language_support>
+    <site_style_static_head>site style static head</site_style_static_head>
+    <site_style_template>site style template</site_style_template>
+    <site_style_version>site style version</site_style_version>
+    <site_style_view_support>site style view support</site_style_view_support>
+    <site_style_was_add>site style was add</site_style_was_add>
+    <use_site_style_path>use site style path</use_site_style_path>
+    <you_should_upload_zip_extension>you should upload zip extension</you_should_upload_zip_extension>
+    <zip_file_is_corrupt>zip file is corrupt</zip_file_is_corrupt>
+    
+  </add_ons_language>
+</add_ons_language_root>

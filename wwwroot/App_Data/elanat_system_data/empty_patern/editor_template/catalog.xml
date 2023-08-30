@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<editor_template_catalog_root>
+
+  <editor_template_name value="" />
+
+  <editor_template_category value="other" />
+
+  <editor_template_author value="" />
+  
+  <editor_template_directory_path value="" />
+
+  <editor_template_physical_name value="template.html" />
+
+  <editor_template_replace use_language="false" use_replace_part="false" use_module="false" use_plugin="false" use_elanat="false" use_item="false" use_fetch="false"  />
+
+  <editor_template_cache_parameters></editor_template_cache_parameters>
+  
+  <editor_template_version value="1.0.0.0" />
+
+  <editor_template_release_date value="2023/08/31"/>
+
+  <editor_template_info>
+
+  </editor_template_info>
+
+  <editor_template_license>
+
+  </editor_template_license>
+
+  <editor_template_static_head>
+    <script type="text/javascript">
+      <![CDATA[
+		    function AddHelloWorld()
+		    {
+          ElanatVariant.EditorTemplateValue = "Hello World!";
+        }
+	    ]]>
+    </script>
+  </editor_template_static_head>
+
+  <editor_template_load_tag>
+
+  </editor_template_load_tag>
+  
+  <editor_template_view_static_head>
+
+  </editor_template_view_static_head>
+
+  <editor_template_view_load_tag>
+
+  </editor_template_view_load_tag>
+
+  <editor_template_version_support>
+    <version value="2.0.0.0" />
+  </editor_template_version_support>
+
+  <editor_template_author_website>
+
+  </editor_template_author_website>
+
+  <editor_template_install_path value="" />
+
+  <editor_template_uninstall_path value="" />
+
+</editor_template_catalog_root>

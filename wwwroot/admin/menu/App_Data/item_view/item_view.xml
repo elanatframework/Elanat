@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<item_view_root>
+  <![CDATA[item_search only char,varchar,nvarchar type]]>
+  <item_search_list> 
+ 	 <column>menu_name</column>
+ 	</item_search_list>
+  <item_view_list>
+    <view_table>
+      <column>site_name</column>
+      <column>site_global_name</column>
+      <column>menu_name</column>
+      <column>menu_location</column>
+      <column>menu_sort_index</column>
+    </view_table>
+    <view_more>
+      <column>menu_active</column>
+      <column>menu_id</column>
+      <column>menu_location</column>
+      <column>menu_name</column>
+      <column>menu_public_access_show</column>
+      <column>menu_sort_index</column>
+      <column>menu_use_box</column>
+      <column>site_global_name</column>
+      <column>site_id</column>
+      <column>site_name</column>
+    </view_more>
+  </item_view_list>
+</item_view_root>

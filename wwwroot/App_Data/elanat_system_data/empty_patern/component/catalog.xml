@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<component_catalog_root>
+
+  <component_name value="" />
+
+  <component_category value="other" />
+
+  <component_author value="" />
+
+  <component_directory_path value="" />
+
+  <component_physical_name value="index.html" />
+
+  <component_replace use_language="false" use_replace_part="false" use_module="false" use_plugin="false" use_elanat="false" use_item="false" use_fetch="false"  />
+
+  <component_cache_parameters></component_cache_parameters>
+
+  <component_version_support>
+    <version value="2.0.0.0" />
+  </component_version_support>
+
+  <component_author_website>
+
+  </component_author_website>
+
+  <component_best_load_status value="server" />
+
+  <component_version value="1.0.0.0" />
+
+  <component_release_date value="2023/08/31"/>
+
+  <component_info>
+
+  </component_info>
+
+  <component_license>
+
+  </component_license>
+
+  <component_static_head>
+
+  </component_static_head>
+
+  <component_load_tag>
+
+  </component_load_tag>
+
+  <component_install_path value="" />
+
+  <component_uninstall_path value="" />
+
+    <component_add_access_path>
+      <path type="url" start_by="true" exist="false" end_by="false" regex_match="false" active="false">
+		    <path_value>urltest=</path_value>
+      </path>
+    </component_add_access_path>
+	
+    <component_edit_own_access_path>
+      <path type="url" start_by="true" exist="false" end_by="false" regex_match="false" active="false">
+		    <path_value>urltest=</path_value>
+		    <load_value_check check_type="method" dll_type="" dll_method="" is_non_public="false"></load_value_check>
+		    <parameter_send_list>
+          <parameter type="user_id"></parameter>
+          <parameter type="path"></parameter>
+			    <parameter type="query_string" name="" new_name=""></parameter>
+			    <parameter type="form" name="" new_name=""></parameter>
+		    </parameter_send_list>
+      </path>
+    </component_edit_own_access_path>
+	
+    <component_edit_all_access_path>
+      <path type="url" start_by="true" exist="false" end_by="false" regex_match="false" active="false">
+		    <path_value>urltest=</path_value>
+      </path>
+    </component_edit_all_access_path>
+
+    <component_delete_own_access_path>
+      <path type="url" start_by="true" exist="false" end_by="false" regex_match="false" active="false">
+		    <path_value>urltest=</path_value>
+		    <load_value_check check_type="method" dll_type="" dll_method="" is_non_public="false"></load_value_check>
+		    <parameter_send_list>
+          <parameter type="user_id" new_name=""></parameter>
+          <parameter type="path" new_name=""></parameter>
+          <parameter type="query_string" name="" new_name=""></parameter>
+			    <parameter type="form" name="" new_name=""></parameter>
+		    </parameter_send_list>
+      </path>
+    </component_delete_own_access_path>
+	
+    <component_delete_all_access_path>
+      <path type="url" start_by="true" exist="false" end_by="false" regex_match="false" active="false">
+		    <path_value>urltest=</path_value>
+      </path>
+    </component_delete_all_access_path>
+
+  </component_catalog_root>

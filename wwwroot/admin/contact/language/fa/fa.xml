@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <active>فعال</active>
+    <add_contact_response>درج پاسخ تماس</add_contact_response>
+    <contact>تماس</contact>
+    <contact_date_and_time_send>تاریخ و زمان ارسال تماس</contact_date_and_time_send>
+    <contact_date_send>تاریخ ارسال تماس</contact_date_send>
+    <contact_file_directory_path>مسیر پوشه فایل تماس</contact_file_directory_path>
+    <contact_file_physical_name>نام فایل فیزیکی تماس</contact_file_physical_name>
+    <contact_guest_about>درباره مهمان تماس</contact_guest_about>
+    <contact_guest_address>آدرس مهمان تماس</contact_guest_address>
+    <contact_guest_birthday>تاریخ تولد مهمان تماس</contact_guest_birthday>
+    <contact_guest_birthday_day>روز تولد مهمان تماس</contact_guest_birthday_day>
+    <contact_guest_birthday_mount>ماه تولد مهمان تماس</contact_guest_birthday_mount>
+    <contact_guest_birthday_year>سال تولد مهمان تماس</contact_guest_birthday_year>
+    <contact_guest_city>شهر مهمان تماس</contact_guest_city>
+    <contact_guest_country>کشور مهمان تماس</contact_guest_country>
+    <contact_guest_email>ایمیل مهمان تماس</contact_guest_email>
+    <contact_guest_gender>جنسیت مهمان تماس</contact_guest_gender>
+    <contact_guest_mobile_number>شماره موبایل مهمان تماس</contact_guest_mobile_number>
+    <contact_guest_name>نام مهمان تماس</contact_guest_name>
+    <contact_guest_phone_number>شماره تلفن مهمان تماس</contact_guest_phone_number>
+    <contact_guest_postal_code>کد پستی مهمان تماس</contact_guest_postal_code>
+    <contact_guest_public_email>ایمیل عمومی مهمان تماس</contact_guest_public_email>
+    <contact_guest_real_last_name>فامیلی واقعی مهمان تماس</contact_guest_real_last_name>
+    <contact_guest_real_name>نام واقعی مهمان تماس</contact_guest_real_name>
+    <contact_guest_state_or_province>ایالت یا استان</contact_guest_state_or_province>
+    <contact_guest_website>وبسایت مهمان تماس</contact_guest_website>
+    <contact_guest_zip_code>زیپ کد مهمان تماس</contact_guest_zip_code>
+    <contact_id>شماره تماس</contact_id>
+    <contact_ip_address>آدرس آی پی تماس</contact_ip_address>
+    <contact_response>پاسخ تماس</contact_response>
+    <contact_response_code>رمز پاسخ تماس</contact_response_code>
+    <contact_response_text>متن پاسخ تماس</contact_response_text>
+    <contact_response_was_add>پاسخ تماس اضافه شد</contact_response_was_add>
+    <contact_text>متن تماس</contact_text>
+    <contact_time_send>زمان ارسال پاسخ</contact_time_send>
+    <contact_title>عنوان تماس</contact_title>
+    <contact_type>نوع تماس</contact_type>
+    <contact_upload_directory_value>ارزش پوشه بارگذاری تماس</contact_upload_directory_value>
+    <contact_upload_file_value>ارزش فایل بارگذاری تماس</contact_upload_file_value>
+    <contact_user_guest_email>ایمیل کاربر/مهمان تماس</contact_user_guest_email>
+    <contact_user_guest_name>نام کاربر/مهمان تماس</contact_user_guest_name>
+    <contact_was_save_edit>تماس ویرایش شد</contact_was_save_edit>
+    <delete>حذف</delete>
+    <delete_contact_file>حذف فایل تماس</delete_contact_file>
+    <edit>ویرایش</edit>
+    <edit_contact>ویرایش تماس</edit_contact>
+    <female>خانم</female>
+    <file_path>مسیر فایل</file_path>
+    <inactive>غیرفعال</inactive>
+    <male>آقا</male>
+    <read_more>بیشتر بخوانید</read_more>
+    <save_contact>ذخیره تماس</save_contact>
+    <unknown>نامعلوم</unknown>
+    <upload_file>بارگذاری فایل</upload_file>
+    <user_id>شماره کاربر</user_id>
+
+  </add_ons_language>
+</add_ons_language_root>

@@ -1,0 +1,1 @@
+﻿<%@ Page Controller="Elanat.SiteRssWriterController" Model="Elanat.SiteRssWriterModel" %>

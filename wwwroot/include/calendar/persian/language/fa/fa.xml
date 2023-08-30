@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <aban>آبان</aban>
+    <azar>آذر</azar>
+    <bahman>بهمن</bahman>
+    <dey>دی</dey>
+    <esfand>اسفند</esfand>
+    <farvardin>فروردین</farvardin>
+    <khordad>خرداد</khordad>
+    <mehr>مهر</mehr>
+    <mordad>مرداد</mordad>
+    <ordibehesht>اردیبهشت</ordibehesht>
+    <shahrivar>شهریور</shahrivar>
+    <tir>تیر</tir>
+
+  </add_ons_language>
+</add_ons_language_root>

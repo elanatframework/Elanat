@@ -1,0 +1,1 @@
+﻿<%@ Page Controller="Elanat.ActionGetLinkViewMoreController" Model="Elanat.ActionGetLinkViewMoreModel" %>

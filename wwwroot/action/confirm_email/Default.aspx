@@ -1,0 +1,1 @@
+﻿<%@ Page Controller="Elanat.ActionConfirmEmailController" Model="Elanat.ActionConfirmEmailModel" %>

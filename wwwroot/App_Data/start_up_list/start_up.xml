@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<start_up_root>
+  <start_up_list>
+    <start_up name="start_timer" path="/action/system_access/start_up/start_timer/Default.aspx" active="true" />
+  </start_up_list>
+</start_up_root>

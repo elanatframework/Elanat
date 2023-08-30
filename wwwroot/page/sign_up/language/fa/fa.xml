@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <about>درباره</about>
+    <address>آدرس</address>
+    <agree>موافق</agree>
+    <avatar_path>مسیر آواتار</avatar_path>
+    <birthday>تاریخ تولد</birthday>
+    <birthday_day>روز تولد</birthday_day>
+    <birthday_mount>ماه تولد</birthday_mount>
+    <birthday_year>سال تولد</birthday_year>
+    <city>شهر</city>
+    <country>کشور</country>
+    <email>ایمیل</email>
+    <email_and_repeat_email_must_be_alike>ایمیل و تکرار ایمیل باید یکسان باشد</email_and_repeat_email_must_be_alike>
+    <female>خانم</female>
+    <file_path>مسیر فایل</file_path>
+    <gender>جنسیت</gender>
+    <login_page>صفحه ورود</login_page>
+    <male>آقا</male>
+    <mobile_number>شماره موبایل</mobile_number>
+    <name>نام</name>
+    <or_click_in_the_below_link_to_go_to_the_login_page>یا برای رفتن به صفحه ورود، روی لینک زیر کلیک کنید</or_click_in_the_below_link_to_go_to_the_login_page>
+    <password>رمز عبور</password>
+    <password_and_repeat_password_must_be_alike>رمز عبور و تکرار رمز عبور باید یکسان باشد</password_and_repeat_password_must_be_alike>
+    <phone_number>شماره تلفن</phone_number>
+    <please_fill_avatar_path_field_because_this_is_necessary>لطفا فیلد مسیر آواتار را پر کنید چون ضروری است</please_fill_avatar_path_field_because_this_is_necessary>
+    <please_fill_avatar_upload_field_because_this_is_necessary>لطفا فیلد بارگذاری آواتار را پر کنید چون ضروری است</please_fill_avatar_upload_field_because_this_is_necessary>
+    <postal_code>کد پستی</postal_code>
+    <previous_page>صفحه قبل</previous_page>
+    <privacy_policy>سیاست حفظ حریم خصوصی</privacy_policy>
+    <public_email>ایمیل عمومی</public_email>
+    <real_last_name>فامیلی واقعی</real_last_name>
+    <real_name>نام واقعی</real_name>
+    <registration_was_successful>ثبت نام با موفقیت انجام شد</registration_was_successful>
+    <repeat_email>تکرار ایمیل</repeat_email>
+    <repeat_password>تکرار رمز عبور</repeat_password>
+    <send_contact>ارسال تماس</send_contact>
+    <sign_up>ثبت نام</sign_up>
+    <sign_up_is_inactive>ثبت نام غیرفعال است</sign_up_is_inactive>
+    <sign_up_successfully_click_in_the_below_link_to_go_to_the_login_page>ثبت نام با موفقیت انجام شد برای رفتن به صفحه ورود در لینک زیر کلیک کنید</sign_up_successfully_click_in_the_below_link_to_go_to_the_login_page>
+    <sign_up_successfully_click_in_the_below_link_to_return_to_the_previous_page>ثبت نام با موفقیت انجام شد برای برگشتن به صفحه قبلی در لینک زیر کلیک کنید</sign_up_successfully_click_in_the_below_link_to_return_to_the_previous_page>
+    <sign_up_to_site>ثبت نام در سایت</sign_up_to_site>
+    <site>سایت</site>
+    <state_or_province>ایالت یا استان</state_or_province>
+    <terms_of_service>شرایط استفاده از خدمات</terms_of_service>
+    <the_captcha_you_entered_is_incorrect>عبارت امنیتی وارد شده اشتباه است</the_captcha_you_entered_is_incorrect>
+    <unknown>نامعلوم</unknown>
+    <upload_file>بارگذاری فایل</upload_file>
+    <use_avatar_path>اسفاده از مسیر آواتار</use_avatar_path>
+    <user_agreement>توافقنامه کاربری</user_agreement>
+    <user_name>نام کاربری</user_name>
+    <user_site_name>نام کاربر در سایت</user_site_name>
+    <website>وبسایت</website>
+    <you_should_accept_user_agreement_before_sign_up>شما قبل از ثبت نام، باید توافقنامه کاربری را بپذیرید</you_should_accept_user_agreement_before_sign_up>
+    <you_should_select_a_image_extension>you should select a image extension</you_should_select_a_image_extension>
+    <zip_code>زیپ کد</zip_code>
+
+  </add_ons_language>
+</add_ons_language_root>

@@ -1,0 +1,1 @@
+﻿<%@ Page Controller="Elanat.ActionMenuNewRowController" Model="Elanat.ActionMenuNewRowModel" %>

@@ -1,0 +1,1 @@
+﻿<%@ Page Controller="Elanat.ActionShowEditorTemplateListController" Model="Elanat.ActionShowEditorTemplateListModel" %>

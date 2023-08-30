@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<extra_helper_catalog_root>
+
+  <extra_helper_name value="content_avatar" />
+
+  <extra_helper_category value="content" />
+
+  <extra_helper_author value="Elanat" />
+  
+  <extra_helper_directory_path value="content_avatar" />
+
+  <extra_helper_physical_name value="Default.aspx" />
+  
+  <extra_helper_replace use_language="false" use_replace_part="false" use_module="false" use_plugin="false" use_elanat="false" use_item="false" use_fetch="false"  />
+	
+  <extra_helper_cache_parameters>path</extra_helper_cache_parameters>
+  
+  <extra_helper_load_type value="iframe" />
+
+  <extra_helper_version value="2.0.0.0" />
+
+  <extra_helper_release_date value="2023/08/31"/>
+
+  <extra_helper_info>
+
+  </extra_helper_info>
+
+  <extra_helper_license>
+
+  </extra_helper_license>
+
+  <extra_helper_static_head>
+
+  </extra_helper_static_head>
+
+  <extra_helper_load_tag>
+
+  </extra_helper_load_tag>
+
+  <extra_helper_version_support>
+    <version value="2.0.0.0" />
+  </extra_helper_version_support>
+
+  <extra_helper_author_website>
+
+  </extra_helper_author_website>
+
+  <extra_helper_install_path value="" />
+
+  <extra_helper_uninstall_path value="" />
+
+</extra_helper_catalog_root>

@@ -1,0 +1,179 @@
+﻿.elanat_box_hidden
+{
+	display:none;
+}
+    
+.elanat_box_show
+{
+    width: auto;
+    height: auto;
+    display: block;
+    bottom: 0px;
+    right: 0px;
+    position: fixed;
+    top: 0px;
+    left:0px;
+    overflow-x:hidden;
+    overflow-y:hidden;
+    cursor:pointer;
+}
+
+.elanat_box_full_page
+{
+    background-color: rgba(0, 0, 0, 0.3);
+    width: auto;
+    height: auto;
+    display: block;
+    bottom: 0px;
+    right: 0px;
+    position: fixed;
+    top: 0px;
+    left:0px;
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+
+.elanat_box_show .maximize
+{
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    max-height: 100% !important;
+}
+
+.elanat_box
+{
+	width:800px;
+	height:auto;
+    margin:auto;
+    max-height: 500px;
+    max-width: 90%;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+	overflow: hidden;
+    background-color: #f3f3f3;
+    position:absolute;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.5);
+    padding-bottom: 52px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+	
+.elanat_box_img_close
+{
+    height:24px;
+    width:24px;
+    padding:12px;
+    float:right;
+    cursor:pointer;
+    position:fixed;
+    z-index: 999;
+    background-image: url('../../../../client/image/aggregation_32.png');
+    background-position: 14px -5490px;
+    background-repeat:no-repeat;
+}
+
+.elanat_box_close:hover
+{
+    background-image:linear-gradient(to bottom, #E9E9E9, #FDFDFD);
+}
+
+.elanat_box_close
+{
+    float: right;
+    width:48px;
+    height: 48px;
+    border-width: 0px 0px 0px 1px;
+    border-style: none none none solid;
+    border-color: #DBDBDB;
+    border-image: none;
+    background-color: #F4F4F4;
+    background-image: linear-gradient(to bottom, #F9F9F9, #EDEDED);
+    background-repeat: repeat-x;
+    box-shadow: 1px 0px 0px rgba(255, 255, 255, 0.5) inset, 0px 1px 0px rgba(255, 255, 255, 0.5) inset, -1px 0px 0px rgba(255, 255, 255, 0.5) inset, 0px -1px rgba(255, 255, 255, 0.5) inset;
+    cursor: pointer;
+}
+
+.elanat_box_maximize
+{
+    float: right;
+    width:48px;
+    height: 48px;
+    background-image:url('../../../../client/image/aggregation_32.png');
+    background-position: 11px -5939px;
+    background-repeat:no-repeat;
+    cursor: pointer;
+}
+
+.elanat_box_head
+{
+    width:100%;
+    height:48px;
+    border-bottom:1px solid #cccccc;
+    box-shadow:1px 0px 3px rgba(0, 0, 0, 0.18), 1px 0px 0px rgba(255, 255, 255, 0.5) inset, 0px 1px 0px rgba(255, 255, 255, 0.5) inset, -1px 0px 0px rgba(255, 255, 255, 0.5) inset, 0px -1px rgba(255, 255, 255, 0.5) inset;
+    background-color:#F4F4F4;
+    background-image:linear-gradient(to bottom, #F9F9F9, #EDEDED);
+    background-repeat:repeat-x;
+    cursor:default;
+}
+
+.elanat_box_title
+{
+    text-align:center;
+    margin-top:14px;
+    margin-left: 10px;
+    float:left;
+    font-size:16px;
+    font-weight:bold;
+    color:#666666;
+    font-family: "Kievit",Helvetica,Arial;
+}
+
+.elanat_box_main
+{
+    overflow: auto;
+    height: 100%;
+    cursor: default;
+}
+
+.elanat_box_main iframe
+{
+    border: none;
+    width:100%;
+    height:100%;
+}
+
+.elanat_box_hidden_scroll
+{
+    overflow:hidden;
+}
+
+.elanat_box_close_saved_box
+{
+    height: 20px;
+	width: 17px;
+	right: 0px;
+	bottom: 0px;
+	float: right;
+	background-color: #CCCCCC;
+	cursor: pointer;
+	position: absolute;
+	text-align: center;
+	color: #888;
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 14px;
+}
+
+.elanat_box_main .el_inner_box
+{
+    display: block;
+    padding: 5px;
+}
+
+.elanat_box_main .el_inner_box > *:first-child
+{
+    display: block !important;
+}

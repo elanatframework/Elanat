@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<template_root>
+
+  <part>
+ 
+    <next_line>
+    <![CDATA[
+      <br />
+    ]]>
+    </next_line>
+
+    <error_text>
+    <![CDATA[
+      <h3 class="el_red_text"><center>$_asp text;</center></h3>
+    ]]>
+    </error_text>
+   
+    <success_text>
+    <![CDATA[
+      <h3 class="el_green_text"><center>$_asp text;</center></h3>
+    ]]>
+    </success_text>
+
+    <install_page_link>
+    <![CDATA[
+      <h3><center><a href="../Install.aspx">$_lang install_page;</a></center></h3>
+    ]]>
+    </install_page_link>
+
+    <elanat_green_text>
+    <![CDATA[
+      <span>$_lang elanat;</span>
+    ]]>
+    </elanat_green_text>
+ 
+  </part>
+ 
+</template_root>

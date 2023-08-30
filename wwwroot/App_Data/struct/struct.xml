@@ -1,0 +1,542 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<struct_root>
+
+<extra_value>
+	<file>
+	
+		<!-- Tip: $_asp site_path; $_asp date{yyyy-MM-dd}; $_asp time{HH-mm-ss}; $_asp random_text{50}; $_asp random_number{10}; $_asp user_id; $_asp user_site_name; $_asp user_name; $_asp user_real_name; $_asp file_physical_name; $_asp file_physical_name_without_extension; $_asp file_extension; -->
+		<upload>$_asp file_physical_name;</upload>
+		
+		<!-- Tip: $_asp site_path; $_asp date{yyyy-MM-dd}; $_asp time{HH-mm-ss}; $_asp random_text{50}; $_asp random_number{10}; $_asp user_id; $_asp user_site_name; $_asp user_name; $_asp user_real_name; $_asp file_physical_name; $_asp file_physical_name_without_extension; $_asp file_extension; -->
+		<attachment>$_asp file_physical_name;</attachment>
+		
+		<!-- Tip: $_asp site_path; $_asp date{yyyy-MM-dd}; $_asp time{HH-mm-ss}; $_asp random_text{50}; $_asp random_number{10}; $_asp user_id; $_asp user_site_name; $_asp user_name; $_asp user_real_name; $_asp file_physical_name; $_asp file_physical_name_without_extension; $_asp file_extension; -->
+		<contact_upload>$_asp file_physical_name;</contact_upload>
+		
+		<!-- Tip: $_asp site_path; $_asp date{yyyy-MM-dd}; $_asp time{HH-mm-ss}; $_asp random_text{50}; $_asp random_number{10}; $_asp user_id; $_asp user_site_name; $_asp user_name; $_asp user_real_name; $_asp file_physical_name; $_asp file_physical_name_without_extension; $_asp file_extension; -->
+		<comment_upload>$_asp file_physical_name;</comment_upload>
+	
+		<!-- Tip: $_asp site_path; $_asp date{yyyy-MM-dd}; $_asp time{HH-mm-ss}; $_asp random_text{50}; $_asp random_number{10}; $_asp user_id; $_asp user_site_name; $_asp user_name; $_asp user_real_name; -->
+		<file_and_directory_backup>$_asp date{yyyy-MM-dd};-$_asp time{HH-mm-ss};</file_and_directory_backup>
+		
+		<!-- Tip: $_asp site_path; $_asp date{yyyy-MM-dd}; $_asp time{HH-mm-ss}; $_asp random_text{50}; $_asp random_number{10}; $_asp user_id; $_asp user_site_name; $_asp user_name; $_asp user_real_name; -->
+		<database_backup>$_asp date{yyyy-MM-dd};-$_asp time{HH-mm-ss};</database_backup>
+		
+	</file>
+
+	<directory>
+	
+		<!-- Note: Do Not Use thumb Directory Name -->
+		<!-- Tip: $_asp site_path; $_asp date{yyyy-MM-dd}; $_asp time{HH-mm-ss}; $_asp random_text{50}; $_asp random_number{10}; $_asp user_id; $_asp user_site_name; $_asp user_name; $_asp user_real_name; $_asp file_physical_name; $_asp file_physical_name_without_extension; $_asp file_extension; -->
+		<upload>user_$_asp user_id;</upload>
+		
+		<!-- Note: Do Not Use thumb Directory Name -->
+		<!-- Tip: $_asp site_path; $_asp date{yyyy-MM-dd}; $_asp time{HH-mm-ss}; $_asp random_text{50}; $_asp random_number{10}; $_asp user_id; $_asp user_site_name; $_asp user_name; $_asp user_real_name; $_asp file_physical_name; $_asp file_physical_name_without_extension; $_asp file_extension; -->
+		<attachment>user_$_asp user_id;</attachment>
+		
+		<!-- Note: Do Not Use thumb Directory Name -->
+		<!-- Tip: $_asp site_path; $_asp date{yyyy-MM-dd}; $_asp time{HH-mm-ss}; $_asp random_text{50}; $_asp random_number{10}; $_asp user_id; $_asp user_site_name; $_asp user_name; $_asp user_real_name; $_asp file_physical_name; $_asp file_physical_name_without_extension; $_asp file_extension; -->
+		<contact_upload>user_$_asp user_id;</contact_upload>
+		
+		<!-- Note: Do Not Use thumb Directory Name -->
+		<!-- Tip: $_asp site_path; $_asp date{yyyy-MM-dd}; $_asp time{HH-mm-ss}; $_asp random_text{50}; $_asp random_number{10}; $_asp user_id; $_asp user_site_name; $_asp user_name; $_asp user_real_name; $_asp file_physical_name; $_asp file_physical_name_without_extension; $_asp file_extension; -->
+		<comment_upload>user_$_asp user_id;</comment_upload>
+	  
+	</directory>
+	
+	<title>
+	
+		<!-- Tip: $_asp site_path; $_asp site_global_name; $_asp site_global_local_name; $_asp site_name; $_asp site_local_name; $_asp category_id; $_asp parent_category{/}; $_asp parent_local_category{/}; $_asp category_name; $_asp category_local_name; -->
+		<category>$_asp category_local_name;</category>
+		
+		<!-- Note: content_local_title Variant Is Not Find In Handheld Language, null_language_suffix Is Not Displayed -->
+		<!-- Tip: $_asp site_path; $_asp site_global_name; $_asp site_global_local_name; $_asp site_name; $_asp site_local_name; $_asp parent_category{/}; $_asp parent_local_category{/}; $_asp category_id; $_asp category_name; $_asp category_local_name; $_asp content_id;  $_asp content_title; $_asp content_local_title; $_asp date{yyyy-MM-dd}; $_asp time{HH-mm-ss}; $_asp user_id; $_asp user_site_name; $_asp user_name; $_asp user_real_name; -->
+		<content>$_asp content_local_title;</content>
+		
+		<!-- Note: page_local_title Variant Is Not Find In Handheld Language, null_language_suffix Is Not Displayed -->
+		<!-- Tip: $_asp site_path; $_asp site_global_name; $_asp site_global_local_name; $_asp site_name; $_asp site_local_name; $_asp page_id; $_asp page_title; $_asp page_local_title; $_asp page_global_name; $_asp page_global_local_name; $_asp page_name; $_asp page_local_name; -->
+		<page>$_asp page_local_title;</page>
+		
+		<!-- Tip: $_asp site_path; $_asp site_global_name; $_asp site_global_local_name; $_asp tag_name; $_asp tag_name_with_underline; -->
+		<tag>$_asp tag_name;</tag>
+
+   </title>
+   
+	<url>
+	
+		<!-- Tip: $_asp site_path; $_asp site_global_name; $_asp site_global_local_name; $_asp site_name; $_asp site_local_name; $_asp category_id; $_asp parent_category{/}; $_asp parent_local_category{/}; $_asp category_name; $_asp category_local_name; -->
+		<category><![CDATA[$_asp site_path;category/$_asp category_name;/]]></category>
+
+		<!-- Note: content_local_title Variant Is Not Find In Handheld Language, null_language_suffix Is Not Displayed -->
+		<!-- Tip: $_asp site_path; $_asp site_global_name; $_asp site_global_local_name; $_asp site_name; $_asp site_local_name; $_asp parent_category{/}; $_asp parent_local_category{/}; $_asp category_id; $_asp category_name; $_asp category_local_name; $_asp content_id;  $_asp content_title; $_asp content_local_title; $_asp date{yyyy-MM-dd}; $_asp time{HH-mm-ss}; $_asp user_id; $_asp user_site_name; $_asp user_name; $_asp user_real_name; -->
+		<content><![CDATA[$_asp site_path;content/$_asp content_id;/$_asp content_title;.html]]></content>
+
+		<!-- Note: page_local_title Variant Is Not Find In Handheld Language, null_language_suffix Is Not Displayed -->
+		<!-- Tip: $_asp site_path; $_asp site_global_name; $_asp site_global_local_name; $_asp site_name; $_asp site_local_name;  $_asp site_title;; $_asp page_id; $_asp page_title; $_asp page_local_title; $_asp page_global_name; $_asp page_global_local_name; $_asp page_name; $_asp page_local_name; -->
+		<page><![CDATA[$_asp site_path;page_content/$_asp page_global_name;/]]></page>
+		
+		<!-- Tip: $_asp site_path; $_asp site_global_name; $_asp site_global_local_name; $_asp tag_name; $_asp tag_name_with_underline; -->
+		<tag><![CDATA[$_asp site_path;tag/$_asp tag_name_with_underline;/]]></tag>
+		
+   </url>
+   
+   
+</extra_value>
+
+<tag>
+	<current_site_style_tag><![CDATA[<link rel="stylesheet" type="text/css" href="$_asp site_path;client/style/site/$_asp site_style_physical_path;" />]]></current_site_style_tag>
+	<current_admin_style_tag><![CDATA[<link rel="stylesheet" type="text/css" href="$_asp site_path;client/style/admin/$_asp admin_style_physical_path;" />]]></current_admin_style_tag>
+</tag>
+
+  <html_for_part_page>
+	<![CDATA[
+	<!DOCTYPE html>
+	<html>
+		<head>
+		
+			<title>
+				$_asp title;
+			</title>
+			
+			<!-- Start Client Variant -->
+			
+			$_asp client_variant;
+			
+			<!-- End Client Variant -->
+			
+			<!-- Start Static Head -->
+			
+			$_asp static_head;
+			
+			<!-- End Static Head -->
+			
+			<!-- Start Dynamic Head -->
+			
+			$_asp dynamic_head;
+			
+			<!-- End Dynamic Head -->
+		
+			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+			
+		</head>
+		<body onload="el_PageLoad()">
+			$_asp body;
+			<div class="el_hidden">
+				$_asp load_tag;
+			</div>
+		</body>
+	</html>
+	]]>
+  </html_for_part_page>
+  
+  <page_load_after_submit>
+	<![CDATA[
+		<script>
+			el_SetContextToTagId(`$_asp context;`, "$_asp tag_id;");
+		</script>
+	]]>
+  </page_load_after_submit>
+  
+  <return_function_after_submit>
+	<![CDATA[
+		<script>		
+			$_asp return_function;;
+		</script>
+	]]>
+  </return_function_after_submit>
+
+	<page_load>
+		<ajax>
+			<![CDATA[
+			<script>
+			var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+
+			xmlhttp.onreadystatechange = function()
+			{
+				if (xmlhttp.readyState == 4 && xmlhttp.status == 200)
+				{
+					document.write(xmlhttp.responseText);
+					el_AppendJavaScriptTag(xmlhttp.responseText);
+					el_AppendStyleTag(xmlhttp.responseText);
+				}
+			}
+			xmlhttp.open("GET", '$_asp page_path;', false);
+			xmlhttp.send();
+			</script>
+			]]>
+		</ajax>
+		<iframe>
+		<![CDATA[
+			<iframe id="iframe" name="iframe" class="el_iframe_load" scrolling="no" src="$_asp page_path;" onload="el_IframeAutoHeight(this)" frameborder="0"></iframe>
+		]]>
+		</iframe>
+		<ajax_quick_load>
+			<![CDATA[
+				el_AjaxLoad("$_asp page_path;");
+			]]>
+		</ajax_quick_load>
+		<iframe_quick_load>
+		<![CDATA[
+			<iframe id="iframe" name="iframe" class="el_iframe_load" scrolling="no" src="$_asp page_path;" onload="el_IframeAutoHeight(this)" frameborder="0"></iframe>
+		]]>
+		</iframe_quick_load>
+		<iframe_create_html_for_part_page>
+		<![CDATA[
+			<iframe id="iframe" name="iframe" scrolling="no" src="$_asp site_path;action/create_html_for_part_page/?page_id=$_asp page_id;" onload="el_IframeAutoHeight(this)" frameborder="0"></iframe>
+		]]>
+		</iframe_create_html_for_part_page>
+	</page_load>
+	
+	<component_tag_attribute_load>
+		<ajax>
+		<![CDATA[
+			onclick="el_ComponentLoadWithAjax('$_asp admin_path;/$_db component_physical_path;');el_SetPage(this, '$_db component_category;', '$_db component_name;', '$_asp component_category_local_name;', '$_asp component_local_name;')"
+		]]>
+		</ajax>
+		<iframe>
+		<![CDATA[
+			onclick="el_ComponentLoadWithIframe('$_asp admin_path;/$_db component_physical_path;');el_SetPage(this, '$_db component_category;', '$_db component_name;', '$_asp component_category_local_name;', '$_asp component_local_name;')"
+		]]>
+		</iframe>
+		<server>
+		<![CDATA[
+			href="$_asp admin_path;/?component_name=$_db component_name;"  el_component_category_local_name="$_asp component_category_local_name;" el_component_local_name="$_asp component_local_name;"
+		]]>
+		</server>
+		<on_server>
+		<![CDATA[
+			href="$_asp admin_path;/?component_name=$_db component_name;"  el_component_category_local_name="$_asp component_category_local_name;" el_component_local_name="$_asp component_local_name;"
+		]]>
+		</on_server>
+		<text>
+		<![CDATA[
+			href="$_asp admin_path;/?component_name=$_db component_name;"  el_component_category_local_name="$_asp component_category_local_name;" el_component_local_name="$_asp component_local_name;"
+		]]>
+		</text>		
+	</component_tag_attribute_load>
+  
+  <rss>
+  
+    <box><![CDATA[<]]><![CDATA[?xml version="1.0" encoding="utf-8"?>
+	<rss version="2.0">
+
+		<channel>
+			<title>$_lang _rss_title;</title>
+			<description>$_lang _rss_description;</description>
+			<copyright>$_lang copyright; © $_asp site_date_year;-$_asp current_date_year; $_lang some_rights_reserved;.</copyright>
+			<generator>$_lang elanat_rss_feed;</generator>
+			<language>$_asp language_global_name;</language>
+			<pubDate>$_asp publish_date;</pubDate>
+			<lastBuildDate>$_asp last_build_date;</lastBuildDate>
+			
+			$_asp item;
+		</channel>
+	</rss>
+	 ]]>
+    </box>
+    <list_item>
+	<![CDATA[
+		<item>
+			<title>$_db content_title;</title>
+			<link>$_asp site_path;$_asp extra_content_url_value;</link>
+			<description>$_db content_text;</description>
+			<pubDate>$_asp content_date_publish;</pubDate>
+			<author>$_db user_site_name;</author>
+		</item>
+	 ]]>
+    </list_item>
+  </rss>
+  
+  <site_map>
+  
+    <url_box><![CDATA[<]]><![CDATA[?xml version="1.0" encoding="utf-8"?>
+	<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+		$_asp item;
+	</urlset>	
+	]]>
+    </url_box>
+	
+    <sitemap_box><![CDATA[<]]><![CDATA[?xml version="1.0" encoding="utf-8"?>
+	<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+		$_asp item;
+	</sitemapindex>	
+	]]>
+    </sitemap_box>
+	
+    <list_item>
+	
+		<site>
+		<![CDATA[
+			<sitemap>
+				<loc>$_asp site_url_path;/sitemap/site/$_asp site_global_name;</loc>
+				<lastmod>$_asp date_time;</lastmod>
+			</sitemap>
+		]]>
+		</site>
+	
+		<page>
+		<![CDATA[
+			<url>
+				<loc>$_asp site_url_path;$_asp extra_page_url_value;</loc>
+				<priority>$_asp priority;</priority>
+			</url>
+		]]>
+		</page>
+
+		<category>
+		<![CDATA[
+			<url>
+				<loc>$_asp site_url_path;$_asp extra_category_url_value;</loc>
+				<lastmod>$_asp date_time;</lastmod>
+				<changefreq>$_asp change_freq;</changefreq>
+				<priority>$_asp priority;</priority>
+			</url>
+		]]>
+		</category>
+		
+		<content>
+		<![CDATA[
+			<url>
+				<loc>$_asp site_url_path;$_asp extra_content_url_value;</loc>
+				<priority>$_asp priority;</priority>
+			</url>
+		]]>
+		</content>
+		
+    </list_item>
+	
+  </site_map>
+  
+  <site_client_variant>
+    <internal_box>
+      <![CDATA[
+        <script type="text/javascript">
+          $_asp item;
+        </script>
+      ]]>
+    </internal_box>
+    <external_box>
+      <![CDATA[
+        <script type="text/javascript" src="$_asp site_path;action/text_creator/site_client_variant/"></script>
+      ]]>
+    </external_box>
+    <box><![CDATA[
+	// Site Client Variant
+	var ElanatVariant = new Object();
+	
+	ElanatVariant.EditorTemplateValue = "";
+	$_asp item;]]>
+	</box>
+    <list_item>
+	ElanatVariant.$_asp variant_name; = $_asp variant_value;;
+    </list_item>
+  </site_client_variant>
+  
+  <admin_client_variant>
+    <internal_box>
+      <![CDATA[
+        <script type="text/javascript">
+          $_asp item;
+        </script>
+      ]]>
+    </internal_box>
+    <external_box>
+      <![CDATA[
+        <script type="text/javascript" src="$_asp site_path;action/text_creator/admin_client_variant/"></script>
+      ]]>
+    </external_box>
+    <box><![CDATA[
+	// Admin Client Variant
+	var ElanatVariant = new Object();
+	
+	ElanatVariant.EditorTemplateValue = "";
+$_asp item;
+	  ]]></box>
+    <list_item>
+	ElanatVariant.$_asp variant_name; = $_asp variant_value;;
+    </list_item>
+  </admin_client_variant>
+  
+  <site_client_language_variant>
+      <internal_box>
+      <![CDATA[
+        <script type="text/javascript">
+          $_asp item;
+        </script>
+      ]]>
+    </internal_box>
+    <external_box>
+      <![CDATA[
+        <script type="text/javascript" src="$_asp site_path;action/text_creator/site_client_language_variant/?lang=$_asp language_global_name;"></script>
+      ]]>
+    </external_box>
+    <box>
+	<![CDATA[
+		// Site Language Variant
+		var LanguageVariant = new Object();
+		$_asp item;
+	]]>
+    </box>
+    <list_item>
+		LanguageVariant.$_asp variant_name; = $_asp variant_value;;
+    </list_item>
+  </site_client_language_variant>
+  
+  <admin_client_language_variant>
+      <internal_box>
+      <![CDATA[
+        <script type="text/javascript">
+          $_asp item;
+        </script>
+      ]]>
+    </internal_box>
+    <external_box>
+      <![CDATA[
+        <script type="text/javascript" src="$_asp site_path;action/text_creator/admin_client_language_variant/?lang=$_asp language_global_name;"></script>
+      ]]>
+    </external_box>
+    <box>
+	<![CDATA[
+		// Admin Language Variant
+		var LanguageVariant = new Object();
+		$_asp item;
+	]]>
+    </box>
+    <list_item>
+		LanguageVariant.$_asp variant_name; = $_asp variant_value;;
+    </list_item>
+  </admin_client_language_variant>
+  
+  <current_view_style>
+      <internal_box>
+      <![CDATA[
+		<style>
+          $_asp item;
+        </style>
+      ]]>
+    </internal_box>
+    <external_box>
+      <![CDATA[
+		<link rel="stylesheet" type="text/css" href="$_asp site_path;action/text_creator/current_view_style/?site_style_id=$_asp site_style_id;&amp;bc=$_asp background_color;&amp;fs=$_asp font_size;&amp;clbc=$_asp common_light_background_color;&amp;cltc=$_asp common_light_text_color;&amp;cmbc=$_asp common_middle_background_color;&amp;cmtc=$_asp common_middle_text_color;&amp;cdbc=$_asp common_dark_background_color;&amp;cdtc=$_asp common_dark_text_color;&amp;nlbc=$_asp natural_light_background_color;&amp;nltc=$_asp natural_light_text_color;&amp;nmbc=$_asp natural_middle_background_color;&amp;nmtc=$_asp natural_middle_text_color;&amp;ndbc=$_asp natural_dark_background_color;&amp;ndtc=$_asp natural_dark_text_color;" />
+      ]]>
+    </external_box>
+    <box>
+	<![CDATA[
+		/* Current View Style */
+		$_asp item;
+	]]>
+    </box>
+    <list_item>
+		$_asp variant_value;
+    </list_item>
+  </current_view_style>
+  
+  <site_view_style>
+      <internal_box>
+      <![CDATA[
+		<style>
+          $_asp item;
+        </style>
+      ]]>
+    </internal_box>
+    <external_box>
+      <![CDATA[
+		<link rel="stylesheet" type="text/css" href="$_asp site_path;action/text_creator/site_view_style/?site_style_id=$_asp site_style_id;&amp;view_id=$_asp view_id;" />
+      ]]>
+    </external_box>
+    <box>
+	<![CDATA[
+		/* Site View Style */
+		$_asp item;
+	]]>
+    </box>
+    <list_item>
+		$_asp variant_value;
+    </list_item>
+  </site_view_style>
+  
+  <admin_view_style>
+      <internal_box>
+      <![CDATA[
+		<style>
+          $_asp item;
+        </style>
+      ]]>
+    </internal_box>
+    <external_box>
+      <![CDATA[
+		<link rel="stylesheet" type="text/css" href="$_asp site_path;action/text_creator/admin_view_style/?admin_style_id=$_asp admin_style_id;&amp;view_id=$_asp view_id;" />
+      ]]>
+    </external_box>
+    <box>
+	<![CDATA[
+		/* Admin View Style */
+		$_asp item;
+	]]>
+    </box>
+    <list_item>
+		$_asp variant_value;
+    </list_item>
+  </admin_view_style>
+  
+  <user_view_style>
+      <internal_box>
+      <![CDATA[
+		<style>
+          $_asp item;
+        </style>
+      ]]>
+    </internal_box>
+    <external_box>
+      <![CDATA[
+		<link rel="stylesheet" type="text/css" href="$_asp site_path;action/text_creator/user_view_style/?site_style_id=$_asp site_style_id;&amp;user_id=$_asp user_id;" />
+      ]]>
+    </external_box>
+    <box>
+	<![CDATA[
+		/* User View Style */
+		$_asp item;
+	]]>
+    </box>
+    <list_item>
+		$_asp variant_value;
+    </list_item>
+  </user_view_style>
+  
+	<calendar>
+		<box>
+		<![CDATA[
+		<div class="el_calendar">
+			<div class="el_mount_change">
+				<input type="button" class="el_previous_year" value="<" onclick="el_SetCalendarYear(-1, '$_asp calendar_path;')"/>
+				<select id="ddlst_CalendarMount" class="el_alone_select_input" onchange="el_SetCalendarMount(this, '$_asp calendar_path;')">$_asp calendar_mount_option_list;</select>
+				<input type="button" class="el_next_year" value=">" onclick="el_SetCalendarYear(1, '$_asp calendar_path;')"/>
+			</div>
+			<div class="el_day_of_week">
+				$_asp day_of_week_list;
+			</div>
+			<div id="div_Calendar" class="el_day">
+				$_asp day_list;
+			</div>
+			<input id="hdn_CurrentDate" name="hdn_CurrentDate" type="hidden" value="$_asp current_date;" />
+		</div>
+		]]>
+		</box>
+		<mount_option_list>
+		<![CDATA[
+			<option value="$_asp mount_option_value;"$_asp is_select;>$_asp mount_option_text;</option>
+		]]>
+		</mount_option_list>
+		<day_of_week>
+		<![CDATA[
+			<div>$_asp day_of_week_value;</div>
+		]]>
+		</day_of_week>
+		<day>
+		<![CDATA[
+			<div$_asp is_select; onclick="el_SetCalendarDay(this, $_asp day_value;)">$_asp day_value;</div>
+		]]>
+		</day>
+	</calendar>
+   
+</struct_root>

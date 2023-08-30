@@ -1,0 +1,1 @@
+﻿<%@ Page Controller="Elanat.PluginSiteShowQuickSrearchController" Model="Elanat.PluginSiteShowQuickSrearchModel" %>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<static_head_root>
+  <static_head_list>
+    
+    <static_head active="true">
+    <![CDATA[
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    ]]>
+    </static_head>
+    
+    <static_head active="true">
+    <![CDATA[
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    ]]>
+    </static_head>
+    
+    <static_head active="true">
+    <![CDATA[
+      <script type="text/javascript" src="$_asp site_path;client/script/global.js" ></script>
+    ]]>
+    </static_head>
+    
+    <static_head active="true">
+    <![CDATA[
+      <script type="text/javascript" src="$_asp site_path;client/script/site/site.js" ></script>
+    ]]>
+    </static_head>
+       
+    <static_head active="true">
+    <![CDATA[
+      <script type="text/javascript" src="$_asp site_path;client/script/page_load/site/page_load.js" ></script>
+    ]]>
+    </static_head>
+    
+    <static_head active="true">
+    <![CDATA[
+      <link rel="alternate" type="application/rss+xml" title="rss feed" href="$_asp site_path;rss/" />
+    ]]>
+    </static_head>
+    
+    <static_head active="true">
+    <![CDATA[
+      <link rel="shortcut icon" href="$_asp site_path;favicon.ico" />
+    ]]>
+    </static_head>
+       
+    <static_head active="true">
+    <![CDATA[
+      <link rel="stylesheet" type="text/css" href="$_asp site_path;client/style/global.css" />
+    ]]>
+    </static_head>
+
+    <static_head active="true">
+    <![CDATA[
+      <link rel="stylesheet" type="text/css" href="$_asp site_path;client/style/site_global.css" />
+    ]]>
+    </static_head>   
+   
+  </static_head_list>
+</static_head_root>

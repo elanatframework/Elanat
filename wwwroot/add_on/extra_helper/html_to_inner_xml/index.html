@@ -1,0 +1,51 @@
+<div id="div_ExtraHelperHtmlToInnerXml">
+    <script type="text/javascript">
+
+        function el_HtmlToInnerXml(Text) {
+            var Html = Text;
+            Html = Html.replace(/&/g, "&amp;");
+            Html = Html.replace(/'/g, "&apos;");
+            Html = Html.replace(/</g, "&lt;");
+            Html = Html.replace(/>/g, "&gt;");
+            Html = Html.replace(/"/g, "&quot;");
+            return Html;
+        }
+
+        function el_ConvertHtmlToInnerXml() {
+            var InnerXml = document.getElementById("txt_HtmlToInnerXml_InnerXml");
+            var Html = document.getElementById("txt_HtmlToInnerXml_Html");
+
+            var StartCdataStruct = "";
+            var EndCdataStruct = "";
+
+            if (document.getElementById('cbx_IncludeCdata').checked) {
+                var StartCdataStruct = "<" + "![CDATA[";
+                var EndCdataStruct = "]]" + ">";
+            }
+
+            InnerXml.value = StartCdataStruct + el_HtmlToInnerXml(Html.value) + EndCdataStruct;
+        }
+
+    </script>
+    <div class="el_head">$_lang html_to_inner_xml;</div>
+    <div class="el_part_row">
+        <div class="item">
+            $_lang html;
+        </div>
+        <div class="el_item">
+            <textarea id="txt_HtmlToInnerXml_Html" class="el_textarea_input el_left_to_right"></textarea>
+        </div>
+        <div class="el_item">
+            <input id="cbx_IncludeCdata" type="checkbox" class="el_checkbox_input" /><label for="cbx_IncludeCdata">$_lang include_cdata;</label>
+        </div>
+        <div class="el_item">
+            <input name="btn_ConvertHtmlToInnerXml" type="button" value="$_lang convert;" class="el_button_input" onclick="el_ConvertHtmlToInnerXml()" />
+        </div>
+        <div class="el_item">
+            $_lang inner_xml;
+        </div>
+        <div class="el_item">
+            <textarea id="txt_HtmlToInnerXml_InnerXml" class="el_textarea_input el_left_to_right"></textarea>
+        </div>
+    </div>
+</div>

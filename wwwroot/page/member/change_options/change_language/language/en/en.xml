@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+    
+    <change_language>change language</change_language>
+    <language_was_change>language was change</language_was_change>
+    <member>member</member>
+    <user_admin_language>user admin language</user_admin_language>
+    <user_site_language>user site language</user_site_language>
+    
+  </add_ons_language>
+</add_ons_language_root>

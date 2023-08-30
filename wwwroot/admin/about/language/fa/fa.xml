@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+    
+    <__about_elanat>فریمورک اعلانات یک مرکز قدرتمند برای پورتال یا سیستم مدیریت محتوا است و دارای قالب توانمند (جدا بودن استایل ها و قالب ها)، محتوای چندگانه (پست، صفحه، ویدئو ...)، پشتیبانی از هشت افزونه مختلف (کامپوننت، ماژول، پلاگین، صفحه، وصله، واکشی، کمک کننده اضافی، قالب ویرایشگر) افزونه های چند زبانه (c، c++ و پشتیبانی از همه زبان های تفسیر شده)، CMS سبک، پشتیبانی چند زبانه، امنیت بالا، ساخته شده با چارچوب نقطه دات نت و برنامه نویسی سی شارپ در ساختار داخلی mvc است. با توجه به مشخصه های بیان شده، النات بهترین گزینه برای توسعه است.</__about_elanat>
+    <about>درباره</about>
+    <about_elanat>درباره اعلانات</about_elanat>
+    <break_support_check>نقض کردن بررسی پشتیبانی</break_support_check>
+    <check_new_update>بررسی به روز رسانی جدید</check_new_update>
+    <dot_net_version_is_not_support_new_update>نسخه دات نت به روز رسانی جدید را پشتیبانی نمی کند</dot_net_version_is_not_support_new_update>  
+    <elanat_site>سایت اعلانات</elanat_site>
+    <elanat_was_update>اعلانات به روز رسانی شد</elanat_was_update>
+    <failed_to_load_news>ناکام در بارگیری اخبار</failed_to_load_news>
+    <is_up_to_date>به روز است</is_up_to_date>
+    <licenses>مجوزها</licenses>
+    <site>سایت</site>
+    <update>به روز رسانی</update>
+    <update_is_available>به روز رسانی در دسترس است</update_is_available>
+    <version>نسخه</version>
+  
+  </add_ons_language>
+</add_ons_language_root>

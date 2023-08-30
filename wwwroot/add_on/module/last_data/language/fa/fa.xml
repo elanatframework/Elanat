@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <active_active_user>کاربر فعال فعال</active_active_user>
+    <active_attachment>ضمیمه فعال</active_attachment>
+    <active_comment>نظر فعال</active_comment>
+    <active_contact>تماس فعال</active_contact>
+    <active_content>محتوا فعال</active_content>
+    <active_foot_print>ردپا فعال</active_foot_print>
+    <active_user_count>تعداد کاربر فعال</active_user_count>
+    <active_user_sign_up>ثبت نام کاربر فعال</active_user_sign_up>
+    <active_users_in_last_24_hours>کاربران فعال در 24 ساعت گذشته</active_users_in_last_24_hours>
+    <are_you_sure_want_to_active>مطمئن هستید که می خواهید فعال کنید</are_you_sure_want_to_active>
+    <are_you_sure_want_to_delete>مطمئن هستید که می خواهید حذف کنید</are_you_sure_want_to_delete>
+    <are_you_sure_want_to_inactive>مطمئن هستید که می خواهید غیرفعال کنید</are_you_sure_want_to_inactive>
+    <are_you_sure_want_to_restore>مطمئن هستید که می خواهید بازیابی کنید</are_you_sure_want_to_restore>
+    <attachment_count>تعداد ضمیمه</attachment_count>
+    <comment_count>تعداد نظر</comment_count>
+    <contact_count>تعداد تماس</contact_count>
+    <content>محتوا</content>
+    <content_count>تعداد محتوا</content_count>
+    <foot_print_count>تعداد ردپا</foot_print_count>
+    <last_attachment>آخرین ضمیمه</last_attachment>
+    <last_comment>آخرین نظر</last_comment>
+    <last_contact>آخرین تماس</last_contact>
+    <last_content>آخرین محتوا</last_content>
+    <last_data>آخرین داده</last_data>
+    <last_data_option>گزینه آخرین داده</last_data_option>
+    <last_data_option_was_save>گزینه آخرین داده ذخیره شد</last_data_option_was_save>
+    <last_user_sign_up>آخرین کاربر ثبت نام شده</last_user_sign_up>
+    <save_last_data_option>ذخیره گزینه آخرین داده</save_last_data_option>
+    <today_activity>فعالیت امروز</today_activity>
+    <user_foot_print>ردپای کاربر</user_foot_print>
+    <user_sign_up_count>تعداد کاربر ثبت نام شده</user_sign_up_count>
+
+  </add_ons_language>
+</add_ons_language_root>

@@ -1,0 +1,9 @@
+
+.gitattributes
+bin/*
+code_behind/*
+obj/*
+Properties/*
+.gitattributes
+Elanat.csproj
+Elanat.csproj.user

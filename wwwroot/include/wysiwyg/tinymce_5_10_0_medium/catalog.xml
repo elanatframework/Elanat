@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<wysiwyg_catalog_root>
+
+	<wysiwyg_name value="tinymce 5.10.0 medium" />
+	
+	<wysiwyg_author value="tinymce" />
+	
+	<wysiwyg_info></wysiwyg_info>
+	
+	<wysiwyg_license></wysiwyg_license>
+
+  <wysiwyg_release_date value="2023/08/31"/>
+
+  <wysiwyg_version></wysiwyg_version>
+	
+	<wysiwyg_physical_path></wysiwyg_physical_path>
+	
+	<wysiwyg_insert_content_function_name><![CDATA[tinyMCE.activeEditor.insertContent('$_asp content_value;');]]></wysiwyg_insert_content_function_name>
+	
+	<wysiwyg_static_head_tag>
+		<script type="text/javascript" src="$_asp current_path;tinymce.min.js" />
+	</wysiwyg_static_head_tag>
+
+</wysiwyg_catalog_root>

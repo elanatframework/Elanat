@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <action_directory>action directory</action_directory>
+    <add_on_directory>add_on directory</add_on_directory>
+    <admin_directory>admin directory</admin_directory>
+    <all_file_and_directory>all file and directory</all_file_and_directory>
+    <app_data_directory>App_Data directory</app_data_directory>
+    <backup_path>backup path</backup_path>
+    <backup_physical_name>backup physical name</backup_physical_name>
+    <backup_size>backup size</backup_size>
+    <backup_was_create>backup was create</backup_was_create>
+    <backup>backup</backup>
+    <bin_directory>bin directory</bin_directory>
+    <client_directory>client directory</client_directory>
+    <database_backup_was_create>database backup was create</database_backup_was_create>
+    <database>database</database>
+    <include_directory>include directory</include_directory>
+    <language_directory>language directory</language_directory>
+    <logs_directory>logs directory</logs_directory>
+    <make_backup>make backup</make_backup>
+    <member_directory>member directory</member_directory>
+    <page_directory>page directory</page_directory>
+    <please_fill_backup_path_field_because_this_is_necessary>please fill backup path field because this is necessary</please_fill_backup_path_field_because_this_is_necessary>
+    <please_fill_backup_upload_field_because_this_is_necessary>please fill backup upload field because this is necessary</please_fill_backup_upload_field_because_this_is_necessary>
+    <robots_txt_file>robots.txt file</robots_txt_file>
+    <start_backup>start backup</start_backup>
+    <start_upload>start upload</start_upload>
+    <template_directory>template directory</template_directory>
+    <upload_backup>upload backup</upload_backup>
+    <upload_directory>upload directory</upload_directory>
+    <use_backup_path>use backup path</use_backup_path>
+    <you_should_upload_bat_or_dat_extension>you should upload bat or dat extension</you_should_upload_bat_or_dat_extension>
+
+  </add_ons_language>
+</add_ons_language_root>

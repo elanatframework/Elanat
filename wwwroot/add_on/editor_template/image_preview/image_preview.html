@@ -1,0 +1,27 @@
+<div id="div_template_image_ImagePreview">
+    <div class="el_part_row">
+        <div class="el_title">
+            $_lang image_prewiew;
+        </div>
+        <div class="el_item">
+            $_lang src;
+        </div>
+        <div class="el_item">
+            <input id="txt_ImagePreviewImageSrc" type="text" class="el_long_text_input el_important_field"/>
+        </div>
+        <div class="el_item">
+            $_lang alt;
+        </div>
+        <div class="el_item">
+            <input id="txt_ImagePreviewImageAlt" type="text" class="el_text_input" />
+        </div>
+        <div class="el_item">
+            <input id="cbx_SetThumbnail" type="checkbox" class="el_checkbox_input" />
+            <label for="cbx_SetThumbnail">$_lang set_thumbnail;</label>
+        </div>
+        <div class="el_item">
+            <input type="button" value="$_lang set_image;" class="el_button_input" onclick="el_SetImagePreviewToEditorTemplate();el_InsertEditorTemplateValueToWysiwyg()" />
+            <br />
+        </div>
+    </div>
+</div>

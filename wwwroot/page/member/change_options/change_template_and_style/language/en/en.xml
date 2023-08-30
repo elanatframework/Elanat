@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <change_template_and_style>change template and style</change_template_and_style>
+    <member>member</member>
+    <template_and_style_was_change>template and style was change</template_and_style_was_change>
+    <user_admin_style>user admin style</user_admin_style>
+    <user_admin_template>user admin template</user_admin_template>
+    <user_site_style>user site style</user_site_style>
+    <user_site_template>user site template</user_site_template>
+
+  </add_ons_language>
+</add_ons_language_root>

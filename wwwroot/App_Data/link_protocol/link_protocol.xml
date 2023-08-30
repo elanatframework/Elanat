@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<link_protocol_root>
+  
+  <link_protocol_list>
+    <protocol></protocol>
+    <protocol>http://</protocol>
+    <protocol>https://</protocol>
+  </link_protocol_list>
+  
+</link_protocol_root>

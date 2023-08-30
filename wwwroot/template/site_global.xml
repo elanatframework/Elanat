@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<template_root>
+
+ <captcha>
+   <!-- Note: el_ReCaptcha(this) Method Use Two parentNode To Achieve Div With el_captcha_box Class Name; If The Html Tag Sequence Changes, The el_ReCaptcha (obj) Method Must Also Change -->
+    <load use_elanat="true" use_language="true">
+		<![CDATA[
+    <div class="el_item">
+		  <div class="el_captcha_box" >
+			  <span>
+				  $_asp is_case_sensitive;
+			  </span>
+			  <div>
+				  <img class="el_img_captcha" src="$_elanat ::system site_path;include/captcha/$_asp captcha_path;/?random=$_elanat ::system random;" />
+			  </div>
+			  <div>
+				  <div class="el_image_re_captcha" onclick="el_ReCaptcha(this)"></div>
+			  </div>
+		  </div>
+      <div class="el_item">
+          $_lang captcha;
+      </div>
+      <div class="el_item">
+          <input id="txt_Captcha" name="txt_Captcha" type="text" class="el_text_input el_important_field" autocomplete="off"/>
+      </div>
+    </div>
+
+		<script>
+		  
+		function el_ReCaptcha(obj)
+    {
+			el_OpenAjaxLoading();
+		
+			var Random = Math.floor((Math.random() * 1000000) + 1); 
+			obj.parentNode.parentNode.getElementsByClassName("el_img_captcha").item(0).setAttribute("src", "$_elanat ::system site_path;include/captcha/$_asp captcha_path;/?random=" + Random);
+      document.getElementById("txt_Captcha").value = "";
+        
+			el_CloseAjaxLoading();
+		}
+		
+		</script>
+		]]>
+    </load>
+ </captcha>
+ 
+<part>
+	<show_protection_content_by_password use_language="true">
+	<![CDATA[
+		<div id="div_ProtectionContent$_asp content_id;" class="el_show_protection_content">
+			$_lang password;
+			<input id="txt_ProtectionContentPassword$_asp content_id;" class="el_password_input" type="password" value="" autocomplete="off" onfocus="this.removeAttribute('readonly');">
+			<div class="el_captcha_value">
+        $_asp captcha;
+      </div>
+      <br />
+			<input value="$_lang show_content;" onclick="el_ShowProtectionContent($_asp content_id;)" type="button" class="el_button_input">
+		</div>
+	]]>
+	</show_protection_content_by_password>
+	
+	<show_protection_attachment_by_password use_language="true">
+	<![CDATA[
+		<div id="div_ProtectionAttachment$_asp attachment_id;" class="el_show_protection_attachment">
+			$_lang password;
+			<input id="txt_ProtectionAttachmentPassword$_asp attachment_id;" class="el_password_input" type="password" value="" autocomplete="off" onfocus="this.removeAttribute('readonly');">
+			<div class="el_captcha_value">
+        $_asp captcha;
+      </div>
+      <br />
+			<input value="$_lang show_attachment;" onclick="el_ShowProtectionAttachment($_asp attachment_id;)" type="button" class="el_button_input">
+		</div>
+	]]>
+	</show_protection_attachment_by_password>
+</part>
+
+</template_root>

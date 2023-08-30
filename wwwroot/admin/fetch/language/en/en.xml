@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <active>active</active>
+    <add_fetch>add fetch</add_fetch>
+    <add>add</add>
+    <box_use_elanat>box use elanat</box_use_elanat>
+    <box_use_fetch>box use fetch</box_use_fetch>
+    <box_use_item>box use item</box_use_item>
+    <box_use_language>box use language</box_use_language>
+    <box_use_module>box use module</box_use_module>
+    <box_use_plugin>box use plugin</box_use_plugin>
+    <box_use_replace_part>box use replace part</box_use_replace_part>
+    <delete>delete</delete>
+    <edit_fetch>edit fetch</edit_fetch>
+    <edit>edit</edit>
+    <fetch_access_show>fetch access show</fetch_access_show>
+    <fetch_active>fetch active</fetch_active>
+    <fetch_author_website>fetch author website</fetch_author_website>
+    <fetch_author>fetch author</fetch_author>
+    <fetch_box>fetch box</fetch_box>
+    <fetch_cache_duration>fetch cache duration</fetch_cache_duration>
+    <fetch_category>fetch category</fetch_category>
+    <fetch_id>fetch id</fetch_id>
+    <fetch_info>fetch info</fetch_info>
+    <fetch_license>fetch license</fetch_license>
+    <fetch_list_item>fetch list item</fetch_list_item>
+    <fetch_load_tag>fetch load tag</fetch_load_tag>
+    <fetch_menu>fetch menu</fetch_menu>
+    <fetch_name_is_duplicate>fetch name is duplicate</fetch_name_is_duplicate>
+    <fetch_name>fetch name</fetch_name>
+    <fetch_path>fetch path</fetch_path>
+    <fetch_public_access_show>fetch public access show</fetch_public_access_show>
+    <fetch_release_date>fetch release date</fetch_release_date>
+    <fetch_sort_index>fetch sort index</fetch_sort_index>
+    <fetch_sql_query>fetch sql query</fetch_sql_query>
+    <fetch_static_head>fetch static head</fetch_static_head>
+    <fetch_version_support>fetch version support</fetch_version_support>
+    <fetch_version>fetch version</fetch_version>
+    <fetch_was_add>fetch was add</fetch_was_add>
+    <fetch_was_save_edit>fetch was save edit</fetch_was_save_edit>
+    <fetch>fetch</fetch>
+    <get_sql_query_column>get sql query column</get_sql_query_column>
+    <inactive>inactive</inactive>
+    <information>information</information>
+    <list_item_use_elanat>list item use elanat</list_item_use_elanat>
+    <list_item_use_fetch>list item use fetch</list_item_use_fetch>
+    <list_item_use_item>list item use item</list_item_use_item>
+    <list_item_use_language>list item use language</list_item_use_language>
+    <list_item_use_module>list item use module</list_item_use_module>
+    <list_item_use_plugin>list item use plugin</list_item_use_plugin>
+    <list_item_use_replace_part>list item use replace part</list_item_use_replace_part>
+    <please_fill_fetch_path_field_because_this_is_necessary>please fill fetch path field because this is necessary</please_fill_fetch_path_field_because_this_is_necessary>
+    <please_fill_fetch_upload_field_because_this_is_necessary>please fill fetch upload field because this is necessary</please_fill_fetch_upload_field_because_this_is_necessary>
+    <read_more>read more</read_more>
+    <save_fetch>save fetch</save_fetch>
+    <sql_query_column>sql query column</sql_query_column>
+    <sql_query_use_elanat>sql query use elanat</sql_query_use_elanat>
+    <sql_query_use_fetch>sql query use fetch</sql_query_use_fetch>
+    <sql_query_use_item>sql query use item</sql_query_use_item>
+    <sql_query_use_language>sql query use language</sql_query_use_language>
+    <sql_query_use_module>sql query use module</sql_query_use_module>
+    <sql_query_use_plugin>sql query use plugin</sql_query_use_plugin>
+    <sql_query_use_replace_part>sql query use replace part</sql_query_use_replace_part>
+    <use_fetch_path>use fetch path</use_fetch_path>
+    <you_should_upload_zip_extension>you should upload zip extension</you_should_upload_zip_extension>
+    <zip_file_is_corrupt>zip file is corrupt</zip_file_is_corrupt>
+
+  </add_ons_language>
+</add_ons_language_root>

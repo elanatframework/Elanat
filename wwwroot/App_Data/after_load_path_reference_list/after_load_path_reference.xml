@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<after_load_path_reference_root>
+
+  <after_load_path_reference_list>
+    
+    <reference type="url" check_type="page" exist="false" start_by="true" end_by="false" regex_match="false" active="true">
+      <path_value>/upload/attachment/</path_value>
+      <load_value><![CDATA[/action/system_access/reference/increase_attachment_visit/Default.aspx]]></load_value>
+    </reference>
+    
+  </after_load_path_reference_list>
+  
+</after_load_path_reference_root>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<default_page_root>
+  
+  <default_page_list>
+    <default_page name="Default.aspx" />
+    <default_page name="Default.asp" />
+    <default_page name="Default.htm" />
+    <default_page name="index.htm" />
+    <default_page name="index.html" />
+    <default_page name="index.cpp" />
+    <default_page name="index.dnc" />
+    <default_page name="index.php" />
+    <default_page name="index.njs" />
+    <default_page name="index.pl" />
+    <default_page name="index.py" />
+    <default_page name="index.rb" />
+    <default_page name="index.jsp" />
+    <default_page name="main.dll" />
+    <default_page name="main.exe" />
+  </default_page_list>
+
+</default_page_root>

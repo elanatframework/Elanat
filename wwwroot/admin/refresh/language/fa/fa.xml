@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <all_category_has_been_re_create_in_category_map_successfully>نقشه دسته بندی همه دسته بندی با موفقیت دوباره ایجاد شد</all_category_has_been_re_create_in_category_map_successfully>
+    <all_file_and_sub_directory_in_disk_cache_directory_has_been_delete_successfully>همه فایل ها و زیرپوشه ها در پوشه کش دیسک با موفقیت حذف شدند</all_file_and_sub_directory_in_disk_cache_directory_has_been_delete_successfully>
+    <all_file_and_sub_directory_in_logs_directory_has_been_delete_successfully>همه فایل ها و زیرپوشه ها در پوشه logs با موفقیت حذف شدند</all_file_and_sub_directory_in_logs_directory_has_been_delete_successfully>
+    <all_file_and_sub_directory_in_tmp_directory_has_been_delete_successfully>همه فایل ها و زیرپوشه ها در پوشه tmp با موفقیت حذف شدند</all_file_and_sub_directory_in_tmp_directory_has_been_delete_successfully>
+    <all_file_in_upload_directory_has_been_re_create_in_upload_file_list_successfully>همه فایل ها در پوشه بارگذاری با موفقیت در فهرست فایل های بارگذاری شده دوباره ایجاد شدند</all_file_in_upload_directory_has_been_re_create_in_upload_file_list_successfully>
+    <all_foot_prints_has_been_delete_successfully>تمامی ردپاها با موفقیت حذف شدند</all_foot_prints_has_been_delete_successfully>
+    <application_start>شروع برنامه</application_start>
+    <application_start_was_refresh>شروع برنامه تازه سازی شد</application_start_was_refresh>
+    <cache>کش</cache>
+    <cache_was_refresh>کش تازه سازی شد</cache_was_refresh>
+    <cookie>کوکی</cookie>
+    <delete>حذف</delete>
+    <disk_cache_directory>پوشه کش دیسک</disk_cache_directory>
+    <foot_print>ردپا</foot_print>
+    <lock_login>قفل ورود</lock_login>
+    <lock_login_was_refresh>قفل ورود تازه سازی شد</lock_login_was_refresh>
+    <login_ip_black_list>فهرست سیاه آی پی ورود</login_ip_black_list>
+    <login_ip_black_list_was_refresh>فهرست سیاه آی پی ورود تازه سازی شد</login_ip_black_list_was_refresh>
+    <logs_directory>پوشه logs</logs_directory>
+    <re_create>ایجاد دوباره</re_create>
+    <refresh>تازه سازی</refresh>
+    <session>سشن</session>
+    <session_was_refresh>سشن تازه سازی شد</session_was_refresh>
+    <site_category>دسته بندی سایت</site_category>
+    <tmp_directory>پوشه tmp</tmp_directory>
+    <upload_file_list>فهرست بارگذاری فایل</upload_file_list>
+    <version>نسخه</version>
+	
+  </add_ons_language>
+</add_ons_language_root>

@@ -1,0 +1,89 @@
+﻿h1
+{
+    font-size: 30px !important;
+    margin-bottom: 0px !important;
+}
+
+h2
+{
+    font-size: 24px !important;
+    margin-bottom: 0px !important;
+    color: #333;
+}
+
+h3
+{
+    font-size: 18px !important;
+    margin-bottom: 0px !important;
+    color: #333;
+}
+
+span
+{
+    color: #00BA57;
+}
+
+.el_page_center
+{
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: 0px auto;
+    margin-top: 0px;
+    min-width: 300px;
+    max-width: 600px;
+    margin-top: 100px;
+}
+
+#btn_SetConnectionString
+{
+    margin-top: 12px !important;
+    background-color: black;
+    color: white;
+    border: none;
+    height: 30px;
+}
+
+#txt_ServerName
+{
+    direction: ltr;
+}
+
+#txt_DatabaseName
+{
+    direction: ltr;
+}
+
+#txt_UserId
+{
+    direction: ltr;
+}
+
+#txt_Password
+{
+    direction: ltr;
+}
+
+#txt_ConnectionString
+{
+    width: 100%;
+    min-width: 300px;
+    max-width: 600px;
+    direction: ltr;
+}
+
+input
+{
+   min-width: 150px;
+}
+
+.el_red_text
+{
+    color: red;
+}
+
+.el_green_text
+{
+    color: #00BA57;
+}

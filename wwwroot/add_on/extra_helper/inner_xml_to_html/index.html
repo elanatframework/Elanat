@@ -1,0 +1,39 @@
+    <div id="div_ExtraHelperInnerXmlToHtml">
+    <script type="text/javascript">
+
+        function el_InnerXmlToHtml(Text) {
+            var Xml = Text;
+            Xml = Xml.replace(/&amp;/g, "&");
+            Xml = Xml.replace(/&apos;/g, "'");
+            Xml = Xml.replace(/&lt;/g, "<");
+            Xml = Xml.replace(/&gt;/g, ">");
+            Xml = Xml.replace(/&quot;/g, "\"");
+            return Xml;
+        }
+
+        function el_ConvertInnerXmlToHtml() {
+            var Html = document.getElementById("txt_InnerXmlToHtml_Html");
+            var InnerXml = document.getElementById("txt_InnerXmlToHtml_InnerXml");
+            Html.value = el_InnerXmlToHtml(InnerXml.value);
+        }
+
+    </script>
+    <div class="el_head">$_lang inner_xml_to_html;</div>
+    <div class="el_part_row">
+        <div class="el_item">
+            $_lang inner_xml;
+        </div>
+        <div class="el_item">
+            <textarea id="txt_InnerXmlToHtml_InnerXml" class="el_textarea_input el_left_to_right"></textarea>
+        </div>
+        <div class="el_item">
+            <input name="btn_ConvertInnerXmlToHtml" type="button" value="$_lang convert;" class="el_button_input" onclick="el_ConvertInnerXmlToHtml()" />
+        </div>
+        <div class="el_item">
+            $_lang html;
+        </div>
+        <div class="el_item">
+            <textarea id="txt_InnerXmlToHtml_Html" class="el_textarea_input el_left_to_right"></textarea>
+        </div>
+    </div>
+</div>

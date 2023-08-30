@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<validation_root>
+  <validation_list>
+
+    <CheckBoxList id="cbxlst_PluginAccessAdd" type="number" label="plugin_access_add" category="" start_range="0" end_range="100000" important="false" client_injection_check="true" />
+    <CheckBoxList id="cbxlst_PluginAccessDeleteAll" type="number" label="plugin_access_delete_all" category="" start_range="0" end_range="100000" important="false" client_injection_check="true" />
+    <CheckBoxList id="cbxlst_PluginAccessDeleteOwn" type="number" label="plugin_access_delete_own" category="" start_range="0" end_range="100000" important="false" client_injection_check="true" />
+    <CheckBoxList id="cbxlst_PluginAccessEditAll" type="number" label="plugin_access_edit_all" category="" start_range="0" end_range="100000" important="false" client_injection_check="true" />
+    <CheckBoxList id="cbxlst_PluginAccessEditOwn" type="number" label="plugin_access_edit_own" category="" start_range="0" end_range="100000" important="false" client_injection_check="true" />
+    <CheckBoxList id="cbxlst_PluginAccessShow" type="number" label="plugin_access_show" category="" start_range="0" end_range="100000" important="false" client_injection_check="true" />
+    <CheckBoxList id="cbxlst_PluginMenu" type="number" label="plugin_menu" category="" start_range="0" end_range="100000" important="false" client_injection_check="true" />
+    <DropDownList id="ddlst_PluginLoadType" type="ul_string" label="plugin_load_type" category="" min_count="1" max_length="50" important="true" client_injection_check="true" />
+    <FileUpload id="upd_PluginPath" type="file" label="plugin_path" category="" max_file_size="100000000" important="false" />
+    <HiddenField id="hdn_PluginId" type="number" label="plugin_id" category="" start_range="0" end_range="100000" important="true" />
+    <TextBox id="txt_PluginCacheDuration" type="number" label="plugin_cache_duration" category="" start_range="0" end_range="100000" important="true" />
+    <TextBox id="txt_PluginCacheParameters" type="string" label="plugin_cache_parameters" category="" min_count="0" max_length="200" important="false" />
+    <TextBox id="txt_PluginCategory" type="ul_string" label="plugin_category" category="" min_count="0" max_length="50" important="false" />
+    <TextBox id="txt_PluginName" type="string" label="plugin_name" category="" min_count="0" max_length="50" important="false" is_unique="true" unauthorized_check="true" table_name="el_plugin" column_name="plugin_name"/>
+    <TextBox id="txt_PluginPath" type="string" label="plugin_path" category="" min_count="0" max_length="100000" important="false" />
+    <TextBox id="txt_PluginSortIndex" type="number" label="plugin_sort_index" category="" start_range="0" end_range="100000" important="false" />
+
+  </validation_list>
+</validation_root>

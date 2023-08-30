@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+    
+    <__about_elanat>elanat-framework is a powerful base for portal or content management system use, theme-able (Separate Styles and Templates),multi content (post, page, video ...) , eight varios add-ons support (component, module, plugin, page, patch, fetch, extra helper, editor template) multi language add-ons (c, c++, and all interpreted languages support),  lightweight CMS, multi language support, High Security , built with the dot net framework and C# programming in inner mvc structer. According to regular designations, Elanat is the best option for development.</__about_elanat>
+    <about>about</about>
+    <about_elanat>about elanat</about_elanat>
+    <break_support_check>break support check</break_support_check>
+    <check_new_update>check new update</check_new_update>
+    <dot_net_version_is_not_support_new_update>dot net version is not support new update</dot_net_version_is_not_support_new_update>  
+    <elanat_site>elanat site</elanat_site>
+    <elanat_was_update>elanat was update</elanat_was_update>
+    <failed_to_load_news>failed to load news</failed_to_load_news>
+    <is_up_to_date>is up to date</is_up_to_date>
+    <licenses>licenses</licenses>
+    <site>site</site>
+    <update>update</update>
+    <update_is_available>update is available</update_is_available>
+    <version>version</version>
+  
+  </add_ons_language>
+</add_ons_language_root>

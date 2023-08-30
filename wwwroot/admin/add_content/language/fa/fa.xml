@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  
+  <add_ons_language>
+  
+    <access>دسترسی</access>
+    <add_content>درج محتوا</add_content>
+    <add_new_content>درج محتوای جدید</add_new_content>
+    <avatar_and_icon>آواتار و آیکون</avatar_and_icon>
+    <category>دسته بندی</category>
+    <content_access_show>دسترسی نمایش محتوا</content_access_show>
+    <content_always_on_top>محتوا همیشه در بالا</content_always_on_top>
+    <content_avatar>آواتار محتوا</content_avatar>
+    <content_comment_is_free>محتوا با نظر آزاد</content_comment_is_free>
+    <content_date_create>تاریخ ایجاد محتوا</content_date_create>
+    <content_icon>آیکون محتوا</content_icon>
+    <content_password>رمز محتوا</content_password>
+    <content_public_access_show>دسترسی عمومی نمایش محتوا</content_public_access_show>
+    <content_source>منبع محتوا</content_source>
+    <content_status>وضعیت محتوا</content_status>
+    <content_text>متن محتوا</content_text>
+    <content_time_create>زمان ایجاد محتوا</content_time_create>
+    <content_title>عنوان محتوا</content_title>
+    <content_type>نوع محتوا</content_type>
+    <content_verify_comments>محتوا بانظرها تایید شده</content_verify_comments>
+    <content_visit>بازدید محتوا</content_visit>
+    <content_was_add>محتوا اضافه شد</content_was_add>
+    <content_was_save_edit>محتوا ویرایش شد</content_was_save_edit>
+    <date_and_time>تاریخ و زمان</date_and_time>
+    <date_publish>تاریخ انتشار</date_publish>
+    <edit_content>ویرایش محتوا</edit_content>
+    <editor_template>قالب ویرایشگر</editor_template>
+    <file_upload>بارگذاری فایل</file_upload>
+    <link_menu>منو لینک</link_menu>
+    <meta>متا</meta>
+    <meta_keywords>کلمات کلیدی متا</meta_keywords>
+    <password>رمز</password>
+    <read_more>بیشتر بخوانید</read_more>
+    <save_content>ذخیره محتوا</save_content>
+    <select_avatar_from_list>آواتار را از فهرست انتخاب کنید</select_avatar_from_list>
+    <source>منبع</source>
+    <start_upload>شروع بارگذاری</start_upload>
+    <status>وضعیت</status>
+    <time_publish>زمان انتشار</time_publish>
+    <to_draft>پیش نویس</to_draft>
+    <use_delay_publish>به کارگیری انتشار با تاخیر</use_delay_publish>
+
+  </add_ons_language>
+  
+</add_ons_language_root>

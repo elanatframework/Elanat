@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<validation_root>
+  <validation_list>
+
+    <CheckBoxList id="cbxlst_LinkMenu" type="number" label="link_menu" category="" start_range="0" end_range="100000" important="false" client_injection_check="true" />
+    <DropDownList id="ddlst_LinkProtocol" type="string" label="link_protocol" min_count="0" max_length="50" important="false" client_injection_check="true" />
+    <DropDownList id="ddlst_LinkTarget" type="string" label="link_target" min_count="1" max_length="7" important="true" client_injection_check="true" />
+    <HiddenField id="hdn_LinkId" type="number" label="link_id" category="" start_range="0" end_range="100000" important="true" />
+    <TextBox id="txt_LinkHref" type="string" label="link_href" category="" min_count="1" max_length="400" important="true" unauthorized_check="true" table_name="el_link" column_name="link_href" />
+    <TextBox id="txt_LinkRel" type="string" label="link_rel" category="" min_count="0" max_length="50" important="false" />
+    <TextBox id="txt_LinkSortIndex" type="number" label="link_sort_index" category="" start_range="0" end_range="100000" important="false" />
+    <TextBox id="txt_LinkTitle" type="string" label="link_title" category="" min_count="0" max_length="400" important="false" />
+    <TextBox id="txt_LinkValue" type="string" label="link_value" category="" min_count="1" max_length="400" important="true" />
+
+  </validation_list>
+</validation_root>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<item_view_root>
+  <![CDATA[item_search only char,varchar,nvarchar type - item_search in category component, include table name]]>
+  <item_search_list> 
+ 	 <column>el_category.category_name</column>
+ 	</item_search_list>
+  <item_view_list>
+    <view_table>
+      <column>category_name</column>
+      <column>site_global_name</column>
+      <column>parent_category_name</column>
+    </view_table>
+    <view_more>
+      <column>category_active</column>
+      <column>category_id</column>
+      <column>category_name</column>
+      <column>category_public_access_show</column>
+      <column>parent_category_name</column>
+      <column>parent_category</column>
+      <column>require_approval</column>
+      <column>site_global_name</column>
+      <column>site_id</column>
+      <column>site_name</column>
+      <column>site_style_id</column>
+      <column>site_style_name</column>
+      <column>site_template_id</column>
+      <column>site_template_name</column>
+    </view_more>
+  </item_view_list>
+</item_view_root>
+
+
+

@@ -1,0 +1,511 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<foreign_key_root>
+  
+  <foreign_key_list>
+
+    <el_attachment column_name="user_id">
+      <depend>
+        <el_user column_name="user_id" forced="false"/>
+      </depend>
+    </el_attachment>
+    
+    
+    <el_attachment_access_show column_name="attachment_id">
+      <depend>
+        <el_attachment column_name="attachment_id" forced="true"/>
+      </depend>
+    </el_attachment_access_show>
+
+    <el_attachment_access_show column_name="role_id">
+      <depend>
+        <el_role column_name="role_id" forced="true"/>
+      </depend>
+    </el_attachment_access_show>
+    
+
+    <el_category column_name="site_id">
+      <depend>
+        <el_site column_name="site_id" forced="false"/>
+      </depend>
+    </el_category>
+
+    <el_category column_name="parent_category">
+      <depend>
+        <el_category column_name="parent_category" forced="false"/>
+      </depend>
+    </el_category>
+
+    <el_category column_name="site_style_id">
+      <depend>
+        <el_site_style column_name="site_style_id" forced="false"/>
+      </depend>
+    </el_category>
+
+    <el_category column_name="site_template_id">
+      <depend>
+        <el_site_template column_name="site_template_id" forced="false"/>
+      </depend>
+    </el_category>
+    
+    
+    <el_category_access_show column_name="category_id">
+      <depend>
+        <el_category column_name="category_id" forced="true"/>
+      </depend>
+    </el_category_access_show>
+
+    <el_category_access_show column_name="role_id">
+      <depend>
+        <el_role column_name="role_id" forced="true"/>
+      </depend>
+    </el_category_access_show>
+    
+    
+    <el_comment column_name="content_id">
+      <depend>
+        <el_content column_name="content_id" forced="true"/>
+      </depend>
+    </el_comment>
+
+    <el_comment column_name="user_id">
+      <depend>
+        <el_user column_name="user_id" forced="false"/>
+      </depend>
+    </el_comment>
+
+    <el_comment column_name="parent_comment">
+      <depend>
+        <el_comment column_name="parent_comment" forced="false"/>
+      </depend>
+    </el_comment>    
+    
+    
+    <el_component_role_access column_name="component_id">
+      <depend>
+        <el_component column_name="component_id" forced="true"/>
+      </depend>
+    </el_component_role_access>
+
+    <el_component_role_access column_name="role_id">
+      <depend>
+        <el_role column_name="role_id" forced="true"/>
+      </depend>
+    </el_component_role_access>
+    
+
+    <el_contact column_name="user_id">
+      <depend>
+        <el_user column_name="user_id" forced="false"/>
+      </depend>
+    </el_contact>
+    
+
+    <el_content column_name="user_id">
+      <depend>
+        <el_user column_name="user_id" forced="true"/>
+      </depend>
+    </el_content>
+
+    <el_content column_name="category_id">
+      <depend>
+        <el_category column_name="category_id" forced="true"/>
+      </depend>
+    </el_content>
+    
+    
+    <el_content_access_show column_name="content_id">
+      <depend>
+        <el_content column_name="content_id" forced="true"/>
+      </depend>
+    </el_content_access_show>
+
+    <el_content_access_show column_name="role_id">
+      <depend>
+        <el_role column_name="role_id" forced="true"/>
+      </depend>
+    </el_content_access_show>
+        
+
+    <el_el_content_attachment column_name="content_id">
+      <depend>
+        <el_content column_name="content_id" forced="true"/>
+      </depend>
+    </el_el_content_attachment>
+
+    <el_el_content_attachment column_name="attachment_id">
+      <depend>
+        <el_attachment column_name="attachment_id" forced="true"/>
+      </depend>
+    </el_el_content_attachment>
+    
+
+    <el_content_avatar column_name="content_id">
+      <depend>
+        <el_content column_name="content_id" forced="true"/>
+      </depend>
+    </el_content_avatar>
+    
+
+    <el_content_icon column_name="content_id">
+      <depend>
+        <el_content column_name="content_id" forced="true"/>
+      </depend>
+    </el_content_icon>
+
+
+    <el_content_keywords column_name="content_id">
+      <depend>
+        <el_content column_name="content_id" forced="true"/>
+      </depend>
+    </el_content_keywords>
+    
+
+    <el_content_rating column_name="content_id">
+      <depend>
+        <el_content column_name="content_id" forced="true"/>
+      </depend>
+    </el_content_rating>
+    
+
+    <el_content_reply column_name="content_id">
+      <depend>
+        <el_content column_name="content_id" forced="true"/>
+      </depend>
+    </el_content_reply>
+
+    <el_content_reply column_name="user_id">
+      <depend>
+        <el_user column_name="user_id" forced="false"/>
+      </depend>
+    </el_content_reply>
+
+
+    <el_content_source column_name="content_id">
+      <depend>
+        <el_content column_name="content_id" forced="true"/>
+      </depend>
+    </el_content_source>
+    
+    
+    <el_editor_template_access_show column_name="editor_template_id">
+      <depend>
+        <el_editor_template column_name="editor_template_id" forced="true"/>
+      </depend>
+    </el_editor_template_access_show>
+
+    <el_editor_template_access_show column_name="role_id">
+      <depend>
+        <el_role column_name="role_id" forced="true"/>
+      </depend>
+    </el_editor_template_access_show>
+    
+
+    <el_extra_helper_access_show column_name="extra_helper_id">
+      <depend>
+        <el_extra_helper column_name="extra_helper_id" forced="true"/>
+      </depend>
+    </el_extra_helper_access_show>
+
+    <el_extra_helper_access_show column_name="role_id">
+      <depend>
+        <el_role column_name="role_id" forced="true"/>
+      </depend>
+    </el_extra_helper_access_show>
+
+    <el_fetch_access_show column_name="fetch_id">
+      <depend>
+        <el_fetch column_name="fetch_id" forced="true"/>
+      </depend>
+    </el_fetch_access_show>
+
+    <el_fetch_access_show column_name="role_id">
+      <depend>
+        <el_role column_name="role_id" forced="true"/>
+      </depend>
+    </el_fetch_access_show>    
+
+    <el_foot_print column_name="user_id">
+      <depend>
+        <el_user column_name="user_id" forced="false"/>
+      </depend>
+    </el_foot_print>
+
+    
+    <el_group_role column_name="group_id">
+      <depend>
+        <el_group column_name="group_id" forced="true"/>
+      </depend>
+    </el_group_role>
+
+    <el_group_role column_name="role_id">
+      <depend>
+        <el_role column_name="role_id" forced="true"/>
+      </depend>
+    </el_group_role>
+
+    
+    <el_item_access_show column_name="item_id">
+      <depend>
+        <el_item column_name="item_id" forced="true"/>
+      </depend>
+    </el_item_access_show>
+
+    <el_item_access_show column_name="role_id">
+      <depend>
+        <el_role column_name="role_id" forced="true"/>
+      </depend>
+    </el_item_access_show>
+    
+
+    <el_language column_name="site_id">
+      <depend>
+        <el_site column_name="site_id" forced="false"/>
+      </depend>
+    </el_language>
+
+
+    <el_menu column_name="site_id">
+      <depend>
+        <el_site column_name="site_id" forced="false"/>
+      </depend>
+    </el_menu>
+
+
+    <el_menu_access_show column_name="menu_id">
+      <depend>
+        <el_menu column_name="menu_id" forced="true"/>
+      </depend>
+    </el_menu_access_show>
+
+    <el_menu_access_show column_name="role_id">
+      <depend>
+        <el_role column_name="role_id" forced="true"/>
+      </depend>
+    </el_menu_access_show>
+    
+
+    <el_menu_item column_name="menu_id">
+      <depend>
+        <el_menu column_name="menu_id" forced="true"/>
+      </depend>
+    </el_menu_item>
+
+    <el_menu_item column_name="item_id">
+      <depend>
+        <el_item column_name="item_id" forced="true"/>
+      </depend>
+    </el_menu_item>
+    
+
+    <el_menu_link column_name="menu_id">
+      <depend>
+        <el_menu column_name="menu_id" forced="true"/>
+      </depend>
+    </el_menu_link>
+
+    <el_menu_link column_name="link_id">
+      <depend>
+        <el_link column_name="link_id" forced="true"/>
+      </depend>
+    </el_menu_link>
+
+
+    <el_menu_module column_name="menu_id">
+      <depend>
+        <el_menu column_name="menu_id" forced="true"/>
+      </depend>
+    </el_menu_module>
+
+    <el_menu_module column_name="module_id">
+      <depend>
+        <el_module column_name="module_id" forced="true"/>
+      </depend>
+    </el_menu_module>
+
+
+    <el_menu_plugin column_name="menu_id">
+      <depend>
+        <el_menu column_name="menu_id" forced="true"/>
+      </depend>
+    </el_menu_plugin>
+
+    <el_menu_plugin column_name="plugin_id">
+      <depend>
+        <el_plugin column_name="plugin_id" forced="true"/>
+      </depend>
+    </el_menu_plugin>
+    
+
+    <el_module_role_access column_name="module_id">
+      <depend>
+        <el_module column_name="module_id" forced="true"/>
+      </depend>
+    </el_module_role_access>
+
+    <el_module_role_access column_name="role_id">
+      <depend>
+        <el_role column_name="role_id" forced="true"/>
+      </depend>
+    </el_module_role_access>
+    
+
+    <el_page column_name="user_id">
+      <depend>
+        <el_user column_name="user_id" forced="false"/>
+      </depend>
+    </el_page>
+
+    <el_page column_name="site_style_id">
+      <depend>
+        <el_site_style column_name="site_style_id" forced="false"/>
+      </depend>
+    </el_page>
+
+    <el_page column_name="site_admin_id">
+      <depend>
+        <el_site_admin column_name="site_admin_id" forced="false"/>
+      </depend>
+    </el_page>
+    
+
+    <el_page_access_show column_name="page_id">
+      <depend>
+        <el_page column_name="page_id" forced="true"/>
+      </depend>
+    </el_page_access_show>
+
+    <el_page_access_show column_name="role_id">
+      <depend>
+        <el_role column_name="role_id" forced="true"/>
+      </depend>
+    </el_page_access_show>
+    
+
+    <el_plugin_role_access column_name="plugin_id">
+      <depend>
+        <el_plugin column_name="plugin_id" forced="true"/>
+      </depend>
+    </el_plugin_role_access>
+
+    <el_plugin_role_access column_name="role_id">
+      <depend>
+        <el_role column_name="role_id" forced="true"/>
+      </depend>
+    </el_plugin_role_access>
+    
+
+    <el_site column_name="page_id">
+      <depend>
+        <el_page column_name="page_id" forced="false"/>
+      </depend>
+    </el_site>
+
+    <el_site column_name="language_id">
+      <depend>
+        <el_language column_name="language_id" forced="false"/>
+      </depend>
+    </el_site>
+
+    <el_site column_name="role_id">
+      <depend>
+        <el_role column_name="role_id" forced="false"/>
+      </depend>
+    </el_site>
+
+    <el_site column_name="site_style_id">
+      <depend>
+        <el_site_style column_name="site_style_id" forced="false"/>
+      </depend>
+    </el_site>
+
+    <el_site column_name="site_template_id">
+      <depend>
+        <el_site_template column_name="site_template_id" forced="false"/>
+      </depend>
+    </el_site>
+
+    <el_site column_name="admin_style_id">
+      <depend>
+        <el_admin_style column_name="admin_style_id" forced="false"/>
+      </depend>
+    </el_site>
+
+
+    <el_site_page column_name="site_id">
+      <depend>
+        <el_site column_name="site_id" forced="true"/>
+      </depend>
+    </el_site_page>
+
+    <el_site_page column_name="page_id">
+      <depend>
+        <el_page column_name="page_id" forced="true"/>
+      </depend>
+    </el_site_page>
+    
+
+    <el_user column_name="group_id">
+      <depend>
+        <el_group column_name="group_id" forced="false"/>
+      </depend>
+    </el_user>
+
+    <el_user column_name="site_style_id">
+      <depend>
+        <el_site_style column_name="site_style_id" forced="false"/>
+      </depend>
+    </el_user>
+
+    <el_user column_name="site_template_id">
+      <depend>
+        <el_site_template column_name="site_template_id" forced="false"/>
+      </depend>
+    </el_user>
+
+    <el_user column_name="admin_style_id">
+      <depend>
+        <el_admin_style column_name="admin_style_id" forced="false"/>
+      </depend>
+    </el_user>
+
+    <el_user column_name="admin_template_id">
+      <depend>
+        <el_admin_template column_name="admin_template_id" forced="false"/>
+      </depend>
+    </el_user>
+
+    <el_user column_name="site_language_id">
+      <depend>
+        <el_language column_name="language_id" forced="false"/>
+      </depend>
+    </el_user>
+
+    <el_user column_name="admin_language_id">
+      <depend>
+        <el_language column_name="language_id" forced="false"/>
+      </depend>
+    </el_user>
+    
+    
+    <el_view column_name="site_style_id">
+      <depend>
+        <el_site_style column_name="site_style_id" forced="false"/>
+      </depend>
+    </el_view>
+
+    <el_view column_name="site_template_id">
+      <depend>
+        <el_site_template column_name="site_template_id" forced="false"/>
+      </depend>
+    </el_view>
+    
+
+    <el_view_query_string column_name="view_id">
+      <depend>
+        <el_view column_name="view_id" forced="true"/>
+      </depend>
+    </el_view_query_string>
+    
+  </foreign_key_list>
+
+</foreign_key_root>

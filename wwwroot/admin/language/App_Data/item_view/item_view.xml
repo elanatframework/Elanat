@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<item_view_root>
+  <item_search_list> 
+ 	 <column>language_global_name</column>
+ 	</item_search_list>
+  <item_view_list>
+    <view_table>
+      <column>language_name</column>
+      <column>language_global_name</column>
+    </view_table>
+    <view_more>
+      <column>language_active</column>
+      <column>language_global_name</column>
+      <column>language_id</column>
+      <column>language_is_right_to_left</column>
+      <column>language_name</column>
+      <column>language_show_link_in_site</column>
+      <column>site_name</column>
+      <column>site_id</column>
+    </view_more>
+  </item_view_list>
+</item_view_root>

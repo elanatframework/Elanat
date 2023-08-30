@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<add_ons_language_root><![CDATA[do not change order]]>
+  <add_ons_language>
+
+    <active>active</active>
+    <active_was_save>active was save</active_was_save>
+    <add_comment>add comment</add_comment>
+    <admin_directory_path>admin directory path</admin_directory_path>
+    <admin_life_time>admin life time</admin_life_time>
+    <admin_main_cache_parameters>admin main cache parameters</admin_main_cache_parameters>
+    <admin_role_cache>admin role cache</admin_role_cache>
+    <admin_role_cache_type>admin role cache type</admin_role_cache_type>
+    <auto_create_thumbnail_image>auto create thumbnail image</auto_create_thumbnail_image>
+    <cache>cache</cache>
+    <cache_was_save>cache was save</cache_was_save> 
+    <calendar>calendar</calendar>
+    <captcha_admin_release_count>captcha admin release count</captcha_admin_release_count>
+    <captcha_character>captcha character</captcha_character>
+    <captcha_character_count_from>captcha character count from</captcha_character_count_from>
+    <captcha_character_count_to>captcha character count to</captcha_character_count_to>
+    <captcha_delay>captcha delay</captcha_delay>
+    <captcha_font>captcha font</captcha_font>
+    <captcha_font_size>captcha font size</captcha_font_size>
+    <captcha_guest_release_count>captcha guest release count</captcha_guest_release_count>
+    <captcha_height>captcha height</captcha_height>
+    <captcha_member_release_count>captcha member release count</captcha_member_release_count>
+    <captcha_noise>captcha noise</captcha_noise>
+    <captcha_repeat_time>captcha repeat time</captcha_repeat_time>
+    <captcha_rotate_transform>captcha rotate transform</captcha_rotate_transform>
+    <captcha_width>captcha width</captcha_width>
+    <check_last_modified>check last modified</check_last_modified>
+    <check_server_cache>check server cache</check_server_cache>
+    <client_cache_for_dynamic_page_cache>client cache for dynamic page cache</client_cache_for_dynamic_page_cache>
+    <client_cache_for_static_page_cache>client cache for static page cache</client_cache_for_static_page_cache>
+    <conection_string>conection string</conection_string>
+    <cookie_life_time>cookie life time</cookie_life_time>
+    <database_name>database name</database_name>
+    <date_and_time>date and time</date_and_time>
+    <date_and_time_was_save>save date and time</date_and_time_was_save>
+    <date_format>date format</date_format>
+    <day_difference>day difference</day_difference>
+    <debug>debug</debug>
+    <debug_was_save>debug was save</debug_was_save>
+    <default_group>default group</default_group>
+    <delay>delay</delay>
+    <delay_was_save>delay was save</delay_was_save>
+    <email>email</email>
+    <email_host>email host</email_host>
+    <email_password>email password</email_password>
+    <email_port>email port</email_port>
+    <email_sender>email sender</email_sender>
+    <email_use_https>email use https</email_use_https>
+    <email_user_name>email user name</email_user_name>
+    <email_was_save>email was save</email_was_save>
+    <file_and_directory>file and directory</file_and_directory>
+    <file_and_directory_was_save>file and directory was save</file_and_directory_was_save>
+    <first_day_of_week>first day of week</first_day_of_week>
+    <guest_group>guest group</guest_group>
+    <guest_life_time>guest life time</guest_life_time>
+    <guest_role_cache>guest role cache</guest_role_cache>
+    <guest_role_cache_type>guest role cache type</guest_role_cache_type>
+    <inactive_site>inactive site</inactive_site>
+    <just_use_https>just use https</just_use_https>
+    <just_use_https_for_admin>just use https for admin</just_use_https_for_admin>
+    <just_use_https_for_login_page>just use https for login page</just_use_https_for_login_page>
+    <just_use_https_for_site>just use https for site</just_use_https_for_site>
+    <limit_count_for_login_try>limit count for login try</limit_count_for_login_try>
+    <lock_login_directory_path>lock login directory path</lock_login_directory_path>
+    <lock_login_for_first_login>lock login for first login</lock_login_for_first_login>
+    <lock_login_page_delay>lock login page delay</lock_login_page_delay>
+    <lock_login_password>lock login password</lock_login_password>
+    <login_active>login active</login_active>
+    <login_delay>login delay</login_delay>
+    <main_cache>main cache</main_cache>
+    <main_delay>main delay</main_delay>
+    <maximum_size_for_admin_style>maximum size for admin style</maximum_size_for_admin_style>
+    <maximum_size_for_admin_template>maximum size for admin template</maximum_size_for_admin_template>
+    <maximum_size_for_attachment>maximum size for attachment</maximum_size_for_attachment>
+    <maximum_size_for_backup>maximum size for backup</maximum_size_for_backup>
+    <maximum_size_for_comment>maximum size for comment</maximum_size_for_comment>
+    <maximum_size_for_component>maximum size for component</maximum_size_for_component>
+    <maximum_size_for_contact>maximum size for contact</maximum_size_for_contact>
+    <maximum_size_for_content_avatar>maximum size for content avatar</maximum_size_for_content_avatar>
+    <maximum_size_for_editor_template>maximum size for editor template</maximum_size_for_editor_template>
+    <maximum_size_for_extra_helper>maximum size for extra helper</maximum_size_for_extra_helper>
+    <maximum_size_for_fetch>maximum size for fetch</maximum_size_for_fetch>
+    <maximum_size_for_language>maximum size for language</maximum_size_for_language>
+    <maximum_size_for_module>maximum size for module</maximum_size_for_module>
+    <maximum_size_for_page>maximum size for page</maximum_size_for_page>
+    <maximum_size_for_patch>maximum size for patch</maximum_size_for_patch>
+    <maximum_size_for_plugin>maximum size for plugin</maximum_size_for_plugin>
+    <maximum_size_for_site_style>maximum size for site style</maximum_size_for_site_style>
+    <maximum_size_for_site_template>maximum size for site template</maximum_size_for_site_template>
+    <maximum_size_for_upload>maximum size for upload</maximum_size_for_upload>
+    <maximum_size_for_user_avatar>maximum size for user avatar</maximum_size_for_user_avatar>
+    <maximum_size_for_user_upload>maximum size for user upload</maximum_size_for_user_upload>
+    <member_life_time>member life time</member_life_time>
+    <member_role_cache>member role cache</member_role_cache>
+    <member_role_cache_type>member role cache type</member_role_cache_type>
+    <new_password_length>new password length</new_password_length>
+    <new_random_text_value_count>new random text value count</new_random_text_value_count>
+    <options>options</options>
+    <robot_detection_admin_request_after_show_captcha_count>robot detection admin request after show captcha count</robot_detection_admin_request_after_show_captcha_count>
+    <robot_detection_admin_request_count>robot detection admin request count</robot_detection_admin_request_count>
+    <robot_detection_guest_request_after_show_captcha_count>robot detection guest request after show captcha count</robot_detection_guest_request_after_show_captcha_count>
+    <robot_detection_guest_request_count>robot detection guest request count</robot_detection_guest_request_count>
+    <robot_detection_ip_block_duration>robot detection ip block duration</robot_detection_ip_block_duration>
+    <robot_detection_member_request_after_show_captcha_count>robot detection member request after show captcha count</robot_detection_member_request_after_show_captcha_count>
+    <robot_detection_member_request_count>robot detection member request count</robot_detection_member_request_count>
+    <robot_detection_reset_time_duration>robot detection reset time duration</robot_detection_reset_time_duration>
+    <save_active>save active</save_active>
+    <save_cache>save cache</save_cache>
+    <save_date_and_time>save date and time</save_date_and_time>
+    <save_debug>save debug</save_debug>
+    <save_delay>save delay</save_delay>
+    <save_email>save email</save_email>
+    <save_file_and_directory>save file and directory</save_file_and_directory>
+    <save_logs_error>save logs error</save_logs_error>
+    <save_security>save security</save_security>
+    <secret_key>secret key</secret_key>
+    <security>security</security>
+    <security_was_save>security was save</security_was_save>
+    <session_life_time>session life time</session_life_time>
+    <show_protection_attachment_delay>show protection attachment delay</show_protection_attachment_delay>
+    <show_protection_content_delay>show protection content delay</show_protection_content_delay>
+    <sign_up_active>sign up active</sign_up_active>
+    <sign_up_delay>sign up delay</sign_up_delay>
+    <site_main_cache_parameters>site main cache parameters</site_main_cache_parameters>
+    <system_access_code>system access code</system_access_code>
+    <text_after_email_body>text after email body</text_after_email_body>
+    <text_after_email_subject>text after email subject</text_after_email_subject>
+    <text_before_email_body>text before email body</text_before_email_body>
+    <text_before_email_subject>text before email subject</text_before_email_subject>
+    <text_creator_cache_type>text creator cache type</text_creator_cache_type>
+    <text_creator_client_cache_duration>text creator client cache duration</text_creator_client_cache_duration>
+    <text_creator_server_cache_duration>text creator server cache duration</text_creator_server_cache_duration>
+    <text_creator_use_client_cache>text creator use client cache</text_creator_use_client_cache>
+    <text_creator_use_server_cache>text creator use server cache</text_creator_use_server_cache>
+    <thumbnail_image_height>thumbnail image height</thumbnail_image_height>
+    <thumbnail_image_width>thumbnail image width</thumbnail_image_width>
+    <time_format>time format</time_format>
+    <time_hours_difference>time hours difference</time_hours_difference>
+    <time_minutes_difference>time minutes difference</time_minutes_difference>
+    <time_zone>time zone</time_zone>
+    <use_admin_activation>use admin activation</use_admin_activation>
+    <use_admin_main_cache>use admin main cache</use_admin_main_cache>
+    <use_client_cache_for_dynamic_page>use client cache for dynamic page</use_client_cache_for_dynamic_page>
+    <use_client_cache_for_dynamic_page_cache>use client cache for dynamic page cache</use_client_cache_for_dynamic_page_cache>
+    <use_client_cache_for_static_page>use client cache for static page</use_client_cache_for_static_page>
+    <use_client_cache_for_static_page_cache>use client cache for static page cache</use_client_cache_for_static_page_cache>
+    <use_email_activation>use email activation</use_email_activation>
+    <use_secret_key_for_login>use secret key for login</use_secret_key_for_login>
+    <use_sensitivity_case_captcha>use sensitivity case captcha</use_sensitivity_case_captcha>
+    <use_site_main_cache>use site main cache</use_site_main_cache>
+    <use_robot_detection>use robot detection</use_robot_detection>
+    <use_variant_debug>use variant debug</use_variant_debug>
+    <user_secure_value_size>user secure value size</user_secure_value_size>
+    <write_logs_error>write logs error</write_logs_error>
+  
+</add_ons_language>
+</add_ons_language_root>

@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<add_ons_language_root><![CDATA[do not change order]]>
+  <add_ons_language>
+
+    <active>فعال</active>
+    <active_was_save>فعال ذخیره شد</active_was_save>
+    <add_comment>درج نظر</add_comment>
+    <admin_directory_path>مسیر پوشه ادمین</admin_directory_path>
+    <admin_life_time>مدت حیات مدیر</admin_life_time>
+    <admin_main_cache_parameters>پارامترهای اصلی کش ادمین</admin_main_cache_parameters>
+    <admin_role_cache>کش نقش مدیر</admin_role_cache>
+    <admin_role_cache_type>نوع کش نقش مدیر</admin_role_cache_type>
+    <auto_create_thumbnail_image>ایجاد اتوماتیک تصویر بند انگشتی</auto_create_thumbnail_image>
+    <cache>کش</cache>
+    <cache_was_save>کش ذخیره شد</cache_was_save> 
+    <calendar>تقویم</calendar>
+    <captcha_admin_release_count>تعداد رهایی از عبارت امنیتی مدیر</captcha_admin_release_count>
+    <captcha_character>حروف عبارت امنیتی</captcha_character>
+    <captcha_character_count_from>تعداد حروف عبارت امنیتی از</captcha_character_count_from>
+    <captcha_character_count_to>تعداد حروف عبارت امنیتی تا</captcha_character_count_to>
+    <captcha_delay>تاخیر عبارت امنیتی</captcha_delay>
+    <captcha_font>فونت عبارت امنیتی</captcha_font>
+    <captcha_font_size>اندازه فونت عبارت امنیتی</captcha_font_size>
+    <captcha_guest_release_count>تعداد رهایی از عبارت امنیتی مهمان</captcha_guest_release_count>
+    <captcha_height>ارتفاع عبارت امنیتی</captcha_height>
+    <captcha_member_release_count>تعداد رهایی از عبارت امنیتی عضو</captcha_member_release_count>
+    <captcha_noise>اختلال عبارت امنیتی</captcha_noise>
+    <captcha_repeat_time>زمان تکرار عبارات امنیتی</captcha_repeat_time>
+    <captcha_rotate_transform>تغییر شکل چرخاندن عبارت امنیتی</captcha_rotate_transform>
+    <captcha_width>عرض عبارات امنیتی</captcha_width>
+    <check_last_modified>بررسی آخرین تغییر</check_last_modified>
+    <check_server_cache>بررسی کش سرور</check_server_cache>
+    <client_cache_for_dynamic_page_cache>کش سمت کاربر برای کش صفحه پویا</client_cache_for_dynamic_page_cache>
+    <client_cache_for_static_page_cache>کش سمت کاربر برای کش صفحه ایستا</client_cache_for_static_page_cache>
+    <conection_string>رشته اتصال</conection_string>
+    <cookie_life_time>مدت حیات کوکی</cookie_life_time>
+    <database_name>نام پایگاه داده</database_name>
+    <date_and_time>تاریخ و زمان</date_and_time>
+    <date_and_time_was_save>تاریخ و زمان ذخیره شدند</date_and_time_was_save>
+    <date_format>الگوی تاریخ</date_format>
+    <day_difference>تفاوت روز</day_difference>
+    <debug>اشکال زدایی</debug>
+    <debug_was_save>اشکال زدایی ذخیره شده</debug_was_save>
+    <default_group>گروه پیش فرض</default_group>
+    <delay>تاخیر</delay>
+    <delay_was_save>تاخیر ذخیره شد</delay_was_save>
+    <email>ایمیل</email>
+    <email_host>میزبان ایمیل</email_host>
+    <email_password>رمز عبور ایمیل</email_password>
+    <email_port>درگاه ایمیل</email_port>
+    <email_sender>فرستنده ایمیل</email_sender>
+    <email_use_https>استفاده از https برای ایمیل</email_use_https>
+    <email_user_name>نام کاربری ایمیل</email_user_name>
+    <email_was_save>ایمیل ذخیره شد</email_was_save>
+    <file_and_directory>فایل و پوشه</file_and_directory>
+    <file_and_directory_was_save>فایل و پوشه ذخیره شد</file_and_directory_was_save>
+    <first_day_of_week>اولین روز هفته</first_day_of_week>
+    <guest_group>گروه مهمان</guest_group>
+    <guest_life_time>مدت حیات مهمان</guest_life_time>
+    <guest_role_cache>کش نقش مهمان</guest_role_cache>
+    <guest_role_cache_type>نوع کش نقش مهمان</guest_role_cache_type>
+    <inactive_site>غیر فعال سازی سایت</inactive_site>
+    <just_use_https>فقط استفاده از https</just_use_https>
+    <just_use_https_for_admin>فقط استفاده از https برای ادمین</just_use_https_for_admin>
+    <just_use_https_for_login_page>فقط استفاده از https برای صفحه ورود</just_use_https_for_login_page>
+    <just_use_https_for_site>فقط استفاده از https برای سایت</just_use_https_for_site>
+    <limit_count_for_login_try>محدودیت تعداد سعی ورود</limit_count_for_login_try>
+    <lock_login_directory_path>مسیر پوشه قفل ورود</lock_login_directory_path>
+    <lock_login_for_first_login>قفل ورود برای اولین ورود</lock_login_for_first_login>
+    <lock_login_page_delay>تاخیر صفحه قفل ورود</lock_login_page_delay>
+    <lock_login_password>رمز قفل ورود</lock_login_password>
+    <login_active>ورود فعال</login_active>
+    <login_delay>تاخیر ورود</login_delay>
+    <main_cache>کش اصلی</main_cache>
+    <main_delay>تاخیر اصلی</main_delay>
+    <maximum_size_for_admin_style>حداکثر حجم برای استایل ادمین</maximum_size_for_admin_style>
+    <maximum_size_for_admin_template>حداکثر حجم برای قالب ادمین</maximum_size_for_admin_template>
+    <maximum_size_for_attachment>حداکثر حجم برای ضمیمه</maximum_size_for_attachment>
+    <maximum_size_for_backup>حداکثر حجم برای پشتیبان</maximum_size_for_backup>
+    <maximum_size_for_comment>حداکثر حجم برای نظر</maximum_size_for_comment>
+    <maximum_size_for_component>حداکثر حجم برای کامپوننت</maximum_size_for_component>
+    <maximum_size_for_contact>حداکثر حجم برای تماس</maximum_size_for_contact>
+    <maximum_size_for_content_avatar>حداکثر حجم برای آواتار محتوا</maximum_size_for_content_avatar>
+    <maximum_size_for_editor_template>حداکثر حجم برای قالب ویرایشگر</maximum_size_for_editor_template>
+    <maximum_size_for_extra_helper>حداکثر حجم برای اکستراهلپر</maximum_size_for_extra_helper>
+    <maximum_size_for_fetch>حداکثر حجم برای واکش</maximum_size_for_fetch>
+    <maximum_size_for_language>حداکثر حجم برای زبان</maximum_size_for_language>
+    <maximum_size_for_module>حداکثر حجم برای ماژول</maximum_size_for_module>
+    <maximum_size_for_page>حداکثر حجم برای صفحه</maximum_size_for_page>
+    <maximum_size_for_patch>حداکثر حجم برای وصله</maximum_size_for_patch>
+    <maximum_size_for_plugin>حداکثر حجم برای پلاگین</maximum_size_for_plugin>
+    <maximum_size_for_site_style>حداکثر حجم برای استایل سایت</maximum_size_for_site_style>
+    <maximum_size_for_site_template>حداکثر حجم برای قالب سایت</maximum_size_for_site_template>
+    <maximum_size_for_upload>حداکثر حجم برای بارگذاری</maximum_size_for_upload>
+    <maximum_size_for_user_avatar>حداکثر حجم برای آواتار کاربر</maximum_size_for_user_avatar>
+    <maximum_size_for_user_upload>حداکثر حجم برای بارگذاری کاربر</maximum_size_for_user_upload>
+    <member_life_time>مدت حیات عضو</member_life_time>
+    <member_role_cache>کش نقش عضو</member_role_cache>
+    <member_role_cache_type>نوع کش نقش عضو</member_role_cache_type>
+    <new_password_length>طول رمز عبور جدید</new_password_length>
+    <new_random_text_value_count>طول مقدار متن تصادفی جدید</new_random_text_value_count>
+    <options>گزینه ها</options>
+    <robot_detection_admin_request_after_show_captcha_count>شناسایی ربات تعداد درخواست مدیر بعد از نمایش عبارت امنیتی</robot_detection_admin_request_after_show_captcha_count>
+    <robot_detection_admin_request_count>شناسایی ربات تعداد درخواست مدیر</robot_detection_admin_request_count>
+    <robot_detection_guest_request_after_show_captcha_count>شناسایی ربات تعداد درخواست عضو بعد از نمایش عبارت امنیتی</robot_detection_guest_request_after_show_captcha_count>
+    <robot_detection_guest_request_count>شناسایی ربات تعداد درخواست عضو</robot_detection_guest_request_count>
+    <robot_detection_ip_block_duration>زمان مسدودسازی آی پی شناسایی ربات</robot_detection_ip_block_duration>
+    <robot_detection_member_request_after_show_captcha_count>شناسایی ربات تعداد درخواست مهمان بعد از نمایش عبارت امنیتی</robot_detection_member_request_after_show_captcha_count>
+    <robot_detection_member_request_count>شناسایی ربات تعداد درخواست مهمان</robot_detection_member_request_count>
+    <robot_detection_reset_time_duration>تنظیم مجدد مدت زمان شناسایی ربات</robot_detection_reset_time_duration>
+    <save_active>ذخیره فعال</save_active>
+    <save_cache>ذخیره کردن کش</save_cache>
+    <save_date_and_time>ذخیره کردن تاریخ و زمان</save_date_and_time>
+    <save_debug>ذخیره اشکال زدایی</save_debug>
+    <save_delay>ذخیره تاخیر</save_delay>
+    <save_email>ذخیره کردن ایمیل</save_email>
+    <save_file_and_directory>ذخیره فایل و پوشه</save_file_and_directory>
+    <save_logs_error>ذخیره خطاهای سیاهه</save_logs_error>
+    <save_security>ذخیره امنیت</save_security>
+    <secret_key>کلید مخفی</secret_key>
+    <security>امنیت</security>
+    <security_was_save>امنیت ذخیره شد</security_was_save>
+    <session_life_time>مدت حیات سشن</session_life_time>
+    <show_protection_attachment_delay>تاخیر نمایش ضمیمه محافظت شده</show_protection_attachment_delay>
+    <show_protection_content_delay>تاخیر نمایش محتوای محافظت شده</show_protection_content_delay>
+    <sign_up_active>ثبت نام فعال</sign_up_active>
+    <sign_up_delay>تاخیر ثبت نام</sign_up_delay>
+    <site_main_cache_parameters>پارامترهای اصلی کش سایت</site_main_cache_parameters>
+    <system_access_code>رمز دسترسی سیستم</system_access_code>
+    <text_after_email_body>متن بعد از بدنه ایمیل</text_after_email_body>
+    <text_after_email_subject>متن بعد از موضوع ایمیل</text_after_email_subject>
+    <text_before_email_body>متن قبل از بدنه ایمیل</text_before_email_body>
+    <text_before_email_subject>متن قبل از موضوع ایمیل</text_before_email_subject>
+    <text_creator_cache_type>نوع کش سازنده متن</text_creator_cache_type>
+    <text_creator_client_cache_duration>مدت زمان کش سازنده متن در سمت کاربر</text_creator_client_cache_duration>
+    <text_creator_server_cache_duration>مدت زمان کش سازنده متن در سمت سرور</text_creator_server_cache_duration>
+    <text_creator_use_client_cache>استفاده از کش سمت کاربر سازنده متن</text_creator_use_client_cache>
+    <text_creator_use_server_cache>استفاده از کش سمت سرور سازنده متن</text_creator_use_server_cache>
+    <thumbnail_image_height>ارتفاع تصویر بند انگشتی</thumbnail_image_height>
+    <thumbnail_image_width>عرض تصویر بند انگشتی</thumbnail_image_width>
+    <time_format>الگوی زمان</time_format>
+    <time_hours_difference>تفاوت زمان ساعت</time_hours_difference>
+    <time_minutes_difference>تفاوت زمان دقیقه</time_minutes_difference>
+    <time_zone>منطقه زمانی</time_zone>
+    <use_admin_activation>به کارگیری فعال سازی مدیر</use_admin_activation>
+    <use_admin_main_cache>به کارگیری کش اصلی ادمین</use_admin_main_cache>
+    <use_client_cache_for_dynamic_page>به کارگیری کش سمت کاربر برای صفحه پویا</use_client_cache_for_dynamic_page>
+    <use_client_cache_for_dynamic_page_cache>به کارگیری کش سمت کاربر برای کش صفحه پویا</use_client_cache_for_dynamic_page_cache>
+    <use_client_cache_for_static_page>به کارگیری کش سمت کاربر برای صفحه ایستا</use_client_cache_for_static_page>
+    <use_client_cache_for_static_page_cache>به کارگیری کش سمت کاربر برای کش صفحه ایستا</use_client_cache_for_static_page_cache>
+    <use_email_activation>به کارگیری فعال سازی ایمیل</use_email_activation>
+    <use_secret_key_for_login>به کارگیری کلید مخفی برای ورود</use_secret_key_for_login>
+    <use_sensitivity_case_captcha>به کارگیری حساسیت به بزرگی و کوچکی حروف عبارت امنیتی</use_sensitivity_case_captcha>
+    <use_site_main_cache>به کارگیری کش اصلی سایت</use_site_main_cache>
+    <use_robot_detection>به کارگیری شناسایی ربات</use_robot_detection>
+    <use_variant_debug>به کارگیری متغییر اشکال زدایی</use_variant_debug>
+    <user_secure_value_size>اندازه مقدار امن کاربر</user_secure_value_size>
+    <write_logs_error>نوشتن خطاهای سیاهه</write_logs_error>
+
+</add_ons_language>
+</add_ons_language_root>

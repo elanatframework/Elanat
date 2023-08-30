@@ -1,0 +1,1 @@
+﻿<%@ Page Controller="Elanat.ActionFetchNewRowController" Model="Elanat.ActionFetchNewRowModel" %>

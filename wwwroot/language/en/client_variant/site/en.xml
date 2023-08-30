@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<language_root>
+  <language_list>
+  
+    <connection_error name="ConnectionError">connection error</connection_error>
+    <okay name="Okay">okay</okay>
+    <no name="No">no</no>
+    <friday name="Friday">friday</friday>
+    <javascript_is_disable_message name="JavascriptIsDisableMessage">javascript is disable</javascript_is_disable_message>
+    <monday name="Monday">monday</monday>
+    <saturday name="Saturday">saturday</saturday>
+    <sunday name="Sunday">sunday</sunday>
+    <thursday name="Thursday">thursday</thursday>
+    <tuesday name="Tuesday">tuesday</tuesday>
+    <use_cookie_message name="UseCookieMessage">this site use cookie</use_cookie_message>
+    <wednesday name="Wednesday">wednesday</wednesday>
+	
+  </language_list>
+</language_root>

@@ -1,0 +1,1 @@
+﻿<%@ Page Controller="Elanat.PluginSiteShowContentTypeController" Model="Elanat.PluginSiteShowContentTypeModel" %>

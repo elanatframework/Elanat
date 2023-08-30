@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+    
+    <active>فعال</active>
+    <add>درج</add>
+    <add_menu>درج منو</add_menu>
+    <delete>حذف</delete>
+    <edit>ویرایش</edit>
+    <edit_menu>ویرایش منو</edit_menu>
+    <inactive>غیرفعال</inactive>
+    <menu>منو</menu>
+    <menu_access_show>دسترسی نمایش محتوا</menu_access_show>
+    <menu_active>منو فعال</menu_active>
+    <menu_id>شماره منو</menu_id>
+    <menu_location>مکان منو</menu_location>
+    <menu_name>نام منو</menu_name>
+    <menu_public_access_show>دسترسی عمومی نمایش منو</menu_public_access_show>
+    <menu_site>سایت منو</menu_site>
+    <menu_sort_index>شاخص مرتب سازی منو</menu_sort_index>
+    <menu_use_box>استفاده از جعبه در منو</menu_use_box>
+    <menu_was_add>منو اضافه شد</menu_was_add>
+    <menu_was_save_edit>منو ویرایش شد</menu_was_save_edit>
+    <public_access_show>دسترسی عمومی نمایش</public_access_show>
+    <read_more>بیشتر بخوانید</read_more>
+    <save_menu>ذخیره منو</save_menu>
+    <site_global_name>نام سراسری سایت</site_global_name>
+    <site_id>شماره سایت</site_id>
+    <site_name>نام سایت</site_name>
+    
+</add_ons_language>
+</add_ons_language_root>

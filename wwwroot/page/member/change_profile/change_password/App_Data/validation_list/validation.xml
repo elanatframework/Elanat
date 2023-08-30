@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<validation_root>
+  <validation_list>
+
+    <TextBox id="txt_RepeatPassword" type="string" label="repeat_password" category="" min_count="1" max_length="100000" important="true" />
+    <TextBox id="txt_UserPassword" type="string" label="user_password" category="" min_count="1" max_length="100000" important="true" />
+
+  </validation_list>
+</validation_root>

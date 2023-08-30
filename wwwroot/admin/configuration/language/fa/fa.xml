@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <admin_dynamic_head>هدر پویای ادمین</admin_dynamic_head>
+    <admin_global_location>مکان سراسری ادمین</admin_global_location>
+    <admin_global_style>استایل سراسری ادمین</admin_global_style>
+    <admin_global_template>قالب  سراسری ادمین</admin_global_template>
+    <admin_page_load>اجرای صفحه ادمین</admin_page_load>
+    <admin_script>اسکریپت ادمین</admin_script>
+    <admin_static_head>هدر ایستای ادمین</admin_static_head>
+    <after_load_path_reference>ارجاع بعد از اجرای مسیر</after_load_path_reference>
+    <authorized_extension>پسوند مجاز</authorized_extension>
+    <before_load_path_reference>ارجاع قبل از اجرای مسیر</before_load_path_reference>
+    <box>جعبه</box>
+    <calendar>تقویم</calendar>
+    <captcha>عبارت امنیتی</captcha>
+    <client_file_extensions>پسوندهای فایل سمت کاربر</client_file_extensions>
+    <config>پیکربندی</config>
+    <config_was_save>پیکربندی ذخیره شد</config_was_save>
+    <configuration>پیکربندی</configuration>
+    <content_icon>آیکون محتوا</content_icon>
+    <default_page>صفحه پیش فرض</default_page>
+    <dynamic_extension>پسوند پویا</dynamic_extension>
+    <event_reference>رخداد ارجاع</event_reference>
+    <file_extensions>پسوندهای فایل</file_extensions>
+    <file_viewer>نمایانگر فایل</file_viewer>
+    <foreign_key>کلید خارجی</foreign_key>
+    <global_script>اسکریپت سراسری</global_script>
+    <global_style>استایل سراسری</global_style>
+    <global_template>قالب سراسری</global_template>
+    <link_protocol>پروتکل لینک</link_protocol>
+    <page_location>مکان صفحه</page_location>
+    <reference>ارجاع</reference>
+    <replace_part>بخش جایگزین</replace_part>
+    <robots>ربات ها</robots>
+    <role_bit_column_access>دسترسی به بیت ستون نقش</role_bit_column_access>
+    <save_config>ذخیره پیکربندی</save_config>
+    <scheduled_tasks>وظایف زمان بندی شده</scheduled_tasks>
+    <security>امنیت</security>
+    <site_dynamic_head>هدر پویای سایت</site_dynamic_head>
+    <site_global_location>مکان سراسری سایت</site_global_location>
+    <site_global_style>استایل سراسری سایت</site_global_style>
+    <site_global_template>قالب سراسری سایت</site_global_template>
+    <site_page_load>اجرای صفحه سایت</site_page_load>
+    <site_script>اسکریپت سایت</site_script>
+    <site_static_head>هدر ایستای سایت</site_static_head>
+    <start_up>شروع</start_up>
+    <struct>ساختار</struct>
+    <system>سیستم</system>
+    <type>نوع</type>
+    <unauthorized>غیرمجازها</unauthorized>
+    <url_redirect>تغییر مسیر url</url_redirect>
+    <url_rewrite>بازنویسی مسیر url</url_rewrite>
+    <web_config>پیکربندی وب</web_config>
+    <wysiwyg>ویرایشگر متن</wysiwyg>
+    <you_do_not_have_access_to_this_file>شما دسترسی لازم به این فایل را ندارید</you_do_not_have_access_to_this_file>
+    
+  </add_ons_language>
+</add_ons_language_root>

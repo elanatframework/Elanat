@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<site_style_catalog_root>
+
+  <site_style_name value="article_green" />
+
+  <site_style_template value="article" />
+
+  <site_style_author value="Elanat" />
+
+  <site_style_directory_path value="article_green" />
+
+  <site_style_physical_name value="article_green.css" />
+  
+  <site_style_right_to_left_language_support value="true" />
+
+  <site_style_view_support value="true" />
+  
+  <site_style_responsive_support value="true" />
+  
+  <site_style_version value="2.0.0.0" />
+
+  <site_style_release_date value="2023/08/31"/>
+
+  <site_style_info>
+
+  </site_style_info>
+
+  <site_style_license>
+
+  </site_style_license>
+  
+   <site_style_static_head>
+
+   </site_style_static_head>
+  
+  <site_style_load_tag>
+
+  </site_style_load_tag>
+
+  <current_view_style>
+
+    <background_color>
+      <![CDATA[
+        body
+        {
+          background-color: $_asp background_color; !important;
+        }
+      ]]>
+    </background_color>
+
+    <font_size>
+      <![CDATA[
+        body
+        {
+            font-size : $_asp font_size; !important;
+        }
+      ]]>
+    </font_size>
+
+    <common_light_background_color>
+      <![CDATA[
+        .el_common_light_background_color
+        {
+            background-color : $_asp background_color; !important;
+        }
+      ]]>
+    </common_light_background_color>
+
+    <common_light_text_color>
+      <![CDATA[
+        .el_common_light_text_color
+        {
+            color : $_asp text_color; !important;
+        }
+      ]]>
+    </common_light_text_color>
+
+    <common_middle_background_color>
+      <![CDATA[
+        .el_common_middle_background_color
+        {
+            background-color : $_asp background_color; !important;
+        }
+      ]]>
+    </common_middle_background_color>
+
+    <common_middle_text_color>
+      <![CDATA[
+        .el_common_middle_text_color
+        {
+            color : $_asp text_color; !important;
+        }
+      ]]>
+    </common_middle_text_color>
+
+    <common_dark_background_color>
+      <![CDATA[
+        .el_common_dark_background_color
+        {
+            background-color : $_asp background_color; !important;
+        }
+      ]]>
+    </common_dark_background_color>
+
+    <common_dark_text_color>
+      <![CDATA[
+        .el_common_dark_text_color
+        {
+            color : $_asp text_color; !important;
+        }
+      ]]>
+    </common_dark_text_color>
+
+    <natural_light_background_color>
+      <![CDATA[
+        .el_natural_light_background_color
+        {
+            background-color : $_asp background_color; !important;
+        }
+      ]]>
+    </natural_light_background_color>
+
+    <natural_light_text_color>
+      <![CDATA[
+        .el_natural_light_text_color
+        {
+            color : $_asp text_color; !important;
+        }
+      ]]>
+    </natural_light_text_color>
+
+    <natural_middle_background_color>
+      <![CDATA[
+        .el_natural_middle_background_color
+        {
+            background-color : $_asp background_color; !important;
+        }
+      ]]>
+    </natural_middle_background_color>
+
+    <natural_middle_text_color>
+      <![CDATA[
+        .el_natural_middle_text_color
+        {
+            color : $_asp text_color; !important;
+        }
+      ]]>
+    </natural_middle_text_color>
+
+    <natural_dark_background_color>
+      <![CDATA[
+        .el_natural_dark_background_color
+        {
+            background-color : $_asp background_color; !important;
+        }
+      ]]>
+    </natural_dark_background_color>
+
+    <natural_dark_text_color>
+      <![CDATA[
+        .el_natural_dark_text_color
+        {
+            color : $_asp text_color; !important;
+        }
+      ]]>
+    </natural_dark_text_color>
+
+  </current_view_style>
+
+</site_style_catalog_root>

@@ -1,0 +1,1 @@
+﻿<%@ Page Controller="Elanat.ActionGetMenuViewMoreController" Model="Elanat.ActionGetMenuViewMoreModel" %>

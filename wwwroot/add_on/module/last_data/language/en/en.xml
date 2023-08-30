@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <active_active_user>active active user</active_active_user>
+    <active_attachment>active attachment</active_attachment>
+    <active_comment>active comment</active_comment>
+    <active_contact>active contact</active_contact>
+    <active_content>active content</active_content>
+    <active_foot_print>active foot print</active_foot_print>
+    <active_user_count>active user count</active_user_count>
+    <active_user_sign_up>active user sign up</active_user_sign_up>
+    <active_users_in_last_24_hours>active users in last 24 hours</active_users_in_last_24_hours>
+    <are_you_sure_want_to_active>are you sure want to active</are_you_sure_want_to_active>
+    <are_you_sure_want_to_delete>are you sure want to delete</are_you_sure_want_to_delete>
+    <are_you_sure_want_to_inactive>are you sure want to inactive</are_you_sure_want_to_inactive>
+    <are_you_sure_want_to_restore>are you sure want to restore</are_you_sure_want_to_restore>
+    <attachment_count>attachment count</attachment_count>
+    <comment_count>comment count</comment_count>
+    <contact_count>contact count</contact_count>
+    <content>content</content>
+    <content_count>content count</content_count>
+    <foot_print_count>foot print count</foot_print_count>
+    <last_attachment>last attachment</last_attachment>
+    <last_comment>last comment</last_comment>
+    <last_contact>last contact</last_contact>
+    <last_content>last content</last_content>
+    <last_data>last data</last_data>
+    <last_data_option>last data option</last_data_option>
+    <last_data_option_was_save>last data option was save</last_data_option_was_save>
+    <last_user_sign_up>last user sign up</last_user_sign_up>
+    <save_last_data_option>save last data option</save_last_data_option>
+    <today_activity>today activity</today_activity>
+    <user_foot_print>user foot print</user_foot_print>
+    <user_sign_up_count>user sign up count</user_sign_up_count>
+
+  </add_ons_language>
+</add_ons_language_root>

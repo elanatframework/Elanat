@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<validation_root>
+  <validation_list>
+    
+    <CheckBoxList id="cbxlst_PageAccessShow" type="string" label="page_access_show" category="" start_range="0" end_range="100000" min_count="0" max_length="50" important="false" client_injection_check="true" />
+    <CheckBoxList id="cbxlst_PageSite" type="number" label="page_site" category="" start_range="0" end_range="100000" important="false" client_injection_check="true" />
+    <DropDownList id="ddlst_PageLoadType" type="ul_string" label="page_load_type" category="" min_count="1" max_length="50" important="true" client_injection_check="true" />
+    <DropDownList id="ddlst_PageStyle" type="number" label="page_style" category="" start_range="0" end_range="100000" important="false" client_injection_check="true" />
+    <DropDownList id="ddlst_PageTemplate" type="number" label="page_template" category="" start_range="0" end_range="100000" important="false" client_injection_check="true" />
+    <FileUpload id="upd_PagePath" type="file" label="page_path" category="" max_file_size="100000000" important="false" />
+    <TextBox id="txt_DefaultQueryString" type="string" label="default_query_sring" category="" min_count="0" max_length="400" important="false" />
+    <TextBox id="txt_PageCacheDuration" type="number" label="page_cache_duration" category="" start_range="0" end_range="100000" important="true" />
+    <TextBox id="txt_PageCacheParameters" type="string" label="page_cache_parameters" category="" min_count="0" max_length="200" important="false" />
+    <TextBox id="txt_PageCategory" type="ul_string" label="page_category" category="" min_count="0" max_length="50" important="false" />
+    <TextBox id="txt_PageClassificationMeta" type="string" label="page_classification_meta" category="" min_count="0" max_length="400" important="false" />
+    <TextBox id="txt_PageCopyrightMeta" type="string" label="page_copyright_meta" category="" min_count="0" max_length="400" important="false" />
+    <TextBox id="txt_PageDescriptionMeta" type="string" label="page_description_meta" category="" min_count="0" max_length="400" important="false" />
+    <TextBox id="txt_PageGlobalName" type="ul_string" label="page_global_name" category="" min_count="0" max_length="50" important="false" is_unique="true" unauthorized_check="true" table_name="el_page" column_name="page_global_name" />
+    <TextBox id="txt_PageKeywordsMeta" type="string" label="page_keywords_meta" category="" min_count="0" max_length="400" important="false" />
+    <TextBox id="txt_PageLoadTag" type="string" label="page_load_tag" category="" min_count="0" max_length="100000" important="false" />
+    <TextBox id="txt_PageName" type="string" label="page_name" category="" min_count="0" max_length="50" important="false" is_unique="true" table_name="el_page" column_name="page_global_name"/>
+    <TextBox id="txt_PagePath" type="string" label="page_path" category="" min_count="0" max_length="100000" important="false" />
+    <TextBox id="txt_PageRevisitAfterMeta" type="string" label="page_revisit_after_meta" category="" min_count="0" max_length="50" important="false" />
+    <TextBox id="txt_PageRightsMeta" type="string" label="page_rights_meta" category="" min_count="0" max_length="400" important="false" />
+    <TextBox id="txt_PageRobotsMeta" type="string" label="page_robots_meta" category="" min_count="0" max_length="400" important="false" />
+    <TextBox id="txt_PageStaticHead" type="string" label="page_static_head" category="" min_count="0" max_length="100000" important="false" />
+    <TextBox id="txt_PageTitle" type="string" label="page_title" category="" min_count="0" max_length="400" important="false" />
+
+    <CheckBoxList id="cbxlst_PageAccessShow" type="string" label="page_access_show" category="edit" start_range="0" end_range="100000" min_count="0" max_length="50" important="false" client_injection_check="true" />
+    <CheckBoxList id="cbxlst_PageSite" type="number" label="page_site" category="edit" start_range="0" end_range="100000" important="false" client_injection_check="true" />
+    <DropDownList id="ddlst_PageLoadType" type="ul_string" label="page_load_type" category="edit" min_count="1" max_length="50" important="true" client_injection_check="true" />
+    <DropDownList id="ddlst_PageStyle" type="number" label="page_style" category="edit" start_range="0" end_range="100000" important="false" client_injection_check="true" />
+    <DropDownList id="ddlst_PageTemplate" type="number" label="page_template" category="edit" start_range="0" end_range="100000" important="false" client_injection_check="true" />
+    <FileUpload id="upd_PagePath" type="file" label="page_path" category="edit" max_file_size="100000000" important="false" />
+    <HiddenField id="hdn_PageId" type="number" label="page_id" category="edit" start_range="0" end_range="100000" important="true" />
+    <TextBox id="txt_DefaultQueryString" type="string" label="default_query_sring" category="edit" min_count="0" max_length="400" important="false" />
+    <TextBox id="txt_PageCacheDuration" type="number" label="page_cache_duration" category="edit" start_range="0" end_range="100000" important="true" />
+    <TextBox id="txt_PageCacheParameters" type="string" label="page_cache_parameters" category="edit" min_count="0" max_length="200" important="false" />
+    <TextBox id="txt_PageCategory" type="ul_string" label="page_category" category="edit" min_count="0" max_length="50" important="false" />
+    <TextBox id="txt_PageClassificationMeta" type="string" label="page_classification_meta" category="edit" min_count="0" max_length="400" important="false" />
+    <TextBox id="txt_PageCopyrightMeta" type="string" label="page_copyright_meta" category="edit" min_count="0" max_length="400" important="false" />
+    <TextBox id="txt_PageDescriptionMeta" type="string" label="page_description_meta" category="edit" min_count="0" max_length="400" important="false" />
+    <TextBox id="txt_PageGlobalName" type="ul_string" label="page_global_name" category="edit" min_count="0" max_length="50" important="false" unauthorized_check="true" table_name="el_page" column_name="page_global_name" />
+    <TextBox id="txt_PageKeywordsMeta" type="string" label="page_keywords_meta" category="edit" min_count="0" max_length="400" important="false" />
+    <TextBox id="txt_PageLoadTag" type="string" label="page_load_tag" category="edit" min_count="0" max_length="100000" important="false" />
+    <TextBox id="txt_PageName" type="string" label="page_name" category="edit" min_count="0" max_length="50" important="false" />
+    <TextBox id="txt_PageRevisitAfterMeta" type="string" label="page_revisit_after_meta" category="edit" min_count="0" max_length="50" important="false" />
+    <TextBox id="txt_PageRightsMeta" type="string" label="page_rights_meta" category="edit" min_count="0" max_length="400" important="false" />
+    <TextBox id="txt_PageRobotsMeta" type="string" label="page_robots_meta" category="edit" min_count="0" max_length="400" important="false" />
+    <TextBox id="txt_PageStaticHead" type="string" label="page_static_head" category="edit" min_count="0" max_length="100000" important="false" />
+    <TextBox id="txt_PageTitle" type="string" label="page_title" category="edit" min_count="0" max_length="400" important="false" />
+    
+  </validation_list>
+</validation_root>

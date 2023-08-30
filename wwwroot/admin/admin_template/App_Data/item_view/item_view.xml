@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<item_view_root>
+  <![CDATA[item_search only char,varchar,nvarchar type]]>
+  <item_search_list> 
+ 	 <column>admin_template_name</column>
+ 	</item_search_list>
+  <item_view_list>
+    <view_table>
+      <column>admin_template_name</column>
+    </view_table>
+    <view_more>
+      <column>admin_template_active</column>
+      <column>admin_template_directory_path</column>
+      <column>admin_template_id</column>
+      <column>admin_template_name</column>
+      <column>admin_template_physical_name</column>
+      <column>admin_template_physical_path</column>
+      <column>admin_template_static_head</column>
+      <column>admin_template_load_tag</column>
+    </view_more>
+  </item_view_list>
+</item_view_root>

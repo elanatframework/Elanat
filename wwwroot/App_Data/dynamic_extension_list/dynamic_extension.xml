@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<dynamic_extension_root>
+  
+  <dynamic_extension_list>
+    <dynamic_extension extension="aspx" />
+    <dynamic_extension extension="asp" />
+    <dynamic_extension extension="cpp" />
+    <dynamic_extension extension="exe" />
+    <dynamic_extension extension="php" />
+    <dynamic_extension extension="dll" />
+    <dynamic_extension extension="dnc" />
+    <dynamic_extension extension="njs" />
+    <dynamic_extension extension="pl" />
+    <dynamic_extension extension="py" />
+    <dynamic_extension extension="rb" />
+    <dynamic_extension extension="jsp" />
+  </dynamic_extension_list>
+  
+</dynamic_extension_root>

@@ -1,0 +1,1 @@
+﻿<%@ Page Controller="Elanat.SiteInactiveSiteController" Model="Elanat.SiteInactiveSiteModel" %>

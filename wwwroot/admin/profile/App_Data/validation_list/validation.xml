@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<validation_root>
+  <validation_list>
+
+    <DropDownList id="ddlst_BirthdayDay" type="regex" label="birthday_day"  format="0([0-9])|1([0-9])|2([0-9])|3([0-1])" category="change_profile" important="true" client_injection_check="true" />
+    <DropDownList id="ddlst_BirthdayMount" type="regex" label="birthday_mount"  format="0([0-9])|1([0-2])" category="change_profile" important="true" client_injection_check="true" />
+    <DropDownList id="ddlst_BirthdayYear" type="regex" label="birthday_year"  format="0(\d{3})|1(\d{3})|2(\d{3})" category="change_profile" important="true" client_injection_check="true" />
+    <DropDownList id="ddlst_Calendar" type="string" label="calendar" category="change_date_and_time"  min_count="0" max_length="50" important="false" client_injection_check="true" />
+    <DropDownList id="ddlst_FirstDayOfWeek" type="number" label="first_day_of_week" category="change_date_and_time" start_range="0" end_range="100000" important="false" client_injection_check="true" />
+    <DropDownList id="ddlst_userGroup" type="number" label="user_group" category="change_group" start_range="0" end_range="100000" important="false" client_injection_check="true" />
+    <DropDownList id="ddlst_TimeZone" type="string" label="time_zone" category="change_date_and_time" min_count="0" max_length="4" important="false" client_injection_check="true" />
+    <DropDownList id="ddlst_UserAdminLanguage" type="number" label="user_admin_language" category="change_language" start_range="0" end_range="100000" important="false" client_injection_check="true" />
+    <DropDownList id="ddlst_UserAdminStyle" type="number" label="user_admin_style" category="change_template_and_style" start_range="0" end_range="100000" important="false" client_injection_check="true" />
+    <DropDownList id="ddlst_UserAdminTemplate" type="number" label="user_admin_emplate" category="change_template_and_style" start_range="0" end_range="100000" important="false" client_injection_check="true" />
+    <DropDownList id="ddlst_UserRole" type="number" label="user_role" category="change_role" start_range="0" end_range="100000" important="false" client_injection_check="true" />
+    <DropDownList id="ddlst_UserSiteLanguage" type="number" label="user_site_language" category="change_language" start_range="0" end_range="100000" important="false" client_injection_check="true" />
+    <DropDownList id="ddlst_UserSiteStyle" type="number" label="user_site_style" category="change_template_and_style" start_range="0" end_range="100000" important="false" client_injection_check="true" />
+    <DropDownList id="ddlst_UserSiteTemplate" type="number" label="user_site_template" category="change_template_and_style" start_range="0" end_range="100000" important="false" client_injection_check="true" />
+    <TextBox id="txt_DateFormat" type="string" label="date_format" category="change_date_and_time" min_count="1" max_length="50" important="false" />
+    <TextBox id="txt_DayDifference" type="number" label="day_difference" category="change_date_and_time" start_range="0" end_range="100000" important="true" />
+    <TextBox id="txt_RepeatEmail" type="string" label="repeat_email" format="^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$" category="change_email" min_count="1" max_length="254" important="true" />
+    <TextBox id="txt_RepeatPassword" type="string" label="repeat_password" category="change_password" min_count="1" max_length="100000" important="true" />
+    <TextBox id="txt_TimeFormat" type="string" label="time_format" category="change_date_and_time" min_count="1" max_length="50" important="false" />
+    <TextBox id="txt_TimeHoursDifference" type="number" label="time_hours_difference" category="change_date_and_time" start_range="0" end_range="100000" important="true" />
+    <TextBox id="txt_TimeMinutesDifference" type="number" label="time_minutes_difference" category="change_date_and_time" start_range="0" end_range="100000" important="true" />
+    <TextBox id="txt_UserAbout" type="string" label="user_about" category="change_profile" min_count="0" max_length="50" important="false" />
+    <TextBox id="txt_UserAddress" type="string" label="user_address" category="change_profile" min_count="0" max_length="200" important="false" />
+    <TextBox id="txt_UserBackgroundColor" type="string" label="user_background_color" category="change_view" min_count="7" max_length="7" important="false" />
+    <TextBox id="txt_UserCity" type="string" label="user_city" category="change_profile" min_count="0" max_length="50" important="false" />
+    <TextBox id="txt_UserCommonDarkBackgroundColor" type="string" label="user_common_dark_background_color" category="change_view" min_count="7" max_length="7" important="false" />
+    <TextBox id="txt_UserCommonDarkTextColor" type="string" label="user_common_dark_text_color" category="change_view" min_count="7" max_length="7" important="false" />
+    <TextBox id="txt_UserCommonLightBackgroundColor" type="string" label="user_common_light_background_color" category="change_view" min_count="7" max_length="7" important="false" />
+    <TextBox id="txt_UserCommonLightTextColor" type="string" label="user_common_light_text_color" category="change_view" min_count="7" max_length="7" important="false" />
+    <TextBox id="txt_UserCommonMiddleBackgroundColor" type="string" label="user_common_middle_background_color" category="change_view" min_count="7" max_length="7" important="false" />
+    <TextBox id="txt_UserCommonMiddleTextColor" type="string" label="user_common_middle_text_color" category="change_view" min_count="7" max_length="7" important="false" />
+    <TextBox id="txt_UserCountry" type="string" label="user_country" category="change_profile" min_count="0" max_length="50" important="false" />
+    <TextBox id="txt_UserEmail" type="string" label="user_email" format="^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$" category="change_email" min_count="1" max_length="254" important="true" />
+    <TextBox id="txt_UserFontSize" type="number" label="user_font_size" category="change_view" start_range="1" end_range="100" important="false" />
+    <TextBox id="txt_UserMobileNumber" type="string" label="user_mobile_number" category="change_profile" min_count="0" max_length="50" important="false" />
+    <TextBox id="txt_UserName" type="string" label="user_name" category="change_profile" min_count="1" max_length="50" important="true" unauthorized_check="true" table_name="el_user" column_name="user_name" is_unique="true" />
+    <TextBox id="txt_UserNaturalDarkBackgroundColor" type="string" label="user_natural_dark_background_color" category="change_view" min_count="7" max_length="7" important="false" />
+    <TextBox id="txt_UserNaturalDarkTextColor" type="string" label="user_natural_dark_text_color" category="change_view" min_count="7" max_length="7" important="false" />
+    <TextBox id="txt_UserNaturalLightBackgroundColor" type="string" label="user_natural_light_background_color" category="change_view" min_count="7" max_length="7" important="false" />
+    <TextBox id="txt_UserNaturalLightTextColor" type="string" label="user_natural_light_text_color" category="change_view" min_count="7" max_length="7" important="false" />
+    <TextBox id="txt_UserNaturalMiddleBackgroundColor" type="string" label="user_natural_middle_background_color" category="change_view" min_count="7" max_length="7" important="false" />
+    <TextBox id="txt_UserNaturalMiddleTextColor" type="string" label="user_natural_middle_text_color" category="change_view" min_count="7" max_length="7" important="false" />
+    <TextBox id="txt_UserOtherInfo" type="string" label="user_other_info" category="change_profile" min_count="0" max_length="100000" important="false" />
+    <TextBox id="txt_UserPassword" type="string" label="user_password" category="change_password" min_count="1" max_length="100000" important="true" />
+    <TextBox id="txt_UserPhoneNumber" type="string" label="user_phone_number" category="change_profile" min_count="0" max_length="50" important="false" />
+    <TextBox id="txt_UserPostalCode" type="string" label="user_postal_code" category="change_profile" min_count="0" max_length="50" important="false" />
+    <TextBox id="txt_UserPublicEmail" type="string" label="user_public_email" format="^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$" category="change_profile" min_count="0" max_length="254" important="false" />
+    <TextBox id="txt_UserRealLastName" type="string" label="user_real_last_name" category="change_profile" min_count="0" max_length="50" important="false" />
+    <TextBox id="txt_UserRealName" type="string" label="user_real_name" category="change_profile" min_count="0" max_length="50" important="false" />
+    <TextBox id="txt_UserSiteName" type="string" label="user_site_name" category="change_profile" min_count="1" max_length="50" important="true" is_unique="true" table_name="el_user" column_name="user_name" />
+    <TextBox id="txt_UserStateOrProvince" type="string" label="user_state_or_province" category="change_profile" min_count="0" max_length="50" important="false" />
+    <TextBox id="txt_UserWebsite" type="string" label="user_website" category="change_profile" min_count="0" max_length="255" important="false" />
+    <TextBox id="txt_UserZipCode" type="string" label="user_zip_code" category="change_profile" min_count="0" max_length="10" important="false" />
+
+  </validation_list>
+</validation_root>

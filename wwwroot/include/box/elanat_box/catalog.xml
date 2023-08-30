@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<box_catalog_root>
+  
+	<box_name value="elanat box" />
+  
+	<box_author value="Elanat" />
+  
+	<open_box_function_name>el_OpenElanatBox($_asp tag_id;)</open_box_function_name>
+
+ 	<close_box_function_name>el_CloseElanatBox($_asp tag_id;)</close_box_function_name>
+
+	<box_head>
+	<![CDATA[
+	<script type="text/javascript" src="$_asp site_path;include/box/elanat_box/script/elanat_box.js" ></script>
+    
+	<link rel="stylesheet" type="text/css" href="$_asp site_path;include/box/elanat_box/style/elanat_box.css" />
+	]]>
+	</box_head>
+  
+	<box_info></box_info>
+</box_catalog_root>

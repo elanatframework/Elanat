@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<file_extension_root>
+  <file_extension_list>
+    <file_extension extension="3dm" type="3d image" description="Rhino 3D Model" />
+    <file_extension extension="3ds" type="3d image" description="3D Studio Scene" />
+    <file_extension extension="3g2" type="video" description="3GPP2 Multimedia File" />
+    <file_extension extension="3gp" type="video" description="3GPP Multimedia File" />
+    <file_extension extension="7z" type="compressed" description="7z compression format" />
+    <file_extension extension="aac" type="audio" view="true" description="Advanced Audio Coding" />
+    <file_extension extension="ac3" type="audio" description="Audio Codec 3 File" />
+    <file_extension extension="accdb" type="database" description="Access 2007 Database File" />
+    <file_extension extension="ace" type="compressed" description="WinAce Compressed File" />
+    <file_extension extension="ade" type="database" description="Access Project Extension" />
+    <file_extension extension="adp" type="database" description="Access Project" />
+    <file_extension extension="ai" type="none" description="Adobe Illustrator Document" />
+    <file_extension extension="aif" type="audio" description="Audio Interchange File Format" />
+    <file_extension extension="aiff" type="audio" description="Audio Interchange File Format" />
+    <file_extension extension="apk" type="executable" description="Android Package (Open Handset Alliance)" />
+    <file_extension extension="app" type="executable" description="Mac OS X Application" />
+    <file_extension extension="arff" type="text" description="Weka Data File Format" />
+    <file_extension extension="al" type="image data" description="Adobe Illustrator File" />
+    <file_extension extension="asax" type="text" description="ASP.NET Server Application File" />
+    <file_extension extension="ascx" type="text" description="ASP.NET Web User Control File" />
+    <file_extension extension="asf" type="video" description="Advanced Systems Format File" />
+    <file_extension extension="asp" type="text" description="Microsoft Active Server Page" />
+    <file_extension extension="aspx" type="text" description="Active Server Page Extended File" />
+    <file_extension extension="asx" type="video" description="Microsoft ASF Redirector File" />
+    <file_extension extension="au" type="audio" description="Audio File" />
+    <file_extension extension="avi" type="video" view="true" description="Resource Interchange File Format" />
+    <file_extension extension="bak" type="backup" description="Backup File" />
+    <file_extension extension="bat" type="text" description="DOS Batch File" />
+    <file_extension extension="bin" type="executable" description="Generic Binary File" />
+    <file_extension extension="bmp" type="image" view="true" description="Microsoft Windows Bitmap formatted image" />
+    <file_extension extension="bup" type="backup" description="Backup File" />
+    <file_extension extension="c" type="text" description="C Language" />
+    <file_extension extension="cab" type="system" description="Windows Cabinet File" />
+    <file_extension extension="cat" type="system" description="Windows Catalog File" />
+    <file_extension extension="cbr" type="compressed" description="Comic Book RAR Archive" />
+    <file_extension extension="cer" type="none" description="Internet Security Certificate" />
+    <file_extension extension="cfg" type="text" description="Configuration File" />
+    <file_extension extension="cfm" type="text" description="ColdFusion Markup File" />
+    <file_extension extension="cgi" type="executable" description="Common Gateway Interface Script" />
+    <file_extension extension="chm" type="text" description="Compiled HTML Help File" />
+    <file_extension extension="class" type="data" description="Java Class File" />
+    <file_extension extension="com" type="executable" description="DOS Command File" />
+    <file_extension extension="config" type="text" description="Configuration File" />
+    <file_extension extension="cpl" type="system" description="Windows Control Panel Item" />
+    <file_extension extension="cpp" type="text" description="C++ source" />
+    <file_extension extension="crdownload" type="none" description="Chrome Partially Downloaded File" />
+    <file_extension extension="crx" type="data" description="Chrome Extension" />
+    <file_extension extension="cs" type="text" description="Visual C# Source Code File" />
+    <file_extension extension="csr" type="text" description="Certificate Signing Request File" />
+    <file_extension extension="css" type="text" view="true" description="Cascading Style Sheets" />
+    <file_extension extension="csv" type="text" description="Comma Separated Values File" />
+    <file_extension extension="cue" type="executable"  description="CDRWIN Cue Sheet" />
+    <file_extension extension="cur" type="none" description="Windows Cursor" />
+    <file_extension extension="dat" type="system" description="DOS Basic" />
+    <file_extension extension="db" type="database" description="Database File" />
+    <file_extension extension="dbf" type="database" description="Database File" />
+    <file_extension extension="dcr" type="video" description="Digital Court Recorder Video File" />
+    <file_extension extension="der" type="text" description="DER Encoded X509 Certificate File" />
+    <file_extension extension="dds" type="image" description="DirectDraw Surface" />
+    <file_extension extension="deb" type="compressed" description="Debian Software Package" />
+    <file_extension extension="der" type="text" description="DER Certificate File" />
+    <file_extension extension="deskthemepack" type="none" description="Windows 8 Desktop Theme Pack File" />
+    <file_extension extension="dem" type="data" description="Video Game Demo File" />
+    <file_extension extension="dic" type="none" description="Dictionary File" />
+    <file_extension extension="divx" type="video" description="DivX-Encoded Movie File" />
+    <file_extension extension="diz" type="text" description="Description in Zip File" />
+    <file_extension extension="dll" type="system" description="Dynamic link library" />
+    <file_extension extension="dmp" type="system" description="Windows Memory Dump" />
+    <file_extension extension="dmg" type="disk image" description="Macintosh disk image files" />
+    <file_extension extension="do" type="text" description="Java Servlet" />
+    <file_extension extension="doc" type="text" description="Microsoft Word document" />
+    <file_extension extension="docx" type="text" description="Office Open XML document" />
+    <file_extension extension="dos" type="text" description="Text file and DOS Specification Info" />
+    <file_extension extension="dot" type="none" description="Microsoft Word document template" />
+    <file_extension extension="dotx" type="text" description="Open Office XML text document template" />
+    <file_extension extension="drv" type="system" description="Device Driver" />
+    <file_extension extension="dtd" type="text" description="Document Type Definition File" />
+    <file_extension extension="dvd" type="system" description="CloneCD DVD Information File" />
+    <file_extension extension="dwg" type="data" description="Autodesk Inventor Drawing" />
+    <file_extension extension="dwt" type="none" description="Dreamweaver W" />
+    <file_extension extension="dxf" type="data" description="ASCII Drawing Interchange file Format" />
+    <file_extension extension="emf" type="none" description="Enhanced Windows Metafile" />
+    <file_extension extension="eps" type="image data" description="Encapsulated PostScript File" />
+    <file_extension extension="exc" type="none" description="Black And White Zone File" />
+    <file_extension extension="exe" type="executable"  description="DOS executable" />
+    <file_extension extension="fla" type="none" description="Adobe Flash Animation" />
+    <file_extension extension="flac" type="audio" description="Free Lossless Audio Codec File" />
+    <file_extension extension="flv" type="video" view="true" description="Flash video" />
+    <file_extension extension="fon" type="font" description="Generic Font File" />
+    <file_extension extension="fnt" type="font" description="Windows Font File" />
+    <file_extension extension="gadget" type="executable" description="Windows Gadget" />
+    <file_extension extension="gam" type="data" description="Saved Game File" />
+    <file_extension extension="gbr" type="image data" description="Gerber File" />
+    <file_extension extension="ged" type="text" description="GEDCOM Genealogy Data File" />
+    <file_extension extension="gif" type="image" view="true" description="Animated GIF" />
+    <file_extension extension="gps" type="text" description="GPS Exchange File" />
+    <file_extension extension="gz" type="compressed" description="Gnu Zipped Archive" />
+    <file_extension extension="h" type="text" description="C/C++/Objective-C Header File" />
+    <file_extension extension="hlp" type="text" description="windows Help Feature" />
+    <file_extension extension="hqx" type="text" description="BinHex 4.0 Encoded File" />
+    <file_extension extension="htm" type="text" view="true" description="HyperText Markup" />
+    <file_extension extension="html" type="text" view="true" description="HyperText Markup Language" />
+    <file_extension extension="icns" type="system" description="Mac OS X Icon Resource File" />
+    <file_extension extension="ico" type="image" view="true" description="ICON File Format" />
+    <file_extension extension="ics" type="none" description="iCalendar format" />
+    <file_extension extension="iff" type="audio" description="Interchange File Format" />
+    <file_extension extension="ifo" type="video" description="DVD-Video Disc Information File" />
+    <file_extension extension="indd" type="none" description="Adobe InDesign Document" />
+    <file_extension extension="inf" type="text" description="Setup Information File" />
+    <file_extension extension="ini" type="text" description="Finale Preferences File" />
+    <file_extension extension="ins" type="text" description="Internet Naming Service File" />
+    <file_extension extension="ip" type="data" description="IconPackager Theme File" />
+    <file_extension extension="ipa" type="none" description="iPhone/iPod Touch Application" />
+    <file_extension extension="iso" type="disk image" description="Generic file format for optical media" />
+    <file_extension extension="isp" type="none" description="IIS Internet Service Provider Settings" />
+    <file_extension extension="java" type="text" description="Java Source Code File" />
+    <file_extension extension="jar" type="executable" description="Java Archive File" />
+    <file_extension extension="jfif" type="image" description="JPEG File Interchange Format" />
+    <file_extension extension="jpeg" type="image" view="true" description="Joint Photographic Experts Group" />
+    <file_extension extension="jpg" type="image" view="true" description="Joint Photographic Experts Group" />
+    <file_extension extension="js" type="text" view="true" description="Java Script" />
+    <file_extension extension="json" type="text" view="true" description="JavaScript Object Notation File" />
+    <file_extension extension="jsp" type="text" description="Java Server Page" />
+    <file_extension extension="key" type="none" description="Apple Keynote Presentation" />
+    <file_extension extension="kml" type="zip" description="Google Earth Placemark File" />
+    <file_extension extension="lnk" type="none" description="Windows File Shortcut" />
+    <file_extension extension="log" type="text" description="Log File" />
+    <file_extension extension="lua" type="text" description="Lua Source File" />
+    <file_extension extension="m" type="text" description="Objective-C Implementation File" />
+    <file_extension extension="m3u" type="audio" description="Media Playlist File" />
+    <file_extension extension="m4a" type="audio" description="MPEG-4 Audio File" />
+    <file_extension extension="m4v" type="video" description="MPEG-4 Video file" />
+    <file_extension extension="max" type="3d image" description="3ds Max Scene File" />
+    <file_extension extension="mdb" type="database" description="Microsoft Access Database" />
+    <file_extension extension="mdf" type="disc image" description="Media Disc Image File" />
+    <file_extension extension="mid" type="audio" description="standard MIDI file" />
+    <file_extension extension="mim" type="data" description="Multi-Purpose Internet Mail Message File" />
+    <file_extension extension="mkv" type="video" description="Matroska Video File" />
+    <file_extension extension="mmf" type="text" description="Microsoft Message File" />
+    <file_extension extension="mmm" type="audio" description="Music Maker Arrangement File" />
+    <file_extension extension="mov" type="video" view="true" description="Apple QuickTime Movie" />
+    <file_extension extension="movie" type="video" description="QuickTime Movie File" />
+    <file_extension extension="mp2" type="audio" description="MPEG Layer II Compressed Audio File" />
+    <file_extension extension="mp2v" type="video" description="MPEG-2 Video File" />
+    <file_extension extension="mp3" type="audio" view="true" description="MPEG Layer 3" />
+    <file_extension extension="mp4" type="video" view="true" description="MPEG-4 file format" />
+    <file_extension extension="mpa" type="audio" description="MPEG-2 Audio File" />
+    <file_extension extension="mpe" type="video" description="MPEG Movie File" />
+    <file_extension extension="mpeg" type="video" view="true" description="MPEG Movie" />
+    <file_extension extension="mpg" type="video" description="MPEG Video File" />
+    <file_extension extension="mpv2" type="video" description="MPEG-2 Video Stream" />
+    <file_extension extension="msg" type="text" description="Outlook Mail Message" />
+    <file_extension extension="msi" type="none" description="Windows Installer Package" />
+    <file_extension extension="nfo" type="text" description="System Information File" />
+    <file_extension extension="njs" type="text" description="node js" />
+    <file_extension extension="obj" type="3d image" description="Wavefront 3D Object File" />
+    <file_extension extension="ocx" type="none" description="Object Linking and Embedding" />
+    <file_extension extension="odp" type="none" description="OpenDocument Presentation" />
+    <file_extension extension="ods" type="none" description="OpenDocument spreadsheet" />
+    <file_extension extension="odt" type="text" description="OpenDocument text document" />
+    <file_extension extension="ogg" type="audio" description="Ogg Vorbis Audio File" />
+    <file_extension extension="oot" type="text" description="OpenOffice Text Document" />
+    <file_extension extension="otf" type="font" description="OpenType Font" />
+    <file_extension extension="otp" type="none" description="OpenDocument Presentation template" />
+    <file_extension extension="ots" type="none" description="Document Audio File" />
+    <file_extension extension="ott" type="none" description="OpenDocument text document template" />
+    <file_extension extension="pages" type="text" description="Pages Document" />
+    <file_extension extension="part" type="none" description="Partially Downloaded File" />
+    <file_extension extension="pdb" type="database" description="Program Database" />
+    <file_extension extension="pdd" type="none" description="Adobe PhotoDeluxe Image" />
+    <file_extension extension="pdn" type="image data" description="Paint.NET Drawing" />
+    <file_extension extension="pdf" type="document" view="true" description="Portable Document Format" />
+    <file_extension extension="pct" type="none" description="Picture File" />
+    <file_extension extension="php" type="text" description="Personal Home Page" />
+    <file_extension extension="pif" type="database" description="Program Information File" />
+    <file_extension extension="pkg" type="compress" description="Mac OS X Installer Package" />
+    <file_extension extension="pl" type="text" description="Perl Script" />
+    <file_extension extension="plugin" type="data" description="Mac OS X Plug-in" />
+    <file_extension extension="png" type="image" view="true" description="Portable Network Graphic" />
+    <file_extension extension="pps" type="none" description="Microsoft PowerPoint Show" />
+    <file_extension extension="ppt" type="none" description="Microsoft PowerPoint Presentation" />
+    <file_extension extension="pptx" type="none" description="PowerPoint Open XML Presentation" />
+    <file_extension extension="prf" type="text" description="Outlook Profile File" />
+    <file_extension extension="ps" type="image data" description="PostScript File" />
+    <file_extension extension="psd" type="image data" description="Adobe Photoshop Drawing" />
+    <file_extension extension="pspimage" type="image data" description="PaintShop Pro Image" />
+    <file_extension extension="py" type="text" description="Python Script" />
+    <file_extension extension="qt" type="none" description="QuickTime file format" />
+    <file_extension extension="ra" type="audio" description="Real Audio File" />
+    <file_extension extension="rar" type="compress" description="Rar Archive" />
+    <file_extension extension="rb" type="text" description="Ruby on Rails" />
+    <file_extension extension="reg" type="text" description="Registry File" />
+    <file_extension extension="rm" type="video" description="Real Media File" />
+    <file_extension extension="rom" type="data" description="N64 Game ROM File" />
+    <file_extension extension="rpm" type="compress" description="Red Hat Package Manager File" />
+    <file_extension extension="rtf" type="text" description="Rich Text Format File" />
+    <file_extension extension="rss" type="text" description="Rich Site Summary" />
+    <file_extension extension="scp" type="none" description="ColoRIX Bitmap Graphic File" />
+    <file_extension extension="sdf" type="none" description="Standard Data File" />
+    <file_extension extension="sql" type="text" description="Bundled SQL queries" />
+    <file_extension extension="sav" type="data" description="Saved Game" />
+    <file_extension extension="sh" type="text" description="Bash Shell Script" />
+    <file_extension extension="sitx" type="compress" description="StuffIt X Archive" />
+    <file_extension extension="sln" type="text" description="Visual Studio Solution File" />
+    <file_extension extension="srt" type="video" description="SubRip Subtitle File" />
+    <file_extension extension="svg" type="image data" view="true" description="Scalable Vector Graphics File" />
+    <file_extension extension="sys" type="system" description="Windows System File" />
+    <file_extension extension="swf" type="video" description="Shockwave Flash Movie" />
+    <file_extension extension="swift" type="text" description="Swift Source Code File" />
+    <file_extension extension="tar" type="compress" description="Consolidated Unix File Archive" />
+    <file_extension extension="tar.gz" type="compress" description="Compressed Tarball File" />
+    <file_extension extension="tex" type="text" description="LaTeX Source Document" />
+    <file_extension extension="tga" type="image" description="Truevision TGA (Targa) image" />
+    <file_extension extension="tgz" type="compress" description="Gzipped tar file" />
+    <file_extension extension="theme" type="none" description="Microsoft Plus! Desktop Theme" />
+    <file_extension extension="thm" type="image" description="Thumbnail Image File" />
+    <file_extension extension="tif" type="image" description="Tagged Image File" />
+    <file_extension extension="tiff" type="image" description="Tagged Image File Format" />
+    <file_extension extension="tlb" type="none" description="OLE Type Library" />
+    <file_extension extension="tmp" type="none" description="Temporary File" />
+    <file_extension extension="toast" type="disk image" description="Toast Disc Image" />
+    <file_extension extension="torrent" type="none" description="BitTorrent File" />
+    <file_extension extension="ttf" type="font" description="TrueType Font" />
+    <file_extension extension="txt" type="text" view="true" description="ASCII nebo Unicode plaintext Text file" />
+    <file_extension extension="uis" type="none" description="WindowBlinds User Interface Specification" />
+    <file_extension extension="url" type="none" description="Internet Shortcut" />
+    <file_extension extension="uue" type="text" description="Uuencoded File" />
+    <file_extension extension="vb" type="text" description="VBScript File" />
+    <file_extension extension="vbs" type="text" description="VBScript File" />
+    <file_extension extension="vcd" type="disk image" description="Virtual CD" />
+    <file_extension extension="vcf" type="text" description="vCard File" />
+    <file_extension extension="vcr" type="none" description="ATI Video Card Recording" />
+    <file_extension extension="vcxproj" type="text" description="Visual C++ Project" />
+    <file_extension extension="vob" type="none" description="DVD Video Object File" />
+    <file_extension extension="wav" type="audio" view="true" description="Microsoft Wave" />
+    <file_extension extension="wba" type="none" description="WindowBlinds Compressed Skin" />
+    <file_extension extension="webm" type="none" description="WebM Video File" />
+    <file_extension extension="webp" type="image" view="true" description="WebP Image" />
+    <file_extension extension="wma" type="audio" view="true" description="Windows Media Audio File" />
+    <file_extension extension="wmv" type="video" view="true" description="Windows Media Video File" />
+    <file_extension extension="wpd" type="text" description="WordPerfect Document" />
+    <file_extension extension="wpl" type="text" description="Windows Media Player Playlist" />
+    <file_extension extension="wps" type="text" description="Microsoft Works Word Processor Document" />
+    <file_extension extension="wri" type="none" description="Windows Write Document" />
+    <file_extension extension="wsf" type="executable" description="Windows Script File" />
+    <file_extension extension="wtx" type="text" description="Text Document" />
+    <file_extension extension="xhtml" type="text" description="Extensible Hypertext Markup Language File" />
+    <file_extension extension="xlr" type="none" description="Works Spreadsheet" />
+    <file_extension extension="xls" type="none" description="Microsoft Excel worksheet sheet" />
+    <file_extension extension="xlsx" type="text" description="Office Open XML worksheet sheet" />
+    <file_extension extension="xml" type="text" view="true" description="eXtensible Markup Language" />
+    <file_extension extension="xsl" type="text" description="XML Style Sheet" />
+    <file_extension extension="yml" type="text" description="YAML Ain't Markup Language" />
+    <file_extension extension="yuv" type="video" description="YUV Encoded Image File" />
+    <file_extension extension="zap" type="none" description="FileWrangler Archive" />
+    <file_extension extension="zip" type="compress" description="ZIP compression format" />
+    <file_extension extension="zipx" type="compress" description="Extended Zip File" />
+  </file_extension_list>
+</file_extension_root>

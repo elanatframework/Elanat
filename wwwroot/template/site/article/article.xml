@@ -1,0 +1,1924 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<template_root>
+
+<html>
+
+	<location>
+
+		<header_bar_right>
+			<box>
+			<![CDATA[
+			<div class="el_header_bar_right_item">
+			  <div class="el_menu_title">$_asp menu_name;</div>
+			  <ul>
+				  $_asp item;
+			  </ul>
+			</div>
+			]]>
+			</box>
+			<list_item>
+			<![CDATA[
+				<li class="el_header_bar_right_menu">
+					$_asp value;
+				</li>
+			]]>
+			</list_item>
+			<static_item>
+				
+			</static_item>
+		</header_bar_right>
+		
+		<header_bar_left>
+			<box>
+			<![CDATA[
+			<div class="el_header_bar_left_item">
+			  <div class="el_menu_title">$_asp menu_name;</div>
+			  <ul>
+				  $_asp item;
+			  </ul>
+			</div>
+			]]>
+			</box>
+			<list_item>
+			<![CDATA[
+				<li class="el_header_bar_left_menu">
+					$_asp value;
+				</li>
+			]]>
+			</list_item>
+			<static_item>
+				<open_header_box>
+				<![CDATA[
+					<ul>
+						<li>
+							<div class="el_show_header_box_button" onclick="el_ShowHideHeaderBarBox()"></div>
+						</li>
+					</ul>
+				]]>
+				</open_header_box>
+			</static_item>
+		</header_bar_left>
+		
+		<header_bar_box>
+			<box>
+			<![CDATA[
+		<div class="el_header_bar_box_item">
+				  <div class="el_menu_title">$_asp menu_name;</div>
+				  <ul>
+					  $_asp item;
+				  </ul>
+		</div>
+			]]>
+			</box>
+			<list_item>
+			<![CDATA[
+				<li class="el_header_bar_box_menu">
+					$_asp value;
+				</li>
+			]]>
+			</list_item>
+			<static_item>
+				
+			</static_item>
+		</header_bar_box>
+		
+		<header_menu>
+			<box>
+			<![CDATA[
+		<div class="el_header_menu_item">
+				  <div class="el_menu_title">$_asp menu_name;</div>
+				  <ul>
+					  $_asp item;
+				  </ul>
+		</div>
+			]]>
+			</box>
+			<list_item>
+			<![CDATA[
+				<li class="el_header_menu_menu">
+					$_asp value;
+				</li>
+			]]>
+			</list_item>
+			<static_item>
+				<horizontal_category>
+					
+				</horizontal_category>
+			</static_item>
+		</header_menu>
+
+		<header_1>
+			<box>
+			<![CDATA[
+		<div class="el_header_1_item">
+				  <div class="el_menu_title">$_asp menu_name;</div>
+				  <ul>
+					  $_asp item;
+				  </ul>
+		</div>
+			]]>
+			</box>
+			<list_item>
+			<![CDATA[
+				<li class="el_header_1_menu">
+					$_asp value;
+				</li>
+			]]>
+			</list_item>
+			<static_item>
+				<logo use_elanat="true">
+				<![CDATA[
+					<div class="el_inner_left" style="background-image: url('$_elanat ::system site_path;client/image/site_logo/$_elanat ::site site_global_name;.png');">
+					
+					</div>
+				]]>
+				</logo>
+			</static_item>
+		</header_1>
+
+		<header_2>
+			<box>
+			<![CDATA[
+		<div class="el_header_2_item">
+				  <div class="el_menu_title">$_asp menu_name;</div>
+				  <ul>
+					  $_asp item;
+				  </ul>
+		</div>
+			]]>
+			</box>
+			<list_item>
+			<![CDATA[
+				<li class="el_header_2_menu">
+					$_asp value;
+				</li>
+			]]>
+			</list_item>
+			<static_item>
+				<a use_elanat="true">
+				<![CDATA[
+					<div class="el_site_name_box">
+						<a href="$_elanat ::system site_path;" target="_top">
+							<h1 class="el_site_name">$_elanat ::site site_name;</h1>
+						</a>
+						
+						<h4 class="el_site_slogan_name">
+							$_elanat ::site site_slogan_name;
+						</h4>
+					</div>
+				]]>
+				</a>
+			</static_item>
+		</header_2>
+
+		<menu>
+			<box>
+			<![CDATA[
+		<div class="el_menu_item">
+				  <div class="el_menu_title">$_asp menu_name;</div>
+				  <ul>
+					  $_asp item;
+				  </ul>
+		</div>
+			]]>
+			</box>
+			<list_item>
+			<![CDATA[
+				<li class="el_menu_menu">
+					$_asp value;
+				</li>
+			]]>
+			</list_item>
+			<static_item>
+				<default_page use_elanat="true" use_language="true">
+				<![CDATA[
+					<ul>
+						<li class="el_menu_page"><a id="a_HomePage" class="el_page_link" href="$_elanat ::system site_path;">$_lang main_page;</a></li>
+						<li class="el_menu_page"><a class="el_page_link" href="$_elanat ::system site_path;page_content/contact">$_lang contact_us;</a></li>
+						<li class="el_menu_page"><a class="el_page_link" href="$_elanat ::system site_path;page_content/about">$_lang about_us;</a></li>
+					</ul>
+				]]>
+				</default_page>
+			</static_item>
+		</menu>
+		
+		<after_header>
+			<box>
+			<![CDATA[
+		<div class="el_after_header_item">
+				  <div class="el_menu_title">$_asp menu_name;</div>
+				  <ul>
+					  $_asp item;
+				  </ul>
+		</div>
+			]]>
+			</box>
+			<list_item>
+			<![CDATA[
+				<li class="el_after_header_menu">
+					$_asp value;
+				</li>
+			]]>
+			</list_item>
+			<static_item>
+
+			</static_item>
+		</after_header>
+
+		<before_content>
+			<box>
+			<![CDATA[
+			<!-- Start Before Content Item -->
+		<div class="el_before_content_item">
+				  <div class="el_menu_title">$_asp menu_name;</div>
+				  <ul>
+					  $_asp item;
+				  </ul>
+		</div>
+			<!-- End Before Content Item -->
+			]]>
+			</box>
+			<list_item>
+			<![CDATA[
+				<li class="el_before_content_menu">
+					$_asp value;
+				</li>
+			]]>
+			</list_item>
+			<static_item>
+
+			</static_item>
+		</before_content>
+
+		<after_content>
+			<box>
+			<![CDATA[
+			<!-- Start After Content Item -->
+		<div class="el_after_content_item">
+				  <div class="el_menu_title">$_asp menu_name;</div>
+				  <ul>
+					  $_asp item;
+				  </ul>
+		</div>
+			<!-- End After Content Item -->
+			]]>
+			</box>
+			<list_item>
+			<![CDATA[
+				<li class="el_after_content_menu">
+					$_asp value;
+				</li>
+			]]>
+			</list_item>
+			<static_item>
+
+			</static_item>
+		</after_content>
+		
+		<right_menu>
+			<box>
+			<![CDATA[
+				<div class="el_right_menu_item">
+				<div class="el_menu_item_head">$_asp menu_name;</div>
+				<ul>$_asp item;</ul>
+				</div>
+			]]>
+			</box>
+			<list_item>
+			<![CDATA[
+				<li class="el_right_menu_menu">
+					$_asp value;
+				</li>
+			]]>
+			</list_item>
+			<static_item>
+			
+			</static_item>
+		</right_menu>
+		
+		<left_menu>
+			<box>
+			<![CDATA[
+				<div class="el_left_menu_item">
+				<div class="el_menu_item_head">$_asp menu_name;</div>
+				<ul>$_asp item;</ul>
+				</div>
+			]]>
+			</box>
+			<list_item>
+			<![CDATA[
+				<li class="el_left_menu_menu">
+					$_asp value;
+				</li>
+			]]>
+			</list_item>
+			<static_item>
+			
+			</static_item>
+		</left_menu>
+		
+		<before_footer>
+			<box>
+			<![CDATA[
+		<div class="el_before_footer_item">
+				  <div class="el_menu_title">$_asp menu_name;</div>
+				  <ul>
+					  $_asp item;
+				  </ul>
+		</div>
+			]]>
+			</box>
+			<list_item>
+			<![CDATA[
+				<li class="el_before_footer_menu">
+					$_asp value;
+				</li>
+			]]>
+			</list_item>
+			<static_item>
+
+			</static_item>
+		</before_footer>
+		
+		<footer_menu>
+			<box>
+			<![CDATA[
+		<div class="el_footer_menu_item">
+				  <div class="el_menu_title">$_asp menu_name;</div>
+				  <ul>
+					  $_asp item;
+				  </ul>
+		</div>
+			]]>
+			</box>
+			<list_item>
+			<![CDATA[
+				<li class="el_footer_menu_menu">
+					$_asp value;
+				</li>
+			]]>
+			</list_item>
+			<static_item>
+				<footer_common_item use_elanat="true" use_language="true">
+				<![CDATA[
+				<a href="#top" title="$_lang back_to_top;" class="el_footer_common_item">
+					<div class="el_back_to_top el_pointer"></div>
+				</a>
+		    <div class="el_footer_common_item el_bold el_pointer" alt="B" onclick="el_SetBodyTextToBold(this)"></div>
+				<a href="$_elanat ::system site_path;page_content/sitemap">
+          <div class="el_footer_common_item el_sitemap_link el_pointer" title="$_lang sitemap;"></div>
+				</a>
+				<a href="$_elanat ::system site_path;page_content/rss/" class="el_footer_common_item">
+				  <div class="el_rss_link el_pointer" title="$_lang rss;"></div>
+				</a>
+				]]>
+				</footer_common_item>
+			</static_item>
+		</footer_menu>
+		
+		<footer_1>
+			<box>
+			<![CDATA[
+		<div class="el_footer_1_item">
+				  <div class="el_menu_title">$_asp menu_name;</div>
+				  <ul>
+					  $_asp item;
+				  </ul>
+		</div>
+			]]>
+			</box>
+			<list_item>
+			<![CDATA[
+				<li class="el_footer_1_menu">
+					$_asp value;
+				</li>
+			]]>
+			</list_item>
+			<static_item>
+
+			</static_item>
+		</footer_1>
+
+		<footer_2>
+			<box>
+			<![CDATA[
+		<div class="el_footer_2_item">
+				  <div class="el_menu_title">$_asp menu_name;</div>
+				  <ul>
+					  $_asp item;
+				  </ul>
+		</div>
+			]]>
+			</box>
+			<list_item>
+			<![CDATA[
+				<li class="el_footer_2_menu">
+					$_asp value;
+				</li>
+			]]>
+			</list_item>
+			<static_item>
+
+			</static_item>
+		</footer_2>
+
+		<footer_bar_left>
+			<box>
+			<![CDATA[
+		<div class="el_footer_bar_left_item">
+				  <div class="el_menu_title">$_asp menu_name;</div>
+				  <ul>
+					  $_asp item;
+				  </ul>
+		</div>
+			]]>
+			</box>
+			<list_item>
+			<![CDATA[
+				<li class="el_footer_bar_left_menu">
+					$_asp value;
+				</li>
+			]]>
+			</list_item>
+			<static_item>
+
+			</static_item>
+		</footer_bar_left>
+		
+		<footer_bar_right>
+			<box>
+			<![CDATA[
+		<div class="el_footer_bar_right_item">
+				  <div class="el_menu_title">$_asp menu_name;</div>
+				  <ul>
+					  $_asp item;
+				  </ul>
+		</div>
+			]]>
+			</box>
+			<list_item>
+			<![CDATA[
+				<li class="el_footer_bar_right_menu">
+					$_asp value;
+				</li>
+			]]>
+			</list_item>
+			<static_item>
+
+			</static_item>
+		</footer_bar_right>
+		
+		<footer_bar_box>
+			<box>
+			<![CDATA[
+		<div class="el_footer_bar_box_item">
+				  <div class="el_menu_title">$_asp menu_name;</div>
+				  <ul>
+					  $_asp item;
+				  </ul>
+		</div>
+			]]>
+			</box>
+			<list_item>
+			<![CDATA[
+				<li class="el_footer_bar_box_menu">
+					$_asp value;
+				</li>
+			]]>
+			</list_item>
+			<static_item>
+				<use_cookie_message_alert use_language="true" use_elanat="true">
+				<![CDATA[
+					<script>
+						if (!el_GetCookie("el_accept_cookie"))
+						  document.write("<div id='div_UseCookieMessageAlert' class='el_use_cookie_message_alert'>$_lang _use_cookie_message_alert;<a id='a_CookieAcceptLink' href='$_elanat ::system site_path;page_content/privacy_policy/#div_CookiesPolicy'>$_lang cookies_policy_page;</a>.<button id='btn_AcceptCookie' class='el_button_input' onclick='el_AcceptCookie()'>$_lang accept;</button></div>");
+					</script>
+				]]>
+				</use_cookie_message_alert>
+				<noscript_message_alert use_language="true">
+				<![CDATA[
+					<noscript>
+					<div class="el_noscript_message_alert">
+						<p>$_lang _noscript_message_alert;</p>
+					</div>
+					</noscript>
+				]]>
+				</noscript_message_alert>
+			</static_item>
+		</footer_bar_box>	
+
+	</location>
+
+</html>
+
+<link>
+	<common><![CDATA[<a alt="$_asp path_alt;" href="$_asp path;" target="_top">$_asp path_text;</a>]]></common>
+	<go_to_site><![CDATA[<a href="$_asp path;" target="_top">$_lang site;</a>]]></go_to_site>
+	<go_to_admin><![CDATA[<a href="$_asp path;$_asp admin_path;" target="_top">$_lang admin;</a>]]></go_to_admin>
+	<return_to_page><![CDATA[<a alt="$_asp path_alt;" href="$_asp path;">$_asp path_text;</a>]]></return_to_page>
+</link>
+
+<properties>
+	<template_name>el hegemony</template_name>
+	<![CDATA[board_color= white or black or gray or blue_gray or red or violet or yelow or pink or blue or green]]>
+	<color>green</color>
+	<![CDATA[board_width=px]]>
+	<content_width>700</content_width>
+	<![CDATA[board_height=px]]>
+	<content_height>500</content_height>
+</properties>
+
+<content>
+	<post use_language="true" use_elanat="true">
+	<![CDATA[
+    <div id="content_number_$_db content_id;" class="el_content_post">
+        <div class="el_top">
+		<div class="el_reply">
+			<a href="javascript:void(0)" onclick="el_OpenContentReply($_db content_id;)">$_lang reply;</a>
+		</div>
+		<a href="#content_number_$_db content_id;"><span class="el_label_light el_content_number">#$_db content_id;</span></a>
+		<div class="el_action">
+			<div class="el_send_email" title="$_lang send_email;" onclick="el_SendEmailContent($_db content_id;)"></div>
+			<a href="$_elanat ::system site_path;page/print/$_db content_id;" title="$_lang print;" target="_top" ><div class="el_print" src="$_elanat ::system site_path;client/image/print.png"></div></a>
+		</div>
+		$_asp content_icon;
+		<div class="el_title">
+			<h2>
+				<a href="$_asp extra_content_url_value;">
+					$_db content_title;
+				</a>
+			</h2>
+			<h3 class="el_content_meta">
+				$_asp_lang author;
+				<span>
+				  <a href="$_elanat ::system site_path;page_content/public_user_info/name/$_db user_site_name;/" title="$_db user_site_name;" target="_top" >$_db user_site_name;</a>
+			  </span>
+			  <span>
+				  $_db content_date_create;
+			  </span>
+			</h3>
+		</div>
+        </div>
+        <div class='el_content_body'>
+            <div class="el_content_body_top">
+                <div class="el_content_body_top_first"></div>
+                <div class="el_content_body_top_second">
+                    <div class="el_category_name_box">
+						$_asp_lang category; <a href="$_elanat ::system site_path;category/$_db category_name;/" title="$_asp category_local_name;" target="_top" >$_asp category_local_name;</a></div>
+					</div>
+            </div>
+            $_asp content_reply;
+			$_asp content_avatar;
+			<div class="el_paragraph">$_db content_text;</div>$_asp attachment;
+			$_asp content_keywords;
+                    <div class="el_content_body_bottom">
+                        <div class="el_box">
+                          <div class="el_rating_box">$_asp rating;</div>
+                          <div class="el_comment_load">
+                              <b class="el_release_content">
+                                  <a href="javascript:void(0)" onclick="el_ViewComment('$_db content_id;')">$_lang comments; ($_db comment_count;)</a>
+                              </b>
+                          </div>
+                        </div>
+                        $_asp read_more;
+                    </div>
+        </div>
+        $_asp comment;
+    </div>
+	]]>
+	</post>
+	<alone_post use_language="true" use_elanat="true">
+	<![CDATA[
+    <div id="content_number_$_db content_id;" class="el_content_post">
+        <div class="el_top">
+        <div class="el_reply">
+			<a href="javascript:void(0)" onclick="el_OpenContentReply($_db content_id;)">$_lang reply;</a>
+		</div>
+		<a href="#content_number_$_db content_id;"><span class="el_label_light el_content_number">#$_db content_id;</span></a>
+		<div class="el_action">
+			<div class="el_send_email" title="$_lang send_email;" onclick="el_SendEmailContent($_db content_id;)"></div>
+			<a href="$_elanat ::system site_path;page/print/$_db content_id;" title="$_lang print;" target="_top" ><div class="el_print" src="$_elanat ::system site_path;client/image/print.png"></div></a>
+		</div>
+		$_asp content_icon;
+            <div class="el_title">
+                <h2>
+					<a href='$_asp extra_content_url_value;'>
+						$_db content_title;
+					</a>
+				</h2>
+                <h3 class="el_content_meta">
+					$_asp_lang author;
+					<span>
+					  <a href="$_elanat ::system site_path;page_content/public_user_info/name/$_db user_site_name;/" title="$_db user_site_name;" target="_top" >$_db user_site_name;</a>
+					</span>
+					<span>
+					  $_db content_date_create;
+					</span>
+					<span>
+					  $_db content_time_create;
+					</span>
+					$_asp_lang visit;
+					<span>
+					  $_db content_visit;
+				  </span>
+			  </h3>
+            </div>
+        </div>
+        <div class='el_content_body'>
+            <div class="el_content_body_top">
+                <div class="el_content_body_top_first"></div>
+                <div class="el_content_body_top_second">
+                    <div class="el_category_name_box">
+						$_asp_lang category; <a href="$_elanat ::system site_path;category/$_db category_name;/" title="$_asp category_local_name;" target="_top" >$_asp category_local_name;</a>
+					</div>
+                </div>
+            </div>
+            $_asp content_reply;
+			$_asp content_avatar;
+			<div class="el_paragraph">$_db content_text;</div>$_asp attachment;
+			$_asp content_keywords;
+                    <div class="el_content_body_bottom">
+                        <div class="el_box">
+                        <div class="el_rating_box">$_asp rating;</div>
+                            <div class="el_comment_load">
+                                <b class="el_release_content">
+                                    <a href="javascript:void(0)" onclick="el_ViewComment('$_db content_id;')">$_lang comments; ($_db comment_count;)</a>
+                                </b>
+                            </div>
+                        </div>
+                        $_asp read_more;
+                    </div>
+        </div>
+        $_asp comment;
+    </div>
+	]]>
+	</alone_post>
+</content>
+
+<forum>
+	<box></box>
+	<response></response>
+</forum>
+
+<reply>
+	<content>
+	
+	</content>
+	<comment>
+	
+	</comment>
+</reply>
+
+<part>
+
+	<content_avatar use_elanat="true">
+	<![CDATA[
+		<div class="el_content_logo">
+			<img alt="$_db content_avatar_physical_name;" src="$_elanat ::system site_path;client/image/content_avatar/$_db content_avatar_physical_name;" loading="lazy">
+		</div>
+	]]>
+	</content_avatar>
+	
+	<content_icon use_elanat="true">
+	<![CDATA[
+		<div style="background-image: url('$_elanat ::system site_path;client/image/content_icon/$_db content_icon_physical_name;');" class="el_content_icon"></div>
+	]]>
+	</content_icon>
+	
+	<quick_search use_language="true">
+	<![CDATA[
+	<div class="el_search">
+		<ul class="el_search_bar">
+			<li class="el_input_text_box">
+				<input id="txt_SearchInput" type="text" name="q" placeholder="$_lang search;" onkeypress="el_GoToSearchByEnterKey(event)">
+			</li>
+			<li class="el_input_image_box">
+				<div id="img_Search" class="el_image_search" onclick="el_GoToSearch()"></div>
+			</li>
+		</ul>
+	</div>
+	]]>
+	</quick_search>
+
+	<read_more use_language="true">
+	<![CDATA[
+	<div class="el_read_more">
+		<a href="$_asp extra_content_url_value;" >
+			$_lang read_more;
+		</a>
+	</div>
+	]]>
+	</read_more>
+
+	<content_reply>
+		<box>
+			<![CDATA[
+			<div class="el_content_reply">
+				$_asp item;
+			</div>
+			]]>
+		</box>
+		<list_item>
+			<![CDATA[
+			<div class="el_item">
+				$_asp content_reply_text;
+			</div>
+			]]>
+		</list_item>
+	</content_reply>
+	
+	<comment>
+		<box use_language="true">
+			<![CDATA[
+			<div class="el_comment">
+				<div class="el_part_row">
+					<div id="div_LastCommentTitle" class="el_title" onclick="el_HidePart(this); el_SetIframeAutoHeight()">$_lang last_comment;<div class="el_dash"></div></div>
+					$_asp item;
+				</div>
+			</div>
+			]]>
+		</box>
+		<list_item use_language="true" use_elanat="true">
+			<![CDATA[
+			<div class="el_item el_comment_item el_parent_count_$_asp parent_count;">
+				<div class="el_comment_title">$_asp comment_title;</div>
+				<div class="el_user_avatar" style="background-image: url('$_elanat ::system site_path;client/image/user_avatar/$_asp user_guest_id;.png');"></div>
+				<div class="el_details">
+					<div class="el_user_name">$_asp comment_user_guest_name;</div>
+					<div class="el_date_and_time">$_asp comment_date_and_time_send;</div>
+				</div>
+				<div class="el_comment_text">$_asp comment_text;</div>
+				<div class="el_reply"><a href="javascript:void(0)" onclick="el_OpenCommentReply($_asp content_id;, $_asp comment_id;);el_CloseBox('div_comment_$_asp content_id;')">$_lang reply;</a></div>
+			</div>
+			$_asp comment_reply;			
+			]]>
+		</list_item>
+	</comment>
+
+	<important_fill>
+    <![CDATA[
+      <b class="el_important_fill"> * </b>
+    ]]>
+	</important_fill>
+
+	<content_keywords>
+		<box use_language="true">
+		<![CDATA[
+			<div class="el_content_keywords">
+				<div class="el_content_keywords_title">$_lang content_keywords;</div>
+				$_asp item;
+			</div>
+		]]>
+		</box>
+		<list_item use_elanat="true">
+		<![CDATA[
+			<div class="el_content_keywords_text el_label_light">
+				<a href="$_asp extra_tag_url_value;" >$_db content_keywords_text;</a>
+			</div>
+		]]>
+		</list_item>
+	</content_keywords>
+	
+	<attachment>
+		<box use_language="true">
+		<![CDATA[
+			<div class="el_attachment">
+			<div class="el_attachment_head">$_lang attachment;</div>
+			$_asp item;
+			</div>
+		]]>
+		</box>
+		<list_item use_elanat="true">
+		<![CDATA[
+			<div title="$_db attachment_physical_name;" class="el_file">
+			<div class="el_attachment_extension" style="background-image:url('$_elanat ::system site_path;client/image/file_extension_icon/$_asp attachment_extension_icon;.png');">
+				<div class="el_show_play" onclick="el_ViewFile($_db attachment_id;,'$_elanat ::system site_path;upload/attachment/$_db attachment_directory_path;/$_db attachment_physical_name;')"></div>
+			</div>
+				<div class="el_attachment_title">
+					<a href="$_elanat ::system site_path;upload/attachment/$_db attachment_directory_path;/$_db attachment_physical_name;">
+						$_db attachment_name;
+					</a>
+				</div>
+				<div class="el_attachment_details">
+					<div class="el_attachment_size">
+						<span class="el_label_light">$_asp attachment_size;</span>
+					</div>
+					<div class="el_attachment_visit">
+						<span class="el_label_light">$_db attachment_number_of_visit;</span>
+					</div>
+				</div>
+			</div>
+			]]>
+		</list_item>
+	</attachment>
+	
+	<rss>
+		<box use_language="true">
+		<![CDATA[
+			<div id="div_RssFeed" class="el_rss_list" >
+			<div class="el_head">$_lang rss;</div>
+				<ul>
+					$_asp item;
+				</ul>
+			</div>
+		]]>
+		</box>
+		
+		<list_item>
+		<![CDATA[
+			<li>
+				
+			</li>
+		]]>
+		</list_item>
+		
+		<static_item>
+		
+			<category>
+				<box use_language="true">
+				<![CDATA[
+					<ul>
+						<div class="el_title">$_lang category;</div>
+						$_asp item;
+					</ul>
+				]]>
+				</box>
+				<list_item use_elanat="true">
+				<![CDATA[
+					<li>
+						<a href="$_elanat ::system site_path;rss/category/$_asp category_value;"><span class="el_rss_mini_icon">$_asp category_name;</span></a>
+					</li>
+				]]>
+				</list_item>
+			</category>
+			
+			<content_type>
+				<box use_language="true">
+				<![CDATA[
+					<ul>
+						<div class="el_title">$_lang content_type;</div>
+						$_asp item;
+					</ul>
+				]]>
+				</box>
+				<list_item use_elanat="true">
+				<![CDATA[
+					<li>
+						<a href="$_elanat ::system site_path;rss/content_type/$_asp content_type_value;"><span class="el_rss_mini_icon">$_asp content_type_name;</span></a>
+					</li>
+				]]>
+				</list_item>
+			</content_type>
+			
+			<site>
+				<box use_language="true">
+				<![CDATA[
+					<ul>
+						<div class="el_title">$_lang site;</div>
+						$_asp item;
+					</ul>
+				]]>
+				</box>
+				<list_item use_elanat="true">
+				<![CDATA[
+					<li>
+						<a href="$_elanat ::system site_path;rss/site/$_asp site_global_name;"><span class="el_rss_mini_icon">$_asp site_global_name;($_asp site_name;)</span></a>
+					</li>
+				]]>
+				</list_item>
+			</site>
+		</static_item>
+		<item>
+			<site/>
+			<content_type/>
+			<category/>
+		</item>
+	</rss>
+	
+	<sitemap>
+		<box use_language="true">
+		<![CDATA[
+			<div id="div_SiteMap" class="el_site_map_list" >
+			<div class="el_head">$_lang site_map;</div>
+				<ul>
+					$_asp item;
+				</ul>
+			</div>
+		]]>
+		</box>
+		
+		<list_item>
+		<![CDATA[
+			<li>
+				
+			</li>
+		]]>
+		</list_item>
+		
+		<static_item>
+		
+			<category>
+				<box use_language="true">
+				<![CDATA[
+					<ul>
+						<div class="el_title">$_lang category;</div>
+						$_asp item;
+					</ul>
+				]]>
+				</box>
+				<list_item>
+				<![CDATA[
+					<li>
+						<a href="$_asp extra_category_url_value;"><span class="el_site_map_mini_icon">$_asp category_name;</span></a>
+					</li>
+				]]>
+				</list_item>
+			</category>
+					
+			<content_type>
+				<box use_language="true">
+				<![CDATA[
+					<ul>
+						<div class="el_title">$_lang content_type;</div>
+						$_asp item;
+					</ul>
+				]]>
+				</box>
+				<list_item use_elanat="true">
+				<![CDATA[
+					<li>
+						<a href="$_elanat ::system site_path;content_type/$_asp content_type_value;"><span class="el_site_map_mini_icon">$_asp content_type_name;</span></a>
+					</li>
+				]]>
+				</list_item>
+			</content_type>
+			
+			<site>
+				<box use_language="true">
+				<![CDATA[
+					<ul>
+						<div class="el_title">$_lang site;</div>
+						$_asp item;
+					</ul>
+				]]>
+				</box>
+				<list_item use_elanat="true">
+				<![CDATA[
+					<li>
+						<a href="$_elanat ::system site_path;site/$_asp site_global_name;"><span class="el_site_map_mini_icon">$_asp site_global_name;($_asp site_name;)</span></a>
+					</li>
+				]]>
+				</list_item>
+			</site>
+			
+			<page>
+				<box use_language="true">
+				<![CDATA[
+					<ul>
+						<div class="el_title">$_lang page;</div>
+						$_asp item;
+					</ul>
+				]]>
+				</box>
+				<list_item>
+				<![CDATA[
+					<li>
+						<a href="$_asp extra_page_url_value;"><span class="el_site_map_mini_icon">$_asp page_global_name;($_asp page_name;)</span></a>
+					</li>
+				]]>
+				</list_item>
+			</page>
+			
+			<language>
+				<box use_language="true">
+				<![CDATA[
+					<ul>
+						<div class="el_title">$_lang language;</div>
+						$_asp item;
+					</ul>
+				]]>
+				</box>
+				<list_item use_elanat="true">
+				<![CDATA[
+					<li>
+						<a href="$_elanat ::system site_path;lang/$_asp language_global_name;"><span class="el_site_map_mini_icon">$_asp language_global_name;($_asp language_name;)</span></a>
+					</li>
+				]]>
+				</list_item>
+			</language>
+
+			<link>
+				<box use_language="true">
+				<![CDATA[
+					<ul>
+						<div class="el_title">$_lang link;</div>
+						$_asp item;
+					</ul>
+				]]>
+				</box>
+				<list_item>
+				<![CDATA[
+					<li>
+						<a href="$_asp link_href;" title="$_asp link_title;"><span class="el_site_map_mini_icon">$_asp link_value;</span></a>
+					</li>
+				]]>
+				</list_item>
+			</link>
+			
+		</static_item>
+		<item>
+			<language/>
+			<site/>
+			<page/>
+			<content_type/>
+			<category/>
+			<link/>
+		</item>
+	</sitemap>
+	
+	<space>
+    <![CDATA[
+      <span class='el_space'>-</span>
+    ]]>
+	</space>
+
+	<rating use_language="true">
+	<![CDATA[
+		<div class="el_rating" onmouseout="el_ZoneRatingMouseMove(this)">
+             <ul id="RatingContentId$_asp content_id;" class="el_rating_$_asp rating_average;" title="$_lang rating_is_asp_from_asp_voted;" rating="$_asp rating;" number_of_voted="$_asp number_of_voted;">
+                <li class="el_star1" onmousemove="el_SetRatingMouseMove(this,1)" onclick="el_SubmitRate($_asp content_id;,1); return false;"></li>
+                <li class="el_star2" onmousemove="el_SetRatingMouseMove(this,2)" onclick="el_SubmitRate($_asp content_id;,2); return false;"></li>
+                <li class="el_star3" onmousemove="el_SetRatingMouseMove(this,3)" onclick="el_SubmitRate($_asp content_id;,3); return false;"></li>
+                <li class="el_star4" onmousemove="el_SetRatingMouseMove(this,4)" onclick="el_SubmitRate($_asp content_id;,4); return false;"></li>
+				<li class="el_star5" onmousemove="el_SetRatingMouseMove(this,5)" onclick="el_SubmitRate($_asp content_id;,5); return false;"></li>
+			</ul>
+		</div>
+	]]>
+	</rating>
+	
+	<mini_header>
+	<![CDATA[
+		<div class="el_mini_header"></div>
+	]]>
+	</mini_header>
+
+	<mini_footer use_elanat="true" use_language="true">
+	<![CDATA[
+		<div class="el_mini_footer">
+		  <div class="el_item">
+			  <a href="$_elanat ::system site_path;" target="_top">$_lang return_to_home;</a>
+		  </div>
+			$_lang powered_by; $_elanat ::site site_name; | © $_elanat ::site site_first_year;-$_elanat ::site site_date_year; 
+			<a href="$_elanat ::system site_path;" target="_top">$_elanat ::site site_name;</a>
+		</div>
+	]]>
+	</mini_footer>
+	
+	<content_not_exist use_elanat="true" use_language="true">
+	<![CDATA[
+		<h4>$_lang content_not_exist; <a href="$_elanat ::system site_path;" target="_top">$_lang return_to_home;</a></h4>
+	]]>
+	</content_not_exist>
+	
+	<read_more_text>
+		...
+	</read_more_text>
+	
+	<read_more_rss_text>
+		...
+	</read_more_rss_text>
+	
+	<role_access>
+	
+		<guest_add>
+			<comment use_elanat="true" use_language="true">
+			<![CDATA[
+				<div class="el_inaccess_box">
+					$_lang please_login_or_sign_up_to_post_a_comment; <a href="$_elanat ::system site_path;page_content/login/?el_return_url=$_asp return_address;" target="_top">$_lang login;</a> - <a href="$_elanat ::system site_path;page_content/sign_up/?el_return_url=$_asp return_address;" target="_top">$_lang sign_up;</a>
+				</div>
+			]]>
+			</comment>
+		</guest_add>
+		
+		<user_add>
+			<comment use_language="true">
+			<![CDATA[
+				<div class="el_inaccess_box">
+					$_lang add_comment_is_inactive;
+				</div>
+			]]>	
+			</comment>
+		</user_add>
+		
+		<view>
+		<![CDATA[
+			<div class="el_inaccess_box">
+				$_asp inaccess_reason;
+			</div>
+		]]>
+		</view>
+	</role_access>
+	
+	<password_protection>
+	
+		<protection_content_by_password use_language="true">
+      <![CDATA[
+      <div class="el_password_protection el_center">
+			  $_lang content_protection_by_password;
+      </div>
+      ]]>
+		</protection_content_by_password>
+		
+	</password_protection>
+	
+	<user_avatar_image use_elanat="true">
+	<![CDATA[
+		<img src="$_elanat ::system site_path;client/image/user_avatar/$_db user_id;.png" />
+	]]>
+	</user_avatar_image>
+	
+	<user_rss use_elanat="true">
+	<![CDATA[
+		<a href="$_elanat ::system site_path;rss/user/$_asp user_id;" class="el_user_rss">$_elanat ::system site_path;rss/user/$_asp user_id;</a>
+	]]>
+	</user_rss>
+
+</part>
+
+<page>
+
+	<search>
+		<list_item use_language="true" use_elanat="true">
+		<![CDATA[
+		<div class="el_search_item">
+			<span class="el_up_details">
+				$_db user_site_name; - $_db category_name;
+			</span>
+			<br />
+			<a href="$_asp extra_content_url_value;" class="el_title" target="_top">
+				$_db content_title;
+			</a>
+			<br />
+			<span>
+				$_asp content_text;
+			</span>
+			<div class="el_down_details el_green_text">
+				<div class="el_details_item">
+					$_lang number;:$_db content_id;
+				</div>
+				<div class="el_details_item">
+					$_lang date_create;:$_db content_date_create;
+				</div>
+			</div>
+		</div>
+		]]>
+		</list_item>
+		<column_list>
+			<content_id />
+			<content_title />
+			<content_date_create />
+			<category_name />
+			<user_site_name />
+		</column_list>
+		<highlights_searched><![CDATA[<span class="el_red_text">$_asp serched;</span>]]></highlights_searched>
+	</search>
+	
+	<lock_login_active use_elanat="true" use_language="true">
+    <![CDATA[
+      $_elanat ::system mini_header;
+      <div class="el_spesial_note">
+        <div class="el_spesial_note_left el_lock_active_image"></div>
+        <div class="el_spesial_note_right">
+          <div class="el_big_text">-1-</div>
+          <span>$_lang lock_login_is_active;</span>
+        </div>
+      </div>
+      $_elanat ::system mini_footer;
+    ]]>
+  </lock_login_active>
+
+	<lock_login_inactive use_elanat="true" use_language="true">
+    <![CDATA[
+      $_elanat ::system mini_header;
+      <div class="el_spesial_note">
+        <div class="el_spesial_note_left el_lock_inactive_image"></div>
+        <div class="el_spesial_note_right">
+          <div class="el_big_text">-0-</div>
+          <span>$_lang lock_login_is_inactive;</span>
+        </div>
+      </div>
+      $_elanat ::system mini_footer;
+    ]]>
+  </lock_login_inactive>
+  
+	<lock_login_disable use_elanat="true" use_language="true">
+    <![CDATA[
+      $_elanat ::system mini_header;
+      <div class="el_spesial_note">
+        <div class="el_spesial_note_left el_disable_image"></div>
+        <div class="el_spesial_note_right">
+				  <div class="el_big_text">---</div>
+          <span>$_lang lock_login_patch_is_inactive;</span>
+        </div>
+      </div>
+      $_elanat ::system mini_footer;
+    ]]>
+  </lock_login_disable>
+
+	<logout use_elanat="true" use_language="true">
+	<![CDATA[
+		$_elanat ::system mini_header;
+		<div class="el_spesial_note">
+			<div class="el_spesial_note_left el_logout_image"></div>
+			<div class="el_spesial_note_right">
+				<div class="el_big_text">out</div>
+				<div class="el_error_value">$_lang logged_out;</div>
+				<div class="el_error_text">$_lang you_have_successfully_logged_out;</div>
+			</div>
+		</div>
+		$_elanat ::system mini_footer;
+	]]>
+	</logout>
+	
+	<email_confirm use_elanat="true" use_language="true">
+	<![CDATA[
+		$_elanat ::system mini_header;
+		<div class="el_spesial_note">
+		<div class="el_spesial_note_left el_logout_image"></div>
+		<div class="el_spesial_note_right">
+      <div class="el_big_text">-1-</div>
+		  <span>$_lang your_email_has_been_accepted;</span></div>
+		</div>
+		$_elanat ::system mini_footer;
+	]]>
+	</email_confirm>
+	
+	<new_password use_elanat="true" use_language="true">
+	<![CDATA[
+		$_elanat ::system mini_header;
+		<div class="el_spesial_note">
+		<div class="el_spesial_note_left el_logout_image"></div>
+		<div class="el_spesial_note_right">
+      <div class="el_big_text">***</div>
+		  <span>$_lang your_new_password;:$_asp new_password;</span></div>
+		</div>
+		$_elanat ::system mini_footer;
+	]]>
+	</new_password>
+	
+	<redirect>
+		
+	</redirect>
+
+	<error>
+	<![CDATA[error_pages=page_error_address]]>
+		<error_other use_elanat="true" use_language="true" use_plugin="true">
+		<![CDATA[
+			$_elanat ::system mini_header;
+			<div class="el_spesial_note">
+				<div class="el_spesial_note_left el_warning_image"></div>
+				<div class="el_spesial_note_right">
+          <div class="el_big_text">!!!</div>
+					<div class="el_item">
+            $_lang error_other;
+						<span class="el_error_item">
+							<span class="el_error_value">$_asp error_number;</span>
+						</span>
+					</div>
+          <div class="el_item">
+				    $_plugin_name show_quick_search;
+			    </div>
+				</div>
+			</div>
+			$_elanat ::system mini_footer;
+		]]>
+		</error_other>
+		
+		<error_400 use_elanat="true" use_language="true">
+		<![CDATA[
+			$_elanat ::system mini_header;
+			<div class="el_spesial_note">
+				<div class="el_spesial_note_left el_warning_image">
+			</div>
+				<div class="el_spesial_note_right">
+					<div class="el_error_number">$_asp error_number;</div>
+					<div class="el_error_value">$_lang error_400_value;</div>
+					<div class="el_error_text">$_lang error_400_text;</div>
+				</div>
+			</div>
+			$_elanat ::system mini_footer;
+		]]>
+		</error_400>
+		
+		<error_401 use_elanat="true" use_language="true">
+		<![CDATA[
+			$_elanat ::system mini_header;
+			<div class="el_spesial_note">
+				<div class="el_spesial_note_left el_warning_image">
+			</div>
+				<div class="el_spesial_note_right">
+					<div class="el_error_number">$_asp error_number;</div>
+					<div class="el_error_value">$_lang error_401_value;</div>
+					<div class="el_error_text">$_lang error_401_text;</div>
+				</div>
+			</div>
+			$_elanat ::system mini_footer;
+		]]>
+		</error_401>
+		
+		<error_403 use_elanat="true" use_language="true">
+		<![CDATA[
+			$_elanat ::system mini_header;
+			<div class="el_spesial_note">
+				<div class="el_spesial_note_left el_warning_image">
+			</div>
+				<div class="el_spesial_note_right">
+					<div class="el_error_number">$_asp error_number;</div>
+					<div class="el_error_value">$_lang error_403_value;</div>
+					<div class="el_error_text">$_lang error_403_text;</div>
+				</div>
+			</div>
+			$_elanat ::system mini_footer;
+		]]>
+		</error_403>
+		
+		<error_404 use_elanat="true" use_language="true">
+		<![CDATA[
+			$_elanat ::system mini_header;
+			<div class="el_spesial_note">
+				<div class="el_spesial_note_left el_warning_image">
+			</div>
+				<div class="el_spesial_note_right">
+					<div class="el_error_number">$_asp error_number;</div>
+					<div class="el_error_value">$_lang error_404_value;</div>
+					<div class="el_error_text">$_lang error_404_text;</div>
+				</div>
+			</div>
+			$_elanat ::system mini_footer;
+		]]>
+		</error_404>
+		
+		<error_500 use_elanat="true" use_language="true">
+		<![CDATA[
+			$_elanat ::system mini_header;
+			<div class="el_spesial_note">
+				<div class="el_spesial_note_left el_warning_image">
+			</div>
+				<div class="el_spesial_note_right">
+					<div class="el_error_number">$_asp error_number;</div>
+					<div class="el_error_value">$_lang error_500_value;</div>
+					<div class="el_error_text">$_lang error_500_text;</div>
+				</div>
+			</div>
+			$_elanat ::system mini_footer;
+		]]>
+		</error_500>
+		
+	</error>
+
+	<print use_language="true" use_elanat="true">
+	<![CDATA[
+		<div class="el_print">
+			<div class="el__print_header">
+				<div class="el_print_logo">
+					<img src="$_elanat ::system site_path;client/image/site_logo/$_elanat ::site site_global_name;.png" />
+				</div>
+				<div class="el_print_info">
+					<div>
+						<div>
+							<div class="el_print_number">
+								$_lang number;: <div class="el_label_dark">$_asp content_id;</div>
+							</div>
+							<div class="el_print_date_and_time">
+								$_lang date_and_time;: <div class="el_label_light">$_asp content_date_create;-$_asp content_time_create;</div>
+							</div>
+						</div>
+						<div class="el_print_title">
+							$_asp content_title;
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="el_print_content">
+				<hr />
+				$_asp content_text;
+			</div>
+			</div>
+	]]>
+	</print>
+
+</page>
+
+<static_page>
+
+	<about>
+		$_asp about;
+	</about>
+	
+	<contact>
+		$_asp contact;
+	</contact>
+	
+	<terms_of_service>
+		$_asp terms_of_service;
+	</terms_of_service>
+	
+	<privacy_policy>
+		$_asp privacy_policy;
+	</privacy_policy>
+	
+	<inactive_site>
+		$_asp inactive_site;
+	</inactive_site>
+	
+	<user_agreement>
+		$_asp user_agreement;
+	</user_agreement>
+
+</static_page>
+
+<email>
+	<new_password use_language="true" use_elanat="true">
+	<![CDATA[
+		<p>$_lang _email_new_password;</p>
+		<a href="$_asp site_url;$_asp site_path;action/new_password/$_asp user_id;/$_asp random_text;">$_lang your_new_password;</a>
+	]]>
+	</new_password>
+	
+	<confirm_email use_language="true" use_elanat="true">
+	<![CDATA[
+		<p>$_lang _email_confirm_email;</p>
+		<a href="$_asp site_url;$_asp site_path;action/confirm_email/$_asp user_id;/$_asp random_text;">$_lang confirm_email;</a>
+	]]>
+	</confirm_email>
+	
+	<send_content_email>
+	<![CDATA[
+		<p>$_asp email_content;</p>
+	]]>
+	</send_content_email>
+</email>
+
+<box_load>
+
+	<read_more_save_content>
+	<![CDATA[
+		<div id="div_ReadMoreContent$_db content_id;" class="el_hidden" title="$_db content_title;">
+			$_db content_text;
+		</div>
+	]]>
+	</read_more_save_content>
+
+	<user_info use_elanat="true">
+    <![CDATA[
+    <div id="user_info#$_asp user_id;" class="el_user_info" box_group="user" >
+      <div>
+        <img class="el_avatar_info" src="$_elanat ::system site_path;client/image/user_avatar/$_asp user_id;.png" alt="$_asp user_site_name;" title="$_asp user_site_name;"/>
+        <p class="el_details">
+          $_asp user_site_name;<br/>
+          $_asp content_count;<br/>
+          $_asp comment_count;<br/>
+          <a href="mailto:$_asp email;">$_asp email;</a><br/>
+          $_asp phone;<br/>
+          <a href="$_elanat ::system site_path;/rss/user/$_asp user_id;">$_asp user_site_name;</a><br/>
+        </p>
+      </div>
+      <div>
+        <p class="el_about">
+          $_asp about;
+        </p>
+      </div>
+    </div>
+    ]]>
+	</user_info>
+
+</box_load>
+
+<site_info>
+
+	<address>
+		$_asp site_address;
+	</address>
+	
+	<email>
+		$_asp site_email;
+	</email>
+	
+	<phone_number>
+		$_asp site_phone_number;
+	</phone_number>
+	
+	<dropdownlist_category>
+	$_asp site_dropdownlist_category;
+	</dropdownlist_category>
+	
+	<other_info>
+		$_asp site_other_info;
+	</other_info>
+	
+</site_info>
+
+<view>
+
+	<path>
+		<box use_language="true">
+			<![CDATA[
+			<ul class="el_path">
+				<li class="el_home">
+					<a href="$_asp site_path;">$_lang main_page;</a>
+				</li>
+				$_asp item;
+			</ul>
+			]]>
+		</box>
+		<list_item>
+			<fathers_category>
+			<![CDATA[
+			<li class="el_fathers_category">
+			<a href="$_asp site_path;category/$_asp category_name;">$_asp category_name;</a>
+			</li>
+			]]>
+			</fathers_category>
+			<current_category>
+			<![CDATA[
+			<li class="el_current_category">
+			<a href="$_asp site_path;category/$_asp category_name;">$_asp category_name;</a>
+			</li>
+			]]>
+			</current_category>
+			<content>
+			<![CDATA[
+			<li class="el_content_title">
+			<a href="$_asp site_path;content/$_asp content_id;">$_asp content_title;</a>
+			</li>
+			]]>
+			</content>
+		</list_item>
+	</path>
+	
+	<category>
+		<box>
+			<![CDATA[
+			<ul>
+			$_asp item;
+			</ul>
+			]]>
+		</box>
+		<list_item>
+			<![CDATA[
+			<li>
+			$_asp item;
+			</li>
+			]]>
+		</list_item>
+	</category>
+		
+	<page>
+		<box>
+			<![CDATA[
+			<ul>
+				$_asp item;
+			</ul>
+			]]>
+		</box>
+		<list_item>
+			<![CDATA[
+			<li>
+				<a class="el_page_link" href="$_asp extra_page_url_value;">$_asp page_local_name;</a>
+			</li>
+			]]>
+		</list_item>
+	</page>
+	
+	<content_type>
+		<box>
+			<![CDATA[
+			<ul>
+				$_asp item;
+			</ul>
+			]]>
+		</box>
+		<list_item>
+			<![CDATA[
+			<li>
+				<a href="/content_type/$_asp content_type_value;">$_asp content_type_name;</a>
+			</li>
+			]]>
+		</list_item>
+	</content_type>
+	
+	<language>
+		<box>
+			<![CDATA[
+			<ul class="el_language_list">
+				$_asp item;
+			</ul>
+			]]>
+		</box>
+		<list_item use_elanat="true">
+			<![CDATA[
+			<li>
+				<a href="$_asp site_path;lang/$_asp language_global_name;" class="el_language_link" style="background-image: url('$_elanat ::system site_path;client/image/language_icon/$_asp language_global_name;.png');">$_asp language_name;</a>
+			</li>
+			]]>
+		</list_item>
+	</language>
+	
+	<site>
+		<box>
+			<![CDATA[
+			<ul class="el_site_list">
+				$_asp item;
+			</ul>
+			]]>
+		</box>
+		<list_item>
+			<![CDATA[
+			<li>
+				<a href="$_asp site_path;site/$_asp site_global_name;">$_asp site_name;</a>
+			</li>
+			]]>
+		</list_item>
+	</site>
+	
+	<page_number>
+		<box>
+			<![CDATA[
+			<ul>
+				$_asp item;
+			</ul>
+			]]>
+		</box>
+		<list_item>
+			<![CDATA[
+			<li>
+				$_asp item;
+			</li>
+			]]>
+		</list_item>
+	</page_number>
+	
+	<member_page>
+		<box>
+			<![CDATA[
+			<ul>
+			$_asp item;
+			</ul>
+			]]>
+		</box>
+		<list_item use_elanat="true">
+			<![CDATA[
+			<li>
+				<a href="$_asp extra_page_url_value;">$_asp page_local_name;</a>
+			</li>
+			]]>
+		</list_item>
+	</member_page>
+	
+	<drop_down_list_category>
+		<box>
+		<![CDATA[
+      <div class="el_center_box">
+			  <select id="ddlst_Category" class="el_alone_select_input" onchange="el_GotoCategory(this, false)">
+				  <option value=""></option>
+				  $_asp item;
+			  </select>
+      </div>
+		]]>
+		</box>
+		<list_item>
+		<![CDATA[
+			<option value="$_asp extra_category_url_value;">$_asp category_name;</option>
+		]]>
+		</list_item>
+	</drop_down_list_category>
+	
+</view>
+
+<table>
+
+	<content>
+		<header>
+			<box use_elanat="true">
+				<![CDATA[
+				<div class="el_button_box">
+					<div class="el_search_box">
+						<ul>
+							<li>
+								<div id="img_Search" class="el_image_search" onclick="el_SearchContent()"></div>
+							</li>
+							<li>
+								<input id="txt_Search" class="el_txt_search" type="text" onkeypress="el_GoToSearchByEnterKey(event)" />
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class='el_table_title'>
+					$_asp item;
+					<input onclick="el_SetBoxLayout(); el_SaveAction(this, event)" class="el_table_box_layout" el_action="set_table_box_layout" type="button">
+					<input onclick="el_SetRowLayout(); el_SaveAction(this, event)" class="el_table_row_layout" el_action="set_table_row_layout" type="button">
+				</div>
+				]]>
+			</box>
+			<list_item>
+				<![CDATA[
+				<div class="el_table_cell">
+					<div class="el_desc_sort" onclick="el_SortContent('$_asp column_name;','$_searched_item;',true)" ></div>
+					<div class="el_table_header_item">$_asp item;</div>
+					<div class="el_asc_sort" onclick="el_SortContent('$_asp column_name;','$_searched_item;')" ></div>
+				</div>
+				]]>
+			</list_item>
+		</header>
+		<row>
+			<box>
+				<![CDATA[
+				<div class="el_table_row">
+					$_asp item;
+				</div>
+				]]>
+			</box>
+			<list_item>
+				<![CDATA[
+				<div class="el_table_cell">
+					$_asp item;
+				</div>
+				]]>
+			</list_item>
+		</row>
+		<item>
+			<content_id>$_db content_id;</content_id>
+			<content_title>$_db content_title;</content_title>
+			<user_site_name>$_db user_site_name;</user_site_name>
+			<category_name>$_db category_name;</category_name>
+			<language_global_name>$_db language_global_name;</language_global_name>
+			<language_name>$_db language_name;</language_name>
+			<content_text>$_db content_text;</content_text>
+			<content_date_create>$_db content_date_create;</content_date_create>
+			<content_time_create>$_db content_time_create;</content_time_create>
+			<content_always_on_top>$_db content_always_on_top;</content_always_on_top>
+			<content_status>$_db content_status;</content_status>
+			<content_type>$_db content_type;</content_type>
+			<content_verify_comments>$_db content_verify_comments;</content_verify_comments>
+			<comment_count>$_db comment_count;</comment_count>
+			<content_rating_number_of_voted>$_db content_rating_number_of_voted;</content_rating_number_of_voted>
+			<content_rating_rating>$_db content_rating_rating;</content_rating_rating>
+			<content_icon_name>$_db content_icon_name;</content_icon_name>
+			<content_keywords_text>$_db content_keywords_text;</content_keywords_text>
+			<content_avatar_physical_name>$_db content_avatar_physical_name;</content_avatar_physical_name>
+			<content_source_text>$_db content_source_text;</content_source_text>
+			<content_reply_count>$_db content_reply_count;</content_reply_count>
+		</item>
+		
+	</content>
+	
+	<comment>
+		<header>
+			<box use_elanat="true">
+				<![CDATA[
+				<div class="el_button_box">
+				<div class="el_search_box">
+				<ul>
+				<li>
+				<div id="img_Search" class="el_image_search" onclick="el_SearchComment()"></div>
+				</li>
+				<li>
+				<input id="txt_Search" class="el_txt_search" type="text" onkeypress="el_GoToSearchByEnterKey(event)" />
+				</li>
+				</ul>
+				</div>
+				</div>
+				<div class='el_table_title'>
+				$_asp item;
+					<input onclick="el_SetBoxLayout(); el_SaveAction(this, event)" class="el_table_box_layout" el_action="set_table_box_layout" type="button">
+					<input onclick="el_SetRowLayout(); el_SaveAction(this, event)" class="el_table_row_layout" el_action="set_table_row_layout" type="button">
+				</div>
+				]]>
+			</box>
+			<list_item>
+				<![CDATA[
+				<div class="el_table_cell">
+				<div class="el_desc_sort" onclick="el_SortComment('$_asp column_name;','$_searched_item;',true)" ></div>
+				<div class="el_table_header_item">$_asp item;</div>
+				<div class="el_asc_sort" onclick="el_SortComment('$_asp column_name;','$_searched_item;')" ></div>
+				</div>
+				]]>
+			</list_item>
+		</header>
+		<row>
+			<box>
+				<![CDATA[
+				<div class="el_table_row">
+				$_asp item;
+				</div>
+				]]>
+			</box>
+			<list_item>
+				<![CDATA[
+				<div class="el_table_cell">
+				$_asp item;
+				</div>
+				]]>
+			</list_item>
+		</row>
+		<item>
+			<comment_id>$_db comment_id;</comment_id>
+			<content_title>$_db content_title;</content_title>
+			<comment_user_guest_name>$_db comment_user_guest_name;</comment_user_guest_name>
+			<comment_user_guest_email>$_db comment_user_guest_email;</comment_user_guest_email>
+			<comment_title>$_db comment_title;</comment_title>
+			<comment_text>$_db comment_text;</comment_text>
+			<comment_date_send>$_db comment_date_send;</comment_date_send>
+			<comment_time_send>$_db comment_time_send;</comment_time_send>
+			<comment_active>$_db comment_active;</comment_active>
+			<comment_ip_address>$_db comment_ip_address;</comment_ip_address>
+			<comment_date_and_time_send>$_db comment_date_and_time_send;</comment_date_and_time_send>
+			<comment_reply_count>$_db comment_reply_count;</comment_reply_count>
+		</item>
+		
+	</comment>
+	
+  <foot_print>
+    <header>
+      <box use_elanat="true">
+        <![CDATA[
+				<div class="el_button_box">
+				<div class="el_search_box">
+				<ul>
+				<li>
+				<div id="img_Search" class="el_image_search" onclick="el_SearchFootPrint()"></div>
+				</li>
+				<li>
+				<input id="txt_Search" class="el_txt_search" type="text" onkeypress="el_GoToSearchByEnterKey(event)" />
+				</li>
+				</ul>
+				</div>
+				</div>
+				<div class='el_table_title'>
+				$_asp item;
+					<input onclick="el_SetBoxLayout(); el_SaveAction(this, event)" class="el_table_box_layout" el_action="set_table_box_layout" type="button">
+					<input onclick="el_SetRowLayout(); el_SaveAction(this, event)" class="el_table_row_layout" el_action="set_table_row_layout" type="button">
+				</div>
+				]]>
+      </box>
+      <list_item>
+        <![CDATA[
+				<div class="el_table_cell">
+				<div class="el_desc_sort" onclick="el_SortFootPrint('$_asp column_name;','$_searched_item;',true)" ></div>
+				<div class="el_table_header_item">$_asp item;</div>
+				<div class="el_asc_sort" onclick="el_SortFootPrint('$_asp column_name;','$_searched_item;')" ></div>
+				</div>
+				]]>
+      </list_item>
+    </header>
+    <row>
+      <box>
+        <![CDATA[
+				<div class="el_table_row">
+				$_asp item;
+				</div>
+				]]>
+      </box>
+      <list_item>
+        <![CDATA[
+				<div class="el_table_cell">
+				$_asp item;
+				</div>
+				]]>
+      </list_item>
+    </row>
+    <item>
+      <foot_print_id>
+        $_db foot_print_id;
+      </foot_print_id>
+      <user_site_name>
+        $_db user_site_name;
+      </user_site_name>
+      <foot_print_action>
+        $_db foot_print_action;
+      </foot_print_action>
+	  <foot_print_path>
+	  $_db foot_print_path;
+	  </foot_print_path>
+	  <foot_print_event>
+	  $_db foot_print_event;
+	  </foot_print_event>
+	  <foot_print_value>
+	  $_db foot_print_value;
+	  </foot_print_value>
+	  <foot_print_date_and_time_action>
+	  $_db foot_print_date_and_time_action;
+	  </foot_print_date_and_time_action>
+	  <foot_print_ip_address>
+	  $_db foot_print_ip_address;
+	  </foot_print_ip_address> 
+      <foot_print_date_and_time_send>
+        $_db foot_print_date_and_time_send;
+      </foot_print_date_and_time_send>
+    </item>
+
+  </foot_print>
+
+</table>
+
+</template_root>
