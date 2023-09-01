@@ -39,7 +39,7 @@ app.UseResponseCaching();
 
 if (!app.Environment.IsDevelopment())
 {
-    app.UseExceptionHandler("/Error");
+    app.UseExceptionHandler("/page/error/");
     app.UseHsts();
 }
 
