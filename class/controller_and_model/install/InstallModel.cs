@@ -300,12 +300,6 @@ namespace Elanat
                 // Recompile
                 CodeBehindCompiler.Initialization();
                 CodeBehindCompiler.CompileAspx();
-
-
-                ResponseForm rf = new ResponseForm(StaticObject.GetCurrentSiteGlobalLanguage(), true);
-                rf.AddPageLoad(StaticObject.SitePath + "install/action/SuccessMessage.aspx", "div_main");
-                rf.AddReturnFunction("el_CutInstallDirectoryAfterInstall()");
-                rf.RedirectToResponseFormPage();
             }
         }
 
@@ -340,9 +334,9 @@ namespace Elanat
             }
         }
 
-        public void SuccessView()
+        public string SuccessView()
         {
-            new HttpContextAccessor().HttpContext.Response.Redirect(StaticObject.SitePath + "install/action/SuccessMessage.aspx?use_retrieved=true", false);
+            return PageLoader.LoadWithServer(StaticObject.SitePath + "install/action/SuccessMessage.aspx?use_retrieved=true");
         }
     }
 }

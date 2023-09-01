@@ -110,12 +110,13 @@ namespace Elanat
                 return;
             }
 
+            string SuccessView = model.SuccessView();
 
             model.Submit();
 
-            model.SuccessView();
+            Write(SuccessView);
 
-            View(model);
+            IgnoreViewAndModel = true;
         }
     }
 }
