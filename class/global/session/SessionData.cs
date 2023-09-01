@@ -5,6 +5,10 @@ namespace Elanat
     {
         public void Set(string Name, string Value)
         {
+            if (!File.Exists(StaticObject.ServerMapPath(StaticObject.SitePath + "App_Data/elanat_system_data/session_data/" + StaticObject.GetSessionId() + ".ini.tmp")))
+                File.Create(StaticObject.ServerMapPath(StaticObject.SitePath + "App_Data/elanat_system_data/session_data/" + StaticObject.GetSessionId() + ".ini.tmp")).Close();
+
+
             var Lines = File.ReadAllLines(StaticObject.ServerMapPath(StaticObject.SitePath + "App_Data/elanat_system_data/session_data/" + StaticObject.GetSessionId() + ".ini.tmp"));
 
             bool ExistName = false;
@@ -33,6 +37,9 @@ namespace Elanat
 
         public void SetListItemCollection(string Name, List<ListItem> Value)
         {
+            if (!File.Exists(StaticObject.ServerMapPath(StaticObject.SitePath + "App_Data/elanat_system_data/session_data/" + StaticObject.GetSessionId() + ".ini.tmp")))
+                File.Create(StaticObject.ServerMapPath(StaticObject.SitePath + "App_Data/elanat_system_data/session_data/" + StaticObject.GetSessionId() + ".ini.tmp")).Close();
+
             var Lines = File.ReadAllLines(StaticObject.ServerMapPath(StaticObject.SitePath + "App_Data/elanat_system_data/session_data/" + StaticObject.GetSessionId() + ".ini.tmp"));
 
             bool ExistName = false;
