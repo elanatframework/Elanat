@@ -73,7 +73,6 @@ namespace Elanat
             string ElanatSystemVersion = ElanatConfig.GetNode("elanat/version").Attributes["value"].Value;
 
             string DotNetVersion = Environment.Version.ToString();
-            string WebServerName = context.GetServerVariable("SERVER_SOFTWARE");
 
             bool BreakSupportCheck = BreakSupportCheckValue;
 
