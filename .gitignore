@@ -1,9 +1,0 @@
-
-bin/*
-code_behind/*
-obj/*
-Properties/*
-.gitignore
-.gitattributes
-Elanat.csproj
-Elanat.csproj.user
