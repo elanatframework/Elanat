@@ -50,7 +50,7 @@ namespace Elanat
                     return;
                 }
 
-                System.Net.WebClient webClient = new System.Net.WebClient();
+                HttpClient webClient = new HttpClient();
 
                 TmpFilePhysicalName = Path.GetFileName(FilePathTextValue);
 

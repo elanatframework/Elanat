@@ -746,6 +746,24 @@ namespace Elanat
             return null;
         }
 
+        public static void SaveAs(this IFormFile PostedFile, string FilePath)
+        {
+            using (Stream TmpFileStream = new FileStream(FilePath, FileMode.Create, FileAccess.ReadWrite))
+            {
+                PostedFile.CopyTo(TmpFileStream);
+            }
+        }
+
+        public async static void DownloadFile(this HttpClient client, string RequestUrl, string FilePath)
+        {
+            Stream DataValue = client.GetStreamAsync(RequestUrl).Result;
+
+            using (FileStream fileStream = new FileStream(FilePath, FileMode.Create))
+            {
+                DataValue.CopyToAsync(fileStream).Wait();
+            }
+        }
+
         #region Html Input
 
         public static List<string> HtmlInputGetNamesFromMultiSelectString(this string Text)
@@ -956,14 +974,6 @@ namespace Elanat
         public static bool HtmlInputHasFile(this IFormFile PostedFile)
         {
             return ((PostedFile != null) && (PostedFile.Length > 0));
-        }
-
-        public static void SaveAs(this IFormFile PostedFile, string FilePath)
-        {
-            using (Stream TmpFileStream = new FileStream(FilePath, FileMode.Create, FileAccess.ReadWrite))
-            {
-                PostedFile.CopyTo(TmpFileStream);
-            }
         }
 
         #endregion

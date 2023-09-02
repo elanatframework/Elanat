@@ -115,7 +115,7 @@ namespace Elanat
 
                 Update:
                 // Download Last Version
-                System.Net.WebClient webClient = new System.Net.WebClient();
+                HttpClient webClient = new HttpClient();
 
                 string DirectoryName = FileAndDirectory.GetNewDirectoryNameIfDirectoryExist(StaticObject.ServerMapPath(StaticObject.SitePath + "App_Data/tmp/"), version.Attributes["value"].Value);
 
@@ -138,7 +138,7 @@ namespace Elanat
 
 
                     if (File.Exists(StaticObject.ServerMapPath(StaticObject.SitePath + "App_Data/tmp/" + DirectoryName + "/root/bin/Elanat.dll")))
-                        File.Move(StaticObject.ServerMapPath(StaticObject.SitePath + "App_Data/tmp/" + DirectoryName + "/root/bin/Elanat.dll"), StaticObject.ServerMapPath(AppContext.BaseDirectory + "/ElanatUpdate.dll"), true);
+                        File.Move(StaticObject.ServerMapPath(StaticObject.SitePath + "App_Data/tmp/" + DirectoryName + "/root/bin/Elanat.dll"), AppContext.BaseDirectory + "/ElanatUpdate.dll", true);
 
 
                     /// <Action> Move All File In "root" Directory To Site Path
@@ -179,13 +179,13 @@ namespace Elanat
                 rf.RedirectToResponseFormPage();
 
 
-                if (File.Exists(StaticObject.ServerMapPath(AppContext.BaseDirectory + "/ElanatUpdate.dll")))
+                if (File.Exists(AppContext.BaseDirectory + "/ElanatUpdate.dll"))
                 {
                     // Set Unload Elanat
                     AppDomain.Unload(AppDomain.CurrentDomain);
 
 
-                    File.Move(StaticObject.ServerMapPath(AppContext.BaseDirectory + "/ElanatUpdate.dll"), StaticObject.ServerMapPath(AppContext.BaseDirectory + "/Elanat.dll"), true);
+                    File.Move(AppContext.BaseDirectory + "/ElanatUpdate.dll", AppContext.BaseDirectory + "/Elanat.dll", true);
 
 
                     // Set Reload Elanat

@@ -438,7 +438,7 @@ namespace Elanat
                 UploadFilePhysicalName = FileAndDirectory.GetNewFileNameIfFileNameExist(StaticObject.ServerMapPath(StaticObject.SitePath + "upload/comment/"), UploadFilePhysicalName);
 
 
-                System.Net.WebClient webClient = new System.Net.WebClient();
+                HttpClient webClient = new HttpClient();
 
                 UploadExtension = Path.GetExtension(UploadFilePhysicalName);
 

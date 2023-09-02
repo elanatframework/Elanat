@@ -163,33 +163,18 @@ namespace Elanat
             }
 
 
-            WebRequest request = WebRequest.Create(GlobalClass.GetSiteMainUrl() + Dir + Path);
+            HttpClient webClient = new HttpClient();
+            string DataValue = webClient.GetStringAsync(GlobalClass.GetSiteMainUrl() + Dir + Path).Result;
 
-            WebResponse response = request.GetResponse();
-
-            Stream dataStream = response.GetResponseStream();
-            StreamReader reader = new StreamReader(dataStream);
-            string responseFromServer = reader.ReadToEnd();
-            reader.Close();
-            response.Close();
-
-            return responseFromServer;
+            return DataValue;
         }
 
         public static string LoadForeignPage(string Path)
         {
+            HttpClient webClient = new HttpClient();
+            string DataValue = webClient.GetStringAsync(Path).Result;
 
-            WebRequest request = WebRequest.Create(Path);
-
-            WebResponse response = request.GetResponse();
-
-            Stream dataStream = response.GetResponseStream();
-            StreamReader reader = new StreamReader(dataStream);
-            string responseFromServer = reader.ReadToEnd();
-            reader.Close();
-            response.Close();
-
-            return responseFromServer;
+            return DataValue;
         }
 
         public static string LoadWithProcess(string Path)
