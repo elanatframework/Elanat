@@ -48,12 +48,13 @@ To create a plugin for Elanat, refer to the link below and read the README.md fi
 [https://github.com/elanatframework/Elanat_add-ons/tree/elanat_framework/plugin/plugin_hello_world](https://github.com/elanatframework/Elanat_add-ons/tree/elanat_framework/plugin/plugin_hello_world)
 
 Elanat runs all available programming languages, both web-based and hardware-based. You just need to create your add-on in your favorite programming language. A small list of programming languages supported by Elanat:
-C, C++
-PHP
-Python
-ruby
-Perl
-node.js
+
+ - C, C++
+ - PHP
+ - Python
+ - ruby
+ - Perl
+ - node.js
 
 We encourage you to create your own add-on for Elanat; The link below is Elanat separate add-on repository and you can add any add-on you like in this repository.
 
