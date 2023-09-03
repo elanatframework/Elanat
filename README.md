@@ -47,6 +47,7 @@ In many cases, the Elanat system is better than Microsoft SharePoint, Drupal and
 To create a plugin for Elanat, refer to the link below and read the README.md file.
 
 [https://github.com/elanatframework/Elanat_add-ons/tree/elanat_framework/plugin/plugin_hello_world](https://github.com/elanatframework/Elanat_add-ons/tree/elanat_framework/plugin/plugin_hello_world)
+
 ---
 
 Elanat runs all available programming languages, both web-based and hardware-based. You just need to create your add-on in your favorite programming language. A small list of programming languages supported by Elanat:
@@ -90,12 +91,14 @@ Fetch: Fetch is a add-on that combines database queries with HTML tags and can b
 Extra helper: Extra helpers are add-ons that only showed in admin section of Elanat framework and only administrators access to this add-ons.
 
 Editor template: Editor templates add-ons are part of a html page template; each of the Editor templates helps content writers use a ready-made template to create pages faster and more organized.
+
 ---
 
 ---
 ### Website:
 
 [https://elanat.net](https://elanat.net)
+
 ---
 
 ---
@@ -108,4 +111,5 @@ Editor template: Editor templates add-ons are part of a html page template; each
  - Codemirror
  - SixLabors.ImageSharp
  - File Icons Vs. 3 Icons by Jordan Michael
+
 ---
