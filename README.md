@@ -42,6 +42,7 @@ We also used several high-level technologies:
 In many cases, the Elanat system is better than Microsoft SharePoint, Drupal and Liferay.
 
 ---
+
 ### Create Add-on (Based on ASP.NET Core)
 
 To create a plugin for Elanat, refer to the link below and read the README.md file.
@@ -63,6 +64,7 @@ We encourage you to create your own add-on for Elanat; The link below is Elanat 
 https://github.com/elanatframework/Elanat_add-ons
 
 ---
+
 ### Add-ons
 
 According to the list below, There are 8 different types of add-ons in Elanat :
@@ -95,6 +97,7 @@ Editor template: Editor templates add-ons are part of a html page template; each
 ---
 
 ---
+
 ### Website:
 
 [https://elanat.net](https://elanat.net)
@@ -102,6 +105,7 @@ Editor template: Editor templates add-ons are part of a html page template; each
 ---
 
 ---
+
 ### Tools used in creating Elanat:
 
  - ASP.NET Core 7.0
