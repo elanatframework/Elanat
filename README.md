@@ -41,15 +41,11 @@ We also used several high-level technologies:
 
 In many cases, the Elanat system is better than Microsoft SharePoint, Drupal and Liferay.
 
----
-
 ### Create Add-on (Based on ASP.NET Core)
 
 To create a plugin for Elanat, refer to the link below and read the README.md file.
 
 [https://github.com/elanatframework/Elanat_add-ons/tree/elanat_framework/plugin/plugin_hello_world](https://github.com/elanatframework/Elanat_add-ons/tree/elanat_framework/plugin/plugin_hello_world)
-
----
 
 Elanat runs all available programming languages, both web-based and hardware-based. You just need to create your add-on in your favorite programming language. A small list of programming languages supported by Elanat:
 C, C++
@@ -62,8 +58,6 @@ node.js
 We encourage you to create your own add-on for Elanat; The link below is Elanat separate add-on repository and you can add any add-on you like in this repository.
 
 https://github.com/elanatframework/Elanat_add-ons
-
----
 
 ### Add-ons
 
@@ -94,17 +88,9 @@ Extra helper: Extra helpers are add-ons that only showed in admin section of Ela
 
 Editor template: Editor templates add-ons are part of a html page template; each of the Editor templates helps content writers use a ready-made template to create pages faster and more organized.
 
----
-
----
-
 ### Website:
 
 [https://elanat.net](https://elanat.net)
-
----
-
----
 
 ### Tools used in creating Elanat:
 
@@ -115,5 +101,3 @@ Editor template: Editor templates add-ons are part of a html page template; each
  - Codemirror
  - SixLabors.ImageSharp
  - File Icons Vs. 3 Icons by Jordan Michael
-
----
