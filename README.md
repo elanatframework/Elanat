@@ -41,6 +41,11 @@ We also used several high-level technologies:
 
 In many cases, the Elanat system is better than Microsoft SharePoint, Drupal and Liferay.
 
+### Create Add-on (Based on ASP.NET Core)
+To create a plugin for Elanat, refer to the link below and read the README.md file.
+
+https://github.com/elanatframework/Elanat_add-ons/tree/elanat_framework/plugin/plugin_hello_world
+
 Elanat runs all available programming languages, both web-based and hardware-based. You just need to create your add-on in your favorite programming language. A small list of programming languages supported by Elanat:
 C, C++
 PHP
