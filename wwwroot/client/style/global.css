@@ -74,6 +74,30 @@ table
 
 /* End Css Reset */
 
+/* Start Ajax Loading */
+
+#div_AjaxLoading, #div_SyncAjaxLoading
+{
+    left: 0px;
+    z-index: 990;
+    width: 200px;
+    bottom: 0px;
+    text-align: center;
+    background-color: rgba(0,218,115,0.25);
+    display: block;
+    position: fixed;
+    padding: 10px;
+    border: 2px solid #00DA73;
+    cursor: wait;
+}
+
+#div_AjaxLoading img, #div_SyncAjaxLoading img
+{
+    z-index: 989;
+}
+
+/* End Ajax Loading */
+
 /* Start Link */
 
 a

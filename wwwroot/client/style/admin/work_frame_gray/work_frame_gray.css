@@ -1543,29 +1543,6 @@ html[dir="rtl"] .el_box_list_item
 
 /* End Box */
 
-/* Start Ajax Loading */
-
-#div_AjaxLoading 
-{
-    left: 0px;
-    z-index: 990;
-    width: 200px;
-    bottom: 0px;
-    text-align: center;
-    background-color: rgba(0,218,115,0.25);
-    display: block;
-    position: fixed;
-    padding: 10px;
-    border: 2px solid #00DA73;
-}
-
-#div_AjaxLoading img
-{
-    z-index: 989;
-}
-
-/* End Ajax Loading */
-
 .el_footer .el_left
 {
     float:left;
