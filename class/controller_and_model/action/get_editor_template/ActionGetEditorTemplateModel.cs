@@ -47,7 +47,7 @@ namespace Elanat
             }
 
             string EditorTemplateValue = "";
-            EditorTemplateValue = PageLoader.LoadWithServer("/add_on/editor_template/" + dbdr.dr["editor_template_physical_path"].ToString() + "?" + new HttpContextAccessor().HttpContext.Request.QueryString.ToString());
+            EditorTemplateValue = PageLoader.LoadWithServer(StaticObject.SitePath + "add_on/editor_template/" + dbdr.dr["editor_template_physical_path"].ToString() + "?" + new HttpContextAccessor().HttpContext.Request.QueryString.ToString());
 
 
             AttributeReader ar = new AttributeReader();

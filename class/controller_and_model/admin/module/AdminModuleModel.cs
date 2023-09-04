@@ -521,7 +521,7 @@ namespace Elanat
             
             // Run Install Page
             if (!string.IsNullOrEmpty(ModuleCatalog["module_install_path"].Attributes["value"].Value))
-                PageLoader.LoadWithServer("/add_on/module/" + dum.ModuleDirectoryPath + "/" + ModuleCatalog["module_install_path"].Attributes["value"].Value);
+                PageLoader.LoadWithServer(StaticObject.SitePath + "add_on/module/" + dum.ModuleDirectoryPath + "/" + ModuleCatalog["module_install_path"].Attributes["value"].Value);
 
 
             // Add Reference

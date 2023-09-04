@@ -361,7 +361,7 @@ namespace Elanat
 
             // Run Install Page
             if (!string.IsNullOrEmpty(ExtraHelperCatalog["extra_helper_install_path"].Attributes["value"].Value))
-                PageLoader.LoadWithServer("/add_on/extra_helper/" + dueh.ExtraHelperDirectoryPath + "/" + ExtraHelperCatalog["extra_helper_install_path"].Attributes["value"].Value);
+                PageLoader.LoadWithServer(StaticObject.SitePath + "add_on/extra_helper/" + dueh.ExtraHelperDirectoryPath + "/" + ExtraHelperCatalog["extra_helper_install_path"].Attributes["value"].Value);
 
 
             // Add Reference

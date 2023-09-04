@@ -56,7 +56,7 @@ namespace Elanat.DataUse
             XmlNode ComponentCatalog = CatalogDocument.SelectSingleNode("/component_catalog_root");
 
             if (!string.IsNullOrEmpty(ComponentCatalog["component_uninstall_path"].Attributes["value"].Value))
-                PageLoader.LoadWithServer("/" + StaticObject.AdminPath + "/" + duc.ComponentDirectoryPath + "/" + ComponentCatalog["component_uninstall_path"].Attributes["value"].Value);
+                PageLoader.LoadWithServer(StaticObject.AdminPath + "/" + duc.ComponentDirectoryPath + "/" + ComponentCatalog["component_uninstall_path"].Attributes["value"].Value);
 
 
             DataBaseSocket db = new DataBaseSocket();

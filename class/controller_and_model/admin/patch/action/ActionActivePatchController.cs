@@ -31,7 +31,7 @@ namespace Elanat
             XmlNode PatchCatalog = CatalogDocument.SelectSingleNode("/patch_catalog_root");
 
             if (!string.IsNullOrEmpty(PatchCatalog["patch_install_path"].Attributes["value"].Value))
-                PageLoader.LoadWithServer("/add_on/patch/" + dup.PatchDirectoryPath + "/" + PatchCatalog["patch_install_path"].Attributes["value"].Value);
+                PageLoader.LoadWithServer(StaticObject.SitePath + "add_on/patch/" + dup.PatchDirectoryPath + "/" + PatchCatalog["patch_install_path"].Attributes["value"].Value);
 
 
             dup.Active(context.Request.Query["patch_id"].ToString());

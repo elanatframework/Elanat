@@ -18,7 +18,7 @@ namespace Elanat
             if (StaticObject.RoleNameNumber.Count > 0)
                 return;
 
-            context.Response.WriteAsync(PageLoader.LoadWithServer("/install/Default.aspx"));
+            context.Response.WriteAsync(PageLoader.LoadWithServer(StaticObject.SitePath + "install/Default.aspx"));
 
             Write("false");
         }

@@ -57,7 +57,7 @@ namespace Elanat.DataUse
             XmlNode PluginCatalog = CatalogDocument.SelectSingleNode("/plugin_catalog_root");
 
             if (!string.IsNullOrEmpty(PluginCatalog["plugin_uninstall_path"].Attributes["value"].Value))
-                PageLoader.LoadWithServer("/add_on/plugin/" + dup.PluginDirectoryPath + "/" + PluginCatalog["plugin_uninstall_path"].Attributes["value"].Value);
+                PageLoader.LoadWithServer(StaticObject.SitePath + "add_on/plugin/" + dup.PluginDirectoryPath + "/" + PluginCatalog["plugin_uninstall_path"].Attributes["value"].Value);
 
 
             DataBaseSocket db = new DataBaseSocket();

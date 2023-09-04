@@ -6,7 +6,7 @@ namespace Elanat
     {
         public void SetValue(string CurrentSiteCalendar)
         {
-            Write(PageLoader.LoadWithServer("/include/calendar/" + CurrentSiteCalendar + "/server/Default.aspx"));
+            Write(PageLoader.LoadWithServer(StaticObject.SitePath + "include/calendar/" + CurrentSiteCalendar + "/server/Default.aspx"));
         }
     }
 }

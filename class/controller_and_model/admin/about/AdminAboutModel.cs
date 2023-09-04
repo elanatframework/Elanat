@@ -154,7 +154,7 @@ namespace Elanat
                 CodeBehindCompiler.CompileAspx();
 
 
-                PageLoader.LoadWithServer(StaticObject.AdminPath + "about/action/update_install/" + version.Attributes["value"].Value + ".aspx");
+                PageLoader.LoadWithServer(StaticObject.AdminPath + "/about/action/update_install/" + version.Attributes["value"].Value + ".aspx");
 
 
                 // Delete Physical File
@@ -181,7 +181,7 @@ namespace Elanat
                     rf.AddReturnFunction("el_StartReloadElanat()");
                 }
 
-                rf.AddReturnFunction("el_KeppLoginAjaxInstall('" + version.Attributes["value"].Value + "')");
+                rf.AddReturnFunction("el_KeppLoginAjax()");
 
                 // Add Reference
                 ReferenceClass rc = new ReferenceClass();

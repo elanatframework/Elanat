@@ -204,7 +204,7 @@ namespace Elanat
             
             // Run Install Page
             if (dup.PatchActive.ZeroOneToBoolean() && !string.IsNullOrEmpty(PatchCatalog["patch_install_path"].Attributes["value"].Value))
-                PageLoader.LoadWithServer("/add_on/patch/" + dup.PatchDirectoryPath + "/" + PatchCatalog["patch_install_path"].Attributes["value"].Value);
+                PageLoader.LoadWithServer(StaticObject.SitePath + "add_on/patch/" + dup.PatchDirectoryPath + "/" + PatchCatalog["patch_install_path"].Attributes["value"].Value);
 
 
             // Add Reference

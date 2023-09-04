@@ -571,7 +571,7 @@ namespace Elanat
 
             // Run Install Page
             if (!string.IsNullOrEmpty(PluginCatalog["plugin_install_path"].Attributes["value"].Value))
-            PageLoader.LoadWithServer("/add_on/plugin/" + dup.PluginDirectoryPath + "/" + PluginCatalog["plugin_install_path"].Attributes["value"].Value);
+            PageLoader.LoadWithServer(StaticObject.SitePath + "add_on/plugin/" + dup.PluginDirectoryPath + "/" + PluginCatalog["plugin_install_path"].Attributes["value"].Value);
 
 
             // Add Reference
