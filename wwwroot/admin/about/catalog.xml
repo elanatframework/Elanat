@@ -31,7 +31,10 @@
   <component_edit_own_access_path>
   </component_edit_own_access_path>
   <component_edit_all_access_path>
-    <path type="url" start_by="false" exist="true" end_by="false" regex_match="false" active="true">
+    <path type="url" start_by="true" exist="false" end_by="false" regex_match="false" active="true">
+      <path_value>/action</path_value>
+    </path>
+	<path type="url" start_by="false" exist="true" end_by="false" regex_match="false" active="true">
       <path_value>btn_CheckNewUpdate=</path_value>
     </path>
     <path type="url" start_by="false" exist="true" end_by="false" regex_match="false" active="true">

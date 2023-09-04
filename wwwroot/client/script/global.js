@@ -323,6 +323,39 @@ function el_DeleteAllParentAjaxLoadingTag()
     }
 }
 
+function el_OpenSyncAjaxLoading()
+{
+    var div = document.createElement("div");
+    div.id = "div_SyncAjaxLoading";
+    div.className = "el_sync_ajax_loading";
+
+    var img = document.createElement("img");
+    img.src = ElanatVariant.SitePath + "client/image/ajax/loading.gif";
+
+    div.appendChild(img);
+
+    if (el_PageLoadWithIframeCheck())
+        parent.document.body.appendChild(div);
+    else
+        document.body.appendChild(div);
+}
+
+function el_DeleteSyncAjaxLoadingTag()
+{
+    if (el_PageLoadWithIframeCheck())
+        while (parent.document.getElementsByClassName("el_sync_ajax_loading")[0])
+        {
+            var elem = parent.document.getElementsByClassName("el_sync_ajax_loading")[0];
+            elem.parentNode.removeChild(elem);
+        }
+    else
+        while (document.getElementsByClassName("el_sync_ajax_loading")[0])
+        {
+            var elem = document.getElementsByClassName("el_sync_ajax_loading")[0];
+            elem.parentNode.removeChild(elem);
+        }
+}
+
 /* End Ajax Loading */
 
 function el_ListBoxAutoSize(obj)
@@ -988,6 +1021,8 @@ function el_AjaxPostBack(obj, FetchScript, PostbackSectionId, Retrieved)
     if (Form.nodeName.toLowerCase() != "form")
         return;
 
+    el_OpenSyncAjaxLoading();
+
 
     // Delete All Warning Field Class
     el_DeleteWarningField();
@@ -1118,6 +1153,8 @@ function el_AjaxPostBack(obj, FetchScript, PostbackSectionId, Retrieved)
     if (!FormIsMultiPart)
         xmlhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded")
 
+    xmlhttp.addEventListener("load", function () { el_DeleteSyncAjaxLoadingTag() });
+    xmlhttp.addEventListener("error", function () { el_DeleteSyncAjaxLoadingTag() });
     xmlhttp.send(el_FormDataSerialize(FormElement, TagSubmitName, TagSubmitValue, FormIsMultiPart));
 }
 
@@ -2010,43 +2047,6 @@ function el_KeppLoginAjax()
         xmlhttp.open("GET", ElanatVariant.SitePath + "action/keep_login/Default.aspx", false);
         xmlhttp.send();
     }
-}
-
-function el_KeppLoginAjaxInstall(UpdateVersion)
-{
-    if (el_GetCookie("el_current_user-keep_login_random_text"))
-    {
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
-
-        xmlhttp.onreadystatechange = function () 
-	    {
-            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) 
-		    {
-                el_StartUpdateInstall(UpdateVersion);
-            }
-
-            if (xmlhttp.status != 0 && (xmlhttp.readyState == 0 || xmlhttp.status > 200))
-            {
-                el_Alert(LanguageVariant.ConnectionError, "problem");
-            }
-        }
-
-        xmlhttp.open("GET", ElanatVariant.SitePath + "action/keep_login/Default.aspx", false);
-        xmlhttp.send();
-    }
-}
-
-function el_StartUpdateInstall(UpdateVersion)
-{
-    var xmlhttp = (window.XMLHttpRequest)? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
-
-    xmlhttp.onreadystatechange = function ()
-	{
-
-    }
-		
-    xmlhttp.open("GET", ElanatVariant.AdminDirectoryPath + "/about/action/update_install/" + UpdateVersion + ".aspx", false);
-    xmlhttp.send();
 }
 
 function el_StartReloadElanat()
