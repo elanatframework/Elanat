@@ -2047,6 +2047,19 @@ function el_StartUpdateInstall(UpdateVersion)
 		
     xmlhttp.open("GET", ElanatVariant.AdminDirectoryPath + "/about/action/update_install/" + UpdateVersion + ".aspx", false);
     xmlhttp.send();
-}      
+}
+
+function el_StartReloadElanat()
+{
+    var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+
+    xmlhttp.onreadystatechange = function ()
+    {
+
+    }
+
+    xmlhttp.open("GET", ElanatVariant.AdminDirectoryPath + "/about/action/ReloadElanat.aspx", false);
+    xmlhttp.send();
+}
 
 /* Start Keep Login */

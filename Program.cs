@@ -43,7 +43,7 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-CodeBehindCompiler.Initialization();
+CodeBehindCompiler.Initialization(true);
 
 StaticObject.SystemStart();
 

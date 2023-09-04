@@ -169,30 +169,26 @@ namespace Elanat
                 ResponseForm rf = new ResponseForm(StaticObject.GetCurrentAdminGlobalLanguage());
                 rf.AddLocalMessage(Language.GetAddOnsLanguage("elanat_was_update", StaticObject.GetCurrentAdminGlobalLanguage(), StaticObject.AdminPath + "/about/"), "success");
                 rf.AddLocalMessage(version.Attributes["value"].Value, "help");
-                rf.AddReturnFunction("el_KeppLoginAjaxInstall('" + version.Attributes["value"].Value + "')");
 
+                if (File.Exists(AppContext.BaseDirectory + "/ElanatUpdate.dll"))
+                {
+                    File.Move(AppContext.BaseDirectory + "/Elanat.dll", AppContext.BaseDirectory + "/ElanatPreviousVersion.dll", true);
+
+                    File.Move(AppContext.BaseDirectory + "/ElanatUpdate.dll", AppContext.BaseDirectory + "/Elanat.dll", true);
+
+
+                    // Set Reload Elanat
+                    rf.AddReturnFunction("el_StartReloadElanat()");
+                }
+
+                rf.AddReturnFunction("el_KeppLoginAjaxInstall('" + version.Attributes["value"].Value + "')");
 
                 // Add Reference
                 ReferenceClass rc = new ReferenceClass();
                 rc.StartEvent("update", version.Attributes["value"].Value);
 
                 rf.RedirectToResponseFormPage();
-
-
-                if (File.Exists(AppContext.BaseDirectory + "/ElanatUpdate.dll"))
-                {
-                    // Set Unload Elanat
-                    AppDomain.Unload(AppDomain.CurrentDomain);
-
-
-                    File.Move(AppContext.BaseDirectory + "/ElanatUpdate.dll", AppContext.BaseDirectory + "/Elanat.dll", true);
-
-
-                    // Set Reload Elanat
-                    var fileName = Process.GetCurrentProcess().MainModule.FileName;
-                    Process.Start(fileName);
-                    Environment.Exit(0);
-                }
+                return;
             }
 
             CheckNewUpdate();
