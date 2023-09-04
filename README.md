@@ -14,6 +14,7 @@ https://github.com/elanatframework/Elanat_old
 Elanat site view section image
 ![Elanat site view section](https://github.com/elanatframework/Elanat/assets/111444759/19bf9019-9aca-43ce-ad44-2754af5176e1)
 
+### The most powerful .NET system
 
 Elanat framework is one of the best systems on the web. There is also a built-in CMS in Elanat core. Elanat uses an [CodeBehind](https://github.com/elanatframework/Code_behind) infrastructure MVC architecture that is not related to Microsoft ASP.NET MVC.
 This system is very powerful and very large and it benefits from a very modern structure that allows you to create up to 20 new add-ons for Elanat every day.
@@ -22,6 +23,7 @@ The wonderful structure of Elanat is in a way that it interacts with 8 types of 
 Elanat admin view section image
 ![Elanat admin view section](https://github.com/elanatframework/Elanat/assets/111444759/78b077fc-5d68-4c43-832e-aec1851512fa)
 
+### Big project with the best technologies
 
 There are nearly 600 executable aspx files, 56 DBMS tables, 560 stored procedures, more than 600 XML files and nearly 70 JavaScript files in Elanat core.
 
@@ -41,17 +43,11 @@ We also used several high-level technologies:
 
 In many cases, the Elanat system is better than Microsoft SharePoint, Drupal and Liferay.
 
-Elanat runs all available programming languages, both web-based and hardware-based. You just need to create your add-on in your favorite programming language. A small list of programming languages supported by Elanat:
-C, C++
-PHP
-Python
-ruby
-Perl
-node.js
+### Create add-on (based on ASP.NET Core)
 
-We encourage you to create your own add-on for Elanat; The link below is Elanat separate add-on repository and you can add any add-on you like in this repository.
+To create a plugin for Elanat, refer to the link below and read the README.md file.
 
-https://github.com/elanatframework/Elanat_add-ons
+[https://github.com/elanatframework/Elanat_add-ons/tree/elanat_framework/plugin/plugin_hello_world](https://github.com/elanatframework/Elanat_add-ons/tree/elanat_framework/plugin/plugin_hello_world)
 
 ### Add-ons
 
@@ -81,6 +77,21 @@ Fetch: Fetch is a add-on that combines database queries with HTML tags and can b
 Extra helper: Extra helpers are add-ons that only showed in admin section of Elanat framework and only administrators access to this add-ons.
 
 Editor template: Editor templates add-ons are part of a html page template; each of the Editor templates helps content writers use a ready-made template to create pages faster and more organized.
+
+### Support all programming language
+
+Elanat runs all available programming languages, both web-based and hardware-based. You just need to create your add-on in your favorite programming language. A small list of programming languages supported by Elanat:
+
+ - C, C++
+ - PHP
+ - Python
+ - ruby
+ - Perl
+ - node.js
+
+We encourage you to create your own add-on for Elanat; The link below is Elanat separate add-on repository and you can add any add-on you like in this repository.
+
+https://github.com/elanatframework/Elanat_add-ons
 
 ### Website:
 
