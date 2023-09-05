@@ -19,7 +19,7 @@ namespace Elanat
             XmlNode node = doc.SelectSingleNode("site_catalog_root/site_page_list/user_agreement");
 
 
-            string UserAgreement = PageLoader.LoadPage(node.Attributes["load_type"].Value, StaticObject.SitePath + "App_Data/elanat_system_data/site_data/" + SiteGlobalName + "/static_page/user_agreement/index.html");
+            string UserAgreement = PageLoader.LoadPage(node.Attributes["load_type"].Value, StaticObject.SitePath + "App_Data/elanat_system_data/site_data/" + SiteGlobalName + "/static_page/user_agreement/index.html", false);
 
             if (node.Attributes["use_language"].Value == "true")
                 UserAgreement = ar.ReadLanguage(UserAgreement, StaticObject.GetCurrentSiteGlobalLanguage());

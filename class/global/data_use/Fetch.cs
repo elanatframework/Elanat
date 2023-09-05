@@ -1,11 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
-using System.Linq;
-using System.Web;
-using CodeBehind;
+﻿using System.Data.SqlClient;
 using System.Xml;
-using Microsoft.Extensions.Caching.Memory;
 
 namespace Elanat.DataUse
 {

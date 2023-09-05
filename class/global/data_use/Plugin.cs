@@ -1,5 +1,4 @@
-﻿using Microsoft.Extensions.Caching.Memory;
-using System.Data.SqlClient;
+﻿using System.Data.SqlClient;
 using System.Xml;
 
 namespace Elanat.DataUse
@@ -57,7 +56,7 @@ namespace Elanat.DataUse
             XmlNode PluginCatalog = CatalogDocument.SelectSingleNode("/plugin_catalog_root");
 
             if (!string.IsNullOrEmpty(PluginCatalog["plugin_uninstall_path"].Attributes["value"].Value))
-                PageLoader.LoadWithServer(StaticObject.SitePath + "add_on/plugin/" + dup.PluginDirectoryPath + "/" + PluginCatalog["plugin_uninstall_path"].Attributes["value"].Value);
+                PageLoader.LoadPath(StaticObject.SitePath + "add_on/plugin/" + dup.PluginDirectoryPath + "/" + PluginCatalog["plugin_uninstall_path"].Attributes["value"].Value, false);
 
 
             DataBaseSocket db = new DataBaseSocket();

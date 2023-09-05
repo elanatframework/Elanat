@@ -387,6 +387,11 @@ namespace Elanat.DataUse
 
         public string GetViewIdByQueryString(string QueryString)
         {
+            if (!string.IsNullOrEmpty(QueryString))
+                if (QueryString[0] == '?')
+                    QueryString = QueryString.Remove(0, 1);
+
+
             DataBaseSocket db = new DataBaseSocket();
             DataBaseDataReader dbdr = new DataBaseDataReader();
 			dbdr.dr = db.GetProcedure("get_view_query_string");

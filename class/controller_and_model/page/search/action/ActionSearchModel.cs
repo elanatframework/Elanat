@@ -45,7 +45,6 @@ namespace Elanat
 
             int MnimumSearchCharacter = node["minimum_search_character"].Attributes["value"].Value.ToNumber();
             int SearchedPerPage = int.Parse(node["searched_per_page"].Attributes["value"].Value);
-            int NextSearchDelay = int.Parse(node["next_search_delay"].Attributes["value"].Value);
             bool SaveSearchedTextToFootPrint = node["save_searched_text_to_foot_print"].Attributes["active"].Value == "true";
 
             

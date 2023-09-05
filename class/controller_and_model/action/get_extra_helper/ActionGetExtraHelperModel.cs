@@ -1,5 +1,4 @@
 ﻿using CodeBehind;
-using Microsoft.Extensions.Caching.Memory;
 using System.Xml;
 
 namespace Elanat
@@ -53,7 +52,7 @@ namespace Elanat
 
             string ExtraHelperValue = "";
             string ExtraHelperLoadType = CatalogDocument.SelectSingleNode("extra_helper_catalog_root/extra_helper_load_type").Attributes["value"].Value;
-            ExtraHelperValue = PageLoader.LoadPage(ExtraHelperLoadType, StaticObject.SitePath + "add_on/extra_helper/" + dbdr.dr["extra_helper_physical_path"].ToString() + "?" + new HttpContextAccessor().HttpContext.Request.QueryString.ToString());
+            ExtraHelperValue = PageLoader.LoadPage(ExtraHelperLoadType, StaticObject.SitePath + "add_on/extra_helper/" + dbdr.dr["extra_helper_physical_path"].ToString() + new HttpContextAccessor().HttpContext.Request.QueryString.ToString());
 
 
             if (ExtraHelperLoadType != "iframe" && ExtraHelperLoadType != "ajax")

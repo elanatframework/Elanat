@@ -2,15 +2,24 @@
 using Microsoft.AspNetCore.Http.Extensions;
 using System.Net;
 using System.Xml;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace Elanat
 {
 	public class PageLoader
 	{
         /// <param name="LoadWith">iframe, ajax, text, server, on_server</param>
-        public static string LoadPage(string LoadWith, string Path)
+        public static string LoadPage(string LoadWith, string Path, bool CheckAccess = true)
         {
+            if (CheckAccess && ((LoadWith != "iframe") && (LoadWith != "ajax")))
+            {
+                HttpContext context = new HttpContextAccessor().HttpContext;
+
+                // Check Role Path Access
+                Access acs = new Access();
+                if (!acs.RolePathAccessCheck(Path, context.Request.Form.ToString()))
+                    return null;
+            }
+
             switch (LoadWith)
             {
                 case "iframe": return LoadWithIframe(Path);
@@ -74,9 +83,12 @@ namespace Elanat
             if (!UsePhysicalPath)
                 Path = StaticObject.ServerMapPath(Path);
 
-            var Lines = File.OpenText(Path);
-            string FileText = Lines.ReadToEnd();
-            Lines.Close();
+            string FileText = null;
+
+            using (FileStream TmpFileStream = File.Open(Path, FileMode.Open, FileAccess.Read))
+            {
+                FileText = new StreamReader(TmpFileStream).ReadToEnd();
+            }
 
             return FileText;
         }
@@ -165,6 +177,75 @@ namespace Elanat
 
             HttpClient webClient = new HttpClient();
             string DataValue = webClient.GetStringAsync(GlobalClass.GetSiteMainUrl() + Dir + Path).Result;
+
+            return DataValue;
+        }
+
+        public static string LoadPath(string Path, bool CheckAccess = true)
+        {
+            HttpContext context = new HttpContextAccessor().HttpContext;
+
+            if (CheckAccess)
+            {
+                // Check Role Path Access
+                Access acs = new Access();
+                if (!acs.RolePathAccessCheck(Path, context.Request.Form.ToString()))
+                    return null;
+            }
+
+
+            FileAndDirectory fad = new FileAndDirectory();
+
+            string DataValue = null;
+            string QueryString = (Path.Contains("?")) ? "?" + Path.GetTextAfterValue("?") : null;
+            string Extension = System.IO.Path.GetExtension(Path.GetTextBeforeValue("?").ToLower());
+
+            if (Extension == ".aspx")
+            {
+                DataValue = LoadWithServer(Path);
+            }
+            else if (Extension == ".dll")
+            {
+                DataValue = NativeDll.NativeMethods.Main(StaticObject.ServerMapPath(Path.GetTextBeforeValue("?")), context.Request.Form.ToString(), QueryString);
+            }
+            else if (Extension.IsScriptExtension())
+            {
+                fad.FillScriptExtensionInfo(Extension);
+
+                // Set Arguments
+                string PackagePath = @fad.ScriptExtensioPackagePath;
+                string RunPathCommand = fad.ScriptExtensioRunPathCommand;
+
+                PackagePath = PackagePath.Replace("$_asp quotation_mark;", "\"");
+                PackagePath = PackagePath.Replace("$_asp site_path;", StaticObject.ServerMapPath(StaticObject.SitePath));
+                RunPathCommand = RunPathCommand.Replace("$_asp quotation_mark;","\"");
+                RunPathCommand = RunPathCommand.Replace("$_asp site_path;", StaticObject.ServerMapPath(StaticObject.SitePath));
+                RunPathCommand = RunPathCommand.Replace("$_asp page_path;", StaticObject.ServerMapPath(Path.GetTextBeforeValue("?")));
+                RunPathCommand = RunPathCommand.Replace("$_asp query_string;", QueryString.Replace("\"", "$_asp quotation_mark;"));
+                RunPathCommand = RunPathCommand.Replace("$_asp form_data;", context.Request.Form.ToString().Replace("\"", "$_asp quotation_mark;"));
+
+
+                System.Diagnostics.Process cmd = new System.Diagnostics.Process();
+                cmd.StartInfo.FileName = "cmd.exe";
+                cmd.StartInfo.Arguments = "/C c:& cd " + PackagePath + "& " + RunPathCommand;
+                cmd.StartInfo.UseShellExecute = false;
+                cmd.StartInfo.RedirectStandardOutput = true;
+                cmd.StartInfo.RedirectStandardError = true;
+                cmd.Start();
+
+                while (!cmd.StandardOutput.EndOfStream)
+                {
+                    string line = cmd.StandardOutput.ReadLine();
+                    DataValue += line;
+                }
+            }
+            else
+            {
+                using (FileStream TmpFileStream = File.Open(StaticObject.ServerMapPath(Path.GetTextBeforeValue("?")), FileMode.Open, FileAccess.Read))
+                {
+                    DataValue = new StreamReader(TmpFileStream).ReadToEnd();
+                }
+            }
 
             return DataValue;
         }

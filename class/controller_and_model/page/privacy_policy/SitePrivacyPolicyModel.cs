@@ -19,7 +19,7 @@ namespace Elanat
             XmlNode node = doc.SelectSingleNode("site_catalog_root/site_page_list/privacy_policy");
 
 
-            string PrivacyPolicy = PageLoader.LoadPage(node.Attributes["load_type"].Value, StaticObject.SitePath + "App_Data/elanat_system_data/site_data/" + SiteGlobalName + "/static_page/privacy_policy/index.html");
+            string PrivacyPolicy = PageLoader.LoadPage(node.Attributes["load_type"].Value, StaticObject.SitePath + "App_Data/elanat_system_data/site_data/" + SiteGlobalName + "/static_page/privacy_policy/index.html", false);
 
             if (node.Attributes["use_language"].Value == "true")
                 PrivacyPolicy = ar.ReadLanguage(PrivacyPolicy, StaticObject.GetCurrentSiteGlobalLanguage());

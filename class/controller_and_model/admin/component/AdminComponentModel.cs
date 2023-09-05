@@ -490,7 +490,7 @@ namespace Elanat
 
             // Run Install Page
             if (!string.IsNullOrEmpty(ComponentCatalog["component_install_path"].Attributes["value"].Value))
-                PageLoader.LoadWithServer(StaticObject.AdminPath + "/" + duc.ComponentDirectoryPath + "/" + ComponentCatalog["component_install_path"].Attributes["value"].Value);
+                PageLoader.LoadPath(StaticObject.AdminPath + "/" + duc.ComponentDirectoryPath + "/" + ComponentCatalog["component_install_path"].Attributes["value"].Value, false);
 
 
             // Add Reference

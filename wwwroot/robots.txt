@@ -26,4 +26,3 @@ Disallow: /page/sign_up/
 Disallow: /page_content/robot_detect_captcha/
 Disallow: /template/
 Disallow: /upload/
-Disallow: /PageHandlersLoader.aspx*

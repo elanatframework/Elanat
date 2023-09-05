@@ -50,7 +50,7 @@ namespace Elanat.DataUse
             XmlNode ExtraHelperCatalog = CatalogDocument.SelectSingleNode("/extra_helper_catalog_root");
 
             if (!string.IsNullOrEmpty(ExtraHelperCatalog["extra_helper_uninstall_path"].Attributes["value"].Value))
-                PageLoader.LoadWithServer(StaticObject.SitePath + "add_on/extra_helper/" + dueh.ExtraHelperDirectoryPath + "/" + ExtraHelperCatalog["extra_helper_uninstall_path"].Attributes["value"].Value);
+                PageLoader.LoadPath(StaticObject.SitePath + "add_on/extra_helper/" + dueh.ExtraHelperDirectoryPath + "/" + ExtraHelperCatalog["extra_helper_uninstall_path"].Attributes["value"].Value, false);
 
 
             DataBaseSocket db = new DataBaseSocket();

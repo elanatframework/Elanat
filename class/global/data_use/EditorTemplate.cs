@@ -50,7 +50,7 @@ namespace Elanat.DataUse
             XmlNode EditorTemplateCatalog = CatalogDocument.SelectSingleNode("/editor_template_catalog_root");
 
             if (!string.IsNullOrEmpty(EditorTemplateCatalog["editor_template_uninstall_path"].Attributes["value"].Value))
-                PageLoader.LoadWithServer(StaticObject.SitePath + "add_on/editor_template/" + duet.EditorTemplateDirectoryPath + "/" + EditorTemplateCatalog["editor_template_uninstall_path"].Attributes["value"].Value);
+                PageLoader.LoadPath(StaticObject.SitePath + "add_on/editor_template/" + duet.EditorTemplateDirectoryPath + "/" + EditorTemplateCatalog["editor_template_uninstall_path"].Attributes["value"].Value, false);
 
 
             DataBaseSocket db = new DataBaseSocket();

@@ -49,7 +49,7 @@ namespace Elanat
                     if (CheckType == "page")
                     {
                         Security.UseSystemAccess();
-                        PageLoader.LoadWithServer(LoadValue + FirstCharacter + QueryString + "&el_system_access_code=" + StaticObject.SystemAccessCode);
+                        PageLoader.LoadPath(LoadValue + FirstCharacter + QueryString + "&el_system_access_code=" + StaticObject.SystemAccessCode, false);
                     }
 
                     if (CheckType == "method")
@@ -161,12 +161,12 @@ namespace Elanat
                         if (AfterOrBefore == "after")
                         {
                             Security.UseSystemAccess();
-                            PageLoader.LoadWithServer(LoadValue + FirstCharacter + QueryString + "&el_system_access_code=" + StaticObject.SystemAccessCode);
+                            PageLoader.LoadPath(LoadValue + FirstCharacter + QueryString + "&el_system_access_code=" + StaticObject.SystemAccessCode, false);
                         }
                         else
                         {
                             Security.UseSystemAccess();
-                            string ReturnValue = PageLoader.LoadWithServer(LoadValue + FirstCharacter + QueryString + "&el_system_access_code=" + StaticObject.SystemAccessCode);
+                            string ReturnValue = PageLoader.LoadPath(LoadValue + FirstCharacter + QueryString + "&el_system_access_code=" + StaticObject.SystemAccessCode, false);
                             if (ReturnValue == "false")
                             {
                                 AllowAccessPath = false;

@@ -1,6 +1,4 @@
 ﻿using CodeBehind;
-using Microsoft.AspNetCore.Http.Extensions;
-using Microsoft.Extensions.Caching.Memory;
 using System.Xml;
 
 namespace Elanat

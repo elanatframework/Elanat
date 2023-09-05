@@ -358,7 +358,7 @@ namespace Elanat
 
             // Run Install Page
             if (!string.IsNullOrEmpty(EditorTemplateCatalog["editor_template_install_path"].Attributes["value"].Value))
-                PageLoader.LoadWithServer(StaticObject.SitePath + "add_on/editor_template/" + duet.EditorTemplateDirectoryPath + "/" + EditorTemplateCatalog["editor_template_install_path"].Attributes["value"].Value);
+                PageLoader.LoadPath(StaticObject.SitePath + "add_on/editor_template/" + duet.EditorTemplateDirectoryPath + "/" + EditorTemplateCatalog["editor_template_install_path"].Attributes["value"].Value, false);
 
 
             // Add Reference

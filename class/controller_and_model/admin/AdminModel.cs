@@ -1,5 +1,4 @@
 ﻿using CodeBehind;
-using Microsoft.Extensions.Caching.Memory;
 using System.Xml;
 
 namespace Elanat
@@ -459,7 +458,7 @@ namespace Elanat
 
 
             // Load Component
-            CurrentComponentContent = PageLoader.LoadPage(duc.ComponentLoadType, StaticObject.AdminPath + "/" + duc.ComponentDirectoryPath + "/" + duc.ComponentPhysicalName + (!string.IsNullOrEmpty(CurrentQueryString) ? "?" + CurrentQueryString : ""));
+            CurrentComponentContent = PageLoader.LoadPage(duc.ComponentLoadType, StaticObject.AdminPath + "/" + duc.ComponentDirectoryPath + "/" + duc.ComponentPhysicalName + (!string.IsNullOrEmpty(CurrentQueryString) ? CurrentQueryString : ""));
 
 
             // Set Replace Value

@@ -122,11 +122,11 @@
     <captcha_character_count from="4" to="6" />
     <captcha_font value="tahoma" />
     <!-- Note: captcha_font_size = em Size -->
-    <captcha_font_size value="16" />
+    <captcha_font_size value="18" />
     <!-- Note: captcha_height = 0 To 100 And Always Most Be Bigger Than captcha_font_size -->
     <captcha_height value="30" />
     <!-- Note: captcha_noise = 0 To 100 -->
-    <captcha_noise value="10" />
+    <captcha_noise value="8" />
     <captcha_repeat_time active="false" value="5" />
     <captcha_rotate_transform value="5" />
     <captcha_width value="200" />

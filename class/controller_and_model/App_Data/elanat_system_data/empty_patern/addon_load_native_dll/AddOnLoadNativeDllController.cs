@@ -9,6 +9,10 @@ namespace Elanat
             string FormString = context.Request.Form.ToString();
             string QueryString = context.Request.QueryString.ToString();
 
+            if (!string.IsNullOrEmpty(QueryString))
+                if (QueryString[0] == '?')
+                    QueryString = QueryString.Remove(0, 1);
+
             Write(NativeDll.NativeMethods.Main(StaticObject.ServerMapPath("main.dll"), FormString, QueryString));
         }
     }

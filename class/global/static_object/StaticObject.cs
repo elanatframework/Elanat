@@ -479,6 +479,7 @@ namespace Elanat
 
         public static void SetSiteTemplate()
         {
+            // Try Catch For Install Issues
             try
             {
                 DataUse.SiteTemplate dust = new DataUse.SiteTemplate();

@@ -1,5 +1,4 @@
 ﻿using CodeBehind;
-using Microsoft.Extensions.Caching.Memory;
 
 namespace Elanat
 {

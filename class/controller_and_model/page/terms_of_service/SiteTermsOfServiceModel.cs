@@ -19,7 +19,7 @@ namespace Elanat
             XmlNode node = doc.SelectSingleNode("site_catalog_root/site_page_list/terms_of_service");
 
 
-            string TermsOfService = PageLoader.LoadPage(node.Attributes["load_type"].Value, StaticObject.SitePath + "App_Data/elanat_system_data/site_data/" + SiteGlobalName + "/static_page/terms_of_service/index.html");
+            string TermsOfService = PageLoader.LoadPage(node.Attributes["load_type"].Value, StaticObject.SitePath + "App_Data/elanat_system_data/site_data/" + SiteGlobalName + "/static_page/terms_of_service/index.html", false);
 
             if (node.Attributes["use_language"].Value == "true")
                 TermsOfService = ar.ReadLanguage(TermsOfService, StaticObject.GetCurrentSiteGlobalLanguage());

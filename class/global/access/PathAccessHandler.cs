@@ -512,7 +512,7 @@ namespace Elanat
 
 
                                         // Get Page Content
-                                        ComponentContent = PageLoader.LoadWithServer(Path);
+                                        ComponentContent = PageLoader.LoadPath(Path, false);
 
 
                                         AttributeReader ar = new AttributeReader();
@@ -600,7 +600,7 @@ namespace Elanat
 
 
                                         // Get Component Content
-                                        ComponentContent = PageLoader.LoadWithServer(Path);
+                                        ComponentContent = PageLoader.LoadPath(Path, false);
 
 
                                         AttributeReader ar = new AttributeReader();
@@ -688,7 +688,7 @@ namespace Elanat
 
 
                                         // Get Module Content
-                                        ComponentContent = PageLoader.LoadWithServer(Path);
+                                        ComponentContent = PageLoader.LoadPath(Path, false);
 
 
                                         AttributeReader ar = new AttributeReader();
@@ -776,7 +776,7 @@ namespace Elanat
 
 
                                         // Get Plugin Content
-                                        ComponentContent = PageLoader.LoadWithServer(Path);
+                                        ComponentContent = PageLoader.LoadPath(Path, false);
 
 
                                         AttributeReader ar = new AttributeReader();
@@ -864,7 +864,7 @@ namespace Elanat
 
 
                                         // Get Extra Helper Content
-                                        ComponentContent = PageLoader.LoadWithServer(Path);
+                                        ComponentContent = PageLoader.LoadPath(Path, false);
 
 
                                         AttributeReader ar = new AttributeReader();
@@ -953,7 +953,7 @@ namespace Elanat
 
 
                                         // Get Editor Template Content
-                                        ComponentContent = PageLoader.LoadWithServer(Path);
+                                        ComponentContent = PageLoader.LoadPath(Path, false);
 
 
                                         AttributeReader ar = new AttributeReader();

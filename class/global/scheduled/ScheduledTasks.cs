@@ -43,7 +43,7 @@ namespace Elanat
                                     Security.UseSystemAccess();
                                     string Path = element.Attributes["path"].Value;
                                     string SystemAccessCodeQueryString = (Path.Contains("?")) ? "&el_system_access_code=" + StaticObject.SystemAccessCode : "?el_system_access_code=" + StaticObject.SystemAccessCode;
-                                    PageLoader.LoadWithServer(Path + SystemAccessCodeQueryString);
+                                    PageLoader.LoadPath(Path + SystemAccessCodeQueryString, false);
 
                                     SetLastRun(element.Attributes["name"].Value);
                                 }

@@ -96,6 +96,8 @@ namespace Elanat
             }
             else
             {
+                db.Close();
+
                 ResponseForm.WriteLocalAlone(Language.GetAddOnsLanguage("no_contact_response_has_been_received_yet", StaticObject.GetCurrentSiteGlobalLanguage(), StaticObject.SitePath + "page/contact/contact_response/"), "problem");
 
                 return;

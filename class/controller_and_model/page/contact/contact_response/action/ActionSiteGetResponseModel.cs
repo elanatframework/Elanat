@@ -13,7 +13,7 @@ namespace Elanat
             // Set Language
             ContactResponseTextLanguage = Language.GetAddOnsLanguage("contact_response_text", StaticObject.GetCurrentSiteGlobalLanguage(), StaticObject.SitePath + "page/contact/contact_response/");
 
-            ContactResponseValue = StaticObject.GetSession("el_contact_response_text").ToString();
+            ContactResponseValue = context.Session.GetString("el_contact_response_text");
 
             context.Session.Remove("el_contact_response_text");
         }

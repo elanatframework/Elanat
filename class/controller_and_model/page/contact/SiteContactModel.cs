@@ -278,7 +278,7 @@ namespace Elanat
             XmlNode ContactNode = doc.SelectSingleNode("site_catalog_root/site_page_list/contact");
 
 
-            string Contact = PageLoader.LoadPage(ContactNode.Attributes["load_type"].Value, StaticObject.SitePath + "App_Data/elanat_system_data/site_data/" + SiteGlobalName + "/static_page/contact/index.html");
+            string Contact = PageLoader.LoadPage(ContactNode.Attributes["load_type"].Value, StaticObject.SitePath + "App_Data/elanat_system_data/site_data/" + SiteGlobalName + "/static_page/contact/index.html", false);
 
             if (ContactNode.Attributes["use_language"].Value == "true")
                 Contact = ar.ReadLanguage(Contact, StaticObject.GetCurrentSiteGlobalLanguage());

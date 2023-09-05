@@ -1,4 +1,5 @@
-﻿using System.Net.Mail;
+﻿using System.Net;
+using System.Net.Mail;
 using System.Xml;
 
 namespace Elanat
@@ -637,9 +638,9 @@ namespace Elanat
                 string[] NameValue = element.Split('=');
 
                 if (NameValue.Length > 1)
-                    TmplistItems.Add(NameValue[0], NameValue[1]);
+                    TmplistItems.Add(WebUtility.UrlDecode(NameValue[0]), WebUtility.UrlDecode(NameValue[1]));
                 else
-                    TmplistItems.Add(NameValue[0], "");
+                    TmplistItems.Add(WebUtility.UrlDecode(NameValue[0]), "");
             }
 
             return TmplistItems;

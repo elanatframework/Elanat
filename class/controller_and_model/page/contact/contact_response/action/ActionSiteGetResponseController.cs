@@ -8,10 +8,13 @@ namespace Elanat
 
         public void PageLoad(HttpContext context)
         {
-            if (!string.IsNullOrEmpty(StaticObject.GetSession("el_contact_response_text")))
+            if (context.Session.GetString("el_contact_response_text") != null)
             {
                 model.SetValue(context);
+
                 View(model);
+
+                return;
             }
 
             IgnoreViewAndModel = true;

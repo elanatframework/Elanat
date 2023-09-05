@@ -49,7 +49,7 @@ namespace Elanat
                 string PageLoadTagId = context.Request.Query["page_load_tag_id" + i.ToString()].ToString();
                 
                 string PageLoadAfterSubmitTemplate = StaticObject.StructDocument.SelectSingleNode("struct_root/page_load_after_submit").InnerText;
-                string PageContext = PageLoader.LoadWithServer(PageLoadPath);
+                string PageContext = PageLoader.LoadPath(PageLoadPath);
 
                 PageLoadAfterSubmitTemplate = PageLoadAfterSubmitTemplate.Replace("$_asp context;", PageContext);
                 PageLoadAfterSubmitTemplate = PageLoadAfterSubmitTemplate.Replace("$_asp tag_id;", PageLoadTagId);

@@ -390,7 +390,7 @@ namespace Elanat
                     else
                         Content = Content.Replace("$_asp rating;", null);
 
-                    Content += (ShowAddCommentInContent) ? PageLoader.LoadPage(LoadWith, StaticObject.SitePath + "page/comment/Default.aspx?content_id=" + dbdr.dr["content_id"].ToString()) : null;
+                    Content += (ShowAddCommentInContent) ? PageLoader.LoadPage(LoadWith, StaticObject.SitePath + "page/comment/Default.aspx?content_id=" + dbdr.dr["content_id"].ToString(), false) : null;
 
                     ReadMore = "";
                     SumContent += BeforeContent + Content + AfterContent;
@@ -688,7 +688,7 @@ namespace Elanat
                 else
                     Content = Content.Replace("$_asp rating;", null);
 
-                Content += (ShowAddCommentInContent) ? PageLoader.LoadPage(LoadWith,  StaticObject.SitePath + "page/comment/Default.aspx?content_id=" + dbdr.dr["content_id"].ToString()) : null;
+                Content += (ShowAddCommentInContent) ? PageLoader.LoadPage(LoadWith,  StaticObject.SitePath + "page/comment/Default.aspx?content_id=" + dbdr.dr["content_id"].ToString(), false) : null;
             
                 // Set Value
                 CurrentCategoryId = dbdr.dr["category_id"].ToString();

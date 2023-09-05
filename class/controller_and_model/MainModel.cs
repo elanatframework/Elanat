@@ -195,6 +195,12 @@ namespace Elanat
 
             // Set Common Value
             CurrentQueryString += context.Request.QueryString.ToString();
+
+            if (!string.IsNullOrEmpty(CurrentQueryString))
+                if (CurrentQueryString[0] == '?')
+                    CurrentQueryString = CurrentQueryString.Remove(0, 1);
+
+
             CurrentGroupId = StaticObject.GetCurrentGroupId();
 
             // Set Elanat Value
@@ -808,7 +814,7 @@ namespace Elanat
                     CurrentPageContent = chfpp.GetValue(dup.PageId, context.Request.QueryString.ToListItems());
                 }
                 else
-                    CurrentPageContent = PageLoader.LoadWithServer(StaticObject.SitePath + "page/" + dup.PageDirectoryPath + "/" + dup.PagePhysicalName + (!string.IsNullOrEmpty(CurrentQueryString) ? "?" + CurrentQueryString : ""));
+                    CurrentPageContent = PageLoader.LoadPath(StaticObject.SitePath + "page/" + dup.PageDirectoryPath + "/" + dup.PagePhysicalName + (!string.IsNullOrEmpty(CurrentQueryString) ? "?" + CurrentQueryString : ""));
             }
             else
                 CurrentPageContent = PageLoader.LoadPage(dup.PageLoadType, StaticObject.SitePath + "page/" + dup.PageDirectoryPath + "/" + dup.PagePhysicalName + (!string.IsNullOrEmpty(CurrentQueryString) ? "?" + CurrentQueryString : ""));

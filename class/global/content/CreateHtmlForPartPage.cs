@@ -1,7 +1,4 @@
-﻿
-using Microsoft.Extensions.Caching.Memory;
-
-namespace Elanat
+﻿namespace Elanat
 {
     public class CreateHtmlForPartPage
     {

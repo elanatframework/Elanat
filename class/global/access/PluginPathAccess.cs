@@ -251,7 +251,7 @@ namespace Elanat
                             i++;
                         }
 
-                        string ReturnValue = PageLoader.LoadWithServer(LoadValueCheck + FirstCharacter + string.Join("&", NewQueryString));
+                        string ReturnValue = PageLoader.LoadPath(LoadValueCheck + FirstCharacter + string.Join("&", NewQueryString), false);
                         if (ReturnValue == "true")
                         {
                             IsUserAccessToPluginPathForEditOwn = true;
@@ -595,7 +595,7 @@ namespace Elanat
                             i++;
                         }
 
-                        string ReturnValue = PageLoader.LoadWithServer(LoadValueCheck + FirstCharacter + string.Join("&", NewQueryString));
+                        string ReturnValue = PageLoader.LoadPath(LoadValueCheck + FirstCharacter + string.Join("&", NewQueryString), false);
                         if (ReturnValue == "true")
                         {
                             IsUserAccessToPluginPathForDeleteOwn = true;

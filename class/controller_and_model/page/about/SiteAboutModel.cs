@@ -17,7 +17,7 @@ namespace Elanat
             XmlNode node = doc.SelectSingleNode("site_catalog_root/site_page_list/about");
 
 
-            string About = PageLoader.LoadPage(node.Attributes["load_type"].Value, StaticObject.SitePath + "App_Data/elanat_system_data/site_data/" + SiteGlobalName + "/static_page/about/index.html");
+            string About = PageLoader.LoadPage(node.Attributes["load_type"].Value, StaticObject.SitePath + "App_Data/elanat_system_data/site_data/" + SiteGlobalName + "/static_page/about/index.html", false);
 
             if (node.Attributes["use_language"].Value == "true")
                 About = ar.ReadLanguage(About, StaticObject.GetCurrentSiteGlobalLanguage());
