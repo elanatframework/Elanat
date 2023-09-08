@@ -110,12 +110,12 @@
 		<header_1>
 			<box>
 			<![CDATA[
-		<div class="el_header_1_item">
-				  <div class="el_menu_title">$_asp menu_name;</div>
-				  <ul>
-					  $_asp item;
-				  </ul>
-		</div>
+			<div class="el_header_1_item">
+			  <div class="el_menu_title">$_asp menu_name;</div>
+			  <ul>
+				  $_asp item;
+			  </ul>
+			</div>
 			]]>
 			</box>
 			<list_item>

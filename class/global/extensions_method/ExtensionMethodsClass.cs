@@ -655,7 +655,7 @@ namespace Elanat
 
         public static string GetValue(this List<ListItem> ListItemCollection, string Text)
         {
-            foreach (ListItem li in ListItemCollection)
+            foreach (ListItem li in ListItemCollection.ToList())
             {
                 if (li.Text == Text)
                     return li.Value;
@@ -667,7 +667,7 @@ namespace Elanat
         public static List<ListItem> SetValue(this List<ListItem> ListItemCollection, string Text, string Value)
         {
             int i = 0;
-            foreach (ListItem li in ListItemCollection)
+            foreach (ListItem li in ListItemCollection.ToList())
             {
                 if (li.Text == Text)
                     ListItemCollection[i] = new ListItem(Text, Value);
@@ -681,7 +681,7 @@ namespace Elanat
         public static List<ListItem> ReplaceValue(this List<ListItem> ListItemCollection, string Value, string NewValue)
         {
             int i = 0;
-            foreach (ListItem li in ListItemCollection)
+            foreach (ListItem li in ListItemCollection.ToList())
             {
                 if (li.Value == Value)
                     ListItemCollection[i].Value = NewValue;
@@ -695,7 +695,7 @@ namespace Elanat
         public static string ToQueryString(this List<ListItem> ListItemCollection)
         {
             string ReturnValue = "";
-            foreach (ListItem li in ListItemCollection)
+            foreach (ListItem li in ListItemCollection.ToList())
             {
                 ReturnValue += li.Text + "=" + li.Value + '&';
             }
@@ -709,7 +709,7 @@ namespace Elanat
 
         public static bool HasText(this List<ListItem> ListItemCollection, string Text)
         {
-            foreach (ListItem li in ListItemCollection)
+            foreach (ListItem li in ListItemCollection.ToList())
             {
                 if (li.Text == Text)
                     return true;
@@ -727,7 +727,7 @@ namespace Elanat
 
         public static string GetValueByText(this List<ListItem> ListItemCollection, string Text)
         {
-            foreach (ListItem li in ListItemCollection)
+            foreach (ListItem li in ListItemCollection.ToList())
             {
                 if (li.Text == Text)
                     return li.Value;
@@ -738,7 +738,7 @@ namespace Elanat
 
         public static ListItem FindByValue(this List<ListItem> ListItemCollection, string Value)
         {
-            foreach (ListItem li in ListItemCollection)
+            foreach (ListItem li in ListItemCollection.ToList())
             {
                 if (li.Value == Value)
                     return li;
@@ -905,7 +905,7 @@ namespace Elanat
         {
             string TmpListItemCollection = "";
             int i = 0;
-            foreach (ListItem li in ListItemCollection)
+            foreach (ListItem li in ListItemCollection.ToList())
             {
                 TmpListItemCollection += li.Text;
 
@@ -922,7 +922,7 @@ namespace Elanat
         {
             string TmpListItemCollection = "";
             int i = 0;
-            foreach (ListItem li in ListItemCollection)
+            foreach (ListItem li in ListItemCollection.ToList())
             {
                 TmpListItemCollection += li.Value;
 

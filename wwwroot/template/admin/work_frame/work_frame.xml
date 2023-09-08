@@ -553,12 +553,12 @@
 			<box>
 			<![CDATA[
 			<!-- Start Dashboard Item -->
-        <div class="el_dashboard_item">
-				  <div class="el_menu_title">$_asp menu_name;</div>
-				  <ul>
-					  $_asp item;
-				  </ul>
-        </div>
+			<div class="el_dashboard_item">
+					  <div class="el_menu_title">$_asp menu_name;</div>
+					  <ul>
+						  $_asp item;
+					  </ul>
+			</div>
 			<!-- End Dashboard Item -->
 			]]>
 			</box>
@@ -571,14 +571,14 @@
 			</list_item>
 			<static_item>
 				<today_activity use_module="true" use_box="true">
-          $_module_name today_activity;
-        </today_activity>
+				  $_module_name today_activity;
+				</today_activity>
 				<information use_module="true" use_box="true">
-          $_module_name information;
-        </information>
+				  $_module_name information;
+				</information>
 				<last_data use_module="true" use_box="true">
-          $_module_name last_data;
-        </last_data>
+				  $_module_name last_data;
+				</last_data>
 			</static_item>
 		</dashboard>
 		

@@ -82,9 +82,6 @@ namespace Elanat
                         if (!string.IsNullOrEmpty(Category))
                             continue;
                     }
-
-                    string Id = node.Attributes["id"].Value;
-                    string ControlName = node.Name;
                 }
         }
 
@@ -102,7 +99,6 @@ namespace Elanat
         private void EvaluateTextBox(List<ListItem> FormData, string GlobalLanguage, XmlNode node, string Path)
         {
             string Id = node.Attributes["id"].Value;
-            string ControlName = node.Name;
 
             string Label = "a";
             if (node.Attributes["label"] != null)
@@ -335,7 +331,6 @@ namespace Elanat
         private void EvaluateCheckBoxList(List<ListItem> FormData, string GlobalLanguage, XmlNode node, bool ReadClientInjectionCheck, string Path)
         {
             string Id = node.Attributes["id"].Value;
-            string ControlName = node.Name;
 
             string Label = "a";
             if (node.Attributes["label"] != null)
@@ -545,7 +540,6 @@ namespace Elanat
         private void EvaluateDropDownList(List<ListItem> FormData, string GlobalLanguage, XmlNode node, bool ReadClientInjectionCheck, string Path)
         {
             string Id = node.Attributes["id"].Value;
-            string ControlName = node.Name;
 
             string Label = "a";
             if (node.Attributes["label"] != null)
@@ -754,7 +748,6 @@ namespace Elanat
         private void EvaluateListBox(List<ListItem> FormData, string GlobalLanguage, XmlNode node, bool ReadClientInjectionCheck, string Path)
         {
             string Id = node.Attributes["id"].Value;
-            string ControlName = node.Name;
 
             string Label = "a";
             if (node.Attributes["label"] != null)
@@ -949,7 +942,6 @@ namespace Elanat
         private void EvaluateHiddenField(List<ListItem> FormData, string GlobalLanguage, XmlNode node, bool ReadClientInjectionCheck, string Path)
         {
             string Id = node.Attributes["id"].Value;
-            string ControlName = node.Name;
 
             string Label = "a";
             if (node.Attributes["label"] != null)
@@ -1164,7 +1156,6 @@ namespace Elanat
         private void EvaluateFileUpload(List<ListItem> FormData, string GlobalLanguage, XmlNode node, string Path)
         {
             string Id = node.Attributes["id"].Value;
-            string ControlName = node.Name;
 
             string Label = "a";
             if (node.Attributes["label"] != null)
@@ -1252,14 +1243,14 @@ namespace Elanat
 
                 string ControlName = node.Name;
 
-                ImportantInputClass.Add(ControlName, "");
-                ImportantInputAttribute.Add(ControlName, "");
+                ImportantInputClass.Add(node.Attributes["id"].Value, "");
+                ImportantInputAttribute.Add(node.Attributes["id"].Value, "");
 
                 switch (ControlName)
                 {
                     case "TextBox":
                         {
-                            SetTextBoxImportant(NameValue, node, Path);
+                            SetTextBoxImportant(NameValue, node);
                         }
                         break;
 
@@ -1298,10 +1289,9 @@ namespace Elanat
             return NameValue;
         }
 
-        private void SetTextBoxImportant(List<ListItem> NameValue, XmlNode node, string Path)
+        private void SetTextBoxImportant(List<ListItem> NameValue, XmlNode node)
         {
             string Id = node.Attributes["id"].Value;
-            string ControlName = node.Name;
 
             string Type = "string";
             if (node.Attributes["type"] != null)
