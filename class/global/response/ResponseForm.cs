@@ -76,6 +76,9 @@
             i = 1;
             foreach (string PageLoadPath in PageLoadPathList)
             {
+                // Set Load Access
+                new HttpContextAccessor().HttpContext.Session.SetString("el_use_response_form_load_page_" + PageLoadPathList[i - 1], "_");
+
                 PageLoadPathQuery += "&page_load_path" + i.ToString() + "=" + PageLoadPathList[i - 1].Replace("&", "$_asp amp;");
                 PageLoadTagIdQuery += "&page_load_tag_id" + i.ToString() + "=" + PageLoadTagIdList[i - 1];
 
@@ -100,6 +103,10 @@
         /// <param name="Message">The Message Parameter That Be Translated</param>
         public static void WriteAlone(string Message, string Priority, string Language, bool IsRetrieved = false, string PageLoadPathQuery = "", string PageLoadTagIdQuery = "", string ReturnFunction = "")
         {
+            // Set Load Access
+            if (!string.IsNullOrEmpty(PageLoadPathQuery))
+                new HttpContextAccessor().HttpContext.Session.SetString("el_use_response_form_load_page_" + PageLoadPathQuery, "_");
+
             string UseRetrievedValue = (IsRetrieved) ? "&use_retrieved=true" : "&use_retrieved=false";
 
             new HttpContextAccessor().HttpContext.Response.Redirect(StaticObject.SitePath + "action/response_form/Default.aspx?global_language=" + Language + "&message1=" + Message + "&priority1=" + Priority + "&page_load_path1=" + PageLoadPathQuery.Replace("&", "$_asp amp;") + "&page_load_tag_id1=" + PageLoadTagIdQuery + "&return_function1=" + ReturnFunction + UseRetrievedValue, true);
@@ -108,6 +115,10 @@
         /// <param name="Message">Every Text In Message Parameter Show Without Translated</param>
         public static void WriteLocalAlone(string Message, string Priority, bool IsRetrieved = false, string PageLoadPathQuery = "", string PageLoadTagIdQuery = "", string ReturnFunction = "")
         {
+            // Set Load Access
+            if (!string.IsNullOrEmpty(PageLoadPathQuery))
+                new HttpContextAccessor().HttpContext.Session.SetString("el_use_response_form_load_page_" + PageLoadPathQuery, "_");
+
             string UseRetrievedValue = (IsRetrieved) ? "&use_retrieved=true" : "&use_retrieved=false";
 
             new HttpContextAccessor().HttpContext.Response.Redirect(StaticObject.SitePath + "action/response_form/Default.aspx?global_language=en&local_message1=" + Message + "&local_priority1=" + Priority + "&page_load_path1=" + PageLoadPathQuery.Replace("&", "$_asp amp;") + "&page_load_tag_id1=" + PageLoadTagIdQuery + "&return_function1=" + ReturnFunction + UseRetrievedValue, true, false);

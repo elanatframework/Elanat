@@ -49,6 +49,26 @@ namespace Elanat
                 string PageLoadTagId = context.Request.Query["page_load_tag_id" + i.ToString()].ToString();
                 
                 string PageLoadAfterSubmitTemplate = StaticObject.StructDocument.SelectSingleNode("struct_root/page_load_after_submit").InnerText;
+
+
+                // Prevent Loop
+                if (PageLoadPath.Contains("response_form"))
+                {
+                    i++;
+                    continue;
+                }
+
+
+                // Check Load Access
+                if (context.Session.GetString("el_use_response_form_load_page_" + PageLoadPath) == null)
+                {
+                    i++;
+                    continue;
+                }
+
+                context.Session.Remove("el_use_response_form_load_page_" + PageLoadPath);
+
+
                 string PageContext = PageLoader.LoadPath(PageLoadPath);
 
                 PageLoadAfterSubmitTemplate = PageLoadAfterSubmitTemplate.Replace("$_asp context;", PageContext);
