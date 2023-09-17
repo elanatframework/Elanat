@@ -16,26 +16,17 @@ namespace Elanat
                 return;
             }
 
-            if (string.IsNullOrEmpty(context.Request.Query["captcha"]))
-            {
-                IgnoreViewAndModel = true;
-                return;
-            }
+            string CaptchaValue = "";
+            if (!string.IsNullOrEmpty(context.Request.Query["captcha"]))
+                CaptchaValue = context.Request.Query["captcha"].ToString();
 
-            if (context.Session.GetString("el_captcha") == null)
-            {
-                IgnoreViewAndModel = true;
-                return;
-            }
-
-            if (!context.Request.Query["captcha"].ToString().MatchByCaptcha())
+            if (!CaptchaValue.MatchByCaptcha())
             {
                 // Set Random Number To Captcha Session For Security
                 Random rand = new Random();
                 context.Session.SetString("el_captcha", rand.Next(int.MaxValue).ToString());
 
-                IgnoreViewAndModel |= true;
-
+                IgnoreViewAndModel = true;
                 return;
             }
 
