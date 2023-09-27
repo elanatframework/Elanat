@@ -18,6 +18,8 @@ Elanat site view section image
 
 [Video 1- Brief introduction of Elanat](https://www.youtube.com/watch?v=m_Tc2PrlDvo)
 
+[Video 2- Add add-on](https://www.youtube.com/watch?v=0DZ17F4F79I)
+
 ### The most powerful .NET system
 
 Elanat framework is one of the best systems on the web. There is also a built-in CMS in Elanat core. Elanat uses an [CodeBehind](https://github.com/elanatframework/Code_behind) infrastructure MVC architecture that is not related to Microsoft ASP.NET MVC.
