@@ -13,10 +13,8 @@ namespace Elanat
                 {
                     try
                     {
-                        Security.UseSystemAccess();
                         string Path = node.Attributes["path"].Value;
-                        string SystemAccessCodeQueryString = (Path.Contains("?")) ? "&el_system_access_code=" + StaticObject.SystemAccessCode : "?el_system_access_code=" + StaticObject.SystemAccessCode;
-                        PageLoader.LoadPath(Path + SystemAccessCodeQueryString, false);
+                        PageLoader.LoadPathInSystemStart(Path);
                     }
                     catch (Exception ex)
                     {

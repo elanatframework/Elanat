@@ -7,16 +7,16 @@
     <edit_role>ویرایش نقش</edit_role>
     <role>نقش</role>
     <role_active>نقش فعال</role_active>
-	  <role_add_always_on_top_content>نقش درج محتوای همیشه در بالا</role_add_always_on_top_content>
-	  <role_add_content_without_approval>نقش درج محتوای بدون تایید</role_add_content_without_approval>
-	  <role_add_free_comment_content>نقش درج محتوا با نظر آزاد</role_add_free_comment_content>
-	  <role_admin_dynamic_head_configuration>نقش پیکربندی هدر پویای ادمین</role_admin_dynamic_head_configuration>
-	  <role_admin_global_location_configuration>نقش پیکربندی موقعیت سراسری ادمین</role_admin_global_location_configuration>
-	  <role_admin_global_style_configuration>نقش پیکربندی استایل سراسری ادمین</role_admin_global_style_configuration>
-	  <role_admin_global_template_configuration>نقش پیکربندی قالب سراسری ادمین</role_admin_global_template_configuration>
-	  <role_admin_page_load_configuration>نقش پیکربندی اجرای صفحه ادمین</role_admin_page_load_configuration>
-	  <role_admin_script_configuration>نقش پیکربندی اسکریپت ادمین</role_admin_script_configuration>
-	  <role_admin_static_head_configuration>نقش پیکربندی هدر ایستای ادمین</role_admin_static_head_configuration>
+	<role_add_always_on_top_content>نقش درج محتوای همیشه در بالا</role_add_always_on_top_content>
+	<role_add_content_without_approval>نقش درج محتوای بدون تایید</role_add_content_without_approval>
+	<role_add_free_comment_content>نقش درج محتوا با نظر آزاد</role_add_free_comment_content>
+	<role_admin_dynamic_head_configuration>نقش پیکربندی هدر پویای ادمین</role_admin_dynamic_head_configuration>
+	<role_admin_global_location_configuration>نقش پیکربندی موقعیت سراسری ادمین</role_admin_global_location_configuration>
+	<role_admin_global_style_configuration>نقش پیکربندی استایل سراسری ادمین</role_admin_global_style_configuration>
+	<role_admin_global_template_configuration>نقش پیکربندی قالب سراسری ادمین</role_admin_global_template_configuration>
+	<role_admin_page_load_configuration>نقش پیکربندی اجرای صفحه ادمین</role_admin_page_load_configuration>
+	<role_admin_script_configuration>نقش پیکربندی اسکریپت ادمین</role_admin_script_configuration>
+	<role_admin_static_head_configuration>نقش پیکربندی هدر ایستای ادمین</role_admin_static_head_configuration>
     <role_after_load_path_reference_configuration>نقش پیکربندی ارجاع بعد از اجرای مسیر</role_after_load_path_reference_configuration>
     <role_approval_comment_all_content>نقش تایید نظر بر روی تمامی محتواها</role_approval_comment_all_content>
     <role_approval_comment_only_own_content>نقش تایید نظر فقط بر روی محتوای خود</role_approval_comment_only_own_content>
@@ -25,55 +25,55 @@
     <role_authorized_extension_configuration>نقش پیکربندی پسوند مجاز</role_authorized_extension_configuration>
     <role_before_load_path_reference_configuration>نقش پیکربندی ارجاع قبل از اجرای مسیر</role_before_load_path_reference_configuration>
     <role_bit_column_access>دسترسی به بیت ستون نقش</role_bit_column_access>
-	  <role_box_configuration>نقش پیکربندی جعبه</role_box_configuration>
-	  <role_calendar_configuration>نقش پیکربندی تقویم</role_calendar_configuration>
-	  <role_captcha_configuration>نقش پیکربندی عبارت امنیتی</role_captcha_configuration>
-	  <role_category_map_configuration>نقش پیکربندی نقشه دسته بندی</role_category_map_configuration>
-	  <role_client_file_extensions_configuration>نقش پیکربندی پسوندهای فایل سمت کاربر</role_client_file_extensions_configuration>
-	  <role_config_configuration>نقش پیکربندی پیکربندی</role_config_configuration>
-	  <role_content_avatar_configuration>نقش پیکربندی آواتار محتوا</role_content_avatar_configuration>
-	  <role_content_icon_configuration>نقش پیکربندی آیکون محتوا</role_content_icon_configuration>
-	  <role_default_page_configuration>نقش پیکربندی صفحه پیش فرض</role_default_page_configuration>
-	  <role_delete_comment_all_content>نقش حذف نظر در تمامی محتواها</role_delete_comment_all_content>
-	  <role_delete_comment_only_own_content>نقش حذف نظر فقط بر روی محتوای خود</role_delete_comment_only_own_content>
-	  <role_delete_comment_own_content>نقش حذف محتوا بر روی محتوای خود</role_delete_comment_own_content>
+	<role_box_configuration>نقش پیکربندی جعبه</role_box_configuration>
+	<role_calendar_configuration>نقش پیکربندی تقویم</role_calendar_configuration>
+	<role_captcha_configuration>نقش پیکربندی عبارت امنیتی</role_captcha_configuration>
+	<role_category_map_configuration>نقش پیکربندی نقشه دسته بندی</role_category_map_configuration>
+	<role_client_file_extensions_configuration>نقش پیکربندی پسوندهای فایل سمت کاربر</role_client_file_extensions_configuration>
+	<role_config_configuration>نقش پیکربندی پیکربندی</role_config_configuration>
+	<role_content_avatar_configuration>نقش پیکربندی آواتار محتوا</role_content_avatar_configuration>
+	<role_content_icon_configuration>نقش پیکربندی آیکون محتوا</role_content_icon_configuration>
+	<role_default_page_configuration>نقش پیکربندی صفحه پیش فرض</role_default_page_configuration>
+	<role_delete_comment_all_content>نقش حذف نظر در تمامی محتواها</role_delete_comment_all_content>
+	<role_delete_comment_only_own_content>نقش حذف نظر فقط بر روی محتوای خود</role_delete_comment_only_own_content>
+	<role_delete_comment_own_content>نقش حذف محتوا بر روی محتوای خود</role_delete_comment_own_content>
     <role_dynamic_extension_configuration>نقش پیکربندی پسوندهای پویا</role_dynamic_extension_configuration>
-	  <role_edit_comment_all_content>نقش ویرایش نظر همه محتواها</role_edit_comment_all_content>
-	  <role_edit_comment_only_own_content>نقش ویرایش نظر فقط بر روی محتوای خود</role_edit_comment_only_own_content>
-	  <role_edit_comment_own_content>نقش ویرایش نظر بر روی محتوای خود</role_edit_comment_own_content>
-	  <role_event_reference_configuration>نقش پیکربندی رخداد ارجاع</role_event_reference_configuration>
-	  <role_file_extensions_configuration>نقش پیکربندی پسوندهای فایل</role_file_extensions_configuration>
-	  <role_file_viewer_configuration>نقش پیکربندی نمایانگر فایل</role_file_viewer_configuration>
-	  <role_foreign_key_configuration>نقش پیکربندی کلید خارجی</role_foreign_key_configuration>
-	  <role_global_script_configuration>نقش پیکربندی اسکریپت سراسری</role_global_script_configuration>
-	  <role_global_style_configuration>نقش پیکربندی استایل سراسری</role_global_style_configuration>
-	  <role_global_template_configuration>نقش پیکربندی قالب سراسری</role_global_template_configuration>
+	<role_edit_comment_all_content>نقش ویرایش نظر همه محتواها</role_edit_comment_all_content>
+	<role_edit_comment_only_own_content>نقش ویرایش نظر فقط بر روی محتوای خود</role_edit_comment_only_own_content>
+	<role_edit_comment_own_content>نقش ویرایش نظر بر روی محتوای خود</role_edit_comment_own_content>
+	<role_event_reference_configuration>نقش پیکربندی رخداد ارجاع</role_event_reference_configuration>
+	<role_file_extensions_configuration>نقش پیکربندی پسوندهای فایل</role_file_extensions_configuration>
+	<role_file_viewer_configuration>نقش پیکربندی نمایانگر فایل</role_file_viewer_configuration>
+	<role_foreign_key_configuration>نقش پیکربندی کلید خارجی</role_foreign_key_configuration>
+	<role_global_script_configuration>نقش پیکربندی اسکریپت سراسری</role_global_script_configuration>
+	<role_global_style_configuration>نقش پیکربندی استایل سراسری</role_global_style_configuration>
+	<role_global_template_configuration>نقش پیکربندی قالب سراسری</role_global_template_configuration>
     <role_id>شماره نقش</role_id>
     <role_link_protocol_configuration>نقش پیکربندی پروتکل لینک</role_link_protocol_configuration>
     <role_name>نام نقش</role_name>
-	  <role_page_location_configuration>نقش پیکربندی موقعیت صفحه</role_page_location_configuration>
-	  <role_reference_configuration>نقش پیکربندی ارجاع</role_reference_configuration>
-	  <role_replace_part_configuration>نقش پیکربندی بخش جایگزین</role_replace_part_configuration>
-	  <role_reply_comment_own_content>نقش پاسخ نظر در محتوای خود</role_reply_comment_own_content>
-	  <role_reply_comment_all_content>نقش پاسخ نظر در تمامی محتواها</role_reply_comment_all_content>
-	  <role_reply_comment_only_own_content>نقش پاسخ نظر فقط در محتوای خود</role_reply_comment_only_own_content>
-	  <role_robots_configuration>نقش پیکربندی ربات ها</role_robots_configuration>
-	  <role_role_bit_column_access_configuration>نقش پیکربندی دسترسی به بیت ستون نقش</role_role_bit_column_access_configuration>
-	  <role_role_group_configuration>نقش پیکربندی گروه نقش</role_role_group_configuration>
-	  <role_scheduled_tasks_configuration>نقش پیکربندی وظایف زمان بندی شده</role_scheduled_tasks_configuration>
-	  <role_security_configuration>نقش پیکربندی امنیت</role_security_configuration>
-	  <role_site_dynamic_head_configuration>نقش پیکربندی هدر پویای سایت</role_site_dynamic_head_configuration>
-	  <role_site_global_location_configuration>نقش پیکربندی موقعیت سراسری سایت</role_site_global_location_configuration>
-	  <role_site_global_style_configuration>نقش پیکربندی استایل سراسری سایت</role_site_global_style_configuration>
-	  <role_site_global_template_configuration>نقش پیکربندی قالب سراسری سایت</role_site_global_template_configuration>
-	  <role_site_page_load_configuration>نقش پیکربندی اجرای صفحه سایت</role_site_page_load_configuration>
-	  <role_site_script_configuration>نقش پیکربندی اسکریپت سایت</role_site_script_configuration>
-	  <role_site_static_head_configuration>نقش پیکربندی هدر ایستای سایت</role_site_static_head_configuration>
-	  <role_start_up_configuration>نقش پیکربندی شروع</role_start_up_configuration>
-	  <role_struct_configuration>نقش پیکربندی ساختار</role_struct_configuration>
-	  <role_submit_foot_print>ثبت ردپای نقش</role_submit_foot_print>
-	  <role_submit_visit>ثبت بازدید نقش</role_submit_visit>
-	  <role_system_configuration>نقش پیکربندی سیستم</role_system_configuration>
+	<role_page_location_configuration>نقش پیکربندی موقعیت صفحه</role_page_location_configuration>
+	<role_reference_configuration>نقش پیکربندی ارجاع</role_reference_configuration>
+	<role_replace_part_configuration>نقش پیکربندی بخش جایگزین</role_replace_part_configuration>
+	<role_reply_comment_own_content>نقش پاسخ نظر در محتوای خود</role_reply_comment_own_content>
+	<role_reply_comment_all_content>نقش پاسخ نظر در تمامی محتواها</role_reply_comment_all_content>
+	<role_reply_comment_only_own_content>نقش پاسخ نظر فقط در محتوای خود</role_reply_comment_only_own_content>
+	<role_robots_configuration>نقش پیکربندی ربات ها</role_robots_configuration>
+	<role_role_bit_column_access_configuration>نقش پیکربندی دسترسی به بیت ستون نقش</role_role_bit_column_access_configuration>
+	<role_role_group_configuration>نقش پیکربندی گروه نقش</role_role_group_configuration>
+	<role_scheduled_tasks_configuration>نقش پیکربندی وظایف زمان بندی شده</role_scheduled_tasks_configuration>
+	<role_security_configuration>نقش پیکربندی امنیت</role_security_configuration>
+	<role_site_dynamic_head_configuration>نقش پیکربندی هدر پویای سایت</role_site_dynamic_head_configuration>
+	<role_site_global_location_configuration>نقش پیکربندی موقعیت سراسری سایت</role_site_global_location_configuration>
+	<role_site_global_style_configuration>نقش پیکربندی استایل سراسری سایت</role_site_global_style_configuration>
+	<role_site_global_template_configuration>نقش پیکربندی قالب سراسری سایت</role_site_global_template_configuration>
+	<role_site_page_load_configuration>نقش پیکربندی اجرای صفحه سایت</role_site_page_load_configuration>
+	<role_site_script_configuration>نقش پیکربندی اسکریپت سایت</role_site_script_configuration>
+	<role_site_static_head_configuration>نقش پیکربندی هدر ایستای سایت</role_site_static_head_configuration>
+	<role_start_up_configuration>نقش پیکربندی شروع</role_start_up_configuration>
+	<role_struct_configuration>نقش پیکربندی ساختار</role_struct_configuration>
+	<role_submit_foot_print>ثبت ردپای نقش</role_submit_foot_print>
+	<role_submit_visit>ثبت بازدید نقش</role_submit_visit>
+	<role_system_configuration>نقش پیکربندی سیستم</role_system_configuration>
     <role_type>نوع نقش</role_type>
     <role_type_configuration>نقش پیکربندی نوع ها</role_type_configuration>
     <role_unauthorized_configuration>نقش پیکربندی غیرمجازها</role_unauthorized_configuration>
@@ -85,7 +85,7 @@
     <role_was_save_edit>نقش ویرایش شد</role_was_save_edit>
     <role_web_config_configuration>نقش پیکربندی پیکربندی وب</role_web_config_configuration>
     <role_write_html>نقش نوشتن اچ تی ام ال</role_write_html>
-	  <role_write_script>نقش نوشتن اسکریپت</role_write_script>
+	<role_write_script>نقش نوشتن اسکریپت</role_write_script>
     <role_wysiwyg_configuration>نقش پیکربندی ویرایشگر متن</role_wysiwyg_configuration>
     <save_role>ذخیره نقش</save_role>
   

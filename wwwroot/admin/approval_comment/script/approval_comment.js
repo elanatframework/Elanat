@@ -14,17 +14,30 @@ function el_AddCommentReply(ContentId, CommentId)
 {
 	DivId = "div_comment_reply_" + CommentId;
     if (!document.getElementById(DivId))
-    {
-        var DivTag = document.createElement("div");
-        DivTag.id = DivId;
-        DivTag.className = "el_hidden";
-        var IframeTag = document.createElement("iframe");
-        IframeTag.src = ElanatVariant.SitePath + "page/comment/?content_id=" + ContentId + "&comment_id=" + CommentId;
-        IframeTag.setAttribute("onload", "el_IframeAutoHeight(this)")
+	{
 
-        DivTag.innerHTML = IframeTag.outerHTML;
-        document.body.appendChild(DivTag);
-        el_OpenBox(DivId);
+        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+
+        xmlhttp.onreadystatechange = function ()
+        {
+            if (xmlhttp.readyState == 4 && xmlhttp.status == 200 && xmlhttp.responseText != "false")
+            {
+                var DivTag = document.createElement("div");
+                DivTag.id = DivId;
+                DivTag.className = "el_hidden";
+                DivTag.innerHTML = xmlhttp.responseText;
+                document.body.appendChild(DivTag);
+                el_OpenBox(DivTag.id);
+            }
+
+            if (xmlhttp.status != 0 && (xmlhttp.readyState == 0 || xmlhttp.status > 200))
+            {
+                el_Alert(LanguageVariant.ConnectionError, "problem");
+            }
+        }
+
+        xmlhttp.open("GET", ElanatVariant.SitePath + "page/comment/?content_id=" + ContentId + "&comment_id=" + CommentId, false);
+        xmlhttp.send();
     }
     else
         el_OpenBox(DivId);

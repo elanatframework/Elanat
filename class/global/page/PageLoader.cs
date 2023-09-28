@@ -252,6 +252,65 @@ namespace Elanat
             return DataValue;
         }
 
+        public static string LoadPathInSystemStart(string Path)
+        {
+            FileAndDirectory fad = new FileAndDirectory();
+
+            string DataValue = null;
+            string QueryString = (Path.Contains("?")) ? "?" + Path.GetTextAfterValue("?") : "";
+            string Extension = System.IO.Path.GetExtension(Path.GetTextBeforeValue("?").ToLower());
+
+            if (Extension == ".aspx")
+            {
+                CodeBehindExecute execute = new CodeBehindExecute();
+                DataValue = execute.Run(Path.GetTextBeforeValue("?"));
+            }
+            else if (Extension == ".dll")
+            {
+                DataValue = NativeDll.NativeMethods.Main(StaticObject.ServerMapPath(Path.GetTextBeforeValue("?")), "", QueryString);
+            }
+            else if (Extension.IsScriptExtension())
+            {
+                fad.FillScriptExtensionInfo(Extension);
+
+                // Set Arguments
+                string PackagePath = @fad.ScriptExtensioPackagePath;
+                string RunPathCommand = fad.ScriptExtensioRunPathCommand;
+
+                PackagePath = PackagePath.Replace("$_asp quotation_mark;", "\"");
+                PackagePath = PackagePath.Replace("$_asp site_path;", StaticObject.ServerMapPath(StaticObject.SitePath));
+                RunPathCommand = RunPathCommand.Replace("$_asp quotation_mark;", "\"");
+                RunPathCommand = RunPathCommand.Replace("$_asp site_path;", StaticObject.ServerMapPath(StaticObject.SitePath));
+                RunPathCommand = RunPathCommand.Replace("$_asp page_path;", StaticObject.ServerMapPath(Path.GetTextBeforeValue("?")));
+                RunPathCommand = RunPathCommand.Replace("$_asp query_string;", QueryString.Replace("\"", "$_asp quotation_mark;"));
+                RunPathCommand = RunPathCommand.Replace("$_asp form_data;", "");
+
+
+                System.Diagnostics.Process cmd = new System.Diagnostics.Process();
+                cmd.StartInfo.FileName = "cmd.exe";
+                cmd.StartInfo.Arguments = "/C c:& cd " + PackagePath + "& " + RunPathCommand;
+                cmd.StartInfo.UseShellExecute = false;
+                cmd.StartInfo.RedirectStandardOutput = true;
+                cmd.StartInfo.RedirectStandardError = true;
+                cmd.Start();
+
+                while (!cmd.StandardOutput.EndOfStream)
+                {
+                    string line = cmd.StandardOutput.ReadLine();
+                    DataValue += line;
+                }
+            }
+            else
+            {
+                using (FileStream TmpFileStream = File.Open(StaticObject.ServerMapPath(Path.GetTextBeforeValue("?")), FileMode.Open, FileAccess.Read))
+                {
+                    DataValue = new StreamReader(TmpFileStream).ReadToEnd();
+                }
+            }
+
+            return DataValue;
+        }
+
         public static string LoadForeignPage(string Path)
         {
             HttpClient webClient = new HttpClient();

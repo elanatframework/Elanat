@@ -49,6 +49,8 @@ StaticObject.SystemStart();
 
 StaticObject.ApplicationStart();
 
+StaticObject.RunStartUp();
+
 app.Use(async (context, next) =>
 {
     if (context.Session.GetString("el_session_set") == null)

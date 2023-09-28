@@ -9,7 +9,6 @@
       <column>user_name</column>
       <column>user_site_name</column>
       <column>user_real_name</column>
-      <column>user_real_last_name</column>
       <column>group_name</column>
     </view_table>
     <view_more>

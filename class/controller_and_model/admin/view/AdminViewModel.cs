@@ -455,7 +455,7 @@ namespace Elanat
             duv.AddWithFillReturnDr();
 
             // Add View Query String
-            if (ViewMatchTypeOptionListSelectedValue != "none_query" && ViewMatchTypeOptionListSelectedValue != "all_query")
+            if (ViewMatchTypeOptionListSelectedValue == "none_query" || ViewMatchTypeOptionListSelectedValue == "all_query")
                 ViewQueryStringValue = ViewMatchTypeOptionListSelectedValue;
 
             string ViewQueryStringy = ViewQueryStringValue;

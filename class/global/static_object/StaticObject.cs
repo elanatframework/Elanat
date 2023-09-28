@@ -221,23 +221,9 @@ namespace Elanat
 
         public static void SessionStart()
         {
-            try
-            {
-                // Run Start Up Page
-                if (!StartUpHasABeenImplemented)
-                {
-                    StartUpClass suc = new StartUpClass();
-                    suc.Start();
-
-                    StartUpHasABeenImplemented = true;
-                }
-
-
-                // Set Ip Session Indexer
-                Security sc = new Security();
-                sc.AddIpSessionIndexer();
-            }
-            catch (Exception) { }
+            // Set Ip Session Indexer
+            Security sc = new Security();
+            sc.AddIpSessionIndexer();
         }
 
         public static void SetConfigValue()
@@ -475,6 +461,22 @@ namespace Elanat
                 cmd.StartInfo.RedirectStandardError = true;
                 cmd.Start();
             }
+        }
+
+        public static void RunStartUp()
+        {
+            try
+            {
+                // Run Start Up Page
+                if (!StartUpHasABeenImplemented)
+                {
+                    StartUpClass suc = new StartUpClass();
+                    suc.Start();
+
+                    StartUpHasABeenImplemented = true;
+                }
+            }
+            catch (Exception) { }
         }
 
         public static void SetSiteTemplate()
