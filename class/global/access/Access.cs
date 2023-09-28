@@ -11,10 +11,11 @@ namespace Elanat
         public bool FindDynamicExtensionInUploadDirectory { get; private set; }
         public bool IsAttachment { get; private set; }
 
-        public bool RolePathAccessCheck(string Path, string FormValue)
+        public bool RolePathAccessCheck(string Path, string FormValue, bool BreakAppDataPath = false)
         {
-            if (Path.GetTextBeforeValue("?").ToLower().Contains("/app_data/"))
-                return false;
+            if (!BreakAppDataPath)
+                if (Path.GetTextBeforeValue("?").ToLower().Contains("/app_data") || Path.GetTextBeforeValue("?").ToLower().Contains(@"\app_data"))
+                    return false;
 
             if (Path[0] == '~')
                 Path = Path.Remove(0, 1);
@@ -38,7 +39,7 @@ namespace Elanat
             string AfterThirdDirectory = fad.GetAfterThirdDirectory(Path);
             string FileName = fad.GetFileName(Path);
 
-            if (FirstDirectory.ToLower() == "app_data" || FirstDirectory.ToLower() == "bin" || FileName.ToLower() == "web.config")
+            if (FirstDirectory.ToLower() == "app_data" || FirstDirectory.ToLower() == "bin")
             {
                 return false;
             }

@@ -4,11 +4,6 @@
   <![CDATA[priority is given to the url higher in the list]]>
   <url_rewrite_list>
     
-    <url exist="true" start_by="false" end_by="false" regex_match="false" active="true">
-      <url_value>PageHandlersLoader.aspx?</url_value>
-      <rewrite_value><![CDATA[/PageHandlersLoader.aspx$_asp query_string;]]></rewrite_value>
-    </url>
-
     <url exist="false" start_by="true" end_by="false" regex_match="false" active="true">
       <url_value>/page_content/public_user_info/id</url_value>
       <rewrite_value><![CDATA[/?page_content=$_asp section_2;&user_id=$_asp section_4;$_asp query_string;]]></rewrite_value>

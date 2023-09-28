@@ -23,7 +23,12 @@
       <extension value="png" />
       <extension value="jpeg" />
       <extension value="jpg" />
+      <extension value="webp" />
+      <extension value="tiff" />
+      <extension value="svg" />
       <extension value="txt" />
+      <extension value="json" />
+      <extension value="xml" />
       <extension value="pdf" />
       <extension value="csv" />
       <extension value="mp3" />
@@ -36,15 +41,20 @@
       <extension value="docx" />
       <extension value="xls" />
       <extension value="xlsx" />
+      <extension value="pptx" />
       <extension value="rtf" />
+      <extension value="odt" />
     </authorized_extension_for_upload>
 
     <unauthorized_extension_for_upload active="true">
       <extension value="aspx" />
-      <extension value="ascx" />
       <extension value="exe" />
       <extension value="dll" />
       <extension value="php" />
+      <extension value="py" />
+      <extension value="pl" />
+      <extension value="njs" />
+      <extension value="rb" />
     </unauthorized_extension_for_upload>
   
   </authorized_extension_list>
