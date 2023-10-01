@@ -1,4 +1,5 @@
-﻿using System.Net;
+﻿using Microsoft.SqlServer.Server;
+using System.Net;
 using System.Net.Mail;
 using System.Xml;
 
@@ -763,6 +764,45 @@ namespace Elanat
             {
                 DataValue.CopyToAsync(fileStream).Wait();
             }
+        }
+
+        public static string GetString(this IFormCollection FormData)
+        {
+            string TmpFormData = "";
+
+            foreach (string key in FormData.Keys)
+                TmpFormData += key + "=" + FormData[key] + "&";
+
+            if (TmpFormData.Length > 0)
+                TmpFormData = TmpFormData.Remove(TmpFormData.Length - 1, 1);
+
+            return TmpFormData;
+        }
+
+        public static string GetString(this ISession SessionData)
+        {
+            string TmpSessionData = "";
+
+            foreach (string key in SessionData.Keys)
+                TmpSessionData += key + "=" + SessionData.GetString(key) + "&";
+
+            if (TmpSessionData.Length > 0)
+                TmpSessionData = TmpSessionData.Remove(TmpSessionData.Length - 1, 1);
+
+            return TmpSessionData;
+        }
+
+        public static string GetString(this IRequestCookieCollection CookieData)
+        {
+            string TmpCookieData = "";
+
+            foreach (string key in CookieData.Keys)
+                TmpCookieData += key + "=" + CookieData[key] + "&";
+
+            if (TmpCookieData.Length > 0)
+                TmpCookieData = TmpCookieData.Remove(TmpCookieData.Length - 1, 1);
+
+            return TmpCookieData;
         }
 
         #region Html Input

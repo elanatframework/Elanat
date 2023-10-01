@@ -1,13 +1,12 @@
 ﻿using CodeBehind;
 using Microsoft.AspNetCore.Http.Extensions;
-using System.Net;
-using System.Runtime.InteropServices;
+using System.Diagnostics;
 using System.Xml;
 
 namespace Elanat
 {
-	public class PageLoader
-	{
+    public class PageLoader
+    {
         /// <param name="LoadWith">iframe, ajax, text, server, on_server</param>
         public static string LoadPage(string LoadWith, string Path, bool CheckAccess = true)
         {
@@ -99,6 +98,11 @@ namespace Elanat
         public static string LoadWithServer(string Path, bool UsePhysicalPath = false)
         {
             HttpContext context = new HttpContextAccessor().HttpContext;
+
+            string Extension = System.IO.Path.GetExtension(Path.GetTextBeforeValue("?").ToLower());
+            if (Extension != ".aspx")
+                return LoadPath(Path);
+
 
             if (UsePhysicalPath)
             {
@@ -198,8 +202,8 @@ namespace Elanat
             // Is Repeated
             FileAndDirectory fad = new FileAndDirectory();
 
-            string DataValue = null;
-            string QueryString = (Path.Contains("?")) ? "?" + Path.GetTextAfterValue("?") : null;
+            string DataValue = "";
+            string QueryString = (Path.Contains("?")) ? "?" + Path.GetTextAfterValue("?") : "";
             string Extension = System.IO.Path.GetExtension(Path.GetTextBeforeValue("?").ToLower());
 
             if (Extension == ".aspx")
@@ -220,15 +224,17 @@ namespace Elanat
 
                 PackagePath = PackagePath.Replace("$_asp quotation_mark;", "\"");
                 PackagePath = PackagePath.Replace("$_asp site_path;", StaticObject.ServerMapPath(StaticObject.SitePath));
-                RunPathCommand = RunPathCommand.Replace("$_asp quotation_mark;","\"");
+                RunPathCommand = RunPathCommand.Replace("$_asp quotation_mark;", "\"");
                 RunPathCommand = RunPathCommand.Replace("$_asp site_path;", StaticObject.ServerMapPath(StaticObject.SitePath));
                 RunPathCommand = RunPathCommand.Replace("$_asp page_path;", StaticObject.ServerMapPath(Path.GetTextBeforeValue("?")));
-                RunPathCommand = RunPathCommand.Replace("$_asp query_string;", QueryString.Replace("\"", "$_asp quotation_mark;"));
-                RunPathCommand = RunPathCommand.Replace("$_asp form_data;", context.Request.Form.ToString().Replace("\"", "$_asp quotation_mark;"));
+                RunPathCommand = RunPathCommand.Replace("$_asp query_string;", Path.GetTextAfterValue("?").Replace("\"", "$_asp quotation_mark;"));
+                RunPathCommand = RunPathCommand.Replace("$_asp form_data;", context.Request.Form.GetString().Replace("\"", "$_asp quotation_mark;"));
+                RunPathCommand = RunPathCommand.Replace("$_asp session;", context.Session.GetString().Replace("\"", "$_asp quotation_mark;"));
+                RunPathCommand = RunPathCommand.Replace("$_asp cookie;", context.Request.Cookies.GetString().Replace("\"", "$_asp quotation_mark;"));
 
 
-                System.Diagnostics.Process cmd = new System.Diagnostics.Process();
-                cmd.StartInfo.FileName = "cmd.exe";
+                Process cmd = new Process();
+                cmd.StartInfo.FileName = "cmd";
                 cmd.StartInfo.Arguments = "/C c:& cd " + PackagePath + "& " + RunPathCommand;
                 cmd.StartInfo.UseShellExecute = false;
                 cmd.StartInfo.RedirectStandardOutput = true;
@@ -240,6 +246,8 @@ namespace Elanat
                     string line = cmd.StandardOutput.ReadLine();
                     DataValue += line;
                 }
+
+                context.Response.ContentType = "text/html; charset=utf-8";
             }
             else
             {
@@ -286,7 +294,7 @@ namespace Elanat
                 RunPathCommand = RunPathCommand.Replace("$_asp form_data;", "");
 
 
-                System.Diagnostics.Process cmd = new System.Diagnostics.Process();
+                Process cmd = new Process();
                 cmd.StartInfo.FileName = "cmd.exe";
                 cmd.StartInfo.Arguments = "/C c:& cd " + PackagePath + "& " + RunPathCommand;
                 cmd.StartInfo.UseShellExecute = false;
@@ -308,6 +316,7 @@ namespace Elanat
                 }
             }
 
+
             return DataValue;
         }
 
@@ -321,7 +330,7 @@ namespace Elanat
 
         public static string LoadWithProcess(string Path)
         {
-            System.Diagnostics.Process.Start(Path);
+            Process.Start(Path);
 
             return null;
         }

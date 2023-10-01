@@ -73,6 +73,7 @@
     <time_hours_difference>تفاوت زمان ساعت</time_hours_difference>
     <time_minutes_difference>تفاوت زمان دقیقه</time_minutes_difference>
     <time_zone>منطقه زمانی</time_zone>
+	<unknown>نامعلوم</unknown>
     <use_avatar_path>استفاده از مسیر آواتار</use_avatar_path>
     <user_about>درباره کاربر</user_about>
     <user_address>آدرس کاربر</user_address>

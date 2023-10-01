@@ -1,5 +1,6 @@
 using Elanat;
 using Microsoft.AspNetCore.StaticFiles;
+using Microsoft.Extensions.FileProviders;
 using SetCodeBehind;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -25,14 +26,6 @@ app.UseSession();
 
 app.UseHttpsRedirection();
 
-var provider = new FileExtensionContentTypeProvider();
-provider.Mappings[".dat"] = "application/octet-stream";
-provider.Mappings[".bak"] = "application/octet-stream";
-app.UseStaticFiles(new StaticFileOptions()
-{
-    ContentTypeProvider = provider
-});
-
 app.UseRouting();
 
 app.UseResponseCaching();
@@ -51,12 +44,22 @@ StaticObject.ApplicationStart();
 
 StaticObject.RunStartUp();
 
+app.UseMiddleware<HandheldStaticFiles>();
+
+var provider = new FileExtensionContentTypeProvider();
+provider.Mappings[".dat"] = "application/octet-stream";
+provider.Mappings[".bak"] = "application/octet-stream";
+app.UseStaticFiles(new StaticFileOptions()
+{
+    ContentTypeProvider = provider
+});
+
 app.Use(async (context, next) =>
 {
     if (context.Session.GetString("el_session_set") == null)
     {
         StaticObject.SessionStart();
-        context.Session.SetString("el_session_set", "true"); 
+        context.Session.SetString("el_session_set", "true");
     }
 
     await next(context);
@@ -64,6 +67,7 @@ app.Use(async (context, next) =>
 
 app.Run(async context =>
 {
+    // Is Repeated
     if (context.Request.ContentType == null)
         context.Request.ContentType = "application/x-www-form-urlencoded; charset=utf-8";
 

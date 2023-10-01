@@ -3,8 +3,8 @@ using System.Xml;
 
 namespace Elanat
 {
-	public class Access
-	{
+    public class Access
+    {
         public bool DirectAccessComponent { get; private set; }
         public string CurrentComponentName { get; private set; }
         public string CurrentComponentColumnId { get; private set; }
@@ -13,8 +13,11 @@ namespace Elanat
 
         public bool RolePathAccessCheck(string Path, string FormValue, bool BreakAppDataPath = false)
         {
+            if (Path.GetTextBeforeValue("?").Contains(@"\"))
+                return false;
+
             if (!BreakAppDataPath)
-                if (Path.GetTextBeforeValue("?").ToLower().Contains("/app_data") || Path.GetTextBeforeValue("?").ToLower().Contains(@"\app_data"))
+                if (Path.GetTextBeforeValue("?").ToLower().Contains("/app_data"))
                     return false;
 
             if (Path[0] == '~')
@@ -44,7 +47,7 @@ namespace Elanat
                 return false;
             }
 
-            if(FirstDirectory == StaticObject.AdminDirectoryPath)
+            if (FirstDirectory == StaticObject.AdminDirectoryPath)
             {
                 DirectAccessComponent = true;
                 CurrentComponentName = "component";
@@ -207,7 +210,8 @@ namespace Elanat
                                         return false;
                                 };
                         }
-                    } break;
+                    }
+                    break;
 
                 case "backup":
                     {
@@ -239,9 +243,11 @@ namespace Elanat
 
                         if (string.IsNullOrEmpty(SecondDirectory))
                             return true;
-                    } break;
+                    }
+                    break;
 
                 case "page":
+                case "page_content":
                     {
                         DirectAccessComponent = true;
                         CurrentComponentName = "page";
@@ -347,7 +353,7 @@ namespace Elanat
 
                 continue;
 
-                Return:
+            Return:
                 try
                 {
                     RoleAllowAccessReason = node.Attributes["reason"].Value;
@@ -427,7 +433,7 @@ namespace Elanat
 
                 continue;
 
-                Return:
+            Return:
                 try
                 {
                     RoleDenyAccessReason = node.Attributes["reason"].Value;
@@ -691,7 +697,7 @@ namespace Elanat
         {
             DataBaseSocket db = new DataBaseSocket();
             DataBaseDataReader dbdr = new DataBaseDataReader();
-			dbdr.dr = db.GetProcedure("get_role_list");
+            dbdr.dr = db.GetProcedure("get_role_list");
 
             List<List<string>> DoubleList = new List<List<string>>();
             List<string> ValueList = new List<string>();

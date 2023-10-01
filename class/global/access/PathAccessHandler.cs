@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http.Extensions;
 using Microsoft.Extensions.Caching.Memory;
+using System;
 using System.Net;
+using System.Text;
 
 namespace Elanat
 {
@@ -9,7 +11,8 @@ namespace Elanat
         public string ContentValue = "";
         public void ProcessRequest(HttpContext context)
         {
-            string Path = WebUtility.UrlDecode(context.Request.GetEncodedPathAndQuery());
+            string CurrentPath = WebUtility.UrlDecode(context.Request.GetEncodedPathAndQuery());
+            string Path = CurrentPath;
             string PagePhysicalExtension = "";
 
             // Set Current Client Object Value
@@ -22,7 +25,7 @@ namespace Elanat
             if (!sc.IpIsSecure(Security.GetUserIp()))
             {
                 ContentValue = GlobalClass.AlertLanguageVariant("you_do_not_access_to_get_service_from_this_server", StaticObject.GetCurrentSiteGlobalLanguage(), "warning");
-                                
+
                 return;
             }
 
@@ -54,7 +57,7 @@ namespace Elanat
                     ccoc.CaptchaReleaseCount = 0;
 
                     context.Response.Redirect(StaticObject.SitePath + "page/robot_detect_captcha/Default.aspx");
-                                        
+
                     return;
                 }
 
@@ -86,7 +89,7 @@ namespace Elanat
 
             string CacheType = StaticObject.GetCurrentCacheType(ccoc.RoleDominantType);
             IMemoryCache Cache = context.RequestServices.GetService<IMemoryCache>();
-            
+
             // Set Static Cache To Header
             if (!fad.FileIsDynamic(StaticObject.ServerMapPath(StaticObject.SitePath + Path.GetTextBeforeValue("?"))))
             {
@@ -118,7 +121,6 @@ namespace Elanat
                         if (!fad.IsFileModified(Path, CreationDate, ETag, context.Request))
                         {
                             context.Response.StatusCode = 304;
-                            // context.Features.Get<IHttpResponseFeature>().ReasonPhrase = "Not Modified"; // soon
                             context.Response.Headers.Add("Content-Length", "0");
 
                             return;
@@ -154,7 +156,6 @@ namespace Elanat
                     if (cc.Exist(CacheType, TmpCacheKey))
                     {
                         context.Response.StatusCode = 304;
-                        // context.Features.Get<IHttpResponseFeature>().ReasonPhrase = "Not Modified"; // soon
                         context.Response.Headers.Add("Content-Length", "0");
 
                         return;
@@ -179,7 +180,7 @@ namespace Elanat
 
 
                 ContentValue = Template.GetSiteTemplate("part/role_access/view").Replace("$_asp inaccess_reason;", Language.GetHandheldLanguage(reference.DenyAccessReason, StaticObject.GetCurrentSiteGlobalLanguage()));
-                                
+
                 return;
             }
 
@@ -471,7 +472,7 @@ namespace Elanat
 
 
                                     ContentValue = Template.GetSiteTemplate("part/role_access/view").Replace("$_asp inaccess_reason;", Language.GetLanguage("page_is_not_existed", ccoc.SiteLanguageGlobalName));
-                                                                        
+
                                     return;
                                 }
 
@@ -485,15 +486,15 @@ namespace Elanat
 
 
                                     ContentValue = Template.GetSiteTemplate("part/role_access/view").Replace("$_asp inaccess_reason;", Language.GetLanguage("page_is_inactive", ccoc.SiteLanguageGlobalName));
-                                                                        
+
                                     return;
                                 }
 
 
                                 string PagePhysicalPath = dup.PageDirectoryPath + "/" + dup.PagePhysicalName;
 
-                                if (AbsolutePath.Length > PagePhysicalPath.Length)
-                                    if (AbsolutePath.Substring(AbsolutePath.Length - PagePhysicalPath.Length, PagePhysicalPath.Length) == PagePhysicalPath)
+                                if (CurrentPath.Length > PagePhysicalPath.Length)
+                                    if (CurrentPath.Substring(CurrentPath.Length - PagePhysicalPath.Length, PagePhysicalPath.Length) == PagePhysicalPath)
                                     {
                                         IsAddOnPath = true;
 
@@ -509,6 +510,11 @@ namespace Elanat
                                             ComponentContent = cc.GetValue(CacheType, "el_page_" + dup.PageId + PageCacheKey);
                                             break;
                                         }
+
+
+                                        if (CurrentPath.Length >= 14)
+                                            if (CurrentPath.Substring(0, 14) == "/page_content/")
+                                                CurrentPath = "/page/" + CurrentPath.Remove(0, 14);
 
 
                                         // Get Page Content
@@ -559,7 +565,7 @@ namespace Elanat
 
 
                                     ContentValue = Template.GetAdminTemplate("part/role_access/view").Replace("$_asp inaccess_reason;", Language.GetLanguage("component_is_not_existed", ccoc.AdminLanguageGlobalName));
-                                                                        
+
                                     return;
                                 }
 
@@ -573,15 +579,15 @@ namespace Elanat
 
 
                                     ContentValue = Template.GetAdminTemplate("part/role_access/view").Replace("$_asp inaccess_reason;", Language.GetLanguage("component_is_inactive", ccoc.AdminLanguageGlobalName));
-                                                                        
+
                                     return;
                                 }
 
 
                                 string ComponentPhysicalPath = duc.ComponentDirectoryPath + "/" + duc.ComponentPhysicalName;
 
-                                if (AbsolutePath.Length > ComponentPhysicalPath.Length)
-                                    if (AbsolutePath.Substring(AbsolutePath.Length - ComponentPhysicalPath.Length, ComponentPhysicalPath.Length) == ComponentPhysicalPath)
+                                if (CurrentPath.Length > ComponentPhysicalPath.Length)
+                                    if (CurrentPath.Substring(CurrentPath.Length - ComponentPhysicalPath.Length, ComponentPhysicalPath.Length) == ComponentPhysicalPath)
                                     {
                                         IsAddOnPath = true;
 
@@ -661,15 +667,15 @@ namespace Elanat
 
 
                                     ContentValue = Template.GetSiteTemplate("part/role_access/view").Replace("$_asp inaccess_reason;", Language.GetLanguage("module_is_inactive", ccoc.SiteLanguageGlobalName));
-                                                                        
+
                                     return;
                                 }
 
 
                                 string ModulePhysicalPath = dum.ModuleDirectoryPath + "/" + dum.ModulePhysicalName;
 
-                                if (AbsolutePath.Length > ModulePhysicalPath.Length)
-                                    if (AbsolutePath.Substring(AbsolutePath.Length - ModulePhysicalPath.Length, ModulePhysicalPath.Length) == ModulePhysicalPath)
+                                if (CurrentPath.Length > ModulePhysicalPath.Length)
+                                    if (CurrentPath.Substring(CurrentPath.Length - ModulePhysicalPath.Length, ModulePhysicalPath.Length) == ModulePhysicalPath)
                                     {
                                         IsAddOnPath = true;
 
@@ -735,7 +741,7 @@ namespace Elanat
 
 
                                     ContentValue = Template.GetSiteTemplate("part/role_access/view").Replace("$_asp inaccess_reason;", Language.GetLanguage("plugin_is_not_existed", ccoc.SiteLanguageGlobalName));
-                                                                        
+
                                     return;
                                 }
 
@@ -749,15 +755,15 @@ namespace Elanat
 
 
                                     ContentValue = Template.GetSiteTemplate("part/role_access/view").Replace("$_asp inaccess_reason;", Language.GetLanguage("plugin_is_inactive", ccoc.SiteLanguageGlobalName));
-                                                                        
+
                                     return;
                                 }
 
 
                                 string PluginPhysicalPath = dup.PluginDirectoryPath + "/" + dup.PluginPhysicalName;
 
-                                if (AbsolutePath.Length > PluginPhysicalPath.Length)
-                                    if (AbsolutePath.Substring(AbsolutePath.Length - PluginPhysicalPath.Length, PluginPhysicalPath.Length) == PluginPhysicalPath)
+                                if (CurrentPath.Length > PluginPhysicalPath.Length)
+                                    if (CurrentPath.Substring(CurrentPath.Length - PluginPhysicalPath.Length, PluginPhysicalPath.Length) == PluginPhysicalPath)
                                     {
                                         IsAddOnPath = true;
 
@@ -823,7 +829,7 @@ namespace Elanat
 
 
                                     ContentValue = Template.GetAdminTemplate("part/role_access/view").Replace("$_asp inaccess_reason;", Language.GetLanguage("extra_helper_is_not_existed", ccoc.AdminLanguageGlobalName));
-                                                                        
+
                                     return;
                                 }
 
@@ -837,15 +843,15 @@ namespace Elanat
 
 
                                     ContentValue = Template.GetAdminTemplate("part/role_access/view").Replace("$_asp inaccess_reason;", Language.GetLanguage("extra_helper_is_inactive", ccoc.AdminLanguageGlobalName));
-                                                                        
+
                                     return;
                                 }
 
 
                                 string ExtraHelperPhysicalPath = dueh.ExtraHelperDirectoryPath + "/" + dueh.ExtraHelperPhysicalName;
 
-                                if (AbsolutePath.Length > ExtraHelperPhysicalPath.Length)
-                                    if (AbsolutePath.Substring(AbsolutePath.Length - ExtraHelperPhysicalPath.Length, ExtraHelperPhysicalPath.Length) == ExtraHelperPhysicalPath)
+                                if (CurrentPath.Length > ExtraHelperPhysicalPath.Length)
+                                    if (CurrentPath.Substring(CurrentPath.Length - ExtraHelperPhysicalPath.Length, ExtraHelperPhysicalPath.Length) == ExtraHelperPhysicalPath)
                                     {
                                         IsAddOnPath = true;
 
@@ -933,8 +939,8 @@ namespace Elanat
 
                                 string EditorTemplatePhysicalPath = duet.EditorTemplateDirectoryPath + "/" + duet.EditorTemplatePhysicalName;
 
-                                if (AbsolutePath.Length > EditorTemplatePhysicalPath.Length)
-                                    if (AbsolutePath.Substring(AbsolutePath.Length - EditorTemplatePhysicalPath.Length, EditorTemplatePhysicalPath.Length) == EditorTemplatePhysicalPath)
+                                if (CurrentPath.Length > EditorTemplatePhysicalPath.Length)
+                                    if (CurrentPath.Substring(CurrentPath.Length - EditorTemplatePhysicalPath.Length, EditorTemplatePhysicalPath.Length) == EditorTemplatePhysicalPath)
                                     {
                                         IsAddOnPath = true;
 
@@ -1015,11 +1021,13 @@ namespace Elanat
 
                     PackagePath = PackagePath.Replace("$_asp quotation_mark;", "\"");
                     PackagePath = PackagePath.Replace("$_asp site_path;", StaticObject.ServerMapPath(StaticObject.SitePath));
-                    RunPathCommand = RunPathCommand.Replace("$_asp quotation_mark;","\"");
+                    RunPathCommand = RunPathCommand.Replace("$_asp quotation_mark;", "\"");
                     RunPathCommand = RunPathCommand.Replace("$_asp site_path;", StaticObject.ServerMapPath(StaticObject.SitePath));
                     RunPathCommand = RunPathCommand.Replace("$_asp page_path;", StaticObject.ServerMapPath(AbsolutePath));
                     RunPathCommand = RunPathCommand.Replace("$_asp query_string;", QueryString.Replace("\"", "$_asp quotation_mark;"));
-                    RunPathCommand = RunPathCommand.Replace("$_asp form_data;", context.Request.Form.ToString().Replace("\"", "$_asp quotation_mark;"));
+                    RunPathCommand = RunPathCommand.Replace("$_asp form_data;", context.Request.Form.GetString().Replace("\"", "$_asp quotation_mark;"));
+                    RunPathCommand = RunPathCommand.Replace("$_asp session;", context.Session.GetString().Replace("\"", "$_asp quotation_mark;"));
+                    RunPathCommand = RunPathCommand.Replace("$_asp cookie;", context.Request.Cookies.GetString().Replace("\"", "$_asp quotation_mark;"));
 
 
                     System.Diagnostics.Process cmd = new System.Diagnostics.Process();

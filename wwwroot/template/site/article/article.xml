@@ -194,8 +194,8 @@
 				<![CDATA[
 					<ul>
 						<li class="el_menu_page"><a id="a_HomePage" class="el_page_link" href="$_elanat ::system site_path;">$_lang main_page;</a></li>
-						<li class="el_menu_page"><a class="el_page_link" href="$_elanat ::system site_path;page_content/contact">$_lang contact_us;</a></li>
-						<li class="el_menu_page"><a class="el_page_link" href="$_elanat ::system site_path;page_content/about">$_lang about_us;</a></li>
+						<li class="el_menu_page"><a class="el_page_link" href="$_elanat ::system site_path;page_content/contact/">$_lang contact_us;</a></li>
+						<li class="el_menu_page"><a class="el_page_link" href="$_elanat ::system site_path;page_content/about/">$_lang about_us;</a></li>
 					</ul>
 				]]>
 				</default_page>
@@ -364,9 +364,9 @@
 				<a href="#top" title="$_lang back_to_top;" class="el_footer_common_item">
 					<div class="el_back_to_top el_pointer"></div>
 				</a>
-		    <div class="el_footer_common_item el_bold el_pointer" alt="B" onclick="el_SetBodyTextToBold(this)"></div>
-				<a href="$_elanat ::system site_path;page_content/sitemap">
-          <div class="el_footer_common_item el_sitemap_link el_pointer" title="$_lang sitemap;"></div>
+				<div class="el_footer_common_item el_bold el_pointer" alt="B" onclick="el_SetBodyTextToBold(this)"></div>
+					<a href="$_elanat ::system site_path;page_content/sitemap/">
+				<div class="el_footer_common_item el_sitemap_link el_pointer" title="$_lang sitemap;"></div>
 				</a>
 				<a href="$_elanat ::system site_path;page_content/rss/" class="el_footer_common_item">
 				  <div class="el_rss_link el_pointer" title="$_lang rss;"></div>
@@ -539,7 +539,7 @@
 		<a href="#content_number_$_db content_id;"><span class="el_label_light el_content_number">#$_db content_id;</span></a>
 		<div class="el_action">
 			<div class="el_send_email" title="$_lang send_email;" onclick="el_SendEmailContent($_db content_id;)"></div>
-			<a href="$_elanat ::system site_path;page/print/$_db content_id;" title="$_lang print;" target="_top" ><div class="el_print" src="$_elanat ::system site_path;client/image/print.png"></div></a>
+			<a href="$_elanat ::system site_path;page/print/$_db content_id;/" title="$_lang print;" target="_top" ><div class="el_print" src="$_elanat ::system site_path;client/image/print.png"></div></a>
 		</div>
 		$_asp content_icon;
 		<div class="el_title">
@@ -597,7 +597,7 @@
 		<a href="#content_number_$_db content_id;"><span class="el_label_light el_content_number">#$_db content_id;</span></a>
 		<div class="el_action">
 			<div class="el_send_email" title="$_lang send_email;" onclick="el_SendEmailContent($_db content_id;)"></div>
-			<a href="$_elanat ::system site_path;page/print/$_db content_id;" title="$_lang print;" target="_top" ><div class="el_print" src="$_elanat ::system site_path;client/image/print.png"></div></a>
+			<a href="$_elanat ::system site_path;page/print/$_db content_id;/" title="$_lang print;" target="_top" ><div class="el_print" src="$_elanat ::system site_path;client/image/print.png"></div></a>
 		</div>
 		$_asp content_icon;
             <div class="el_title">
@@ -846,7 +846,7 @@
 				<list_item use_elanat="true">
 				<![CDATA[
 					<li>
-						<a href="$_elanat ::system site_path;rss/category/$_asp category_value;"><span class="el_rss_mini_icon">$_asp category_name;</span></a>
+						<a href="$_elanat ::system site_path;rss/category/$_asp category_value;/"><span class="el_rss_mini_icon">$_asp category_name;</span></a>
 					</li>
 				]]>
 				</list_item>
@@ -864,7 +864,7 @@
 				<list_item use_elanat="true">
 				<![CDATA[
 					<li>
-						<a href="$_elanat ::system site_path;rss/content_type/$_asp content_type_value;"><span class="el_rss_mini_icon">$_asp content_type_name;</span></a>
+						<a href="$_elanat ::system site_path;rss/content_type/$_asp content_type_value;/"><span class="el_rss_mini_icon">$_asp content_type_name;</span></a>
 					</li>
 				]]>
 				</list_item>
@@ -882,7 +882,7 @@
 				<list_item use_elanat="true">
 				<![CDATA[
 					<li>
-						<a href="$_elanat ::system site_path;rss/site/$_asp site_global_name;"><span class="el_rss_mini_icon">$_asp site_global_name;($_asp site_name;)</span></a>
+						<a href="$_elanat ::system site_path;rss/site/$_asp site_global_name;/"><span class="el_rss_mini_icon">$_asp site_global_name;($_asp site_name;)</span></a>
 					</li>
 				]]>
 				</list_item>
@@ -947,7 +947,7 @@
 				<list_item use_elanat="true">
 				<![CDATA[
 					<li>
-						<a href="$_elanat ::system site_path;content_type/$_asp content_type_value;"><span class="el_site_map_mini_icon">$_asp content_type_name;</span></a>
+						<a href="$_elanat ::system site_path;content_type/$_asp content_type_value;/"><span class="el_site_map_mini_icon">$_asp content_type_name;</span></a>
 					</li>
 				]]>
 				</list_item>
@@ -965,7 +965,7 @@
 				<list_item use_elanat="true">
 				<![CDATA[
 					<li>
-						<a href="$_elanat ::system site_path;site/$_asp site_global_name;"><span class="el_site_map_mini_icon">$_asp site_global_name;($_asp site_name;)</span></a>
+						<a href="$_elanat ::system site_path;site/$_asp site_global_name;/"><span class="el_site_map_mini_icon">$_asp site_global_name;($_asp site_name;)</span></a>
 					</li>
 				]]>
 				</list_item>
@@ -1001,7 +1001,7 @@
 				<list_item use_elanat="true">
 				<![CDATA[
 					<li>
-						<a href="$_elanat ::system site_path;lang/$_asp language_global_name;"><span class="el_site_map_mini_icon">$_asp language_global_name;($_asp language_name;)</span></a>
+						<a href="$_elanat ::system site_path;lang/$_asp language_global_name;/"><span class="el_site_map_mini_icon">$_asp language_global_name;($_asp language_name;)</span></a>
 					</li>
 				]]>
 				</list_item>
@@ -1139,7 +1139,7 @@
 	
 	<user_rss use_elanat="true">
 	<![CDATA[
-		<a href="$_elanat ::system site_path;rss/user/$_asp user_id;" class="el_user_rss">$_elanat ::system site_path;rss/user/$_asp user_id;</a>
+		<a href="$_elanat ::system site_path;rss/user/$_asp user_id;/" class="el_user_rss">$_elanat ::system site_path;rss/user/$_asp user_id;</a>
 	]]>
 	</user_rss>
 
@@ -1480,7 +1480,7 @@
           $_asp comment_count;<br/>
           <a href="mailto:$_asp email;">$_asp email;</a><br/>
           $_asp phone;<br/>
-          <a href="$_elanat ::system site_path;/rss/user/$_asp user_id;">$_asp user_site_name;</a><br/>
+          <a href="$_elanat ::system site_path;/rss/user/$_asp user_id;/">$_asp user_site_name;</a><br/>
         </p>
       </div>
       <div>
@@ -1535,21 +1535,21 @@
 			<fathers_category>
 			<![CDATA[
 			<li class="el_fathers_category">
-			<a href="$_asp site_path;category/$_asp category_name;">$_asp category_name;</a>
+			<a href="$_asp site_path;category/$_asp category_name;/">$_asp category_name;</a>
 			</li>
 			]]>
 			</fathers_category>
 			<current_category>
 			<![CDATA[
 			<li class="el_current_category">
-			<a href="$_asp site_path;category/$_asp category_name;">$_asp category_name;</a>
+			<a href="$_asp site_path;category/$_asp category_name;/">$_asp category_name;</a>
 			</li>
 			]]>
 			</current_category>
 			<content>
 			<![CDATA[
 			<li class="el_content_title">
-			<a href="$_asp site_path;content/$_asp content_id;">$_asp content_title;</a>
+			<a href="$_asp site_path;content/$_asp content_id;/">$_asp content_title;</a>
 			</li>
 			]]>
 			</content>
@@ -1601,7 +1601,7 @@
 		<list_item>
 			<![CDATA[
 			<li>
-				<a href="/content_type/$_asp content_type_value;">$_asp content_type_name;</a>
+				<a href="/content_type/$_asp content_type_value;/">$_asp content_type_name;</a>
 			</li>
 			]]>
 		</list_item>
@@ -1618,7 +1618,7 @@
 		<list_item use_elanat="true">
 			<![CDATA[
 			<li>
-				<a href="$_asp site_path;lang/$_asp language_global_name;" class="el_language_link" style="background-image: url('$_elanat ::system site_path;client/image/language_icon/$_asp language_global_name;.png');">$_asp language_name;</a>
+				<a href="$_asp site_path;lang/$_asp language_global_name;/" class="el_language_link" style="background-image: url('$_elanat ::system site_path;client/image/language_icon/$_asp language_global_name;.png');">$_asp language_name;</a>
 			</li>
 			]]>
 		</list_item>
@@ -1635,7 +1635,7 @@
 		<list_item>
 			<![CDATA[
 			<li>
-				<a href="$_asp site_path;site/$_asp site_global_name;">$_asp site_name;</a>
+				<a href="$_asp site_path;site/$_asp site_global_name;/">$_asp site_name;</a>
 			</li>
 			]]>
 		</list_item>

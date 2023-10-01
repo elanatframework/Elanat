@@ -72,6 +72,7 @@
     <time_hours_difference>time hours difference</time_hours_difference>
     <time_minutes_difference>time minutes difference</time_minutes_difference>
     <time_zone>time zone</time_zone>
+	<unknown>unknown</unknown>
     <use_avatar_path>use avatar path</use_avatar_path>
     <user_about>user about</user_about>
     <user_address>user address</user_address>
