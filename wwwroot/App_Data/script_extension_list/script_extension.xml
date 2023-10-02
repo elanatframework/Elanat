@@ -3,7 +3,7 @@
   
   <script_extension_list>
     <script_extension extension="cpp" start_command="" package_path="" run_path_command="$_asp page_path;" />
-    <script_extension extension="exe" start_command="" package_path="cls " run_path_command="$_asp quotation_mark;$_asp page_path;$_asp quotation_mark; $_asp quotation_mark;$_asp query_string;$_asp quotation_mark; $_asp quotation_mark;$_asp form_data;$_asp quotation_mark;" />
+    <script_extension extension="exe" start_command="" package_path="cls " run_path_command="$_asp quotation_mark;$_asp page_path;$_asp quotation_mark; $_asp quotation_mark;$_asp query_string;$_asp quotation_mark; $_asp quotation_mark;$_asp form_data;$_asp quotation_mark; $_asp quotation_mark;$_asp session;$_asp quotation_mark; $_asp quotation_mark;$_asp cookie;$_asp quotation_mark;" />
     <script_extension extension="dnc" start_command="" package_path="" run_path_command="dotnet $_asp page_path;" />
     <script_extension extension="php" start_command="" package_path="" run_path_command="php $_asp page_path;" />
     <script_extension extension="njs" start_command="" package_path="" run_path_command="node $_asp page_path;" />

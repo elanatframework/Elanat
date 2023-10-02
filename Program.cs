@@ -1,6 +1,5 @@
 using Elanat;
 using Microsoft.AspNetCore.StaticFiles;
-using Microsoft.Extensions.FileProviders;
 using SetCodeBehind;
 
 var builder = WebApplication.CreateBuilder(args);

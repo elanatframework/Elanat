@@ -16,6 +16,9 @@ namespace Elanat
             if (string.IsNullOrEmpty(Path))
                 return;
 
+            if (Path.Contains("/thumb/"))
+                return;
+
             string AttachmentDirectoryPath = Path.GetTextBeforeLastValue("/");
 
             string AttachmentPhysicalName = Path.GetTextAfterLastValue("/");
