@@ -6,7 +6,7 @@ namespace Elanat
     {
        public void PageLoad(HttpContext context)
         {
-            string FormString = context.Request.Form.ToString();
+            string FormString = context.Request.Form.GetString();
             string QueryString = context.Request.QueryString.ToString();
 
             if (!string.IsNullOrEmpty(QueryString))

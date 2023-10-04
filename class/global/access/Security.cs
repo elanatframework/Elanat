@@ -46,7 +46,7 @@ namespace Elanat
             // Check Role Path Access
             Access acs = new Access();
             if (!IsSiteDataAccsess)
-                if (!acs.RolePathAccessCheck(FilePathValue, new HttpContextAccessor().HttpContext.Request.Form.ToString(), true))
+                if (!acs.RolePathAccessCheck(FilePathValue, new HttpContextAccessor().HttpContext.Request.Form.GetString(), true))
                 {
                     new HttpContextAccessor().HttpContext.Response.Redirect(StaticObject.SitePath + "page/error/401");
                     return;

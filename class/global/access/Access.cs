@@ -247,7 +247,6 @@ namespace Elanat
                     break;
 
                 case "page":
-                case "page_content":
                     {
                         DirectAccessComponent = true;
                         CurrentComponentName = "page";

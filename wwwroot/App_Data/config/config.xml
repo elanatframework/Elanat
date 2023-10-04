@@ -2,7 +2,7 @@
 <elanat_root>
   <elanat>
     <application_name value="Elanat framework" />
-    <version value="2.0.0.0" />
+    <version value="2.1.0.0" />
     <licenses value="gpl" />
     <site_address>http://elanat.net</site_address>
     <news_address active="true">http://elanat.net/service/news</news_address>

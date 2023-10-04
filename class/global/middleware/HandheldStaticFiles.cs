@@ -94,7 +94,7 @@ namespace Elanat
             context.Request.ContentType = "application/x-www-form-urlencoded; charset=utf-8";
 
             ReferenceClass reference = new ReferenceClass();
-            reference.StartBeforeLoadPath(Path, context.Request.Form.ToString());
+            reference.StartBeforeLoadPath(Path, context.Request.Form.GetString());
             if (!reference.AllowAccessPath)
             {
                 // Clear Cache
@@ -129,7 +129,7 @@ namespace Elanat
 
             // Check Role Path Access
             Access acs = new Access();
-            if (!acs.RolePathAccessCheck(Path, context.Request.Form.ToString()))
+            if (!acs.RolePathAccessCheck(Path, context.Request.Form.GetString()))
             {
                 // Clear Cache
                 context.Response.Headers["Expires"] = DateTime.UtcNow.AddMinutes(-1).ToString("R");
@@ -156,7 +156,7 @@ namespace Elanat
             // Set Reference
             context.Request.ContentType = "application/x-www-form-urlencoded; charset=utf-8";
 
-            reference.StartAfterLoadPath(Path, context.Request.Form.ToString());
+            reference.StartAfterLoadPath(Path, context.Request.Form.GetString());
 
             context.Request.ContentType = TmpContentType;
 

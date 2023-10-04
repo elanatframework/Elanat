@@ -16,7 +16,7 @@ namespace Elanat
 
                 // Check Role Path Access
                 Access acs = new Access();
-                if (!acs.RolePathAccessCheck(Path, context.Request.Form.ToString()))
+                if (!acs.RolePathAccessCheck(Path, context.Request.Form.GetString()))
                     return null;
             }
 
@@ -194,7 +194,7 @@ namespace Elanat
             {
                 // Check Role Path Access
                 Access acs = new Access();
-                if (!acs.RolePathAccessCheck(Path, context.Request.Form.ToString()))
+                if (!acs.RolePathAccessCheck(Path, context.Request.Form.GetString()))
                     return null;
             }
 
@@ -212,7 +212,7 @@ namespace Elanat
             }
             else if (Extension == ".dll")
             {
-                DataValue = NativeDll.NativeMethods.Main(StaticObject.ServerMapPath(Path.GetTextBeforeValue("?")), context.Request.Form.ToString(), QueryString);
+                DataValue = NativeDll.NativeMethods.Main(StaticObject.ServerMapPath(Path.GetTextBeforeValue("?")), context.Request.Form.GetString(), QueryString);
             }
             else if (Extension.IsScriptExtension())
             {

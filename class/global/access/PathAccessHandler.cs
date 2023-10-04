@@ -170,7 +170,7 @@ namespace Elanat
 
             // Set Reference
             ReferenceClass reference = new ReferenceClass();
-            reference.StartBeforeLoadPath(Path, context.Request.Form.ToString());
+            reference.StartBeforeLoadPath(Path, context.Request.Form.GetString());
             if (!reference.AllowAccessPath)
             {
                 // Clear Cache
@@ -204,7 +204,7 @@ namespace Elanat
 
             // Check Role Path Access
             Access acs = new Access();
-            if (!acs.RolePathAccessCheck(Path, context.Request.Form.ToString()))
+            if (!acs.RolePathAccessCheck(Path, context.Request.Form.GetString()))
             {
                 // Clear Cache
                 context.Response.Headers["Expires"] = DateTime.UtcNow.AddMinutes(-1).ToString("R");
@@ -230,7 +230,7 @@ namespace Elanat
 
             string AbsolutePath = WebUtility.UrlDecode(Path.GetTextBeforeValue("?"));
             string PagePhysicalName = System.IO.Path.GetFileName(AbsolutePath);
-            string QueryString = (Path.Contains("?")) ? "?" + Path.GetTextAfterValue("?") : null;
+            string QueryString = (Path.Contains("?")) ? "?" + Path.GetTextAfterValue("?") : "";
             List<ListItem> QueryStringCollection = new List<ListItem>();
 
             if (Path.Contains("?"))
@@ -282,6 +282,7 @@ namespace Elanat
             if (string.IsNullOrEmpty(PagePhysicalName))
             {
                 PagePhysicalName = fad.GetDefaultPage(Path);
+                AbsolutePath = AbsolutePath + PagePhysicalName;
             }
 
             PagePhysicalExtension = System.IO.Path.GetExtension(PagePhysicalName);
@@ -1009,7 +1010,7 @@ namespace Elanat
                 }
                 else if (Extension == ".dll")
                 {
-                    ContentValue = NativeDll.NativeMethods.Main(StaticObject.ServerMapPath(AbsolutePath), context.Request.Form.ToString(), QueryString);
+                    ContentValue = NativeDll.NativeMethods.Main(StaticObject.ServerMapPath(AbsolutePath), context.Request.Form.GetString(), QueryString);
                 }
                 else if (Extension.IsScriptExtension())
                 {
@@ -1060,7 +1061,7 @@ namespace Elanat
 
 
             // Set Reference
-            reference.StartAfterLoadPath(Path, context.Request.Form.ToString());
+            reference.StartAfterLoadPath(Path, context.Request.Form.GetString());
 
 
             // Set Finally Mime Type
