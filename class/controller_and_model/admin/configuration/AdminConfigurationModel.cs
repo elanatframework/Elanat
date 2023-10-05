@@ -124,6 +124,12 @@ namespace Elanat
                 doc.InnerXml = ConfigValue;
                 doc.Save(StaticObject.ServerMapPath(CurrentConfigurationPath));
             }
+            else if(CurrentConfigurationPath == (StaticObject.SitePath + "../Web.config"))
+            {
+                XmlDocument doc = new XmlDocument();
+                doc.InnerXml = ConfigValue;
+                doc.Save(StaticObject.ServerMapPath(CurrentConfigurationPath));
+            }
             else
             {
                 string[] ConfigText = ConfigValue.Split(new string[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries);

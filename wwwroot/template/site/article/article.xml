@@ -62,12 +62,12 @@
 		<header_bar_box>
 			<box>
 			<![CDATA[
-		<div class="el_header_bar_box_item">
+			<div class="el_header_bar_box_item">
 				  <div class="el_menu_title">$_asp menu_name;</div>
 				  <ul>
 					  $_asp item;
 				  </ul>
-		</div>
+			</div>
 			]]>
 			</box>
 			<list_item>
@@ -85,12 +85,12 @@
 		<header_menu>
 			<box>
 			<![CDATA[
-		<div class="el_header_menu_item">
+			<div class="el_header_menu_item">
 				  <div class="el_menu_title">$_asp menu_name;</div>
 				  <ul>
 					  $_asp item;
 				  </ul>
-		</div>
+			</div>
 			]]>
 			</box>
 			<list_item>
@@ -139,12 +139,12 @@
 		<header_2>
 			<box>
 			<![CDATA[
-		<div class="el_header_2_item">
+			<div class="el_header_2_item">
 				  <div class="el_menu_title">$_asp menu_name;</div>
 				  <ul>
 					  $_asp item;
 				  </ul>
-		</div>
+			</div>
 			]]>
 			</box>
 			<list_item>
@@ -174,12 +174,12 @@
 		<menu>
 			<box>
 			<![CDATA[
-		<div class="el_menu_item">
+			<div class="el_menu_item">
 				  <div class="el_menu_title">$_asp menu_name;</div>
 				  <ul>
 					  $_asp item;
 				  </ul>
-		</div>
+			</div>
 			]]>
 			</box>
 			<list_item>
@@ -205,12 +205,12 @@
 		<after_header>
 			<box>
 			<![CDATA[
-		<div class="el_after_header_item">
+			<div class="el_after_header_item">
 				  <div class="el_menu_title">$_asp menu_name;</div>
 				  <ul>
 					  $_asp item;
 				  </ul>
-		</div>
+			</div>
 			]]>
 			</box>
 			<list_item>
@@ -229,12 +229,12 @@
 			<box>
 			<![CDATA[
 			<!-- Start Before Content Item -->
-		<div class="el_before_content_item">
+			<div class="el_before_content_item">
 				  <div class="el_menu_title">$_asp menu_name;</div>
 				  <ul>
 					  $_asp item;
 				  </ul>
-		</div>
+			</div>
 			<!-- End Before Content Item -->
 			]]>
 			</box>
@@ -254,12 +254,12 @@
 			<box>
 			<![CDATA[
 			<!-- Start After Content Item -->
-		<div class="el_after_content_item">
+			<div class="el_after_content_item">
 				  <div class="el_menu_title">$_asp menu_name;</div>
 				  <ul>
 					  $_asp item;
 				  </ul>
-		</div>
+			</div>
 			<!-- End After Content Item -->
 			]]>
 			</box>
@@ -320,12 +320,12 @@
 		<before_footer>
 			<box>
 			<![CDATA[
-		<div class="el_before_footer_item">
+			<div class="el_before_footer_item">
 				  <div class="el_menu_title">$_asp menu_name;</div>
 				  <ul>
 					  $_asp item;
 				  </ul>
-		</div>
+			</div>
 			]]>
 			</box>
 			<list_item>
@@ -343,12 +343,12 @@
 		<footer_menu>
 			<box>
 			<![CDATA[
-		<div class="el_footer_menu_item">
+			<div class="el_footer_menu_item">
 				  <div class="el_menu_title">$_asp menu_name;</div>
 				  <ul>
 					  $_asp item;
 				  </ul>
-		</div>
+			</div>
 			]]>
 			</box>
 			<list_item>
@@ -379,12 +379,12 @@
 		<footer_1>
 			<box>
 			<![CDATA[
-		<div class="el_footer_1_item">
+			<div class="el_footer_1_item">
 				  <div class="el_menu_title">$_asp menu_name;</div>
 				  <ul>
 					  $_asp item;
 				  </ul>
-		</div>
+			</div>
 			]]>
 			</box>
 			<list_item>
@@ -402,12 +402,12 @@
 		<footer_2>
 			<box>
 			<![CDATA[
-		<div class="el_footer_2_item">
+			<div class="el_footer_2_item">
 				  <div class="el_menu_title">$_asp menu_name;</div>
 				  <ul>
 					  $_asp item;
 				  </ul>
-		</div>
+			</div>
 			]]>
 			</box>
 			<list_item>
@@ -425,12 +425,12 @@
 		<footer_bar_left>
 			<box>
 			<![CDATA[
-		<div class="el_footer_bar_left_item">
+			<div class="el_footer_bar_left_item">
 				  <div class="el_menu_title">$_asp menu_name;</div>
 				  <ul>
 					  $_asp item;
 				  </ul>
-		</div>
+			</div>
 			]]>
 			</box>
 			<list_item>
@@ -448,12 +448,12 @@
 		<footer_bar_right>
 			<box>
 			<![CDATA[
-		<div class="el_footer_bar_right_item">
+			<div class="el_footer_bar_right_item">
 				  <div class="el_menu_title">$_asp menu_name;</div>
 				  <ul>
 					  $_asp item;
 				  </ul>
-		</div>
+			</div>
 			]]>
 			</box>
 			<list_item>
@@ -471,12 +471,12 @@
 		<footer_bar_box>
 			<box>
 			<![CDATA[
-		<div class="el_footer_bar_box_item">
+			<div class="el_footer_bar_box_item">
 				  <div class="el_menu_title">$_asp menu_name;</div>
 				  <ul>
 					  $_asp item;
 				  </ul>
-		</div>
+			</div>
 			]]>
 			</box>
 			<list_item>

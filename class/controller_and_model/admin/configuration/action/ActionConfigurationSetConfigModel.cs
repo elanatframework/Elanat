@@ -38,7 +38,7 @@ namespace Elanat
                 case "site_dynamic_head": ConfigurationPath = StaticObject.SitePath + "App_Data/head_list/site/dynamic_head.xml"; break;
                 case "admin_static_head": ConfigurationPath = StaticObject.SitePath + "App_Data/head_list/admin/static_head.xml"; break;
                 case "admin_dynamic_head": ConfigurationPath = StaticObject.SitePath + "App_Data/head_list/admin/dynamic_head.xml"; break;
-                case "web_config": ConfigurationPath = StaticObject.SitePath + "Web.config"; break;
+                case "web_config": ConfigurationPath = StaticObject.SitePath + "../Web.config"; break;
                 case "global_template": ConfigurationPath = StaticObject.SitePath + "template/global.xml"; break;
                 case "admin_global_template": ConfigurationPath = StaticObject.SitePath + "template/admin_global.xml"; break;
                 case "admin_global_location": ConfigurationPath = StaticObject.SitePath + "template/admin_global_location.xml"; break;
