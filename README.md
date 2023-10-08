@@ -90,7 +90,10 @@ Editor template: Editor templates add-ons are part of a html page template; each
 
 Elanat runs all available programming languages, both web-based and hardware-based. You just need to create your add-on in your favorite programming language. A small list of programming languages supported by Elanat:
 
+ - C#
+ - VB.NET
  - C, C++
+ - Pascal
  - PHP
  - Python
  - ruby
