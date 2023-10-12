@@ -3,10 +3,10 @@
 
   <before_load_path_reference_list>
 
-	<reference type="url" check_type="page" exist="false" start_by="true" end_by="false" regex_match="false" active="true" reason="" name="tmp_load_for_install">
-		<path_value>/install</path_value>
-		<load_value><![CDATA[/action/system_access/reference/set_install_page_outside_the_path_access_handler/Default.aspx]]></load_value>
-	</reference>
+    <reference type="url" check_type="page" exist="false" start_by="true" end_by="false" regex_match="false" active="true" reason="" name="tmp_load_for_install">
+        <path_value>/install</path_value>
+        <load_value><![CDATA[/action/system_access/reference/set_install_page_outside_the_path_access_handler/Default.aspx]]></load_value>
+    </reference>
 
     <reference type="url" check_type="page" exist="false" start_by="true" end_by="false" regex_match="false" active="true" reason="you_do_not_access_to_backup_component">
       <path_value>/backup</path_value>
