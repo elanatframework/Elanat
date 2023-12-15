@@ -51,6 +51,17 @@ We also used several high-level technologies:
 
 In many cases, the Elanat system is better than Microsoft SharePoint, Drupal and Liferay.
 
+Items used in Elanat:
+ - CodeBehind framework
+ - Store procedure
+
+
+Items not used in Elanat:
+ - Default cshtml pages in ASP.NET Core
+ - Entity Framework
+ - Front-end frameworks
+ - Validation libraries
+
 ### Create add-on (based on ASP.NET Core)
 
 To create a plugin for Elanat, refer to the link below and read the README.md file.
