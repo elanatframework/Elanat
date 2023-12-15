@@ -53,8 +53,7 @@ In many cases, the Elanat system is better than Microsoft SharePoint, Drupal and
 
 Items used in Elanat:
  - CodeBehind framework
- - Store procedure
-
+ - Stored procedure
 
 Items not used in Elanat:
  - Default cshtml pages in ASP.NET Core
