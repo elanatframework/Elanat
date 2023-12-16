@@ -57,6 +57,7 @@ Items used in Elanat:
 
 Items not used in Elanat:
  - Default cshtml pages in ASP.NET Core
+ - JQuery
  - Entity Framework
  - Front-end frameworks
  - Validation libraries
