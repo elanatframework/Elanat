@@ -1,5 +1,5 @@
 ![logo](https://github.com/elanatframework/Elanat/assets/111444759/fb48c66f-2c43-43bd-b877-a17e0022a781)
-# Elanat
+# Elanat CMS
 
 Elanat was created to be a reliable system in .NET and an honor for .NET programmers and can be compared to other systems under PHP and JAVA.
 
