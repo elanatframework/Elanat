@@ -1,7 +1,4 @@
-﻿using Microsoft.Extensions.Primitives;
-using static System.Net.Mime.MediaTypeNames;
-
-namespace Elanat
+﻿namespace Elanat
 {
     public class ListItem
     {
