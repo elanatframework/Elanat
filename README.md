@@ -1,7 +1,9 @@
 ![logo](https://github.com/elanatframework/Elanat/assets/111444759/fb48c66f-2c43-43bd-b877-a17e0022a781)
-# Elanat
+# Elanat CMS
 
 Elanat was created to be a reliable system in .NET and an honor for .NET programmers and can be compared to other systems under PHP and JAVA.
+
+**Elanat is .NET Honor!**
 
 ![Elanat vs PHO and Java systems](https://github.com/elanatframework/Elanat/assets/111444759/1244ff6d-41aa-49f6-8c65-708c395027ae)
 
@@ -22,8 +24,8 @@ Elanat site view section image
 
 ### The most powerful .NET system
 
-Elanat framework is one of the best systems on the web. There is also a built-in CMS in Elanat core. Elanat uses an [CodeBehind](https://github.com/elanatframework/Code_behind) infrastructure MVC architecture that is not related to Microsoft ASP.NET MVC.
-This system is very powerful and very large and it benefits from a very modern structure that allows you to create up to 20 new add-ons for Elanat every day.
+Elanat framework is one of the best systems on the web. There is also a built-in CMS in Elanat core. Elanat uses an [CodeBehind](https://github.com/elanatframework/Code_behind) infrastructure MVC architecture that is not related to Microsoft ASP.NET Core.
+This system is very powerful and very large and it benefits from a very modern structure that allows you to create several new add-ons for Elanat every day.
 The wonderful structure of Elanat is in a way that it interacts with 8 types of add-ons, all of which are components, and the component itself is also a component. In the admin section, all component lists and other add-ons are displayed by the plugin add-on.
 
 Elanat admin view section image
@@ -48,6 +50,17 @@ We also used several high-level technologies:
  - Variables in the content template
 
 In many cases, the Elanat system is better than Microsoft SharePoint, Drupal and Liferay.
+
+Items used in Elanat:
+ - CodeBehind framework
+ - Stored procedure
+
+Items not used in Elanat:
+ - Default cshtml pages in ASP.NET Core
+ - JQuery
+ - Entity Framework
+ - Front-end frameworks
+ - Validation libraries
 
 ### Create add-on (based on ASP.NET Core)
 
