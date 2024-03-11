@@ -210,16 +210,14 @@ namespace Elanat
 
         public static bool IsImageExtension(string Extension)
         {
-            switch(Extension)
+            switch(Extension.ToLower())
             {
                 case ".jpg": return true;
                 case ".jpeg": return true;
                 case ".png": return true;
                 case ".gif": return true;
-                case ".JPG": return true;
-                case ".JPEG": return true;
-                case ".PNG": return true;
-                case ".GIF": return true;
+                case ".webp": return true;
+                case ".bmp": return true;
             }
 
             return false;
