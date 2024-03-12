@@ -165,6 +165,7 @@
 	font-size: 40px;
 	font-weight: bold;
 	line-height: 14px;
+    z-index: 1;
 }
 
 .elanat_box_main .el_inner_box
