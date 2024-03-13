@@ -233,7 +233,7 @@ namespace Elanat
 
 
             // Set Language Value
-
+            bool UseEnglishLanguage = false;
             if (CurrentLanguageId == "0")
             {
                 CurrentLanguageGlobalName = (!string.IsNullOrEmpty(context.Request.Query["language"])) ? context.Request.Query["language"].ToString().ProtectSqlInjection() : StaticObject.DefaultAdminLanguage;
@@ -246,13 +246,21 @@ namespace Elanat
             if (string.IsNullOrEmpty(dul.LanguageId))
             {
                 Write(Template.GetAdminTemplate("part/role_access/view").Replace("$_asp inaccess_reason;", Language.GetLanguage("language_is_not_existed", CurrentLanguageGlobalName)));
-                return;
+                
+                CurrentLanguageId = dul.GetLanguageIdByLanguageGlobalName("en");
+                dul.FillCurrentLanguage(CurrentLanguageId);
+                UseEnglishLanguage = true;
             }
 
             if (!dul.LanguageActive.ZeroOneToBoolean())
             {
                 Write(Template.GetAdminTemplate("part/role_access/view").Replace("$_asp inaccess_reason;", Language.GetLanguage("language_is_inactive", CurrentLanguageGlobalName)));
-                return;
+
+                if (!UseEnglishLanguage)
+                {
+                    CurrentLanguageId = dul.GetLanguageIdByLanguageGlobalName("en");
+                    dul.FillCurrentLanguage(CurrentLanguageId);
+                }
             }
 
             CurrentLanguageDirection = (dul.LanguageIsRightToLeft.ZeroOneToBoolean()) ? "rtl" : "ltr";
