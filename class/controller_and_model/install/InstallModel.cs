@@ -258,6 +258,10 @@ namespace Elanat
             dus.InstallSite();
 
 
+            // Set Language Active
+            DataUse.Language dul = new DataUse.Language();
+            dul.Active(SiteLanguageOptionListSelectedValue);
+
             // Set User Data
             DataUse.User duu = new DataUse.User();
 
