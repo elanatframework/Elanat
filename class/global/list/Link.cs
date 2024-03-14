@@ -9,9 +9,9 @@ namespace Elanat.ListClass
         public void FillLinkTargetListItem(string GlobalLanguage)
         {
             LinkTargetListItem.Add(Language.GetLanguage("blank", GlobalLanguage), "_blank");
-            LinkTargetListItem.Add(Language.GetLanguage("parent", GlobalLanguage), "parent");
-            LinkTargetListItem.Add(Language.GetLanguage("self", GlobalLanguage), "self");
-            LinkTargetListItem.Add(Language.GetLanguage("_top", GlobalLanguage), "_top");
+            LinkTargetListItem.Add(Language.GetLanguage("parent", GlobalLanguage), "_parent");
+            LinkTargetListItem.Add(Language.GetLanguage("self", GlobalLanguage), "_self");
+            LinkTargetListItem.Add(Language.GetLanguage("top", GlobalLanguage), "_top");
         }
 
         // Get Link Protocol List Item
