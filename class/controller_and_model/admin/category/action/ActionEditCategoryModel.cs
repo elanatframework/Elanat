@@ -191,7 +191,7 @@ namespace Elanat
             duc.SiteStyleId = DefaultStyleOptionListSelectedValue;
             duc.SiteTemplateId = DefaultTemplateOptionListSelectedValue;
             duc.CategoryPublicAccessShow = CategoryPublicAccessShowValue.BooleanToZeroOne();
-            duc.CategoryActive = CategoryActiveValue.ToString();
+            duc.CategoryActive = CategoryActiveValue.BooleanToZeroOne();
 
             // Edit Category
             duc.Edit();

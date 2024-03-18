@@ -154,7 +154,7 @@ namespace Elanat
             dum.MenuLocation = MenuLocationOptionListSelectedValue;
             dum.MenuSortIndex = MenuSortIndexValue;
             dum.MenuUseBox = MenuUseBoxValue.ToString();
-            dum.MenuActive = MenuActiveValue.ToString();
+            dum.MenuActive = MenuActiveValue.BooleanToZeroOne();
             dum.MenuPublicAccessShow = MenuPublicAccessShowValue.BooleanToZeroOne();
 
             // Add Menu
