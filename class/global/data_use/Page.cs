@@ -1,4 +1,5 @@
-﻿using System.Data.SqlClient;
+﻿using System.Collections.Generic;
+using System.Data.SqlClient;
 
 namespace Elanat.DataUse
 {
@@ -258,10 +259,7 @@ namespace Elanat.DataUse
         // Overload
         public void SetPageAccessShow(List<ListItem> PageAccessShowListPage)
         {
-            DataBaseSocket db = new DataBaseSocket();
-            foreach (ListItem item in PageAccessShowListPage)
-                if (item.Selected)
-                    db.SetProcedure("set_page_access_show", new List<string>() { "@role_id", "@page_id" }, new List<string>() { item.Value, PageId });
+            SetPageAccessShow(PageId, PageAccessShowListPage);
         }
 
         public void SetPageSite(string PageId, List<ListItem> PageSiteListPage)

@@ -1,4 +1,5 @@
-﻿using System.Data.SqlClient;
+﻿using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Xml;
 
 namespace Elanat.DataUse
@@ -159,38 +160,7 @@ namespace Elanat.DataUse
         // Overload
         public void SetComponentRoleAccess(List<ListItem> ComponentAccessShow, List<ListItem> ComponentAccessAdd, List<ListItem> ComponentAccessEditOwn, List<ListItem> ComponentAccessDeleteOwn, List<ListItem> ComponentAccessEditAll, List<ListItem> ComponentAccessDeleteAll)
         {
-            DataBaseSocket db = new DataBaseSocket();
-
-            // Set User Role
-            ListClass.User lcr = new ListClass.User();
-            lcr.FillUserRoleListItem(StaticObject.GetCurrentAdminGlobalLanguage());
-
-            foreach (ListItem item in lcr.UserRoleListItem)
-            {
-                string RoleId = item.Value;
-
-                string TmpComponentAccessShow = "0";
-                if (ComponentAccessShow.FindByValue(item.Value) != null)
-                    TmpComponentAccessShow = ComponentAccessShow.FindByValue(item.Value).Selected.BooleanToZeroOne();
-                string TmpComponentAccessAdd = "0";
-                if (ComponentAccessAdd.FindByValue(item.Value) != null)
-                    TmpComponentAccessAdd = ComponentAccessAdd.FindByValue(item.Value).Selected.BooleanToZeroOne();
-                string TmpComponentAccessEditOwn = "0";
-                if (ComponentAccessEditOwn.FindByValue(item.Value) != null)
-                    TmpComponentAccessEditOwn = ComponentAccessEditOwn.FindByValue(item.Value).Selected.BooleanToZeroOne();
-                string TmpComponentAccessDeleteOwn = "0";
-                if (ComponentAccessDeleteOwn.FindByValue(item.Value) != null)
-                    TmpComponentAccessDeleteOwn = ComponentAccessDeleteOwn.FindByValue(item.Value).Selected.BooleanToZeroOne();
-                string TmpComponentAccessEditAll = "0";
-                if (ComponentAccessEditAll.FindByValue(item.Value) != null)
-                    TmpComponentAccessEditAll = ComponentAccessEditAll.FindByValue(item.Value).Selected.BooleanToZeroOne();
-                string TmpComponentAccessDeleteAll = "0";
-                if (ComponentAccessDeleteAll.FindByValue(item.Value) != null)
-                    TmpComponentAccessDeleteAll = ComponentAccessDeleteAll.FindByValue(item.Value).Selected.BooleanToZeroOne();
-
-                if ((TmpComponentAccessShow.ZeroOneToBoolean() || TmpComponentAccessAdd.ZeroOneToBoolean() || TmpComponentAccessEditOwn.ZeroOneToBoolean() || TmpComponentAccessDeleteOwn.ZeroOneToBoolean() || TmpComponentAccessEditAll.ZeroOneToBoolean() || TmpComponentAccessDeleteAll.ZeroOneToBoolean()))
-                    db.SetProcedure("set_component_role_access", new List<string>() { "@component_id", "@role_id", "@access_show", "@access_add", "@access_edit_own", "@access_delete_own", "@access_edit_all", "@access_delete_all" }, new List<string>() { ComponentId, RoleId, TmpComponentAccessShow, TmpComponentAccessAdd, TmpComponentAccessEditOwn, TmpComponentAccessDeleteOwn, TmpComponentAccessEditAll, TmpComponentAccessDeleteAll });
-            }
+            SetComponentRoleAccess(ComponentId, ComponentAccessShow, ComponentAccessAdd, ComponentAccessEditOwn, ComponentAccessDeleteOwn, ComponentAccessEditAll, ComponentAccessDeleteAll);
         }
 
         public void Edit()

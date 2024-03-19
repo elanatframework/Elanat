@@ -1,4 +1,5 @@
-﻿using System.Data.SqlClient;
+﻿using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Xml;
 
 namespace Elanat.DataUse
@@ -110,10 +111,7 @@ namespace Elanat.DataUse
         // Overload
         public void SetFetchAccessShow(List<ListItem> FetchAccessShowListFetch)
         {
-            DataBaseSocket db = new DataBaseSocket();
-            foreach (ListItem item in FetchAccessShowListFetch)
-                if (item.Selected)
-                    db.SetProcedure("set_fetch_access_show", new List<string>() { "@role_id", "@fetch_id" }, new List<string>() { item.Value, FetchId });
+            SetFetchAccessShow(FetchId, FetchAccessShowListFetch);
         }
 
         public void AddMenuFetch(string FetchId, List<ListItem> MenuFetchListItem)

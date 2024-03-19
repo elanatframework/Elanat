@@ -135,10 +135,7 @@ namespace Elanat.DataUse
         // Overload
         public void SetAttachmentAccessShow(List<ListItem> AttachmentAccessShowListAttachment)
         {
-            DataBaseSocket db = new DataBaseSocket();
-            foreach (ListItem item in AttachmentAccessShowListAttachment)
-                if (item.Selected)
-                    db.SetProcedure("set_attachment_access_show", new List<string>() { "@role_id", "@attachment_id" }, new List<string>() { item.Value, AttachmentId });
+            SetAttachmentAccessShow(AttachmentId, AttachmentAccessShowListAttachment);
         }
 
         public void AddAttachmentContent(string AttachmentId, string[] ContentIdList)

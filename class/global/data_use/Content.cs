@@ -1,4 +1,5 @@
-﻿using System.Data.SqlClient;
+﻿using System.Collections.Generic;
+using System.Data.SqlClient;
 
 namespace Elanat.DataUse
 {
@@ -177,10 +178,7 @@ namespace Elanat.DataUse
         // Overload
         public void SetContentAccessShow(List<ListItem> ContentAccessShowListContent)
         {
-            DataBaseSocket db = new DataBaseSocket();
-            foreach (ListItem item in ContentAccessShowListContent)
-                if (item.Selected)
-                    db.SetProcedure("set_content_access_show", new List<string>() { "@role_id", "@content_id" }, new List<string>() { item.Value, ContentId });
+            SetContentAccessShow(ContentId, ContentAccessShowListContent);
         }
 
         public void AddContentRating(string ContentId)

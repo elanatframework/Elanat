@@ -1,4 +1,5 @@
-﻿using System.Data.SqlClient;
+﻿using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Xml;
 
 namespace Elanat.DataUse
@@ -189,38 +190,7 @@ namespace Elanat.DataUse
         // Overload
         public void SetModuleRoleAccess(List<ListItem> ModuleAccessShow, List<ListItem> ModuleAccessAdd, List<ListItem> ModuleAccessEditOwn, List<ListItem> ModuleAccessDeleteOwn, List<ListItem> ModuleAccessEditAll, List<ListItem> ModuleAccessDeleteAll)
         {
-            DataBaseSocket db = new DataBaseSocket();
-
-            // Set User Role
-            ListClass.User lcu = new ListClass.User();
-            lcu.FillUserRoleListItem(StaticObject.GetCurrentAdminGlobalLanguage());
-
-            foreach (ListItem item in lcu.UserRoleListItem)
-            {
-                string RoleId = item.Value;
-
-                string TmpModuleAccessShow = "0";
-                if (ModuleAccessShow.FindByValue(item.Value) != null)
-                    TmpModuleAccessShow = ModuleAccessShow.FindByValue(item.Value).Selected.BooleanToZeroOne();
-                string TmpModuleAccessAdd = "0";
-                if (ModuleAccessAdd.FindByValue(item.Value) != null)
-                    TmpModuleAccessAdd = ModuleAccessAdd.FindByValue(item.Value).Selected.BooleanToZeroOne();
-                string TmpModuleAccessEditOwn = "0";
-                if (ModuleAccessEditOwn.FindByValue(item.Value) != null)
-                    TmpModuleAccessEditOwn = ModuleAccessEditOwn.FindByValue(item.Value).Selected.BooleanToZeroOne();
-                string TmpModuleAccessDeleteOwn = "0";
-                if (ModuleAccessDeleteOwn.FindByValue(item.Value) != null)
-                    TmpModuleAccessDeleteOwn = ModuleAccessDeleteOwn.FindByValue(item.Value).Selected.BooleanToZeroOne();
-                string TmpModuleAccessEditAll = "0";
-                if (ModuleAccessEditAll.FindByValue(item.Value) != null)
-                    TmpModuleAccessEditAll = ModuleAccessEditAll.FindByValue(item.Value).Selected.BooleanToZeroOne();
-                string TmpModuleAccessDeleteAll = "0";
-                if (ModuleAccessDeleteAll.FindByValue(item.Value) != null)
-                    TmpModuleAccessDeleteAll = ModuleAccessDeleteAll.FindByValue(item.Value).Selected.BooleanToZeroOne();
-
-                if ((TmpModuleAccessShow.ZeroOneToBoolean() || TmpModuleAccessAdd.ZeroOneToBoolean() || TmpModuleAccessEditOwn.ZeroOneToBoolean() || TmpModuleAccessDeleteOwn.ZeroOneToBoolean() || TmpModuleAccessEditAll.ZeroOneToBoolean() || TmpModuleAccessDeleteAll.ZeroOneToBoolean()))
-                    db.SetProcedure("set_module_role_access", new List<string>() { "@module_id", "@role_id", "@access_show", "@access_add", "@access_edit_own", "@access_delete_own", "@access_edit_all", "@access_delete_all" }, new List<string>() { ModuleId, RoleId, TmpModuleAccessShow, TmpModuleAccessAdd, TmpModuleAccessEditOwn, TmpModuleAccessDeleteOwn, TmpModuleAccessEditAll, TmpModuleAccessDeleteAll });
-            }
+            SetModuleRoleAccess(ModuleId, ModuleAccessShow, ModuleAccessAdd, ModuleAccessEditOwn, ModuleAccessDeleteOwn, ModuleAccessEditAll, ModuleAccessDeleteAll);
         }
 
         public void Edit()

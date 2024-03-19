@@ -1,4 +1,5 @@
-﻿using System.Data.SqlClient;
+﻿using System.Collections.Generic;
+using System.Data.SqlClient;
 
 namespace Elanat.DataUse
 {
@@ -74,10 +75,7 @@ namespace Elanat.DataUse
         // Overload
         public void SetMenuAccessShow(List<ListItem> MenuAccessShowListMenu)
         {
-            DataBaseSocket db = new DataBaseSocket();
-            foreach (ListItem item in MenuAccessShowListMenu)
-                if (item.Selected)
-                    db.SetProcedure("set_menu_access_show", new List<string>() { "@role_id", "@menu_id" }, new List<string>() { item.Value, MenuId });
+            SetMenuAccessShow(MenuId, MenuAccessShowListMenu);
         }
 
         public void Edit()

@@ -1,4 +1,5 @@
-﻿using System.Data.SqlClient;
+﻿using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Xml;
 
 namespace Elanat.DataUse
@@ -124,10 +125,7 @@ namespace Elanat.DataUse
         // Overload
         public void SetEditorTemplateAccessShow(List<ListItem> EditorTemplateAccessShowListEditorTemplate)
         {
-            DataBaseSocket db = new DataBaseSocket();
-            foreach (ListItem item in EditorTemplateAccessShowListEditorTemplate)
-                if (item.Selected)
-                    db.SetProcedure("set_editor_template_access_show", new List<string>() { "@role_id", "@editor_template_id" }, new List<string>() { item.Value, EditorTemplateId });
+            SetEditorTemplateAccessShow(EditorTemplateId, EditorTemplateAccessShowListEditorTemplate);
         }
         
         public void Edit()

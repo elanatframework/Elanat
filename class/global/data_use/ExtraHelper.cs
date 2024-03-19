@@ -1,4 +1,5 @@
-﻿using System.Data.SqlClient;
+﻿using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Xml;
 
 namespace Elanat.DataUse
@@ -125,10 +126,7 @@ namespace Elanat.DataUse
         // Overload
         public void SetExtraHelperAccessShow(List<ListItem> ExtraHelperAccessShowListExtraHelper)
         {
-            DataBaseSocket db = new DataBaseSocket();
-            foreach (ListItem item in ExtraHelperAccessShowListExtraHelper)
-                if (item.Selected)
-                    db.SetProcedure("set_extra_helper_access_show", new List<string>() { "@role_id", "@extra_helper_id" }, new List<string>() { item.Value, ExtraHelperId });
+            SetExtraHelperAccessShow(ExtraHelperId, ExtraHelperAccessShowListExtraHelper);
         }
 
         public void Edit()

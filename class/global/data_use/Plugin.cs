@@ -188,38 +188,7 @@ namespace Elanat.DataUse
         // Overload
         public void SetPluginRoleAccess(List<ListItem> PluginAccessShow, List<ListItem> PluginAccessAdd, List<ListItem> PluginAccessEditOwn, List<ListItem> PluginAccessDeleteOwn, List<ListItem> PluginAccessEditAll, List<ListItem> PluginAccessDeleteAll)
         {
-            DataBaseSocket db = new DataBaseSocket();
-
-            // Set User Role
-            ListClass.User lcu = new ListClass.User();
-            lcu.FillUserRoleListItem(StaticObject.GetCurrentAdminGlobalLanguage());
-
-            foreach (ListItem item in lcu.UserRoleListItem)
-            {
-                string RoleId = item.Value;
-
-                string TmpPluginAccessShow = "0";
-                if (PluginAccessShow.FindByValue(item.Value) != null)
-                    TmpPluginAccessShow = PluginAccessShow.FindByValue(item.Value).Selected.BooleanToZeroOne();
-                string TmpPluginAccessAdd = "0";
-                if (PluginAccessAdd.FindByValue(item.Value) != null)
-                    TmpPluginAccessAdd = PluginAccessAdd.FindByValue(item.Value).Selected.BooleanToZeroOne();
-                string TmpPluginAccessEditOwn = "0";
-                if (PluginAccessEditOwn.FindByValue(item.Value) != null)
-                    TmpPluginAccessEditOwn = PluginAccessEditOwn.FindByValue(item.Value).Selected.BooleanToZeroOne();
-                string TmpPluginAccessDeleteOwn = "0";
-                if (PluginAccessDeleteOwn.FindByValue(item.Value) != null)
-                    TmpPluginAccessDeleteOwn = PluginAccessDeleteOwn.FindByValue(item.Value).Selected.BooleanToZeroOne();
-                string TmpPluginAccessEditAll = "0";
-                if (PluginAccessEditAll.FindByValue(item.Value) != null)
-                    TmpPluginAccessEditAll = PluginAccessEditAll.FindByValue(item.Value).Selected.BooleanToZeroOne();
-                string TmpPluginAccessDeleteAll = "0";
-                if (PluginAccessDeleteAll.FindByValue(item.Value) != null)
-                    TmpPluginAccessDeleteAll = PluginAccessDeleteAll.FindByValue(item.Value).Selected.BooleanToZeroOne();
-
-                if ((TmpPluginAccessShow.ZeroOneToBoolean() || TmpPluginAccessAdd.ZeroOneToBoolean() || TmpPluginAccessEditOwn.ZeroOneToBoolean() || TmpPluginAccessDeleteOwn.ZeroOneToBoolean() || TmpPluginAccessEditAll.ZeroOneToBoolean() || TmpPluginAccessDeleteAll.ZeroOneToBoolean()))
-                    db.SetProcedure("set_plugin_role_access", new List<string>() { "@plugin_id", "@role_id", "@access_show", "@access_add", "@access_edit_own", "@access_delete_own", "@access_edit_all", "@access_delete_all" }, new List<string>() { PluginId, RoleId, TmpPluginAccessShow, TmpPluginAccessAdd, TmpPluginAccessEditOwn, TmpPluginAccessDeleteOwn, TmpPluginAccessEditAll, TmpPluginAccessDeleteAll });
-            }
+            SetPluginRoleAccess(PluginId, PluginAccessShow, PluginAccessAdd, PluginAccessEditOwn, PluginAccessDeleteOwn, PluginAccessEditAll, PluginAccessDeleteAll);
         }
 
         public void Edit()

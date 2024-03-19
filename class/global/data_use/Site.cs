@@ -1,4 +1,5 @@
-﻿using System.Data.SqlClient;
+﻿using System.Collections.Generic;
+using System.Data.SqlClient;
 
 namespace Elanat.DataUse
 {
@@ -127,10 +128,7 @@ namespace Elanat.DataUse
         // Overload
         public void SetSiteAccessShow(List<ListItem> SiteAccessShowListSite)
         {
-            DataBaseSocket db = new DataBaseSocket();
-            foreach (ListItem item in SiteAccessShowListSite)
-                if (item.Selected)
-                    db.SetProcedure("set_site_access_show", new List<string>() { "@role_id", "@site_id" }, new List<string>() { item.Value, SiteId });
+            SetSiteAccessShow(SiteId, SiteAccessShowListSite);
         }
 
         public void Edit()

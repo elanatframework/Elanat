@@ -111,10 +111,7 @@ namespace Elanat.DataUse
         // Overload
         public void SetCategoryAccessShow(List<ListItem> CategoryAccessShowListCategory)
         {
-            DataBaseSocket db = new DataBaseSocket();
-            foreach (ListItem item in CategoryAccessShowListCategory)
-                if (item.Selected)
-                    db.SetProcedure("set_category_access_show", new List<string>() { "@role_id", "@category_id" }, new List<string>() { item.Value, CategoryId });
+            SetCategoryAccessShow(CategoryId, CategoryAccessShowListCategory);
         }
 
         public void Edit()
