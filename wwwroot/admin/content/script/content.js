@@ -8,7 +8,7 @@ async function el_ActiveContent(obj, ContentId)
 	var OkClick = await el_Confirm(ContentLanguageVariant.Active);
     if (OkClick)
 	{
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function () 
 		{
@@ -52,7 +52,7 @@ async function el_ActiveSelectedContent()
         var i = 0;
         while (i < ArrayContentIdLength)
 		{
-            var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+            var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
             xmlhttp.onreadystatechange = function () 
 			{
@@ -85,7 +85,7 @@ async function el_InactiveContent(obj, ContentId)
 	var OkClick = await el_Confirm(ContentLanguageVariant.InActive);
     if (OkClick)
 	{
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function () 
 		{
@@ -129,7 +129,7 @@ async function el_InactiveSelectedContent()
         var i = 0;
         while (i < ArrayContentIdLength)
 		{
-            var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+            var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
             xmlhttp.onreadystatechange = function ()
 			{
@@ -162,7 +162,7 @@ async function el_ContentToTrash(obj, ContentId)
 	var OkClick = await el_Confirm(ContentLanguageVariant.Delete);
     if (OkClick)
 	{
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function ()
 		{
@@ -206,7 +206,7 @@ async function el_SelectedContentToTrash()
         var i = 0;
         while (i < ArrayContentIdLength)
 		{
-            var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+            var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
             xmlhttp.onreadystatechange = function ()
 			{
@@ -235,7 +235,7 @@ function el_ViewContent(ContentId)
 {
 	if (!document.getElementById("div_ContentViewMore" + ContentId))
 	{
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function ()
 		{
@@ -284,7 +284,7 @@ function el_SearchContent()
 	var SearchValue = document.getElementById("txt_Search").value;
     if (SearchValue != "")
 	{
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function () 
 		{
@@ -307,7 +307,7 @@ function el_SearchContent()
 
 function el_SortContent(ColumnName, SearchedItem, IsDesc)
 {
-	var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+	var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
     xmlhttp.onreadystatechange = function () 
 	{

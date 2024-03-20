@@ -46,7 +46,7 @@ async function el_DeleteAvatar(obj, AvatarName)
 
     var CurrentPath = document.getElementById("hdn_ContentAvatarPath").value;
 
-    var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+    var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
     xmlhttp.onreadystatechange = function ()
     {
@@ -74,7 +74,7 @@ async function el_DeleteDirectory(obj, DirectoryName)
 
     var CurrentPath = document.getElementById("hdn_ContentAvatarPath").value;
 
-    var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+    var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
     xmlhttp.onreadystatechange = function ()
     {

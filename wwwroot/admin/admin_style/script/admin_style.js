@@ -15,7 +15,7 @@ async function el_ActiveAdminStyle(obj, AdminStyleId)
 	var OkClick = await el_Confirm(AdminStyleLanguageVariant.Active);
     if (OkClick)
 	{
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function ()
         {
@@ -59,7 +59,7 @@ async function el_ActiveSelectedAdminStyle()
         var i = 0;
         while (i < ArrayAdminStyleIdLength)
 		{
-            var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+            var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
             xmlhttp.onreadystatechange = function ()
             {
@@ -92,7 +92,7 @@ async function el_InactiveAdminStyle(obj, AdminStyleId)
 	var OkClick = await el_Confirm(AdminStyleLanguageVariant.InActive);
     if (OkClick)
 	{
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function ()
         {
@@ -135,7 +135,7 @@ async function el_InactiveSelectedAdminStyle()
         var i = 0;
         while (i < ArrayAdminStyleIdLength)
 		{
-            var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+            var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
             xmlhttp.onreadystatechange = function ()
             {
@@ -168,7 +168,7 @@ async function el_DeleteAdminStyle(obj, AdminStyleId)
 	var OkClick = await el_Confirm(AdminStyleLanguageVariant.Delete);
     if (OkClick)
 	{
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function ()
         {
@@ -212,7 +212,7 @@ async function el_DeleteSelectedAdminStyle()
         var i = 0;
         while (i < ArrayAdminStyleIdLength)
 		{
-            var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+            var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
             xmlhttp.onreadystatechange = function ()
             {
@@ -241,7 +241,7 @@ function el_ViewAdminStyle(AdminStyleId)
 {
 	if (!document.getElementById("div_AdminStyleViewMore" + AdminStyleId))
 	{
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function ()
         {
@@ -272,7 +272,7 @@ function el_ViewAdminStyleInformation(AdminStyleDirectoryPath)
 {
 	if (!document.getElementById("div_ViewAdminStyleInformation" + AdminStyleDirectoryPath))
 	{
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function ()
         {
@@ -320,7 +320,7 @@ function el_SearchAdminStyle()
 	var SearchValue = document.getElementById("txt_Search").value;
     if (SearchValue != "")
     {
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function ()
         {
@@ -343,7 +343,7 @@ function el_SearchAdminStyle()
 
 function el_SortAdminStyle(ColumnName, SearchedItem, IsDesc)
 {
-	var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+	var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
     xmlhttp.onreadystatechange = function ()
     {

@@ -15,7 +15,7 @@ async function el_ActiveAttachment(obj, AttachmentId)
 	var OkClick = await el_Confirm(AttachmentLanguageVariant.Active);
     if (OkClick)
 	{
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function () 
 		{
@@ -59,7 +59,7 @@ async function el_ActiveSelectedAttachment()
         var i = 0;
         while (i < ArrayAttachmentIdLength)
 		{
-            var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+            var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
             xmlhttp.onreadystatechange = function () 
 			{
@@ -92,7 +92,7 @@ async function el_InactiveAttachment(obj, AttachmentId)
 	var OkClick = await el_Confirm(AttachmentLanguageVariant.InActive);
     if (OkClick)
 	{
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function () 
 		{
@@ -139,7 +139,7 @@ async function el_InactiveSelectedAttachment()
     var i = 0;
     while (i < ArrayAttachmentIdLength)
 	{
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
 
         xmlhttp.onreadystatechange = function ()
@@ -212,7 +212,7 @@ async function el_DeleteSelectedAttachment()
         var i = 0;
         while (i < ArrayAttachmentIdLength)
         {
-            var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+            var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
 
             xmlhttp.onreadystatechange = function ()
@@ -242,7 +242,7 @@ function el_ViewAttachment(AttachmentId)
 {
 	if (!document.getElementById("div_AttachmentViewMore" + AttachmentId))
 	{
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function () 
 		{
@@ -289,7 +289,7 @@ function el_SearchAttachment()
 	var SearchValue = document.getElementById("txt_Search").value;
     if (SearchValue != "")
 	{
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function () 
 		{
@@ -312,7 +312,7 @@ function el_SearchAttachment()
 
 function el_SortAttachment(ColumnName, SearchedItem, IsDesc)
 {
-	var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+	var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
     xmlhttp.onreadystatechange = function () 
 	{

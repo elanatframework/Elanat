@@ -12,7 +12,7 @@
 
 function el_SortCategory(ColumnName, SearchedItem, IsDesc)
 {
-	var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+	var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
     xmlhttp.onreadystatechange = function ()
     {
@@ -42,7 +42,7 @@ async function el_ActiveCategory(obj, CategoryId)
 	var OkClick = await el_Confirm(CategoryLanguageVariant.Active);
     if (OkClick)
 	{
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function () 
 		{
@@ -86,7 +86,7 @@ async function el_ActiveSelectedCategory()
         var i = 0;
         while (i < ArrayCategoryIdLength)
 		{
-            var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+            var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
             xmlhttp.onreadystatechange = function ()
 			{
@@ -119,7 +119,7 @@ async function el_InactiveCategory(obj, CategoryId)
 	var OkClick = await el_Confirm(CategoryLanguageVariant.InActive);
 	if (OkClick)
 	{
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function () 
 		{
@@ -163,7 +163,7 @@ async function el_InactiveSelectedCategory()
         var i = 0;
         while (i < ArrayCategoryIdLength)
 		{
-            var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+            var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
             xmlhttp.onreadystatechange = function ()
 			{
@@ -196,7 +196,7 @@ async function el_DeleteCategory(obj, CategoryId)
 	var OkClick = await el_Confirm(CategoryLanguageVariant.Delete);
 	if (OkClick)
 	{
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function () 
 		{
@@ -240,7 +240,7 @@ async function el_DeleteSelectedCategory()
         var i = 0;
         while (i < ArrayCategoryIdLength)
 		{
-            var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+            var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
             xmlhttp.onreadystatechange = function () 
 			{
@@ -269,7 +269,7 @@ function el_ViewCategory(CategoryId)
 {
 	if (!document.getElementById("div_CategoryViewMore" + CategoryId))
 	{
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function ()
 		{
@@ -317,7 +317,7 @@ function el_SearchCategory()
 	var SearchValue = document.getElementById("txt_Search").value;
     if (SearchValue != "")
 	{
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function () 
 		{

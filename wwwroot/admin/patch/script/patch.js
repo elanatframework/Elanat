@@ -15,7 +15,7 @@ async function el_ActivePatch(obj, PatchId)
 	var OkClick = await el_Confirm(PatchLanguageVariant.Active);
     if (OkClick)
     {
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function ()
         {
@@ -59,7 +59,7 @@ async function el_ActiveSelectedPatch()
         var i = 0;
         while (i < ArrayPatchIdLength)
         {
-            var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+            var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
             xmlhttp.onreadystatechange = function ()
             {
@@ -92,7 +92,7 @@ async function el_InactivePatch(obj, PatchId)
 	var OkClick = await el_Confirm(PatchLanguageVariant.InActive);
     if (OkClick)
     {
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function ()
         {
@@ -136,7 +136,7 @@ async function el_InactiveSelectedPatch()
         var i = 0;
         while (i < ArrayPatchIdLength)
         {
-            var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+            var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
             xmlhttp.onreadystatechange = function ()
             {
@@ -169,7 +169,7 @@ async function el_DeletePatch(obj, PatchId)
 	var OkClick = await el_Confirm(PatchLanguageVariant.Delete);
     if (OkClick)
     {
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function ()
         {
@@ -213,7 +213,7 @@ async function el_DeleteSelectedPatch()
         var i = 0;
         while (i < ArrayPatchIdLength)
         {
-            var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+            var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
             xmlhttp.onreadystatechange = function ()
             {
@@ -242,7 +242,7 @@ function el_ViewPatch(PatchId)
 {
 	if (!document.getElementById("div_PatchViewMore" + PatchId))
     {
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function ()
         {
@@ -273,7 +273,7 @@ function el_ViewPatchInformation(PatchDirectoryPath)
 {
 	if (!document.getElementById("div_ViewPatchInformation" + PatchDirectoryPath))
     {
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function ()
         {
@@ -321,7 +321,7 @@ function el_SearchPatch()
 	var SearchValue = document.getElementById("txt_Search").value;
     if (SearchValue != "")
     {
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function ()
         {
@@ -344,7 +344,7 @@ function el_SearchPatch()
 
 function el_SortPatch(ColumnName, SearchedItem, IsDesc)
 {
-	var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+	var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
     xmlhttp.onreadystatechange = function ()
     {

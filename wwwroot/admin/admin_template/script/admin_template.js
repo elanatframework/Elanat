@@ -15,7 +15,7 @@ async function el_ActiveAdminTemplate(obj, AdminTemplateId)
 	var OkClick = await el_Confirm(AdminTemplateLanguageVariant.Active);
     if (OkClick)
 	{
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function ()
         {
@@ -59,7 +59,7 @@ async function el_ActiveSelectedAdminTemplate()
         var i = 0;
         while (i < ArrayAdminTemplateIdLength)
 		{
-            var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+            var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
             xmlhttp.onreadystatechange = function ()
             {
@@ -92,7 +92,7 @@ async function el_InactiveAdminTemplate(obj, AdminTemplateId)
 	var OkClick = await el_Confirm(AdminTemplateLanguageVariant.InActive);
     if (OkClick)
 	{
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function ()
         {
@@ -136,7 +136,7 @@ async function el_InactiveSelectedAdminTemplate()
         var i = 0;
         while (i < ArrayAdminTemplateIdLength)
 		{
-            var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+            var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
             xmlhttp.onreadystatechange = function ()
             {
@@ -169,7 +169,7 @@ async function el_DeleteAdminTemplate(obj, AdminTemplateId)
 	var OkClick = await el_Confirm(AdminTemplateLanguageVariant.Delete);
     if (OkClick)
 	{
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function ()
         {
@@ -213,7 +213,7 @@ async function el_DeleteSelectedAdminTemplate()
         var i = 0;
         while (i < ArrayAdminTemplateIdLength)
 		{
-            var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+            var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
             xmlhttp.onreadystatechange = function ()
             {
@@ -242,7 +242,7 @@ function el_ViewAdminTemplate(AdminTemplateId)
 {
 	if (!document.getElementById("div_AdminTemplateViewMore" + AdminTemplateId))
 	{
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function ()
         {
@@ -273,7 +273,7 @@ function el_ViewAdminTemplateInformation(AdminTemplateDirectoryPath)
 {
 	if (!document.getElementById("div_ViewAdminTemplateInformation" + AdminTemplateDirectoryPath))
 	{
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function ()
         {
@@ -321,7 +321,7 @@ function el_SearchAdminTemplate()
 	var SearchValue = document.getElementById("txt_Search").value;
     if (SearchValue != "")
 	{
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function ()
         {
@@ -344,7 +344,7 @@ function el_SearchAdminTemplate()
 
 function el_SortAdminTemplate(ColumnName, SearchedItem, IsDesc) 
 {
-	var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+	var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
     xmlhttp.onreadystatechange = function ()
     {

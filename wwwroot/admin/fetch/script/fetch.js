@@ -27,7 +27,7 @@ async function el_ActiveFetch(obj, FetchId)
 	var OkClick = await el_Confirm(FetchLanguageVariant.Active);
     if (OkClick)
     {
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function ()
         {
@@ -71,7 +71,7 @@ async function el_ActiveSelectedFetch()
         var i = 0;
         while (i < ArrayFetchIdLength)
         {
-            var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+            var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
             xmlhttp.onreadystatechange = function ()
             {
@@ -104,7 +104,7 @@ async function el_InactiveFetch(obj, FetchId)
 	var OkClick = await el_Confirm(FetchLanguageVariant.InActive);
     if (OkClick)
     {
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function ()
         {
@@ -148,7 +148,7 @@ async function el_InactiveSelectedFetch()
         var i = 0;
         while (i < ArrayFetchIdLength)
         {
-            var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+            var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
             xmlhttp.onreadystatechange = function ()
             {
@@ -181,7 +181,7 @@ async function el_DeleteFetch(obj, FetchId)
 	var OkClick = await el_Confirm(FetchLanguageVariant.Delete);
     if (OkClick)
     {
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function ()
         {
@@ -225,7 +225,7 @@ async function el_DeleteSelectedFetch()
         var i = 0;
         while (i < ArrayFetchIdLength)
         {
-            var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+            var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
             xmlhttp.onreadystatechange = function ()
             {
@@ -254,7 +254,7 @@ function el_ViewFetch(FetchId)
 {
 	if (!document.getElementById("div_FetchViewMore" + FetchId))
     {
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function ()
         {
@@ -285,7 +285,7 @@ function el_ViewFetchInformation(FetchName)
 {
 	if (!document.getElementById("div_ViewFetchInformation" + FetchName))
     {
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function ()
         {
@@ -333,7 +333,7 @@ function el_SearchFetch()
 	var SearchValue = document.getElementById("txt_Search").value;
     if (SearchValue != "")
     {
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function ()
         {
@@ -356,7 +356,7 @@ function el_SearchFetch()
 
 function el_SortFetch(ColumnName, SearchedItem, IsDesc)
 {
-	var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+	var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
     xmlhttp.onreadystatechange = function ()
     {

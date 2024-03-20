@@ -27,7 +27,7 @@ async function el_ActiveComponent(obj, ComponentId)
 	var OkClick = await el_Confirm(ComponentLanguageVariant.Active);
     if (OkClick)
     {
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function ()
         {
@@ -70,7 +70,7 @@ async function el_ActiveSelectedComponent()
         var i = 0;
         while (i < ArrayComponentIdLength)
         {
-            var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+            var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
             xmlhttp.onreadystatechange = function ()
             {
@@ -103,7 +103,7 @@ async function el_InactiveComponent(obj, ComponentId)
 	var OkClick = await el_Confirm(ComponentLanguageVariant.InActive);
     if (OkClick)
     {
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function ()
         {
@@ -147,7 +147,7 @@ async function el_InactiveSelectedComponent()
         var i = 0;
         while (i < ArrayComponentIdLength)
         {
-            var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+            var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
             xmlhttp.onreadystatechange = function ()
             {
@@ -180,7 +180,7 @@ async function el_DeleteComponent(obj, ComponentId)
 	var OkClick = await el_Confirm(ComponentLanguageVariant.Delete);
     if (OkClick)
     {
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function ()
         {
@@ -224,7 +224,7 @@ async function el_DeleteSelectedComponent()
         var i = 0;
         while (i < ArrayComponentIdLength)
         {
-            var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+            var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
             xmlhttp.onreadystatechange = function ()
             {
@@ -253,7 +253,7 @@ function el_ViewComponent(ComponentId)
 {
 	if (!document.getElementById("div_ComponentViewMore" + ComponentId))
     {
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function ()
         {
@@ -284,7 +284,7 @@ function el_ViewComponentInformation(ComponentDirectoryPath)
 {
 	if (!document.getElementById("div_ViewComponentInformation" + ComponentDirectoryPath))
     {
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function ()
         {
@@ -332,7 +332,7 @@ function el_SearchComponent()
 	var SearchValue = document.getElementById("txt_Search").value;
     if (SearchValue != "")
     {
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function ()
         {
@@ -355,7 +355,7 @@ function el_SearchComponent()
 
 function el_SortComponent(ColumnName, SearchedItem, IsDesc)
 {
-	var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+	var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
     xmlhttp.onreadystatechange = function ()
     {

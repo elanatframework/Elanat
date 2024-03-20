@@ -133,7 +133,7 @@ function el_SearchFileDirectory(CurrentPath)
 	var SearchValue = document.getElementById("txt_Search").value;
     if (SearchValue != "")
 	{
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function () 
 		{
@@ -156,7 +156,7 @@ function el_SearchFileDirectory(CurrentPath)
 
 function el_SortFileDirectory(ColumnName, SearchedItem, CurrentPath, IsDesc)
 {
-	var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+	var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
     xmlhttp.onreadystatechange = function () 
 	{
@@ -415,7 +415,7 @@ function el_OpenFileDirectory(Type, Name, Path)
 {
 	if (Type == "directory")
     {
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function () 
 	    {
@@ -490,7 +490,7 @@ function el_SetCodeMirror(TextFilePath, MimeType)
     while(document.getElementById("div_FileTextBox").getElementsByClassName("CodeMirror").item(0))
         document.getElementById("div_FileTextBox").getElementsByClassName("CodeMirror").item(0).outerHTML = null;
 
-    var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+    var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
     xmlhttp.onreadystatechange = function () 
 	{

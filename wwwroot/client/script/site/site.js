@@ -25,7 +25,7 @@ function el_ViewUserInfo(UserId)
     DivId = "div_UserInfo_" + UserId;
     if (!document.getElementById(DivId))
     {
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function () 
 		{
@@ -59,7 +59,7 @@ function el_ViewComment(ContentId)
     if (document.getElementById(DivId))
         document.getElementById(DivId).outerHTML = null;
 
-    var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+    var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
     xmlhttp.onreadystatechange = function ()
     {
@@ -90,7 +90,7 @@ function el_OpenCommentReply(ContentId, CommentId)
     DivId = "div_comment_reply_" + CommentId;
     if (!document.getElementById(DivId))
 	{
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function ()
         {
@@ -123,7 +123,7 @@ function el_OpenContentReply(ContentId)
     if (document.getElementById(DivId))
         document.getElementById(DivId).outerHTML = null;
 
-    var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+    var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
     xmlhttp.onreadystatechange = function ()
     {
@@ -159,7 +159,7 @@ function el_SubmitRate(ContentId, Rate)
 	{
         if (!el_GetCookie("el_rating_content_id_" + ContentId))
         {
-            var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+            var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
             xmlhttp.onreadystatechange = function () 
 			{
@@ -195,7 +195,7 @@ function el_SendEmailContent(ContentId)
     if (document.getElementById(DivId))
         document.getElementById(DivId).outerHTML = null;
 
-    var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+    var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
     xmlhttp.onreadystatechange = function ()
     {
@@ -389,7 +389,7 @@ function el_OpenReadMore(ContentId, UseLink, UseAjax)
     else
         if (UseAjax)
         {
-            var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+            var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
             xmlhttp.onreadystatechange = function () 
 			{
@@ -426,7 +426,7 @@ function el_ShowProtectionContent(ContentId)
         CaptchaValue = document.getElementById("txt_Captcha").value;
     
 
-    var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+    var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
 	xmlhttp.onreadystatechange = function ()
 	{
@@ -463,7 +463,7 @@ function el_ShowProtectionAttachment(AttachmentId)
         CaptchaValue = document.getElementById("txt_Captcha").value;
 
 
-    var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+    var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
     xmlhttp.onreadystatechange = function () 
 	{

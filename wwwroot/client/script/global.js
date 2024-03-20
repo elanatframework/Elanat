@@ -170,7 +170,7 @@ function el_LoadCaptcha()
 
 function el_LoadCaptchaPage(CaptchaIndex)
 {
-    var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+    var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
     xmlhttp.onreadystatechange = function ()
     {
@@ -872,7 +872,7 @@ function el_InsertEditorTemplateValueToWysiwyg()
 function el_CreateContentTypeValue(ContentType)
 {
     // Load Content Type
-    var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+    var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
     var ContentTypeValueTag = document.createElement("div");
     var ContentTypeValue = "";
@@ -966,7 +966,7 @@ function el_HidePart(obj)
 
 function el_LoadPageWithAjax(Url, FetchScript, PostbackSectionId)
 {
-    var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+    var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
     xmlhttp.onreadystatechange = function ()
     {
@@ -1956,7 +1956,7 @@ function el_SubmitCalendar(CalendarPath)
 {
     var CurrentDate = document.getElementById("hdn_CurrentDate").value;
 
-    var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+    var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
     xmlhttp.onreadystatechange = function () 
 	{
@@ -2034,7 +2034,7 @@ function el_KeppLoginAjax()
 {
     if (el_GetCookie("el_current_user-keep_login_random_text"))
     {
-        var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
         xmlhttp.onreadystatechange = function () 
 	    {

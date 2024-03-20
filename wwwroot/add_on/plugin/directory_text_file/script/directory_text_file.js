@@ -17,7 +17,7 @@ function el_SetCodeMirror(TextFilePath, MimeType)
     while(document.getElementById("div_FileTextBox").getElementsByClassName("CodeMirror").item(0))
         document.getElementById("div_FileTextBox").getElementsByClassName("CodeMirror").item(0).outerHTML = null;
 
-    var xmlhttp = (window.XMLHttpRequest) ? xmlhttp = new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+    var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
 
     xmlhttp.onreadystatechange = function () 
 	{
