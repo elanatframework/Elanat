@@ -54,8 +54,8 @@ namespace Elanat.ListClass
         public List<ListItem> RoleCacheTypeListItem = new List<ListItem>();
         public void FillRoleCacheTypeListItem(string GlobalLanguage)
         {
-            RoleTypeListItem.Add(Language.GetLanguage("memory", GlobalLanguage), "memory");
-            RoleTypeListItem.Add(Language.GetLanguage("disk", GlobalLanguage), "disk");
+            RoleCacheTypeListItem.Add(Language.GetLanguage("memory", GlobalLanguage), "memory");
+            RoleCacheTypeListItem.Add(Language.GetLanguage("disk", GlobalLanguage), "disk");
         }
     }
 }
