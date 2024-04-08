@@ -1407,6 +1407,15 @@ function el_FormDataSerialize(form, TagSubmitName, TagSubmitValue, FormIsMultiPa
                     case 'hidden':
                     case 'password':
                     case 'reset':
+                    case 'color':
+                    case 'date':
+                    case 'time':
+                    case 'datetime-local':
+                    case 'email':
+                    case 'month':
+                    case 'tel':
+                    case 'url':
+                    case 'week':
                         {
                             if (FormIsMultiPart)
                                 TmpFormData.append(form.elements[i].name, form.elements[i].value);
