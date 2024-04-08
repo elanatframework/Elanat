@@ -259,6 +259,7 @@ html[dir="rtl"] .el_quotation p:after
     width: 100%;
     display: table;
     padding: 10px 0px;
+    direction: ltr;
 }
 	
 /* Reserve */
