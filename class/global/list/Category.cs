@@ -47,7 +47,7 @@
         public List<ListItem> CategoryListItemTree = new List<ListItem>();
         public List<ListItem> CategoryListItemTreeWithoutSpace = new List<ListItem>();
         public List<ListItem> CategoryListItemOnlySpace = new List<ListItem>();
-        public void FillCategoryListItemTree(string SiteId, string Space = "")
+        public void FillCategoryListItemTree(string SiteId, string Space = "", bool TranslateLanguage = false, string GlobalLanguage = "")
         {
             List<string> CategoryId = new List<string>();
             List<string> CategoryName = new List<string>();
@@ -62,7 +62,7 @@
             if (dbdr.dr != null && dbdr.dr.HasRows)
                 while (dbdr.dr.Read())
                 {
-                    CategoryName.Add(dbdr.dr["category_name"].ToString());
+                    CategoryName.Add((TranslateLanguage && !string.IsNullOrEmpty(GlobalLanguage)) ? Language.GetHandheldLanguage(dbdr.dr["category_name"].ToString(), GlobalLanguage) : dbdr.dr["category_name"].ToString());
                     CategoryId.Add(dbdr.dr["category_id"].ToString());
                     ParentCategory.Add(dbdr.dr["parent_category"].ToString());
                 }
