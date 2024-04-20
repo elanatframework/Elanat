@@ -148,7 +148,7 @@ namespace Elanat
 
             // Set Category Item
             ListClass.Category lcc2 = new ListClass.Category();
-            lcc2.FillCategoryListItemTree(StaticObject.GetCurrentAdminSiteId(), "-");
+            lcc2.FillCategoryListItemTree(StaticObject.GetCurrentAdminSiteId(), "-", true, StaticObject.GetCurrentAdminGlobalLanguage());
             CategoryOptionListValue += lcc2.CategoryListItemTree.HtmlInputToOptionTag(CategoryOptionListSelectedValue);
 
             // Set Content Icon Item
@@ -345,8 +345,8 @@ namespace Elanat
             duc.CategoryId = CategoryOptionListSelectedValue;
             duc.ContentTitle = ContentTitleValue;
             duc.ContentText = (StaticObject.RoleWriteHtmlCheck()) ? ContentTextValue : StringClass.RemoveHtmlTags(ContentTextValue);
-            duc.ContentDateCreate = (UseDelayPublishValue) ? DatePublishValue : DateAndTime.GetDate("yyyy/MM/dd");
-            duc.ContentTimeCreate = (UseDelayPublishValue) ? TimePublishValue : DateAndTime.GetTime("HH:mm:ss");
+            duc.ContentDateCreate = DatePublishValue;
+            duc.ContentTimeCreate = TimePublishValue;
             duc.ContentAlwaysOnTop = (StaticObject.RoleAddAlwaysOnTopContentCheck()) ? ContentAlwaysOnTopValue.BooleanToZeroOne() : "0";
             duc.ContentStatus = (UseDelayPublishValue) ? "delay" : ContentStatusOptionListSelectedValue;
             duc.ContentType = ContentTypeOptionListSelectedValue;
