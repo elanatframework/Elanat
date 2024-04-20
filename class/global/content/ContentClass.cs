@@ -477,7 +477,12 @@ namespace Elanat
                     TmpCommentItemTemplate = TmpCommentItemTemplate.Replace("$_asp comment_id;", dbdr.dr["comment_id"].ToString());
                     TmpCommentItemTemplate = TmpCommentItemTemplate.Replace("$_asp user_guest_id;", dbdr.dr["user_guest_id"].ToString());
                     TmpCommentItemTemplate = TmpCommentItemTemplate.Replace("$_asp comment_title;", dbdr.dr["comment_title"].ToString());
-                    TmpCommentItemTemplate = TmpCommentItemTemplate.Replace("$_asp comment_user_guest_name;", dbdr.dr["comment_user_guest_name"].ToString());
+
+                    if (dbdr.dr["comment_user_guest_name"].ToString() == "guest")
+                        TmpCommentItemTemplate = TmpCommentItemTemplate.Replace("$_asp comment_user_guest_name;", Language.GetLanguage("guest", StaticObject.GetCurrentSiteGlobalLanguage()));
+                    else
+                        TmpCommentItemTemplate = TmpCommentItemTemplate.Replace("$_asp comment_user_guest_name;", dbdr.dr["comment_user_guest_name"].ToString());
+
                     TmpCommentItemTemplate = TmpCommentItemTemplate.Replace("$_asp comment_date_and_time_send;", dbdr.dr["comment_date_and_time_send"].ToString());
                     TmpCommentItemTemplate = TmpCommentItemTemplate.Replace("$_asp comment_text;", dbdr.dr["comment_text"].ToString());
 
