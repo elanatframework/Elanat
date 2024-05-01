@@ -59,7 +59,7 @@ namespace Elanat
             else
             {
                 ErrorContent = Language.GetLanguageFromContent(Template.GetSiteTemplate("page/error/error_other", true), StaticObject.GetCurrentSiteGlobalLanguage());
-                ErrorContent = ErrorContent.Replace("$_asp error_number;", null);
+                ErrorContent = ErrorContent.Replace("$_asp error_number;", "!");
             }
 
             ContentValue = ErrorContent;
