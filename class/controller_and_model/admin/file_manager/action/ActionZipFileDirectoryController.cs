@@ -18,11 +18,11 @@ namespace Elanat
             int i = 0;
             foreach (string FileDirectoryPath in FileDirectoryPathArray)
             {
-                FileDirectoryPathArray[i] = StaticObject.ServerMapPath(FileDirectoryPath);
+                FileDirectoryPathArray[i] = Directory.GetCurrentDirectory() + FileDirectoryPath;
                 i++;
             }
 
-            ZipPath = StaticObject.ServerMapPath(ZipPath);
+            ZipPath = Directory.GetCurrentDirectory() + ZipPath;
 
             ZipFileClass zfc = new ZipFileClass();
             zfc.CreateZip(FileDirectoryPathArray, ZipPath);

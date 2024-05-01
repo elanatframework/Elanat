@@ -33,7 +33,7 @@ namespace Elanat
                     switch (Text)
                     {
                         case "name": TextValue = dir.Name; break;
-                        case "path": TextValue = fad.GetRootPath(dir.FullName); break;
+                        case "path": TextValue = fad.GetCurrentPath(dir.FullName); break;
                         case "type": TextValue = "directory"; break;
                         case "size": TextValue = ""; break;
                         case "last_access_time": TextValue = dir.LastAccessTime.ToString(); break;
@@ -55,7 +55,7 @@ namespace Elanat
                             switch (Column)
                             {
                                 case "name": ColumnValue = dir.Name; break;
-                                case "path": ColumnValue = fad.GetRootPath(dir.FullName); break;
+                                case "path": ColumnValue = fad.GetCurrentPath(dir.FullName); break;
                                 case "type": ColumnValue = "directory"; break;
                                 case "size": ColumnValue = ""; break;
                                 case "last_access_time": ColumnValue = dir.LastAccessTime.ToString(); break;
@@ -67,7 +67,7 @@ namespace Elanat
                     }
 
                     TmpRowBoxTemplate = TmpRowBoxTemplate.Replace("$_asp file_extension_name;", "dir");
-                    TmpRowBoxTemplate = TmpRowBoxTemplate.Replace("$_asp path;", fad.GetRootPath(dir.FullName));
+                    TmpRowBoxTemplate = TmpRowBoxTemplate.Replace("$_asp path;", fad.GetCurrentPath(dir.FullName));
                     TmpRowBoxTemplate = TmpRowBoxTemplate.Replace("$_asp type;", "directory");
                     TmpRowBoxTemplate = TmpRowBoxTemplate.Replace("$_asp name;", dir.Name);
 
@@ -87,7 +87,7 @@ namespace Elanat
                     switch (Text)
                     {
                         case "name": TextValue = file.Name; break;
-                        case "path": TextValue = fad.GetRootPath(file.FullName); break;
+                        case "path": TextValue = fad.GetCurrentPath(file.FullName); break;
                         case "type": TextValue = FileAndDirectory.GetFileType(file.Name); break;
                         case "size": TextValue = file.Length.ToBitSizeTuning(); break;
                         case "last_access_time": TextValue = file.LastAccessTime.ToString(); break;
@@ -109,7 +109,7 @@ namespace Elanat
                             switch (Column)
                             {
                                 case "name": ColumnValue = file.Name; break;
-                                case "path": ColumnValue = fad.GetRootPath(file.FullName); break;
+                                case "path": ColumnValue = fad.GetCurrentPath(file.FullName); break;
                                 case "type": ColumnValue = FileAndDirectory.GetFileType(file.Name); break;
                                 case "size": ColumnValue = (file.Length.ToBitSizeTuning()); break;
                                 case "last_access_time": ColumnValue = file.LastAccessTime.ToString(); break;
@@ -123,7 +123,7 @@ namespace Elanat
                     string FileExtension = (FileAndDirectory.IsPublicExtension(file.Name)) ? Path.GetExtension(file.Name).Remove(0, 1) : "blank";
 
                     TmpRowBoxTemplate = TmpRowBoxTemplate.Replace("$_asp file_extension_name;", FileExtension);
-                    TmpRowBoxTemplate = TmpRowBoxTemplate.Replace("$_asp path;", fad.GetRootPath(file.FullName));
+                    TmpRowBoxTemplate = TmpRowBoxTemplate.Replace("$_asp path;", fad.GetCurrentPath(file.FullName));
                     TmpRowBoxTemplate = TmpRowBoxTemplate.Replace("$_asp type;", FileAndDirectory.GetFileType(file.Name));
                     TmpRowBoxTemplate = TmpRowBoxTemplate.Replace("$_asp name;", file.Name);
 

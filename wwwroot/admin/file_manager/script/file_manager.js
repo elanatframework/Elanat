@@ -182,6 +182,12 @@ function el_SortFileDirectory(ColumnName, SearchedItem, CurrentPath, IsDesc)
 
 function el_DownloadFile(FileName, FilePath)
 {
+	if (FilePath.length < 9)
+		return;
+
+	if (FilePath.substring(0, 9) != "/wwwroot/")
+		return;
+
 	var IframeTag = document.createElement("iframe");
 	IframeTag.id = "div_DownloadFile_" + FileName;
 	IframeTag.setAttribute("src", ElanatVariant.AdminDirectoryPath + "/file_manager/action/DownloadFile.aspx?file_path=" + FilePath);
@@ -467,8 +473,16 @@ function el_OpenFileDirectory(Type, Name, Path)
         xmlhttp.open("GET", ElanatVariant.AdminDirectoryPath + "/file_manager/action/GetFileDirectoryList.aspx?directory=" + Path, false);
         xmlhttp.send();
     }
-    else
-        el_ViewFile(Name, Path);
+	else
+	{
+		if (Path.length < 9)
+			return;
+
+		if (Path.substring(0, 9) != "/wwwroot/")
+			return;
+
+		el_ViewFile(Name, Path.substring(9));
+	}
 }
 
 function el_GoToDirectoryPath()

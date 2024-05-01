@@ -70,7 +70,7 @@ namespace Elanat
 
             string RootPath = "";
             if (string.IsNullOrEmpty(PathHiddenValue))
-                RootPath = (string.IsNullOrEmpty(QueryString.GetValue("directory"))) ? fad.GetRootPath(StaticObject.ServerMapPath("/")) : fad.GetRootPath(StaticObject.ServerMapPath("/" + QueryString.GetValue("directory")));
+                RootPath = (string.IsNullOrEmpty(QueryString.GetValue("directory"))) ? "/wwwroot" : fad.GetCurrentPath(Directory.GetCurrentDirectory() + "/" + QueryString.GetValue("directory"));
             else
                 RootPath = PathHiddenValue;
 
@@ -153,7 +153,7 @@ namespace Elanat
 
         public void CreateFile()
         {
-            string Path = StaticObject.ServerMapPath(StaticObject.SitePath + PathHiddenValue);
+            string Path = Directory.GetCurrentDirectory() + PathHiddenValue;
             string FileName = FileNameValue;
             string[] Lines = FileTextValue.Split(new string[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries);
 
@@ -170,7 +170,7 @@ namespace Elanat
 
         public void CreateDirectory()
         {
-            string Path = StaticObject.ServerMapPath(StaticObject.SitePath + PathHiddenValue);
+            string Path = Directory.GetCurrentDirectory() + PathHiddenValue;
             string DirectoryName = DirectoryNameValue;
 
             DirectoryName = FileAndDirectory.GetNewDirectoryNameIfDirectoryExist(Path, DirectoryName);
@@ -188,7 +188,7 @@ namespace Elanat
 
         public void StartUpload()
         {
-            string Path = StaticObject.ServerMapPath(StaticObject.SitePath + PathHiddenValue);
+            string Path = Directory.GetCurrentDirectory() + PathHiddenValue;
             string FilePhysicalName = "";
 
             // If Use File Path

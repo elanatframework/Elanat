@@ -100,7 +100,6 @@ namespace Elanat
         public void SaveDirectoryPermissions()
         {
             // Change Permissions
-            string DirectoryName = DirectoryNameValue;
             bool FullControl = FullControlValue;
             bool Read = ReadValue;
             bool Write = WriteValue;
@@ -121,12 +120,12 @@ namespace Elanat
 
             // Set Directory Permissions
             DirectoryPermissions permissions = new DirectoryPermissions();
-            permissions.SetDirectoryPermissions(StaticObject.ServerMapPath(StaticObject.SitePath + DirectoryPathValue), FullControl, Read, Write, ChangePermissions, CreateDirectories, CreateFiles, Delete, DeleteSubdirectoriesAndFiles, ListDirectory, Modify, ReadAttributes, ReadExtendedAttributes, ReadPermissions, TakeOwnership, Traverse, WriteAttributes, WriteExtendedAttributes);
+            permissions.SetDirectoryPermissions(Directory.GetCurrentDirectory() + DirectoryPathValue, FullControl, Read, Write, ChangePermissions, CreateDirectories, CreateFiles, Delete, DeleteSubdirectoriesAndFiles, ListDirectory, Modify, ReadAttributes, ReadExtendedAttributes, ReadPermissions, TakeOwnership, Traverse, WriteAttributes, WriteExtendedAttributes);
 
 
             // Add Reference
             ReferenceClass rc = new ReferenceClass();
-            rc.StartEvent("save_directory_permissions", DirectoryName);
+            rc.StartEvent("save_directory_permissions", Directory.GetCurrentDirectory() + DirectoryPathValue);
         }
 
         public void SuccessView()

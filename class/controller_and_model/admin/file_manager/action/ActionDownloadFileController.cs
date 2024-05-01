@@ -20,7 +20,7 @@ namespace Elanat
             }
 
 
-            var FilePath = StaticObject.ServerMapPath(context.Request.Query["file_path"].ToString());
+            var FilePath = Directory.GetCurrentDirectory() + context.Request.Query["file_path"].ToString();
             long FileSize = new FileInfo(FilePath).Length;
             var response = context.Response;
             response.Headers.Add("Content-Length", FileSize.ToString());

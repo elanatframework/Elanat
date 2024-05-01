@@ -106,7 +106,13 @@ namespace Elanat
 
         public static string GetFileType(string FileName)
         {
-            string Extension = Path.GetExtension(FileName).Remove(0, 1);
+            string Extension = Path.GetExtension(FileName);
+
+            if (string.IsNullOrEmpty(Extension))
+                return "";
+
+            Extension = Extension.Remove(0, 1);
+
 
             XmlNodeList NodeList = StaticObject.FileExtensionDocument.SelectNodes("//file_extension[@extension='" + Extension + "']");
 
@@ -197,9 +203,12 @@ namespace Elanat
         }
 
         /// <param name="Path">Logical Path</param>
-        public string GetRootPath(string Path)
+        public string GetCurrentPath(string Path)
         {
-            int MapPathLength = StaticObject.ServerMapPath("/").ToString().Length;
+            if (Path.Length == 0)
+                return "";
+
+            int MapPathLength = Directory.GetCurrentDirectory().Length + 1;
 
             Path = Path.Remove(0, MapPathLength);
             Path = Path.Replace(@"\","/");

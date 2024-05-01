@@ -99,16 +99,16 @@ namespace Elanat
             string NewFileName = FileNameValue;
             string NewFilePath = OldFilePath.Substring(0, OldFilePath.Length - OldFileName.Length - 1) + "/" + NewFileName;
 
-            File.Move(StaticObject.ServerMapPath(OldFilePath), StaticObject.ServerMapPath(NewFilePath));
+            File.Move(Directory.GetCurrentDirectory() + OldFilePath, Directory.GetCurrentDirectory() + NewFilePath);
 
 
             if (FileTypeValue == "text")
-                File.WriteAllText(StaticObject.ServerMapPath(NewFilePath), FileTextValue);
+                File.WriteAllText(Directory.GetCurrentDirectory() + NewFilePath, FileTextValue);
 
 
             // Add Reference
             ReferenceClass rc = new ReferenceClass();
-            rc.StartEvent("edit_file", StaticObject.ServerMapPath(OldFilePath) + "|" + StaticObject.ServerMapPath(NewFilePath));
+            rc.StartEvent("edit_file", Directory.GetCurrentDirectory() + OldFilePath + "|" + Directory.GetCurrentDirectory() + NewFilePath);
         }
 
         public void SuccessView()

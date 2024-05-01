@@ -15,7 +15,7 @@ namespace Elanat
             }
 
 
-            Write(model.GetViewMore(StaticObject.ServerMapPath(StaticObject.SitePath + context.Request.Query["file_directory_path"].ToString())));
+            Write(model.GetViewMore(Directory.GetCurrentDirectory() + context.Request.Query["file_directory_path"].ToString()));
             
             View(model);
         }

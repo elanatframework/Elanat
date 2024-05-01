@@ -27,7 +27,7 @@ namespace Elanat
                     switch (Text)
                     {
                         case "name": TextValue = dir.Name; break;
-                        case "path": TextValue = fad.GetRootPath(dir.FullName); break;
+                        case "path": TextValue = fad.GetCurrentPath(dir.FullName); break;
                         case "type": TextValue = Language.GetLanguage("directory", StaticObject.GetCurrentAdminGlobalLanguage()); break;
                         case "size": TextValue = ""; break;
                         case "last_access_time": TextValue = dir.LastAccessTime.ToString(); break;
@@ -41,7 +41,7 @@ namespace Elanat
                     switch (Text)
                     {
                         case "name": TextValue = file.Name; break;
-                        case "path": TextValue = fad.GetRootPath(file.FullName); break;
+                        case "path": TextValue = fad.GetCurrentPath(file.FullName); break;
                         case "type": TextValue = FileAndDirectory.GetFileType(file.Name); break;
                         case "size": TextValue = file.Length.ToBitSizeTuning(); break;
                         case "last_access_time": TextValue = file.LastAccessTime.ToString(); break;

@@ -26,11 +26,11 @@ namespace Elanat
                 int i = 0;
                 foreach (string FileDirectoryPath in FileDirectoryPathArray)
                 {
-                    FileDirectoryPathArray[i] = StaticObject.ServerMapPath(StaticObject.SitePath + FileDirectoryPath);
+                    FileDirectoryPathArray[i] = Directory.GetCurrentDirectory() + FileDirectoryPath;
                     i++;
                 }
 
-                string DirectoryPath = StaticObject.ServerMapPath(StaticObject.SitePath + context.Request.Query["directory_path"].ToString());
+                string DirectoryPath = Directory.GetCurrentDirectory() + context.Request.Query["directory_path"].ToString();
 
                 switch (context.Session.GetString("el_file_manager:switch_copy_cut"))
                 {

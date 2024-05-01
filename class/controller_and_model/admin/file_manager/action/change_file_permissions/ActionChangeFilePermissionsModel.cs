@@ -76,7 +76,7 @@ namespace Elanat
 
             // Set Current Value
             FilePermissions permissions = new FilePermissions();
-            permissions.FillFilePermissions(StaticObject.ServerMapPath(StaticObject.SitePath + FilePathValue));
+            permissions.FillFilePermissions(Directory.GetCurrentDirectory() + FilePathValue);
 
             FullControlValue = permissions.FullControl;
             ReadValue = permissions.Read;
@@ -100,7 +100,6 @@ namespace Elanat
         public void SaveFilePermissions()
         {
             // Change Permissions
-            string FileName = FileNameValue;
             bool FullControl = FullControlValue;
             bool Read = ReadValue;
             bool Write = WriteValue;
@@ -121,12 +120,12 @@ namespace Elanat
 
             // Set File Permissions
             FilePermissions permissions = new FilePermissions();
-            permissions.SetFilePermissions(StaticObject.ServerMapPath(StaticObject.SitePath + FilePathValue), FullControl, Read, Write, AppendData, ChangePermissions, Delete, ExecuteFile, Modify, ReadAndExecute, ReadAttributes, ReadData, ReadExtendedAttributes, ReadPermissions, TakeOwnership, WriteAttributes, WriteData, WriteExtendedAttributes);
+            permissions.SetFilePermissions(Directory.GetCurrentDirectory() + FilePathValue, FullControl, Read, Write, AppendData, ChangePermissions, Delete, ExecuteFile, Modify, ReadAndExecute, ReadAttributes, ReadData, ReadExtendedAttributes, ReadPermissions, TakeOwnership, WriteAttributes, WriteData, WriteExtendedAttributes);
 
 
             // Add Reference
             ReferenceClass rc = new ReferenceClass();
-            rc.StartEvent("save_file_permissions", FileName);
+            rc.StartEvent("save_file_permissions", Directory.GetCurrentDirectory() + FilePathValue);
         }
 
         public void SuccessView()

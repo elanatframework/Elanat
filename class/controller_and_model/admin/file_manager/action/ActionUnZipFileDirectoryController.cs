@@ -16,8 +16,8 @@ namespace Elanat
             string UnZipPath = context.Request.Query["un_zip_path"].ToString();
             bool UseOverwriteExtractExistingFile = (context.Request.Query["use_overwrite_extract_existing_file"].ToString() == "true");
 
-            ZipPath = StaticObject.ServerMapPath(StaticObject.SitePath + ZipPath);
-            UnZipPath = StaticObject.ServerMapPath(StaticObject.SitePath + UnZipPath);
+            ZipPath = Directory.GetCurrentDirectory() + ZipPath;
+            UnZipPath = Directory.GetCurrentDirectory() + UnZipPath;
 
 
             ZipFileClass zfc = new ZipFileClass();

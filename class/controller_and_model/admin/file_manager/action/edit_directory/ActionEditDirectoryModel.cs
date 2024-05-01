@@ -77,12 +77,12 @@ namespace Elanat
             string NewDirectoryName = DirectoryNameValue;
             string NewDirectoryPath = OldDirectoryPath.Substring(0, OldDirectoryPath.Length - OldDirectoryName.Length - 1) + "/" + NewDirectoryName;
 
-            Directory.Move(StaticObject.ServerMapPath(OldDirectoryPath), StaticObject.ServerMapPath(NewDirectoryPath));
+            Directory.Move(Directory.GetCurrentDirectory() + OldDirectoryPath, Directory.GetCurrentDirectory() + NewDirectoryPath);
 
 
             // Add Reference
             ReferenceClass rc = new ReferenceClass();
-            rc.StartEvent("edit_directory", StaticObject.ServerMapPath(StaticObject.SitePath + OldDirectoryPath) + "|" + StaticObject.ServerMapPath(StaticObject.SitePath + NewDirectoryPath));
+            rc.StartEvent("edit_directory", Directory.GetCurrentDirectory() + OldDirectoryPath + "|" + Directory.GetCurrentDirectory() + NewDirectoryPath);
         }
 
         public void SuccessView()

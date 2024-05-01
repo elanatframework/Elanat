@@ -15,7 +15,7 @@ namespace Elanat
                     return;
                 }
                                 
-                File.Delete(StaticObject.ServerMapPath(StaticObject.SitePath + context.Request.Query["file_path"].ToString()));
+                File.Delete(Directory.GetCurrentDirectory() + context.Request.Query["file_path"].ToString());
                 Write("true");
 				
 				
@@ -32,7 +32,7 @@ namespace Elanat
                     return;
                 }
 
-                Directory.Delete(StaticObject.ServerMapPath(StaticObject.SitePath + context.Request.Query["directory_path"].ToString()), true);
+                Directory.Delete(Directory.GetCurrentDirectory() + context.Request.Query["directory_path"].ToString(), true);
                 Write("true");
 				
 				

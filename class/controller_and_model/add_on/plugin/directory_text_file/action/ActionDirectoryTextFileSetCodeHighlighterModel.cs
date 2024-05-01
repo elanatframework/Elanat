@@ -13,7 +13,7 @@ namespace Elanat
 
         public void SetConfigurationText()
         {
-            string[] Lines = File.ReadAllLines(StaticObject.ServerMapPath(TextFilePathValue));
+            string[] Lines = File.ReadAllLines(Directory.GetCurrentDirectory() + TextFilePathValue);
             string TextFileValue = "";
 
             int LinesLength = Lines.Length;
