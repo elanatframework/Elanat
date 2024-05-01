@@ -1280,7 +1280,7 @@
 				<div class="el_spesial_note_right">
           <div class="el_big_text">!!!</div>
 					<div class="el_item">
-            $_lang error_other;
+						$_lang error_other;
 						<span class="el_error_item">
 							<span class="el_error_value">$_asp error_number;</span>
 						</span>
