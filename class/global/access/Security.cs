@@ -279,13 +279,12 @@ namespace Elanat
                 Lines.Add("error_text=" + ex.GetBaseException());
 
 
-                string FileName = "";
-                if (ex.Message.ToFileNameClean().Length > 150)
-                    FileName = ex.Message.ToFileNameClean().Substring(0, 149) + " ...";
-                else
-                    FileName = ex.Message.ToFileNameClean();
+                string FileName = Date + "_" + Time + "_" + rand.Next(1000000000, 2000000000) + "_";
 
-                FileName += Date + "_" + Time + "_" + rand.Next(1000000000, 2000000000);
+                if (ex.Message.ToFileNameClean().Length > 150)
+                    FileName += ex.Message.ToFileNameClean().Substring(0, 149) + " ...";
+                else
+                    FileName += ex.Message.ToFileNameClean();
 
                 File.WriteAllLines(StaticObject.ServerMapPath(StaticObject.SitePath + "App_Data/logs/" + FileName + ".log"), Lines);
             }
