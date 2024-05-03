@@ -30,7 +30,13 @@ namespace Elanat
             foreach (string Text in ItemList)
             {
                 string ItemBoxTemplate = ItemNode[Text].InnerTextAfterSetNodeVariant(StaticObject.GetCurrentAdminGlobalLanguage());
-                string TmpItemBoxTemplate = ItemBoxTemplate.Replace("$_db " + Text + ";", dua.ReturnDr[Text].ToString());
+
+                string TmpItemBoxTemplate = ItemBoxTemplate;
+
+                if (Text == "attachment_size")
+                    TmpItemBoxTemplate = TmpItemBoxTemplate.Replace("$_db attachment_size;", long.Parse(dua.ReturnDr["attachment_size"].ToString()).ToBitSizeTuning());
+
+                TmpItemBoxTemplate = TmpItemBoxTemplate.Replace("$_db " + Text + ";", dua.ReturnDr[Text].ToString());
 
                 // If Exist More Column For Replace
                 if (ItemNode[Text].Attributes["more_column"] != null)
@@ -39,7 +45,15 @@ namespace Elanat
                     string[] MoreColumnList = ItemNode[Text].Attributes["more_column"].InnerText.Split(DelimiterChars);
 
                     foreach (string Column in MoreColumnList)
+                    {
+                        if (Column == "attachment_size")
+                        {
+                            TmpItemBoxTemplate = TmpItemBoxTemplate.Replace("$_db attachment_size;", long.Parse(dua.ReturnDr["attachment_size"].ToString()).ToBitSizeTuning());
+                            continue;
+                        }
+
                         TmpItemBoxTemplate = TmpItemBoxTemplate.Replace("$_db " + Column + ";", dua.ReturnDr[Column].ToString());
+                    }
                 }
 
                 SumRowListItemTemplate += RowListItemTemplate.Replace("$_asp item;", TmpItemBoxTemplate);
