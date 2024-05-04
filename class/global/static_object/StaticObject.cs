@@ -813,5 +813,10 @@ namespace Elanat
             Session se = new Session();
             return se.GetSessionId();
         }
+
+        public static bool InstallIsComplete()
+        {
+            return (ConnectionString != "_");
+        }
     }
 }
