@@ -22,7 +22,7 @@
         <%=model.AddContentLanguage%>
     </div>
 
-    <form id="frm_AdminAddContent" method="post" action="<%=Elanat.AspxHtmlValue.AdminPath()%>/add_content/Default.aspx">
+    <form id="frm_AdminAddContent" method="post" action="<%=Elanat.AspxHtmlValue.AdminPath()%>/add_content/Default.aspx" enctype="multipart/form-data">
 
         <div class="el_add_content">
             <div class="el_part_row">
