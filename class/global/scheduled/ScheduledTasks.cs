@@ -12,6 +12,10 @@ namespace Elanat
         /// <param name="Type">timer, load</param>
         public void Start(string Type)
         {
+            // Install Issues
+            if (!StaticObject.InstallIsComplete())
+                return;
+
             // If Scheduled Tasks Is Active
             if (!StaticObject.UseScheduledTasks)
                 return;
