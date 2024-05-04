@@ -6,10 +6,15 @@ namespace Elanat
 {
     public class ReferenceClass
     {
+        public bool AllowAccessPath { get; private set; }
+        public bool HasReplace { get; private set; }
+        public string DenyAccessReason { get; private set; }
+
         public ReferenceClass()
         {
             // Initialization
             AllowAccessPath = true;
+            HasReplace = false;
             DenyAccessReason = "";
         }
 
@@ -63,7 +68,7 @@ namespace Elanat
 
                         int ParameterListCount = 0;
 
-                        if(node["parameter_list"] != null)
+                        if (node["parameter_list"] != null)
                         {
                             ParameterListCount = node["parameter_list"].ChildNodes.Count;
                         }
@@ -71,7 +76,7 @@ namespace Elanat
                         object[] ObjectParameters = new object[ParameterListCount];
 
                         int i = 0;
-                        foreach(XmlNode Parameter in node["parameter_list"].ChildNodes)
+                        foreach (XmlNode Parameter in node["parameter_list"].ChildNodes)
                         {
                             ObjectParameters[i] = Parameter.InnerText;
                             i++;
@@ -151,71 +156,83 @@ namespace Elanat
 
                 continue;
 
-                StartLoadValue:
+            StartLoadValue:
 
-                    string LoadValue = node["load_value"].InnerText;
-                    char FirstCharacter = (LoadValue.Contains('?')) ? '&' : '?';
-                    string CheckType = node.Attributes["check_type"].Value;
+                string LoadValue = node["load_value"].InnerText;
+                char FirstCharacter = (LoadValue.Contains('?')) ? '&' : '?';
+                string CheckType = node.Attributes["check_type"].Value;
 
-                    if (CheckType == "page")
-                        if (AfterOrBefore == "after")
-                        {
-                            Security.UseSystemAccess();
-                            PageLoader.LoadPath(LoadValue + FirstCharacter + QueryString + "&el_system_access_code=" + StaticObject.SystemAccessCode, false);
-                        }
-                        else
-                        {
-                            Security.UseSystemAccess();
-                            string ReturnValue = PageLoader.LoadPath(LoadValue + FirstCharacter + QueryString + "&el_system_access_code=" + StaticObject.SystemAccessCode, false);
-                            if (ReturnValue == "false")
-                            {
-                                AllowAccessPath = false;
-                                DenyAccessReason = node.Attributes["reason"].Value;
-                            }
-                        }
-
-                    if (CheckType == "method")
+                if (CheckType == "page")
+                    if (AfterOrBefore == "after")
                     {
-                        string DllType = node.Attributes["dll_type"].Value;
-                        string DllMethod = node.Attributes["dll_method"].Value;
-
-                        bool IsNonPublic = false;
-                        if (node.Attributes["is_non_public"] != null)
-                            IsNonPublic = (node.Attributes["is_non_public"].Value == "true");
-
-                        int ParameterListCount = 0;
-
-                        if (node["parameter_list"] != null)
-                            ParameterListCount = node["parameter_list"].ChildNodes.Count;
-
-                        object[] ObjectParameters = new object[ParameterListCount];
-
-                        int i = 0;
-                        foreach (XmlNode Parameter in node["parameter_list"].ChildNodes)
+                        Security.UseSystemAccess();
+                        PageLoader.LoadPath(LoadValue + FirstCharacter + QueryString + "&el_system_access_code=" + StaticObject.SystemAccessCode, false);
+                    }
+                    else
+                    {
+                        Security.UseSystemAccess();
+                        string ReturnValue = PageLoader.LoadPath(LoadValue + FirstCharacter + QueryString + "&el_system_access_code=" + StaticObject.SystemAccessCode, false);
+                        if (ReturnValue == "false")
                         {
-                            ObjectParameters[i] = Parameter.InnerText;
-                            i++;
+                            AllowAccessPath = false;
+                            DenyAccessReason = node.Attributes["reason"].Value;
                         }
 
-                        MethodLoader ml = new MethodLoader();
-
-                        if (AfterOrBefore == "after")
+                        if (ReturnValue == "replace")
                         {
-                            ml.StartWithoutReturn(StaticObject.ServerMapPath(LoadValue), DllType, DllMethod, ObjectParameters, IsNonPublic);
-                        }
-                        else
-                        {
-                            string ReturnValue = ml.Start(StaticObject.ServerMapPath(LoadValue), DllType, DllMethod, ObjectParameters, IsNonPublic);
-                            if (ReturnValue == "false")
-                            {
-                                AllowAccessPath = false;
-                                DenyAccessReason = node.Attributes["reason"].Value;
-                            }
+                            HasReplace = true;
+                            AllowAccessPath = false;
+                            DenyAccessReason = node.Attributes["reason"].Value;
                         }
                     }
+
+                if (CheckType == "method")
+                {
+                    string DllType = node.Attributes["dll_type"].Value;
+                    string DllMethod = node.Attributes["dll_method"].Value;
+
+                    bool IsNonPublic = false;
+                    if (node.Attributes["is_non_public"] != null)
+                        IsNonPublic = (node.Attributes["is_non_public"].Value == "true");
+
+                    int ParameterListCount = 0;
+
+                    if (node["parameter_list"] != null)
+                        ParameterListCount = node["parameter_list"].ChildNodes.Count;
+
+                    object[] ObjectParameters = new object[ParameterListCount];
+
+                    int i = 0;
+                    foreach (XmlNode Parameter in node["parameter_list"].ChildNodes)
+                    {
+                        ObjectParameters[i] = Parameter.InnerText;
+                        i++;
+                    }
+
+                    MethodLoader ml = new MethodLoader();
+
+                    if (AfterOrBefore == "after")
+                    {
+                        ml.StartWithoutReturn(StaticObject.ServerMapPath(LoadValue), DllType, DllMethod, ObjectParameters, IsNonPublic);
+                    }
+                    else
+                    {
+                        string ReturnValue = ml.Start(StaticObject.ServerMapPath(LoadValue), DllType, DllMethod, ObjectParameters, IsNonPublic);
+                        if (ReturnValue == "false")
+                        {
+                            AllowAccessPath = false;
+                            DenyAccessReason = node.Attributes["reason"].Value;
+                        }
+
+                        if (ReturnValue == "replace")
+                        {
+                            HasReplace = true;
+                            AllowAccessPath = false;
+                            DenyAccessReason = node.Attributes["reason"].Value;
+                        }
+                    }
+                }
             }
         }
-        public bool AllowAccessPath { get; private set; }
-        public string DenyAccessReason { get; private set; }
     }
 }

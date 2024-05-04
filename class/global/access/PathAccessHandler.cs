@@ -173,13 +173,15 @@ namespace Elanat
             reference.StartBeforeLoadPath(Path, context.Request.Form.GetString());
             if (!reference.AllowAccessPath)
             {
-                // Clear Cache
-                context.Response.Headers["Expires"] = DateTime.UtcNow.AddMinutes(-1).ToString("R");
-                context.Response.Headers["Cache-Control"] = "no-cache, no-store";
-                context.Response.Headers["Pragma"] = "no-cache";
+                if (!reference.HasReplace)
+                {
+                    // Clear Cache
+                    context.Response.Headers["Expires"] = DateTime.UtcNow.AddMinutes(-1).ToString("R");
+                    context.Response.Headers["Cache-Control"] = "no-cache, no-store";
+                    context.Response.Headers["Pragma"] = "no-cache";
 
-
-                ContentValue = Template.GetSiteTemplate("part/role_access/view").Replace("$_asp inaccess_reason;", Language.GetHandheldLanguage(reference.DenyAccessReason, StaticObject.GetCurrentSiteGlobalLanguage()));
+                    ContentValue = Template.GetSiteTemplate("part/role_access/view").Replace("$_asp inaccess_reason;", Language.GetHandheldLanguage(reference.DenyAccessReason, StaticObject.GetCurrentSiteGlobalLanguage()));
+                }
 
                 return;
             }

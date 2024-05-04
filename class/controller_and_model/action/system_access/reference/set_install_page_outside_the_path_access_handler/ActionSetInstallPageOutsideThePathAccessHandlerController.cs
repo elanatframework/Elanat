@@ -21,18 +21,18 @@ namespace Elanat
 
             if ((Path == "/install/script/install.js"))
             {
-                context.Response.WriteAsync(PageLoader.LoadWithText(StaticObject.SitePath + "install/script/install.js"));
                 context.Response.ContentType = "text/javascript";
+                context.Response.WriteAsync(PageLoader.LoadWithText(StaticObject.SitePath + "install/script/install.js"));
             }
 
             if ((Path == "/install/style/install.css"))
             {
+                context.Response.ContentType = "text/css";
                 context.Response.WriteAsync(PageLoader.LoadWithText(StaticObject.SitePath + "install/style/install.css"));
-                context.Response.ContentType= "text/css";
             }
 
 
-            Write("false");
+            Write("replace");
         }
     }
 }
