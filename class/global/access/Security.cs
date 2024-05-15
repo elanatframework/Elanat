@@ -5,8 +5,8 @@ using System.Net;
 
 namespace Elanat
 {
-	public class Security
-	{
+    public class Security
+    {
         public string GetHash(string Text)
         {
             // Get Md5 Hash From Input
@@ -144,7 +144,7 @@ namespace Elanat
             var Lines = File.ReadAllLines(StaticObject.ServerMapPath(StaticObject.SitePath + "App_Data/elanat_system_data/code/code.ini"));
             CodeSocket code = new CodeSocket();
 
-            string  LineValue = Lines[CodeIniRowName(Variable)].ToString().Remove(0, Variable.Length);
+            string LineValue = Lines[CodeIniRowName(Variable)].ToString().Remove(0, Variable.Length);
             if (LineValue[0] == '"')
             {
                 LineValue = LineValue.Remove(0, 1);
@@ -325,13 +325,12 @@ namespace Elanat
                 Lines.Add("error_text=" + ErrorText);
 
 
-                string FileName = "";
-                if (ErrorTitle.ToFileNameClean().Length > 150)
-                    FileName = ErrorTitle.ToFileNameClean().Substring(0, 149) + " ...";
-                else
-                    FileName = ErrorTitle.ToFileNameClean();
+                string FileName = Date + "_" + Time + "_" + rand.Next(1000000000, 2000000000) + "_";
 
-                FileName += Date + "_" + Time + "_" + rand.Next(1000000000, 2000000000);
+                if (ErrorTitle.ToFileNameClean().Length > 150)
+                    FileName += ErrorTitle.ToFileNameClean().Substring(0, 149) + " ...";
+                else
+                    FileName += ErrorTitle.ToFileNameClean();
 
                 File.WriteAllLines(StaticObject.ServerMapPath(StaticObject.SitePath + "App_Data/logs/" + FileName + ".log"), Lines);
             }
@@ -363,13 +362,12 @@ namespace Elanat
                 Lines.Add("error_text=" + ex.GetBaseException());
 
 
-                string FileName = "";
-                if (ex.Message.ToFileNameClean().Length > 150)
-                    FileName = ex.Message.ToFileNameClean().Substring(0, 149) + " ...";
-                else
-                    FileName = ex.Message.ToFileNameClean();
+                string FileName = Date + "_" + Time + "_" + rand.Next(1000000000, 2000000000) + "_";
 
-                FileName += Date + "_" + Time + "_" + rand.Next(1000000000, 2000000000);
+                if (ex.Message.ToFileNameClean().Length > 150)
+                    FileName += ex.Message.ToFileNameClean().Substring(0, 149) + " ...";
+                else
+                    FileName += ex.Message.ToFileNameClean();
 
                 File.WriteAllLines(StaticObject.ServerMapPath(StaticObject.SitePath + "App_Data/logs/" + FileName + ".log"), Lines);
             }
@@ -483,7 +481,7 @@ namespace Elanat
         {
             string UserIp = Security.GetUserIp();
 
-            if(LoginIpBlackList.Count > 0)
+            if (LoginIpBlackList.Count > 0)
                 foreach (string Ip in LoginIpBlackList)
                     if (Ip == UserIp)
                         return true;
@@ -516,7 +514,7 @@ namespace Elanat
             ProcessKeeper.ClientIpIsSecure = "true";
             return true;
         }
-        
+
         public string UnauthorizedReason = "";
         public bool IsUnauthorizedValue(string TableName, string ColumnName, string ColumnValue, string Path = "")
         {
@@ -548,7 +546,7 @@ namespace Elanat
 
                 continue;
 
-                StartRewritePath:
+            StartRewritePath:
 
                 UnauthorizedReason = Language.GetLanguage(node.Attributes["reason"].Value, StaticObject.GetCurrentAdminGlobalLanguage());
                 return true;
@@ -646,13 +644,13 @@ namespace Elanat
 
             using (FileStream fs = File.Create(StaticObject.ServerMapPath(StaticObject.SitePath + "App_Data/elanat_system_data/user_data/user_" + ccoc.UserId + "/keep_login/keep_login.ini")))
             {
-                string Value = ""; 
-                Value = "user_id=" + ccoc.UserId + Environment.NewLine; 
-                Value += "user_ip=" + GetUserIp() + Environment.NewLine; 
-                Value += "random_text=" + RandomText + Environment.NewLine; 
+                string Value = "";
+                Value = "user_id=" + ccoc.UserId + Environment.NewLine;
+                Value += "user_ip=" + GetUserIp() + Environment.NewLine;
+                Value += "random_text=" + RandomText + Environment.NewLine;
                 Value += "date_and_time_long=" + DateAndTime.GetDateAndTimeLong() + Environment.NewLine;
                 Value += "current_path=" + CurrentPath + Environment.NewLine;
-                Value += "alert=" + Alert; 
+                Value += "alert=" + Alert;
 
                 byte[] Text = new UTF8Encoding(true).GetBytes(Value);
                 fs.Write(Text, 0, Text.Length);
