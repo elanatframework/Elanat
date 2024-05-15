@@ -12,6 +12,8 @@
     <application_start_was_refresh>application start was refresh</application_start_was_refresh>
     <cache>cache</cache>
     <cache_was_refresh>cache was refresh</cache_was_refresh>
+    <code_behind_recomplie>CodeBehind recomplie</code_behind_recomplie>
+    <code_behind_was_recomplie_successfully>CodeBehind was recomplie successfully</code_behind_was_recomplie_successfully>
     <cookie>cookie</cookie>
     <delete>delete</delete>
     <disk_cache_directory>disk cache directory</disk_cache_directory>

@@ -12,6 +12,8 @@
     <application_start_was_refresh>شروع برنامه تازه سازی شد</application_start_was_refresh>
     <cache>کش</cache>
     <cache_was_refresh>کش تازه سازی شد</cache_was_refresh>
+	<code_behind_recomplie>کامپایل مجدد CodeBehind</code_behind_recomplie>
+    <code_behind_was_recomplie_successfully>کامپایل مجدد CodeBehind با موفقیت انجام شد</code_behind_was_recomplie_successfully>
     <cookie>کوکی</cookie>
     <delete>حذف</delete>
     <disk_cache_directory>پوشه کش دیسک</disk_cache_directory>

@@ -86,6 +86,12 @@
             <div class="el_item">
                 <input id="btn_UploadFileList" name="btn_UploadFileList" type="submit" class="el_button_input" value="<%=model.ReCreateLanguage%>" onclick="el_AjaxPostBack(this, false, 'frm_AdminRefreshReCreat')" />
             </div>
+            <div class="el_item">
+                <%=model.CodeBehindRecomplieLanguage%>
+            </div>
+            <div class="el_item">
+                <input id="btn_CodeBehindRecomplie" name="btn_CodeBehindRecomplie" type="submit" class="el_button_input" value="<%=model.ReCreateLanguage%>" onclick="el_AjaxPostBack(this, false, 'frm_AdminRefreshReCreat')" />
+            </div>
         </div>
 
     </form>
