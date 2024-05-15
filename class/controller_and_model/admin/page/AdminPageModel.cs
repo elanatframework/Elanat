@@ -444,7 +444,7 @@ namespace Elanat
             XmlDocument CatalogDocument = new XmlDocument();
             bool PriorityForPage = PriorityForPageValue;
 
-            bool HasDll = false;
+            bool HasDllOrAspx = false;
 
             ResponseForm rf = new ResponseForm(StaticObject.GetCurrentAdminGlobalLanguage());
 
@@ -507,7 +507,13 @@ namespace Elanat
                             Directory.Move(StaticObject.ServerMapPath(StaticObject.SitePath + "App_Data/tmp/" + DirectoryName + "/root/admin/"), StaticObject.ServerMapPath(StaticObject.SitePath + "App_Data/tmp/" + DirectoryName + "/root/" + StaticObject.AdminDirectoryPath + "/"));
 
                     if (Directory.Exists(StaticObject.ServerMapPath(StaticObject.SitePath + "App_Data/tmp/" + DirectoryName + "/root/bin/")))
-                        HasDll = true;
+                        HasDllOrAspx = true;
+                    else
+                    {
+                        DirectoryInfo TmpDir = new DirectoryInfo(StaticObject.ServerMapPath(StaticObject.SitePath + "App_Data/tmp/" + DirectoryName));
+                        if (TmpDir.GetFiles("*.aspx", SearchOption.AllDirectories).Length > 0)
+                            HasDllOrAspx = true;
+                    }
 
                     // Create Uninstall List
                     DirectoryInfo directory = new DirectoryInfo(StaticObject.ServerMapPath(StaticObject.SitePath + "App_Data/tmp/" + DirectoryName + "/root/"));
@@ -531,6 +537,9 @@ namespace Elanat
             }
             else
             {
+                if (FileExtension == ".aspx")
+                    HasDllOrAspx = true;
+
                 if (string.IsNullOrEmpty(PageNameValue))
                     PageNameValue = PageFilePhysicalName.GetTextBeforeLastValue(".");
 
@@ -654,7 +663,7 @@ namespace Elanat
 
 
             // Recompile
-            if (HasDll)
+            if (HasDllOrAspx)
             {
                 CodeBehindCompiler.Initialization();
                 CodeBehindCompiler.CompileAspx();

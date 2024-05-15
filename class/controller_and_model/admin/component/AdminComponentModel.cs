@@ -1,4 +1,5 @@
 ﻿using CodeBehind;
+using Microsoft.Extensions.Options;
 using SetCodeBehind;
 using System.Reflection.Metadata;
 using System.Xml;
@@ -400,7 +401,7 @@ namespace Elanat
             string ComponentDirectoryPath = ComponentCatalog["component_directory_path"].Attributes["value"].Value;
             ComponentDirectoryPath = FileAndDirectory.GetNewDirectoryNameIfDirectoryExist(StaticObject.ServerMapPath(StaticObject.AdminPath), ComponentDirectoryPath);
 
-            bool HasDll = false;
+            bool HasDllOrAspx = false;
 
             ResponseForm rf = new ResponseForm(StaticObject.GetCurrentAdminGlobalLanguage());
 
@@ -418,7 +419,13 @@ namespace Elanat
                         Directory.Move(StaticObject.ServerMapPath(StaticObject.SitePath + "App_Data/tmp/" + DirectoryName + "/root/admin/"), StaticObject.ServerMapPath(StaticObject.SitePath + "App_Data/tmp/" + DirectoryName + "/root/" + StaticObject.AdminDirectoryPath + "/"));
 
                 if (Directory.Exists(StaticObject.ServerMapPath(StaticObject.SitePath + "App_Data/tmp/" + DirectoryName + "/root/bin/")))
-                    HasDll = true;
+                    HasDllOrAspx = true;
+                else
+                {
+                    DirectoryInfo TmpDir = new DirectoryInfo(StaticObject.ServerMapPath(StaticObject.SitePath + "App_Data/tmp/" + DirectoryName));
+                    if (TmpDir.GetFiles("*.aspx", SearchOption.AllDirectories).Length > 0)
+                        HasDllOrAspx = true;
+                }
 
                 /// <Action> Create Uninstall List
                 DirectoryInfo directory = new DirectoryInfo(StaticObject.ServerMapPath(StaticObject.SitePath + "App_Data/tmp/" + DirectoryName + "/root/"));
@@ -482,7 +489,7 @@ namespace Elanat
 
 
             // Recompile
-            if (HasDll)
+            if (HasDllOrAspx)
             {
                 CodeBehindCompiler.Initialization();
                 CodeBehindCompiler.CompileAspx();
