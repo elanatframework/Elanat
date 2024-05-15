@@ -359,7 +359,7 @@ namespace Elanat
 
         public void AddCommentInContentInactiveErrorView()
         {
-            ResponseForm.WriteLocalAlone(Language.GetAddOnsLanguage("add_comment_in_content_is_inactive", StaticObject.GetCurrentSiteGlobalLanguage(), StaticObject.SitePath + "page/comment/"), "problem");
+            ResponseForm.WriteLocalAlone(Language.GetAddOnsLanguage("add_comment_in_this_content_is_inactive", StaticObject.GetCurrentSiteGlobalLanguage(), StaticObject.SitePath + "page/comment/"), "problem");
         }
 
         public void AddCommentInactiveView()
