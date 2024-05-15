@@ -101,10 +101,9 @@ namespace Elanat
 
             db.Close();
 
-            string EmailBody = EmailBodyTemplate;
             string EmailTitle = Language.GetLanguage("email_content", StaticObject.GetCurrentSiteGlobalLanguage());
 
-            string[] RecipientsEmail = RecipientsEmailValue.Split(new string[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries);
+            string[] RecipientsEmail = RecipientsEmailValue.Split(new string[] { "\n" }, StringSplitOptions.RemoveEmptyEntries);
             foreach (string email in RecipientsEmail)
             {
                 if (!email.IsEmail())
