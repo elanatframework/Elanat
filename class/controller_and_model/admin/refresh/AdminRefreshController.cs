@@ -74,6 +74,12 @@ namespace Elanat
                 return;
             }
 
+            if (!string.IsNullOrEmpty(context.Request.Form["btn_CodeBehindRecomplie"]))
+            {
+                btn_CodeBehindRecomplie_Click();
+                return;
+            }
+
 
             model.SetValue();
 
@@ -236,6 +242,19 @@ namespace Elanat
             rc.StartEvent("delete_all_foot_print", "");
 
             Write(GlobalClass.Alert(Language.GetAddOnsLanguage("all_foot_prints_has_been_delete_successfully", StaticObject.GetCurrentAdminGlobalLanguage(), StaticObject.AdminPath + "/refresh/"), StaticObject.GetCurrentAdminGlobalLanguage(), "success"));
+
+            IgnoreViewAndModel = true;
+        }
+
+        protected void btn_CodeBehindRecomplie_Click()
+        {
+            SetCodeBehind.CodeBehindCompiler.ReCompile();
+
+            // Add Reference
+            ReferenceClass rc = new ReferenceClass();
+            rc.StartEvent("code_behind_was_recomplie", "");
+
+            Write(GlobalClass.Alert(Language.GetAddOnsLanguage("code_behind_was_recomplie_successfully", StaticObject.GetCurrentAdminGlobalLanguage(), StaticObject.AdminPath + "/refresh/"), StaticObject.GetCurrentAdminGlobalLanguage(), "success"));
 
             IgnoreViewAndModel = true;
         }

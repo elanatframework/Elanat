@@ -17,6 +17,7 @@ namespace Elanat
         public string DeleteLanguage { get; set; }
         public string LogsDirectoryLanguage { get; set; }
         public string FoorPrintLanguage { get; set; }
+        public string CodeBehindRecomplieLanguage { get; set; }
         public string TmpDirectoryLanguage { get; set; }
         public string DiskCacheDirectoryLanguage { get; set; }
 
@@ -39,6 +40,7 @@ namespace Elanat
             TmpDirectoryLanguage = aol.GetAddOnsLanguage("tmp_directory");
             LogsDirectoryLanguage = aol.GetAddOnsLanguage("logs_directory");
             FoorPrintLanguage = aol.GetAddOnsLanguage("foot_print");
+            CodeBehindRecomplieLanguage = aol.GetAddOnsLanguage("code_behind_recomplie");
         }
     }
 }
