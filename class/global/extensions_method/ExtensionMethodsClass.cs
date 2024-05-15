@@ -491,6 +491,7 @@ namespace Elanat
             Text = Text.Replace("]", Value);
             Text = Text.Replace("(", Value);
             Text = Text.Replace(")", Value);
+            Text = Text.Replace("\n", Value);
 
             return Text;
         }
