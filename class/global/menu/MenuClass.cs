@@ -37,7 +37,7 @@ namespace Elanat
 
             LocationMenu = Language.GetLanguageFromContent(LocationMenu, StaticObject.GetCurrentAdminGlobalLanguage());
 
-            return LocationMenu;
+            return LocationMenu + GetAdminGlobalStaticLocationMenu(MenuLocation);
         }
 
         public string GetSiteStaticMenu(string MenuLocation)
@@ -134,6 +134,53 @@ namespace Elanat
             return LocationMenu;
         }
 
+        public string GetAdminGlobalStaticLocationMenu(string MenuLocation)
+        {
+            string MenuBoxTemplate = Template.GetAdminTemplate("html/location/" + MenuLocation + "/box", true);
+            string MenuListItemTemplate = Template.GetAdminTemplate("html/location/" + MenuLocation + "/list_item", true);
+            string TmpMenuListItemTemplate = "";
+
+            string LocationMenu = "";
+
+            foreach (XmlNode node in StaticObject.AdminGlobalLocationTemplateDocument.SelectNodes("template_root/location_base/" + MenuLocation + "/static_item")[0].ChildNodes)
+            {
+                string MenuName = "";
+                string TmpMenuBoxTemplate = MenuBoxTemplate;
+
+                if (node.Attributes["menu_name"] != null)
+                    MenuName = node.Attributes["menu_name"].Value;
+
+                TmpMenuBoxTemplate = TmpMenuBoxTemplate.Replace("$_asp menu_name;", MenuName);
+
+                TmpMenuListItemTemplate = MenuListItemTemplate;
+
+                TmpMenuListItemTemplate = TmpMenuListItemTemplate.Replace("$_asp value;", node.InnerTextAfterSetNodeVariant(StaticObject.GetCurrentAdminGlobalLanguage()));
+
+                string menu = "";
+
+                if (node.Attributes["use_box"] != null)
+                    menu = TmpMenuBoxTemplate.Replace("$_asp item;", TmpMenuListItemTemplate);
+                else
+                    menu = TmpMenuListItemTemplate;
+
+                LocationMenu += menu;
+
+                SetMenuLocationValueList(menu);
+
+                if (node.Attributes["sort_index"] != null)
+                {
+                    int Order = 0;
+                    int.TryParse(node.Attributes["sort_index"].ToString(), out Order);
+                    SetMenuLocationOrderList(Order);
+                }
+                else
+                    SetMenuLocationOrderList(0);
+            }
+            LocationMenu = Language.GetLanguageFromContent(LocationMenu, StaticObject.GetCurrentAdminGlobalLanguage());
+
+            return LocationMenu;
+        }
+
         private List<string> TmpMenuLocationValueList = new List<string>();
         public List<string> MenuLocationValueList
         {
@@ -174,7 +221,7 @@ namespace Elanat
 
             DataBaseSocket db = new DataBaseSocket();
             DataBaseDataReader dbdr = new DataBaseDataReader();
-			dbdr.dr = db.GetProcedure("get_menu_list_by_location", new List<string>() { "@location", "@group_id" }, new List<string>() { MenuLocation, GroupId });
+            dbdr.dr = db.GetProcedure("get_menu_list_by_location", new List<string>() { "@location", "@group_id" }, new List<string>() { MenuLocation, GroupId });
 
             if (dbdr.dr != null && dbdr.dr.HasRows)
                 while (dbdr.dr.Read())
@@ -292,7 +339,7 @@ namespace Elanat
 
             DataBaseSocket db = new DataBaseSocket();
             DataBaseDataReader dbdr = new DataBaseDataReader();
-			dbdr.dr = db.GetProcedure("get_menu_plugin_by_group_id", new List<string>() { "@menu_id", "@group_id" }, new List<string>() { MenuId, GroupId });
+            dbdr.dr = db.GetProcedure("get_menu_plugin_by_group_id", new List<string>() { "@menu_id", "@group_id" }, new List<string>() { MenuId, GroupId });
 
             if (dbdr.dr != null && dbdr.dr.HasRows)
                 while (dbdr.dr.Read())
@@ -320,7 +367,7 @@ namespace Elanat
             db.Close();
 
             if (!string.IsNullOrEmpty(SumPluginListItemTemplate))
-                return PluginBoxTemplate.Replace("$_asp item;",SumPluginListItemTemplate);
+                return PluginBoxTemplate.Replace("$_asp item;", SumPluginListItemTemplate);
 
             return null;
         }
@@ -339,7 +386,7 @@ namespace Elanat
 
             DataBaseSocket db = new DataBaseSocket();
             DataBaseDataReader dbdr = new DataBaseDataReader();
-			dbdr.dr = db.GetProcedure("get_menu_module_by_group_id", new List<string>() { "@menu_id", "@group_id" }, new List<string>() { MenuId, GroupId });
+            dbdr.dr = db.GetProcedure("get_menu_module_by_group_id", new List<string>() { "@menu_id", "@group_id" }, new List<string>() { MenuId, GroupId });
 
             if (dbdr.dr != null && dbdr.dr.HasRows)
                 while (dbdr.dr.Read())
@@ -383,7 +430,7 @@ namespace Elanat
 
             DataBaseSocket db = new DataBaseSocket();
             DataBaseDataReader dbdr = new DataBaseDataReader();
-			dbdr.dr = db.GetProcedure("get_menu_fetch_by_group_id", new List<string>() { "@menu_id", "@group_id" }, new List<string>() { MenuId, GroupID });
+            dbdr.dr = db.GetProcedure("get_menu_fetch_by_group_id", new List<string>() { "@menu_id", "@group_id" }, new List<string>() { MenuId, GroupID });
 
             if (dbdr.dr != null && dbdr.dr.HasRows)
                 while (dbdr.dr.Read())
@@ -416,7 +463,7 @@ namespace Elanat
 
             DataBaseSocket db = new DataBaseSocket();
             DataBaseDataReader dbdr = new DataBaseDataReader();
-			dbdr.dr = db.GetProcedure("get_menu_item_by_group_id", new List<string>() { "@menu_id", "@group_id" }, new List<string>() { MenuId, GroupId });
+            dbdr.dr = db.GetProcedure("get_menu_item_by_group_id", new List<string>() { "@menu_id", "@group_id" }, new List<string>() { MenuId, GroupId });
 
             if (dbdr.dr != null && dbdr.dr.HasRows)
                 while (dbdr.dr.Read())
@@ -445,7 +492,7 @@ namespace Elanat
 
             DataBaseSocket db = new DataBaseSocket();
             DataBaseDataReader dbdr = new DataBaseDataReader();
-			dbdr.dr = db.GetProcedure("get_menu_link", "@menu_id", MenuId);
+            dbdr.dr = db.GetProcedure("get_menu_link", "@menu_id", MenuId);
 
             if (dbdr.dr != null && dbdr.dr.HasRows)
                 while (dbdr.dr.Read())
