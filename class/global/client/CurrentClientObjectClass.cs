@@ -79,10 +79,38 @@ namespace Elanat
             ProcessKeeper.ClientRobotIpIsBlocked = rib.RobotIpIsBlocked().BooleanToTrueFalse();
 
 
+            // Set Date And Time Value
+            Calendar = StaticObject.DefaultSiteCalendar;
+            DayDifference = StaticObject.DefaultDayDifference;
+            DateFormat = StaticObject.DefaultDateFormat;
+            TimeFormat = StaticObject.DefaulttimeFormat;
+            FirstDayOfWeek = StaticObject.DefaultFirstDayOfWeek;
+            TimeHoursDifference = StaticObject.DefaultTimeDifferenceHours;
+            TimeMinutesDifference = StaticObject.DefaultTimeDifferenceMinutes;
+            TimeZone = StaticObject.DefaultTimeZone;
+
+
             // Set Site Value
             SiteSiteGlobalName = StaticObject.DefaultSite;
             DataUse.Site dus = new DataUse.Site();
             SiteId = dus.GetSiteIdBySiteGlobalName(SiteSiteGlobalName);
+
+            dus.FillCurrentSite(SiteId);
+
+            if (!string.IsNullOrEmpty(dus.SiteCalendar))
+                Calendar = dus.SiteCalendar;
+
+            if (!string.IsNullOrEmpty(dus.SiteDateFormat))
+                DateFormat = dus.SiteDateFormat;
+
+            if (!string.IsNullOrEmpty(dus.SiteFirstDayOfWeek))
+                FirstDayOfWeek = dus.SiteFirstDayOfWeek;
+
+            if (!string.IsNullOrEmpty(dus.SiteTimeFormat))
+                TimeFormat = dus.SiteTimeFormat;
+
+            if (!string.IsNullOrEmpty(dus.SiteTimeZone))
+                TimeZone = dus.SiteTimeZone;
 
 
             // Set Language Value
@@ -95,17 +123,6 @@ namespace Elanat
             AdminLanguageGlobalName = SiteLanguageGlobalName;
             AdminLanguageId = SiteLanguageId;
             AdminLanguageIsRightToLeft = SiteLanguageIsRightToLeft;
-
-
-            // Set Date And Time Value
-            Calendar = StaticObject.DefaultSiteCalendar;
-            DayDifference = StaticObject.DefaultDayDifference;
-            DateFormat = StaticObject.DefaultDateFormat;
-            TimeFormat = StaticObject.DefaulttimeFormat;
-            FirstDayOfWeek = StaticObject.DefaultFirstDayOfWeek;
-            TimeHoursDifference = StaticObject.DefaultTimeDifferenceHours;
-            TimeMinutesDifference = StaticObject.DefaultTimeDifferenceMinutes;
-            TimeZone = StaticObject.DefaultTimeZone;
 
 
             // Set Site Style Value
@@ -130,10 +147,10 @@ namespace Elanat
         }
 
         public void FillUserClientSetting(string UserId, bool FillAdminLanguage = true)
-        {           
+        {
             DataBaseSocket db = new DataBaseSocket();
             DataBaseDataReader dbdr = new DataBaseDataReader();
-			dbdr.dr = db.GetProcedure("get_user_setting", "@user_id", UserId);
+            dbdr.dr = db.GetProcedure("get_user_setting", "@user_id", UserId);
 
             dbdr.dr.Read();
 
@@ -693,7 +710,7 @@ namespace Elanat
             get { return (TmpSession.GetString("el_current_client:robot_detection_request_after_show_captcha") != null) ? TmpSession.GetString("el_current_client:robot_detection_request_after_show_captcha").ToNumber() : 0; }
             set { TmpSession.SetString("el_current_client:robot_detection_request_after_show_captcha", value.ToString()); }
         }
-       
+
         public long RobotDetectionDateTimeLong
         {
             get { return (TmpSession.GetString("el_current_client:robot_detection_date_time_long") != null) ? long.Parse(TmpSession.GetString("el_current_client:robot_detection_date_time_long")) : DateAndTime.GetDateAndTimeLong(); }
