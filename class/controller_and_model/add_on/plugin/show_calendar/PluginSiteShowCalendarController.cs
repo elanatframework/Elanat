@@ -8,7 +8,8 @@ namespace Elanat
 
         public void PageLoad(HttpContext context)
         {
-            string CurrentSiteCalendar = "gregorian";
+            string CurrentSiteCalendar = StaticObject.DefaultSiteCalendar;
+
             CurrentClientObjectClass ccoc = new CurrentClientObjectClass();
 
             if (ccoc.Calendar != null)
