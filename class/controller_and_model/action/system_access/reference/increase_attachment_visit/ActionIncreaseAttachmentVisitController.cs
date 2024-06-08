@@ -30,7 +30,14 @@ namespace Elanat
             if (string.IsNullOrEmpty(AttachmentId))
                 return;
 
+            if (context.Request.Cookies["el_attachment_loaded_" + AttachmentId] != null)
+                return;
+
             dua.IncreaseVisit(AttachmentId);
+
+            CookieOptions options = new CookieOptions();
+            options.Expires = DateTime.Now.AddDays(1);
+            context.Response.Cookies.Append("el_attachment_loaded_" + AttachmentId, "true", options);
         }
     }
 }
