@@ -57,17 +57,17 @@ namespace Elanat
             if (string.IsNullOrEmpty(ClassText) || string.IsNullOrEmpty(ClassName))
                 return null;
 
-                int ClassNameIndex = ClassText.IndexOf(ClassName);
+            int ClassNameIndex = ClassText.IndexOf(ClassName);
 
-                string Space = (ClassNameIndex == 0) ? "" : " ";
+            string Space = (ClassNameIndex == 0) ? "" : " ";
 
-                ClassText = ClassText.Replace(Space + ClassName, null);
+            ClassText = ClassText.Replace(Space + ClassName, null);
 
-                if (!string.IsNullOrEmpty(ClassText))
-                    if (ClassText[0] == ' ')
-                        ClassText = ClassText.Remove(0, 1);
+            if (!string.IsNullOrEmpty(ClassText))
+                if (ClassText[0] == ' ')
+                    ClassText = ClassText.Remove(0, 1);
 
-                return ClassText;
+            return ClassText;
         }
 
         public static int ToNumber(this string Text)
@@ -75,7 +75,7 @@ namespace Elanat
             if (Text.IsNumber())
                 return int.Parse(Text);
 
-                return 0;
+            return 0;
         }
 
         public static string[] Add(this string[] TextList, string NewText)
@@ -200,7 +200,7 @@ namespace Elanat
 
         public static bool ZeroOneToBoolean(this string Value)
         {
-            return ((Value == "1")? true : false);
+            return ((Value == "1") ? true : false);
         }
 
         public static string ZeroOneToTrueFalse(this int Value)
@@ -284,13 +284,13 @@ namespace Elanat
                 return Value.ToShortDateString();
 
             if (ts.TotalDays > 1)
-                return Language.GetLanguage("total_days_ago", GlobalLanguage).Replace("$_asp days;", ts.TotalDays.ToString());
+                return Language.GetLanguage("total_days_ago", GlobalLanguage).Replace("$_asp days;", Math.Round(ts.TotalDays).ToString());
 
             if (ts.TotalHours > 1)
-                return Language.GetLanguage("total_hours_ago", GlobalLanguage).Replace("$_asp hours;", ts.TotalHours.ToString());
+                return Language.GetLanguage("total_hours_ago", GlobalLanguage).Replace("$_asp hours;", Math.Round(ts.TotalHours).ToString());
 
             if (ts.TotalMinutes > 1)
-                return Language.GetLanguage("total_minutes_ago", GlobalLanguage).Replace("$_asp minutes;", ts.TotalMinutes.ToString());
+                return Language.GetLanguage("total_minutes_ago", GlobalLanguage).Replace("$_asp minutes;", Math.Round(ts.TotalMinutes).ToString());
 
             return Language.GetLanguage("now", GlobalLanguage);
         }
@@ -352,8 +352,8 @@ namespace Elanat
                 Value.InnerText = ar.ReadFetch(Value.InnerText, GlobalLanguage);
 
             if (Value.Attributes["use_item"] != null)
-                Value.InnerText = ar.ReadItem(Value.InnerText, GlobalLanguage); 
-            
+                Value.InnerText = ar.ReadItem(Value.InnerText, GlobalLanguage);
+
             return Value;
         }
 
@@ -491,7 +491,6 @@ namespace Elanat
             Text = Text.Replace("]", Value);
             Text = Text.Replace("(", Value);
             Text = Text.Replace(")", Value);
-            Text = Text.Replace("\n", Value);
 
             return Text;
         }
@@ -597,7 +596,7 @@ namespace Elanat
                 if (dr.GetName(i).Equals(ColumnName, StringComparison.InvariantCultureIgnoreCase))
                     return true;
 
-                return false;
+            return false;
         }
 
         public static bool IsScriptExtension(this string Text)
@@ -929,7 +928,7 @@ namespace Elanat
             string ReturnValue = "";
 
             if (SetFirstEmptyOption)
-                ReturnValue = "<option value=" + '"' + ((string.IsNullOrEmpty(SelectValue))? " seselected" : "" ) + '"' + "></option>";
+                ReturnValue = "<option value=" + '"' + ((string.IsNullOrEmpty(SelectValue)) ? " seselected" : "") + '"' + "></option>";
 
             foreach (ListItem item in ListItem)
             {
