@@ -280,7 +280,7 @@ namespace Elanat
 
             // Check User Comment Send Without Approval
             bool AddUserCommentWithoutApproval = duc.CheckUserCommentSendWithoutApprovalByGroupId(ccoc.GroupId);
-            
+
             // Get Content Verify Comments
             bool ContentVerifyComments = (ParentCommentValue != "0") ? duc.GetContentVerifyCommentsByCommentId(ParentCommentValue) : duc.GetContentVerifyCommentsByContentId(ContentIdValue);
 
@@ -291,7 +291,7 @@ namespace Elanat
             duc.CommentGuestName = ccoc.UserName;
             duc.CommentGuestRealName = StringClass.RemoveHtmlTags(RealNameValue);
             duc.CommentGuestRealLastName = StringClass.RemoveHtmlTags(RealLastNameValue);
-            duc.CommentGuestEmail = string.IsNullOrEmpty(EmailValue) ? "" : StringClass.RemoveHtmlTags(EmailValue.ToLower()); 
+            duc.CommentGuestEmail = string.IsNullOrEmpty(EmailValue) ? "" : StringClass.RemoveHtmlTags(EmailValue.ToLower());
             duc.CommentTitle = StringClass.RemoveIllegalCharacters(TitleValue);
             duc.CommentText = (StaticObject.RoleWriteHtmlCheck()) ? TextValue : StringClass.RemoveHtmlTags(TextValue);
             duc.CommentText = (StaticObject.RoleWriteScriptCheck()) ? duc.CommentText : StringClass.RemoveScriptTags(duc.CommentText);
@@ -359,7 +359,7 @@ namespace Elanat
 
         public void AddCommentInContentInactiveErrorView()
         {
-            ResponseForm.WriteLocalAlone(Language.GetAddOnsLanguage("add_comment_in_this_content_is_inactive", StaticObject.GetCurrentSiteGlobalLanguage(), StaticObject.SitePath + "page/comment/"), "problem");
+            ResponseForm.WriteLocalAlone(Language.GetAddOnsLanguage("add_comment_in_content_is_inactive", StaticObject.GetCurrentSiteGlobalLanguage(), StaticObject.SitePath + "page/comment/"), "problem");
         }
 
         public void AddCommentInactiveView()
