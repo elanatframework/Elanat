@@ -15,7 +15,7 @@ namespace Elanat
             }
 
 
-            model.FetchSqlQueryValue = context.Request.Query["fetch_sql_query"].ToString().Replace("$_asp sql_query_amp;", "&");
+            model.FetchSqlQueryValue = context.Request.Query["fetch_sql_query"].ToString().Replace("$_asp sql_query_amp;", "&").Replace("$_asp question_mark;", "?").Replace("$_asp equals;", "=");
 
             if (string.IsNullOrEmpty(context.Request.Query["sql_query_use_language"]))
                 model.SqlQueryUseLanguageValue = context.Request.Query["sql_query_use_language"] == "true";

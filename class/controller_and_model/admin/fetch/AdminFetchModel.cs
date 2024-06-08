@@ -768,7 +768,7 @@ namespace Elanat
                 return;
             }
 
-            SqlQuery = SqlQuery.Replace("&", "$_asp sql_query_amp;");
+            SqlQuery = SqlQuery.Replace("&", "$_asp sql_query_amp;").Replace("?", "$_asp question_mark;").Replace("=", "$_asp equals;");
 
             ResponseForm rf = new ResponseForm(StaticObject.GetCurrentAdminGlobalLanguage());
             rf.AddPageLoad(StaticObject.AdminPath + "/fetch/action/GetFetchListItem.aspx?fetch_sql_query=" + SqlQuery + SqlQueryAddUsed, "div_SqlQueryColumnTemplate");
