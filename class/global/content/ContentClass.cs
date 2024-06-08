@@ -23,7 +23,7 @@ namespace Elanat
 
             DataBaseSocket db = new DataBaseSocket();
             DataBaseDataReader dbdr = new DataBaseDataReader();
-			dbdr.dr = db.GetProcedure("get_content_keywords", "@content_id", ContentId);
+            dbdr.dr = db.GetProcedure("get_content_keywords", "@content_id", ContentId);
 
             if (dbdr.dr != null && dbdr.dr.HasRows)
             {
@@ -69,7 +69,7 @@ namespace Elanat
 
             DataBaseSocket db = new DataBaseSocket();
             DataBaseDataReader dbdr = new DataBaseDataReader();
-			dbdr.dr = db.GetProcedure("get_content_attachment", "@content_id", ContentId);
+            dbdr.dr = db.GetProcedure("get_content_attachment", "@content_id", ContentId);
 
             bool ExistAttachment = false;
             if (dbdr.dr != null && dbdr.dr.HasRows)
@@ -142,7 +142,7 @@ namespace Elanat
 
             DataBaseSocket db = new DataBaseSocket();
             DataBaseDataReader dbdr = new DataBaseDataReader();
-			dbdr.dr = db.GetProcedure("get_content", ParametersNameList, ParametersValueList);
+            dbdr.dr = db.GetProcedure("get_content", ParametersNameList, ParametersValueList);
 
 
             string ReadMoreTemplate = Template.GetSiteTemplate("part/read_more");
@@ -415,7 +415,7 @@ namespace Elanat
 
             DataBaseSocket db = new DataBaseSocket();
             DataBaseDataReader dbdr = new DataBaseDataReader();
-			dbdr.dr = db.GetProcedure("get_content_content_reply", "@content_id", ContentId);
+            dbdr.dr = db.GetProcedure("get_content_content_reply", "@content_id", ContentId);
 
             if (dbdr.dr != null && dbdr.dr.HasRows)
             {
@@ -458,10 +458,12 @@ namespace Elanat
 
             DataBaseSocket db = new DataBaseSocket();
             DataBaseDataReader dbdr = new DataBaseDataReader();
-			dbdr.dr = db.GetProcedure("get_content_comment_by_parent_comment", new List<string>() { "@content_id", "@parent_id", "@count" }, new List<string>() { ContentId, ParentId, Count.ToString()});
-            
+            dbdr.dr = db.GetProcedure("get_content_comment_by_parent_comment", new List<string>() { "@content_id", "@parent_id", "@count" }, new List<string>() { ContentId, ParentId, Count.ToString() });
+
             if (dbdr.dr != null && dbdr.dr.HasRows)
             {
+                CurrentClientObjectClass ccoc = new CurrentClientObjectClass();
+
                 while (dbdr.dr.Read())
                 {
                     if (!dbdr.dr["comment_active"].ToString().TrueFalseToBoolean())
@@ -483,7 +485,7 @@ namespace Elanat
                     else
                         TmpCommentItemTemplate = TmpCommentItemTemplate.Replace("$_asp comment_user_guest_name;", dbdr.dr["comment_user_guest_name"].ToString());
 
-                    TmpCommentItemTemplate = TmpCommentItemTemplate.Replace("$_asp comment_date_and_time_send;", dbdr.dr["comment_date_and_time_send"].ToString());
+                    TmpCommentItemTemplate = TmpCommentItemTemplate.Replace("$_asp comment_date_and_time_send;", ccoc.GetCurrentClientDateAndTime(dbdr.dr["comment_date_send"].ToString() + " " + dbdr.dr["comment_time_send"].ToString()));
                     TmpCommentItemTemplate = TmpCommentItemTemplate.Replace("$_asp comment_text;", dbdr.dr["comment_text"].ToString());
 
 
@@ -507,7 +509,7 @@ namespace Elanat
         {
             DataBaseSocket db = new DataBaseSocket();
             DataBaseDataReader dbdr = new DataBaseDataReader();
-			dbdr.dr = db.GetProcedure("get_content_title", "@content_id", ContentId);
+            dbdr.dr = db.GetProcedure("get_content_title", "@content_id", ContentId);
             if (dbdr.dr != null && dbdr.dr.HasRows)
             {
                 dbdr.dr.Read();
@@ -527,7 +529,7 @@ namespace Elanat
 
             DataBaseSocket db = new DataBaseSocket();
             DataBaseDataReader dbdr = new DataBaseDataReader();
-			dbdr.dr = db.GetProcedure("get_current_content", "@content_id", ContentId);
+            dbdr.dr = db.GetProcedure("get_current_content", "@content_id", ContentId);
 
             string RatingTemplate = Template.GetSiteTemplate("part/rating");
             string ContentAvatarTemplate = Template.GetSiteTemplate("part/content_avatar");
@@ -543,7 +545,7 @@ namespace Elanat
             XmlNode node = StaticObject.ConfigDocument.SelectSingleNode("elanat_root/view/content_page");
 
             bool ShowContentKeywordsInContent = (node["show_content_keywords_in_content"].Attributes["active"].Value == "true");
-		    bool ShowAttachmentInContent = (node["show_attachment_in_content"].Attributes["active"].Value == "true");
+            bool ShowAttachmentInContent = (node["show_attachment_in_content"].Attributes["active"].Value == "true");
             bool ShowCommentInContent = (node["show_comment_in_content"].Attributes["active"].Value == "true");
             bool ShowAddCommentInContent = (node["show_add_comment_in_content"].Attributes["active"].Value == "true");
             string LoadWith = node["show_add_comment_in_content"].Attributes["load_with"].InnerText;
@@ -625,7 +627,7 @@ namespace Elanat
                 CurrentClientObjectClass ccoc = new CurrentClientObjectClass();
 
 
-                Content = Content.Replace("$_asp read_more;",null);
+                Content = Content.Replace("$_asp read_more;", null);
 
                 Content = Content.Replace("$_db user_id;", dbdr.dr["user_id"].ToString());
 
@@ -651,21 +653,21 @@ namespace Elanat
 
                 // If Content Protection By Password
                 Content = (string.IsNullOrEmpty(dbdr.dr["content_password"].ToString())) ? Content.Replace("$_db content_text;", dbdr.dr["content_text"].ToString().Replace("<hr class=\"el_read_more\">", null).Replace("&gt;", ">").Replace("&lt;", "<")) : Content.Replace("$_db content_text;", Template.GetSiteGlobalTemplate("part/show_protection_content_by_password").Replace("$_asp content_id;", dbdr.dr["content_id"].ToString()).Replace("$_asp captcha;", Security.GetCaptchaImage()));
-                
+
                 Content = Content.Replace("$_db comment_count;", dbdr.dr["comment_count"].ToString());
-                Content = (ShowVisitInContent)? Content.Replace("$_db content_visit;", dbdr.dr["content_visit"].ToString()) : Content.Replace("$_db content_visit;", null);
+                Content = (ShowVisitInContent) ? Content.Replace("$_db content_visit;", dbdr.dr["content_visit"].ToString()) : Content.Replace("$_db content_visit;", null);
 
                 // Set Content Keywords
-                Content = (ShowContentKeywordsInContent)? Content.Replace("$_asp content_keywords;", GetContentKeywords(ContentId.ToString())) : Content.Replace("$_asp content_keywords;", null);
+                Content = (ShowContentKeywordsInContent) ? Content.Replace("$_asp content_keywords;", GetContentKeywords(ContentId.ToString())) : Content.Replace("$_asp content_keywords;", null);
 
                 // Set Attachment
-                Content = (ShowAttachmentInContent)? Content.Replace("$_asp attachment;", GetAttachment(ContentId.ToString())) : Content.Replace("$_asp attachment;", null);
+                Content = (ShowAttachmentInContent) ? Content.Replace("$_asp attachment;", GetAttachment(ContentId.ToString())) : Content.Replace("$_asp attachment;", null);
 
                 // Set Comment
-                Content = (ShowCommentInContent)? Content.Replace("$_asp comment;", GetContentComment(ContentId.ToString())) : Content.Replace("$_asp comment;", null);
+                Content = (ShowCommentInContent) ? Content.Replace("$_asp comment;", GetContentComment(ContentId.ToString())) : Content.Replace("$_asp comment;", null);
 
                 // Set Content Reply
-                Content = (ShowContentReplyInContent)? Content.Replace("$_asp content_reply;", GetContentReply(ContentId.ToString())) : Content.Replace("$_asp content_reply;", null);
+                Content = (ShowContentReplyInContent) ? Content.Replace("$_asp content_reply;", GetContentReply(ContentId.ToString())) : Content.Replace("$_asp content_reply;", null);
 
                 // Set Extra Content Url Value
                 ExtraValue evc = new ExtraValue();
@@ -693,8 +695,8 @@ namespace Elanat
                 else
                     Content = Content.Replace("$_asp rating;", null);
 
-                Content += (ShowAddCommentInContent) ? PageLoader.LoadPage(LoadWith,  StaticObject.SitePath + "page/comment/Default.aspx?content_id=" + dbdr.dr["content_id"].ToString(), false) : null;
-            
+                Content += (ShowAddCommentInContent) ? PageLoader.LoadPage(LoadWith, StaticObject.SitePath + "page/comment/Default.aspx?content_id=" + dbdr.dr["content_id"].ToString(), false) : null;
+
                 // Set Value
                 CurrentCategoryId = dbdr.dr["category_id"].ToString();
                 CurrentContentId = dbdr.dr["content_id"].ToString();
@@ -714,7 +716,7 @@ namespace Elanat
         {
             DataBaseSocket db = new DataBaseSocket();
             DataBaseDataReader dbdr = new DataBaseDataReader();
-			dbdr.dr = db.GetProcedure("get_protection_content", new List<string>() { "@content_id", "@content_password" }, new List<string>() { ContentId, ContentPassword });
+            dbdr.dr = db.GetProcedure("get_protection_content", new List<string>() { "@content_id", "@content_password" }, new List<string>() { ContentId, ContentPassword });
 
             if (dbdr.dr != null && dbdr.dr.HasRows)
             {
@@ -738,7 +740,7 @@ namespace Elanat
 
             DataBaseSocket db = new DataBaseSocket();
             DataBaseDataReader dbdr = new DataBaseDataReader();
-			dbdr.dr = db.GetProcedure("get_protection_attachment", new List<string>() { "@attachment_id", "@attachment_password" }, new List<string>() { AttachmentId, AttachmentPassword });
+            dbdr.dr = db.GetProcedure("get_protection_attachment", new List<string>() { "@attachment_id", "@attachment_password" }, new List<string>() { AttachmentId, AttachmentPassword });
 
             if (dbdr.dr != null && dbdr.dr.HasRows)
             {
@@ -753,7 +755,7 @@ namespace Elanat
 
                 AttachmentFileTemplate = AttachmentFileTemplate.Replace("$_asp attachment_extension_icon;", Path.GetExtension(dbdr.dr["attachment_physical_name"].ToString()).Remove(0, 1));
                 AttachmentFileTemplate = AttachmentFileTemplate.Replace("$_asp attachment_size;", long.Parse(dbdr.dr["attachment_size"].ToString()).ToBitSizeTuning());
-                    
+
                 db.Close();
                 return AttachmentFileTemplate;
             }
