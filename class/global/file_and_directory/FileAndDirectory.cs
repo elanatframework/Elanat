@@ -1,4 +1,7 @@
 ﻿using Microsoft.AspNetCore.StaticFiles;
+using SixLabors.ImageSharp;
+using SixLabors.ImageSharp.PixelFormats;
+using SixLabors.ImageSharp.Processing;
 using System.Security.Cryptography;
 using System.Text;
 using System.Xml;
