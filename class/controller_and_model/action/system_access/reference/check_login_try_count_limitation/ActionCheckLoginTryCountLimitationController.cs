@@ -19,8 +19,6 @@ namespace Elanat
 
             int RoleLoginTryCountLimitation = 0;
 
-            XmlDocument doc = new XmlDocument();
-
             foreach (string Text in ccoc.GetRoleNameList())
             {
                 XmlNode node = StaticObject.CurrentRoleLimitationsDocument(Text).SelectSingleNode("limitation_root/limitation_list/limitation[@name='login_try_count']");

@@ -33,7 +33,10 @@ function el_SetCodeMirror(TextFilePath, MimeType)
             el_Alert(LanguageVariant.ConnectionError, "problem");
         }
     }
-		
-    xmlhttp.open("GET", ElanatVariant.SitePath + "add_on/plugin/directory_text_file/action/DirectoryTextFileSetCodeHighlighter.aspx?text_file_path=" + TextFilePath, false);
+
+    if (!TextFilePath)
+        return;
+	
+    xmlhttp.open("GET", ElanatVariant.SitePath + "add_on/plugin/directory_text_file/action/DirectoryTextFileSetCodeHighlighter.aspx?text_file_path=/wwwroot" + TextFilePath, false);
     xmlhttp.send();
 }
