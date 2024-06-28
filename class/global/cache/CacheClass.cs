@@ -109,7 +109,7 @@ namespace Elanat
 
         public void DeleteAllFromDisk()
         {
-            foreach (string key in CaceKeyList())
+            foreach (string key in CacheKeyList())
             {
                 if (key.TextStartMathByValueCheck("$_cache disk;"))
                     Cache.Remove(key);
@@ -118,7 +118,7 @@ namespace Elanat
 
         public void DeleteAll()
         {
-            foreach (string key in CaceKeyList())
+            foreach (string key in CacheKeyList())
             {
                 Cache.Remove(key);
             }
@@ -131,7 +131,7 @@ namespace Elanat
 
         public void DeleteAllFromMemory()
         {
-            foreach (string key in CaceKeyList())
+            foreach (string key in CacheKeyList())
             {
                 if (key.TextStartMathByValueCheck("$_cache memory;"))
                     Cache.Remove(key);
@@ -156,7 +156,7 @@ namespace Elanat
             catch (Exception){}
         }
 
-        public List<string> CaceKeyList()
+        public List<string> CacheKeyList()
         {
             var field = typeof(MemoryCache).GetProperty("EntriesCollection", BindingFlags.NonPublic | BindingFlags.Instance);
             var collection = field.GetValue(Cache) as ICollection;
