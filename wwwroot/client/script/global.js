@@ -75,7 +75,7 @@ String.prototype.Replace = function (SearchValue, ReplaceValue)
 
     while (MainText.indexOf(SearchValue) > -1)
         MainText = MainText.replace(SearchValue, ReplaceValue);
-
+    
     return MainText;
 }
 
