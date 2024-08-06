@@ -24,9 +24,7 @@ Elanat site view section image
 
 ### The most powerful .NET system
 
-Elanat framework is one of the best systems on the web. There is also a built-in CMS in Elanat core. Elanat uses an [CodeBehind](https://github.com/elanatframework/Code_behind) infrastructure MVC architecture that is not related to Microsoft ASP.NET Core.
-This system is very powerful and very large and it benefits from a very modern structure that allows you to create several new add-ons for Elanat every day.
-The wonderful structure of Elanat is in a way that it interacts with 8 types of add-ons, all of which are components, and the component itself is also a component. In the admin section, all component lists and other add-ons are displayed by the plugin add-on.
+Elanat CMS is one of the best systems on the web. Elanat is a content management system that uses the [CodeBehind Framework](https://github.com/elanatframework/Code_behind) infrastructure. This system is  powerful and very large and it benefits from a modern structure that allows you to create several new add-ons for Elanat every day. The wonderful structure of Elanat CMS is in a way that it interacts with 8 types of add-ons, all of which are components, and the component itself is also a component. In the admin section, all component lists and other add-ons are displayed by the plugin add-on.
 
 Elanat admin view section image
 ![Elanat admin view section](https://github.com/elanatframework/Elanat/assets/111444759/78b077fc-5d68-4c43-832e-aec1851512fa)
