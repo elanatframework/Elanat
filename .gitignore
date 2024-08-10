@@ -3,5 +3,8 @@ code_behind/*
 obj/*
 Properties/*
 .gitattributes
+.gitignore
 Elanat.csproj
 Elanat.csproj.user
+appsettings.json
+appsettings.Development.json
