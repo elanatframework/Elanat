@@ -19,9 +19,16 @@ namespace Elanat
             if (Path.Contains("/thumb/"))
                 return;
 
-            string AttachmentDirectoryPath = Path.GetTextBeforeLastValue("/");
+            string AttachmentDirectoryPath = "";
+            string AttachmentPhysicalName = "";
 
-            string AttachmentPhysicalName = Path.GetTextAfterLastValue("/");
+            if (Path.Contains("/"))
+            {
+                AttachmentDirectoryPath = Path.GetTextBeforeLastValue("/");
+                AttachmentPhysicalName = Path.GetTextAfterLastValue("/");
+            }
+            else
+                AttachmentPhysicalName = Path;
 
             DataUse.Attachment dua = new DataUse.Attachment();
 
