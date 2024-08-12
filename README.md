@@ -1,15 +1,15 @@
 ![ ](https://github.com/elanatframework/Elanat/assets/111444759/fb48c66f-2c43-43bd-b877-a17e0022a781)
 # Elanat CMS
 
-Elanat was created to be a reliable system in .NET and an honor for .NET programmers and can be compared to other systems under PHP and JAVA.
+Elanat CMS was created to be a reliable system in .NET and an honor for .NET programmers and can be compared to other systems under PHP and JAVA.
 
-**Elanat is .NET Honor!**
+**Elanat CMS is .NET Honor!**
 
 ![Elanat vs PHP and Java systems](https://github.com/elanatframework/Elanat/assets/111444759/1244ff6d-41aa-49f6-8c65-708c395027ae)
 
-Elanat is a free and open-source CMS-Framework based on ASP.NET Core. Elanat version 1 was created based on ASP.NET Standard; in a short time, Elanat migrated to ASP.NET Core; therefore, Elanat version 2 is based on ASP.NET Core. Elanat uses the [CodeBehind](https://github.com/elanatframework/Code_behind) framework; this framework is an infrastructure whose executable files are aspx that run on ASP.NET Core.
+Elanat CMS is a free and open-source CMS-Framework based on ASP.NET Core. Elanat CMS version 1 was created based on ASP.NET Standard; in a short time, Elanat CMS migrated to ASP.NET Core; therefore, Elanat CMS version 2 is based on ASP.NET Core. Elanat uses the [CodeBehind](https://github.com/elanatframework/Code_behind) framework; this framework is an infrastructure whose executable files are aspx that run on ASP.NET Core.
 
-The ASP.NET Standard version of Elanat is fully copied in the repository below. The README.md file of this repository gives you information on how to migrate Elanat from ASP.NET Standard to ASP.NET Core.
+The ASP.NET Standard version of Elanat CMS is fully copied in the repository below. The README.md file of this repository gives you information on how to migrate Elanat CMS from ASP.NET Standard to ASP.NET Core.
 
 https://github.com/elanatframework/Elanat_old
 
@@ -24,16 +24,16 @@ Elanat site view section image
 
 ### The most powerful .NET system
 
-Elanat CMS is one of the best systems on the web. Elanat is a content management system that uses the [CodeBehind Framework](https://github.com/elanatframework/Code_behind) infrastructure. This system is  powerful and very large and it benefits from a modern structure that allows you to create several new add-ons for Elanat every day. The wonderful structure of Elanat CMS is in a way that it interacts with 8 types of add-ons, all of which are components, and the component itself is also a component. In the admin section, all component lists and other add-ons are displayed by the plugin add-on.
+Elanat CMS is one of the best systems on the web. Elanat CMS is a content management system that uses the [CodeBehind Framework](https://github.com/elanatframework/Code_behind) infrastructure. This system is  powerful and very large and it benefits from a modern structure that allows you to create several new add-ons for Elanat every day. The wonderful structure of Elanat CMS is in a way that it interacts with 8 types of add-ons, all of which are components, and the component itself is also a component. In the admin section, all component lists and other add-ons are displayed by the plugin add-on.
 
-Elanat admin view section image
+Elanat CMS admin view section image
 ![Elanat admin view section](https://github.com/elanatframework/Elanat/assets/111444759/78b077fc-5d68-4c43-832e-aec1851512fa)
 
 ### Big project with the best technologies
 
-There are nearly 600 executable aspx files, 56 DBMS tables, 560 stored procedures, more than 600 XML files and nearly 70 JavaScript files in Elanat core.
+There are nearly 600 executable aspx files, 56 DBMS tables, 560 stored procedures, more than 600 XML files and nearly 70 JavaScript files in Elanat CMS core.
 
-At Elanat, we have introduced several new technologies in web-based systems; Some of these technologies include the following:
+At Elanat CMS, we have introduced several new technologies in web-based systems; Some of these technologies include the following:
 
  - Server-side independence
  - add-on-oriented
@@ -47,13 +47,13 @@ We also used several high-level technologies:
  - Content name value
  - Variables in the content template
 
-In many cases, the Elanat system is better than Microsoft SharePoint, Drupal and Liferay.
+In many cases, the Elanat CMS is better than Microsoft SharePoint, Drupal and Liferay.
 
-Items used in Elanat:
+Items used in Elanat CMS:
  - CodeBehind framework
  - Stored procedure
 
-Items not used in Elanat:
+Items not used in Elanat CMS:
  - Default cshtml pages in ASP.NET Core
  - JQuery
  - Entity Framework
@@ -62,13 +62,13 @@ Items not used in Elanat:
 
 ### Create add-on (based on ASP.NET Core)
 
-To create a plugin for Elanat, refer to the link below and read the README.md file.
+To create a plugin for Elanat CMS, refer to the link below and read the README.md file.
 
 [https://github.com/elanatframework/Elanat_add-ons/tree/elanat_framework/plugin/plugin_hello_world](https://github.com/elanatframework/Elanat_add-ons/tree/elanat_framework/plugin/plugin_hello_world)
 
 ### Add-ons
 
-According to the list below, There are 8 different types of add-ons in Elanat :
+According to the list below, There are 8 different types of add-ons in Elanat CMS:
 
  - Component
  - Module
@@ -79,19 +79,19 @@ According to the list below, There are 8 different types of add-ons in Elanat :
  - Extra helper
  - Editor template
 
-Component: Component can have different definitions or meanings in each system. In the Elanat framework, add-ons that only administrators role have access to are called components. plugins, modules, and the component itself each have a component management page.
+Component: Component can have different definitions or meanings in each system. In the Elanat CMS, add-ons that only administrators role have access to are called components. plugins, modules, and the component itself each have a component management page.
 
-Module: Modules and plugins are a kind of add-on that can be displayed in any part of the website; add-ons in Elanat framework that being able to display, provide separate management for the add-on, are called modules.
+Module: Modules and plugins are a kind of add-on that can be displayed in any part of the website; add-ons in Elanat CMS that being able to display, provide separate management for the add-on, are called modules.
 
 Plugin: Add-ons that are purely visual and do not have a management page are called plugins.
 
-Patch: After installing this add-on, it creates a series of changes in Elanat framework and has no page to display.
+Patch: After installing this add-on, it creates a series of changes in Elanat CMS and has no page to display.
 
-Page: The page is a type of add-on that is displayed in the site section of the Elanat framework. The page can be static or dynamic.
+Page: The page is a type of add-on that is displayed in the site section of the Elanat CMS. The page can be static or dynamic.
 
-Fetch: Fetch is a add-on that combines database queries with HTML tags and can be displayed on any page or add-on from the Elanat framework. This add-on can be run without displaying the values and make changes in the database only after running.
+Fetch: Fetch is a add-on that combines database queries with HTML tags and can be displayed on any page or add-on from the Elanat CMS. This add-on can be run without displaying the values and make changes in the database only after running.
 
-Extra helper: Extra helpers are add-ons that only showed in admin section of Elanat framework and only administrators access to this add-ons.
+Extra helper: Extra helpers are add-ons that only showed in admin section of Elanat CMS and only administrators access to this add-ons.
 
 Editor template: Editor templates add-ons are part of a html page template; each of the Editor templates helps content writers use a ready-made template to create pages faster and more organized.
 
@@ -99,7 +99,7 @@ Editor template: Editor templates add-ons are part of a html page template; each
 
 ![Support all programming language](https://github.com/elanatframework/Elanat/assets/111444759/b23e4db6-730c-4da5-a595-773ce7c99567)
 
-Elanat runs all available programming languages, both web-based and hardware-based. You just need to create your add-on in your favorite programming language. A small list of programming languages supported by Elanat:
+Elanat CMS runs all available programming languages, both web-based and hardware-based. You just need to create your add-on in your favorite programming language. A small list of programming languages supported by Elanat CMS:
 
  - C#
  - VB.NET
@@ -111,7 +111,7 @@ Elanat runs all available programming languages, both web-based and hardware-bas
  - Perl
  - node.js
 
-We encourage you to create your own add-on for Elanat; The link below is Elanat separate add-on repository and you can add any add-on you like in this repository.
+We encourage you to create your own add-on for Elanat CMS; the link below is Elanat CMS separate add-on repository and you can add any add-on you like in this repository.
 
 https://github.com/elanatframework/Elanat_add-ons
 
@@ -119,7 +119,7 @@ https://github.com/elanatframework/Elanat_add-ons
 
 [https://elanat.net](https://elanat.net)
 
-### Tools used in creating Elanat:
+### Tools used in creating Elanat CMS:
 
  - ASP.NET Core 7.0
  - CodeBehind framework

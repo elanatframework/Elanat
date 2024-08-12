@@ -35,7 +35,7 @@ namespace Elanat
 
         public string BackgroundColorValue { get; set; }
         public string FontColorValue { get; set; }
-        public string UserAvatarValue { get; set; }
+        public string UserIdValue { get; set; }
         public string UserOnlineOfflineValue { get; set; }
         public string UserIsOnlineValue { get; set; }
         public string UserGroupNameValue { get; set; }
@@ -115,7 +115,7 @@ namespace Elanat
 
             BackgroundColorValue = dbdr.dr["user_user_info_background_color"].ToString();
             FontColorValue = dbdr.dr["user_user_info_font_color"].ToString();
-            UserAvatarValue = Template.GetSiteTemplate("part/user_avatar_image").Replace("$_db user_id;", dbdr.dr["user_id"].ToString());
+            UserIdValue = dbdr.dr["user_id"].ToString();
             UserIsOnlineValue = Language.GetLanguage(StaticObject.UserIsOnline(ccoc.UserId).BooleanToTrueFalse(), StaticObject.GetCurrentSiteGlobalLanguage());
             UserOnlineOfflineValue = (StaticObject.UserIsOnline(ccoc.UserId)) ? "online" : "offline";
             UserGroupNameValue = dbdr.dr["group_name"].ToString();

@@ -2078,23 +2078,19 @@ html[dir="rtl"] .el_user_avatar
 }
 
 /* Reserve */
-.el_user_avatar .el_user_online
+.el_user_avatar .el_user_online, .el_user_avatar .el_user_offline
 {
-    height: 20px;
-    width: 20px;
-    background-image: url('../../../image/aggregation_32.png');
-    background-position: 0 0px;
+    height: 10px;
+    width: 10px;
     position: absolute;
+    background-color: lightgreen;
+    border-radius: 34px;
 }
 
 /* Reserve */
 .el_user_avatar .el_user_offline
 {
-    height: 20px;
-    width: 20px;
-    background-image: url('../../../image/aggregation_32.png');
-    background-position: 0 -768px;
-    position: absolute;
+    background-color: gray !important;
 }
 
 .el_user_rss_mini_icon

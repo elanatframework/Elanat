@@ -23,9 +23,8 @@
             <div class="el_dash"></div>
         </div>
         <div class="el_item">
-            <div class="el_user_avatar">
-                <div class="el_user_<%=model.UserOnlineOfflineValue%>"></div>
-                <%=model.UserAvatarValue%>
+            <div class="el_user_avatar" style="background-image: url('/client/image/user_avatar/<%=model.UserIdValue%>.png');">
+                <div class="el_user_<%=model.UserOnlineOfflineValue%>"></div>   
             </div>
         </div>
 
