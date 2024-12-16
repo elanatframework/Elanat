@@ -7,9 +7,9 @@ Elanat CMS was created to be a reliable system in .NET and an honor for .NET pro
 
 ![Elanat vs PHP and Java systems](https://github.com/elanatframework/Elanat/assets/111444759/1244ff6d-41aa-49f6-8c65-708c395027ae)
 
-Elanat CMS is a free and open-source CMS-Framework based on ASP.NET Core. Elanat CMS version 1 was created based on ASP.NET Standard; in a short time, Elanat CMS migrated to ASP.NET Core; therefore, Elanat CMS version 2 is based on ASP.NET Core. Elanat uses the [CodeBehind](https://github.com/elanatframework/Code_behind) framework; this framework is an infrastructure whose executable files are aspx that run on ASP.NET Core.
+Elanat CMS is a free and open-source CMS-Framework based on ASP.NET Core. Elanat CMS version 1 was created based on ASP.NET Framework; in a short time, Elanat CMS migrated to ASP.NET Core; therefore, Elanat CMS version 2 is based on ASP.NET Core. Elanat uses the [CodeBehind](https://github.com/elanatframework/Code_behind) framework; this framework is an infrastructure whose executable files are aspx that run on ASP.NET Core.
 
-The ASP.NET Standard version of Elanat CMS is fully copied in the repository below. The README.md file of this repository gives you information on how to migrate Elanat CMS from ASP.NET Standard to ASP.NET Core.
+The ASP.NET Framework version of Elanat CMS is fully copied in the repository below. The README.md file of this repository gives you information on how to migrate Elanat CMS from ASP.NET Framework to ASP.NET Core.
 
 https://github.com/elanatframework/Elanat_old
 
