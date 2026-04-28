@@ -1,6 +1,8 @@
 ![ ](https://github.com/elanatframework/Elanat/assets/111444759/fb48c66f-2c43-43bd-b877-a17e0022a781)
 # Elanat CMS
 
+> Note: This system has currently been rewritten to align with [WebForms Core](https://github.com/webforms-core technology) and will be released in the future under the new name “**Gloria**”.
+
 Elanat CMS was created to be a reliable system in .NET and an honor for .NET programmers and can be compared to other systems under PHP and JAVA.
 
 **Elanat CMS is .NET Honor!**
